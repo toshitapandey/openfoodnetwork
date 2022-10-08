@@ -23,6 +23,7 @@ gem 'webpacker', '~> 5'
 
 gem 'i18n'
 gem 'i18n-js', '~> 3.9.0'
+gem 'i18n-tasks', '~> 1.0.12'
 gem 'rails-i18n'
 gem 'rails_safe_tasks', '~> 1.0'
 
