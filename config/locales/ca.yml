@@ -150,7 +150,6 @@ ca:
     user_passwords:
       spree_user:
         updated_not_active: "La vostra contrasenya s'ha restablert, però el vostre correu electrònic encara no s'ha confirmat."
-        updated: "La vostra contrasenya s'ha canviat correctament. Ja teniu la sessió iniciada."
         send_instructions: "Rebreu un correu electrònic amb instruccions sobre com confirmar el vostre compte en pocs minuts."
   home_page_alert_html: "HTML banner d'alerta de la pàgina d'inici"
   hub_signup_case_studies_html: "HTML casos d'estudi de hub"
@@ -267,7 +266,6 @@ ca:
   select_ticket_printer: "Seleccionar la impressora de tiquets"
   send_invoice: "Enviar Factura"
   resend_confirmation: "Reenviar Confirmació"
-  view_order: "Veure Comanda"
   edit_order: "Editar Comanda"
   ship_order: "Enviar Comanda"
   cancel_order: "Cancel·lar Comanda"
@@ -314,11 +312,9 @@ ca:
   supplier_only: Només proveïdor
   has_shopfront: Té botiga
   weight: Pes
-  volume: Volum
   items: Articles
   summary: Resum
   detailed: Detallada
-  updated: Actualitzat
   'yes': "Sí"
   'no': "No"
   y: 'S'
@@ -348,7 +344,6 @@ ca:
   ship: "Enviament"
   shipping_category: "Categoria d'enviament"
   height: "Alçada"
-  width: "Amplada"
   depth: "Profunditat"
   payment_could_not_process: "No s'ha pogut processar el pagament"
   payment_could_not_complete: "No s'ha pogut completar el pagament"
@@ -402,7 +397,6 @@ ca:
     tags: Etiquetes
     variant: Variant
     weight: Pes
-    volume: Volum
     items: Articles
     select_all: Seleccionar tot
     quick_search: Cerca Ràpida
@@ -1533,15 +1527,11 @@ ca:
   unconfirmed: no confirmat
   days: dies
   authorization_failure: "Error d'autorització"
-  label_shop: "Botiga"
   label_shops: "Botigues"
   label_map: "Mapa"
-  label_producer: "Productora"
   label_producers: "Productors"
   label_groups: "Xarxes/Grups"
   label_about: "Sobre"
-  label_blog: "Blog"
-  label_support: "Suport"
   label_shopping: "Compres"
   label_login: "Inicia sessió"
   label_logout: "Tanca sessió"
@@ -1566,7 +1556,6 @@ ca:
   card_masked_digit: "X"
   card_expiry_abbreviation: "Exp"
   new_credit_card: "Nova targeta de crèdit"
-  my_credit_cards: Les meves targetes de crèdit
   add_new_credit_card: 'Afegeix una nova targeta de crèdit '
   saved_cards: Targetes desades
   add_a_card: Afegeix una targeta
@@ -1848,7 +1837,6 @@ ca:
   hubs_filter_property: "Propietat"
   hubs_matches: "Volies dir?"
   hubs_intro: 'Compreu a la vostra zona '
-  hubs_distance: El més proper a
   hubs_distance_filter: "Mostra'm botigues properes a %{location}"
   shop_changeable_orders_alert_html:
     one: La vostra comanda amb <a href='%{path}' target='_blank'>%{shop} / %{order}</a> està oberta per revisió. Podeu fer canvis fins %{oc_close}.
@@ -1893,7 +1881,6 @@ ca:
   groups_producers: "Les nostres productores"
   groups_hubs: "Els nostres grups"
   groups_contact_web: Contacte
-  groups_contact_social: Segueix
   groups_contact_email: Envieu-nos un correu electrònic
   groups_contact_website: Visita el nostre lloc web
   groups_contact_facebook: Segueix-nos a Facebook
@@ -2213,7 +2200,6 @@ ca:
   sales_fee: "Comissió de venda"
   packing_fee: "Comissió d'embalatge"
   transport_fee: "Comissió de transport"
-  fundraising_fee: "Comissió d'autogestió"
   price_graph: "Gràfic de preus"
   included_tax: "Impostos incloses"
   balance: "Balanç"
@@ -2274,8 +2260,6 @@ ca:
   distributor: "Distribuïdora"
   enterprise_fees: "Comissions de l'organització"
   process_my_order: "Processa la meva comanda"
-  delivery_instructions: Instruccions de lliurament
-  delivery_method: Mètode de lliurament
   fee_type: "Tipus de comissió"
   tax_category: "Categoria d'impostos"
   description: "Descripció"
@@ -2326,17 +2310,11 @@ ca:
   spree_admin_enterprises_fees: "Comissions de l'organització"
   spree_admin_enterprises_none_create_a_new_enterprise: "CREA UNA NOVA ORGANITZACIÓ"
   spree_admin_enterprises_none_text: "Encara no tens cap organització"
-  spree_admin_enterprises_tabs_hubs: "GRUPS"
   spree_admin_enterprises_producers_manage_products: "GESTIONA ELS PRODUCTES"
   spree_admin_enterprises_create_new_product: "CREA UN NOU PRODUCTE"
-  spree_admin_overview_action_required: "Acció requerida"
-  spree_admin_overview_check_your_inbox: "Si us plat comproveu la vostra safata d'entrada per obtenir més instruccions. Gràcies!"
-  spree_admin_unit_value: Valor de la unitat
   spree_admin_unit_description: Descripció de la unitat
-  spree_admin_variant_unit: Unitat de variants
   spree_admin_variant_unit_scale: Escala de unitat de variants
   spree_admin_supplier: Proveïdora
-  spree_admin_product_category: Categoria del producte
   spree_admin_variant_unit_name: Nom de unitat de variants
   unit_name: "Nom de la unitat"
   change_package: "Canvia el perfil"
@@ -2345,7 +2323,6 @@ ca:
   spree_admin_eg_collect_your_order: "p. ex: \"Recolliu la vostra comanda al c/Ample, n. 123'"
   spree_classification_primary_taxon_error: "El taxó %{taxon} és el principal taxó d'%{product} i no es pot eliminar"
   spree_order_availability_error: "La distribuïdora o el cicle de comanda no pot subministrar els productes de la vostra cistella"
-  spree_order_populator_error: "Aquesta distribuïdora o cicle de comanda no pot subministrar tots els productes de la vostra cistella. Si us plau trieu-ne d'altres."
   spree_order_cycle_error: "Seleccioneu un cicle per a aquesta comanda."
   spree_order_populator_availability_error: "Aquest producte no està disponible des de la distribuïdora o cicle de comanda seleccionat."
   spree_distributors_error: "Cal seleccionar almenys un grup"
@@ -2375,12 +2352,7 @@ ca:
   enterprise_tos_agree: "Accepto els Termes i condicions anteriors"
   tax_settings: "Configuració fiscal"
   products_require_tax_category: "els productes requereixen una categoria fiscal"
-  admin_shared_address_1: "Adreça"
-  admin_shared_address_2: "Adreça (cont.)"
   admin_share_city: "Municipi"
-  admin_share_zipcode: "Codi postal"
-  admin_share_country: "País"
-  admin_share_state: "Estat"
   hub_sidebar_hubs: "Grups"
   hub_sidebar_none_available: "Cap disponible"
   hub_sidebar_manage: "Gestiona"
@@ -3114,7 +3086,6 @@ ca:
   payment: "Pagament"
   payment_method: "Mètode de pagament"
   shipment: "Enviament"
-  shipment_inc_vat: "Enviament incloent VAT"
   shipping_tax_rate: "Taxa d'impostos d'enviament"
   category: "Categoria"
   import_date: "Data d'importació"
@@ -3953,42 +3924,3 @@ ca:
           other: Pagaments
     unit: unitat
     per_unit: per unitat
-  datetime:
-    distance_in_words:
-      about_x_hours:
-        one: aproximadament 1 hora
-        other: aprox. %{count} hores
-      about_x_months:
-        one: aproximadament 1 mes
-        other: aprox. %{count} mesos
-      about_x_years:
-        one: aproximadament 1 any
-        other: aprox. %{count} anys
-      almost_x_years:
-        one: gairebé 1 any
-        other: gairebé %{count} anys
-      half_a_minute: mig minut
-      less_than_x_seconds:
-        one: menys d&#39;1 segon
-        other: menys de %{count} segons
-      less_than_x_minutes:
-        one: menys d’un minut
-        other: menys de %{count} minuts
-      over_x_years:
-        one: més d’un any
-        other: més de %{count} anys
-      x_seconds:
-        one: "1 segon"
-        other: "%{count} segons"
-      x_minutes:
-        one: "1 minut"
-        other: "%{count} minuts"
-      x_days:
-        one: "1 dia"
-        other: "%{count} dies"
-      x_months:
-        one: "1 mes"
-        other: "%{count} mesos"
-      x_years:
-        one: "1 any"
-        other: "%{count} anys"

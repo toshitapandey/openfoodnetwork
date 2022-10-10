@@ -109,7 +109,6 @@ nl_BE:
     user_passwords:
       spree_user:
         updated_not_active: "Uw wachtwoord is gereset, maar uw e-mail is nog niet bevestigd."
-        updated: "Uw wachtwoord is met succes veranderd. U bent nu ingelogd."
         send_instructions: "U ontvangt een e-mail met instructies over hoe u uw account binnen enkele minuten kunt bevestigen."
   models:
     order_cycle:
@@ -197,7 +196,6 @@ nl_BE:
   select_ticket_printer: "Selecteer printer voor tickets"
   send_invoice: "Factuur versturen"
   resend_confirmation: "Bevestiging opnieuw verzenden"
-  view_order: "Bestelling bekijken"
   edit_order: "Bestelling bewerken"
   ship_order: "Scheepsbestelling"
   cancel_order: "Bestelling annuleren"
@@ -244,11 +242,9 @@ nl_BE:
   supplier_only: Alleen leverancier
   has_shopfront: Heeft winkelpui
   weight: Gewicht
-  volume: Volume
   items: Artikelen
   summary: Samenvatting
   detailed: Gedetailleerd
-  updated: Bijgewerkt
   'yes': "Ya"
   'no': "Néé"
   y: 'Y'
@@ -276,7 +272,6 @@ nl_BE:
   ship: "Verzenden"
   shipping_category: "Verzendcategorie"
   height: "lengte"
-  width: "breedte"
   depth: "diepte"
   actions:
     create_and_add_another: "Een ander maken en toevoegen"
@@ -319,7 +314,6 @@ nl_BE:
     tags: Tags
     variant: Variant
     weight: Gewicht
-    volume: Volume
     items: Artikelen
     select_all: Selecteer alle
     quick_search: Snel zoeken
@@ -1407,15 +1401,11 @@ nl_BE:
   unconfirmed: Niet bevestigd
   days: dag(en)
   authorization_failure: "Faling toelating "
-  label_shop: "winkel"
   label_shops: "Winkels"
   label_map: "Kaart"
-  label_producer: "Producent"
   label_producers: "Producenten"
   label_groups: "Groepen"
   label_about: "Over"
-  label_blog: "Blog"
-  label_support: "Ondersteuning"
   label_shopping: "Winkelen"
   label_login: "Log in"
   label_logout: "Log uit"
@@ -1440,7 +1430,6 @@ nl_BE:
   card_masked_digit: "X"
   card_expiry_abbreviation: "Exp"
   new_credit_card: "Nieuwe kredietkaart"
-  my_credit_cards: Mijn kredietkaarten
   add_new_credit_card: Voeg nieuwe kredietkaart bij
   saved_cards: Toegevoegde kaarten
   add_a_card: Voeg een Kaart toe
@@ -1709,7 +1698,6 @@ nl_BE:
   hubs_filter_property: "Eigendom"
   hubs_matches: "Bedoelde je?"
   hubs_intro: Winkel in je lokale buurt
-  hubs_distance: Dichtst bij
   hubs_distance_filter: "Toon me winkels in de buurt van %{location}"
   shop_changeable_orders_alert_html:
     few: Je hebt <a href='%{path}' target='_blank'>%{count} bestellingen bij %{shop}</a>die op dit moment nog open staan voor nazicht. Je kan aanpassingen maken tot %{oc_close}.
@@ -1753,7 +1741,6 @@ nl_BE:
   groups_producers: "Onze producenten"
   groups_hubs: "Onze Hubs"
   groups_contact_web: Contact
-  groups_contact_social: Volg
   groups_contact_email: Mail ons
   groups_contact_website: Bezoek onze website
   groups_contact_facebook: Volg ons op Facebook
@@ -2067,7 +2054,6 @@ nl_BE:
   sales_fee: "Verkoopskost"
   packing_fee: "Verpakkingskost"
   transport_fee: "Transportkost"
-  fundraising_fee: "Fondsverzamelingskost"
   price_graph: "Prijsgrafiek"
   included_tax: "Inbegrepen belastingen"
   balance: "Saldo"
@@ -2128,8 +2114,6 @@ nl_BE:
   distributor: "Distributeur"
   enterprise_fees: "Ondernemingsvergoedingen"
   process_my_order: "Verwerk Mijn Bestelling"
-  delivery_instructions: Leveringsaanwijzingen
-  delivery_method: Leveringswijze
   fee_type: "Sprookjesachtig type"
   tax_category: "Belastingcategorie"
   description: "Beschrijving"
@@ -2178,17 +2162,12 @@ nl_BE:
   spree_admin_enterprises_fees: "Ondernemingsvergoedingen"
   spree_admin_enterprises_none_create_a_new_enterprise: "MAAK EEN NIEUW BEDRIJF"
   spree_admin_enterprises_none_text: "Je hebt nog geen ondernemingen"
-  spree_admin_enterprises_tabs_hubs: "HUBS"
+  
   spree_admin_enterprises_producers_manage_products: "BEHEER PRODUKTEN"
   spree_admin_enterprises_create_new_product: "MAAK EEN  NIEUW PRODUKT"
-  spree_admin_overview_action_required: "Actie Vereist"
-  spree_admin_overview_check_your_inbox: "Controleer alsjeblieft je inbox voor verdere instructies. Dankje!"
-  spree_admin_unit_value: Eenheid Waarde
   spree_admin_unit_description: Eenheid Beschrijving
-  spree_admin_variant_unit: Variant eenheid
   spree_admin_variant_unit_scale: ' Eénheidschaal  (g of L)'
   spree_admin_supplier: Leverancier
-  spree_admin_product_category: Product categorie
   spree_admin_variant_unit_name: Naam van het stuk (indien per stuk verkocht)
   unit_name: "Unit naam"
   change_package: "Wijzig je Packet"
@@ -2197,7 +2176,6 @@ nl_BE:
   spree_admin_eg_collect_your_order: "bv. 'Verzamel alsjeblieft je bestelling op de stationsstraat 123, 9000 Gent'"
   spree_classification_primary_taxon_error: "Taxon %{taxon} is de eerste taxon van %{product} en kan niet verwijderd worden."
   spree_order_availability_error: "De verdeler of de bestelcyclus kan de producten in je winkelwagentje niet toevoegen"
-  spree_order_populator_error: "De verdeler of de bestelcyclus kan al de producten in je winkelwagentje niet toevoegen. Gelieve een andere te kiezen."
   spree_order_populator_availability_error: "Dit produkt is niet toegelaten op de gekozen verdeler of bestelcyclus."
   spree_distributors_error: " Minstens één hub moet geselecteerd worden"
   spree_user_enterprise_limit_error: "^%{email} is niet toegestaan om meer ondernemingen te bezitten (het maximum hiervoor is %{enterprise_limit})."
@@ -2226,12 +2204,7 @@ nl_BE:
   enterprise_tos_agree: "Ik ga akkoord met bovenstaande Voorwaarden"
   tax_settings: "Belastings Instellingen"
   products_require_tax_category: "product vereist een belastingscategorie"
-  admin_shared_address_1: "Adres"
-  admin_shared_address_2: "Adres (vervolg)"
   admin_share_city: "Stad"
-  admin_share_zipcode: "Postcode"
-  admin_share_country: "Land"
-  admin_share_state: "Staat"
   hub_sidebar_hubs: "Hubs"
   hub_sidebar_none_available: "Niet Beschikbaar"
   hub_sidebar_manage: "Beheer"
@@ -2860,7 +2833,6 @@ nl_BE:
   payment: "Betaling"
   payment_method: "Betaalmethode"
   shipment: "Verzending"
-  shipment_inc_vat: "Verzending BTW inbegrepen"
   shipping_tax_rate: "Toegepaste BTW op verzending "
   category: "Categorie"
   import_date: "Importdatum"

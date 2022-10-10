@@ -175,7 +175,6 @@ cy:
     user_passwords:
       spree_user:
         updated_not_active: "Ailosodwyd eich cyfrinair, ond ni chadarnhawyd eich e-bost eto."
-        updated: "Newidiwyd eich cyfrinair yn llwyddiannus. Rydych chi bellach wedi mewngofnodi."
         send_instructions: "Byddwch yn derbyn e-bost gyda chyfarwyddiadau ar sut i gadarnhau eich cyfrif mewn ychydig o funudau."
   home_page_alert_html: "HTML rhybudd tudalen hafan."
   hub_signup_case_studies_html: "HTML astudiaethau achos mewngofnodi i'r hwb."
@@ -293,7 +292,6 @@ cy:
   select_ticket_printer: "Dewiswch argraffydd ar gyfer tocynnau"
   send_invoice: "Anfon Anfoneb"
   resend_confirmation: "Ailanfon Cadarnhad "
-  view_order: "Gweld yr Archeb"
   edit_order: "Golygu Archeb"
   ship_order: "Anfon Archeb"
   cancel_order: "Canslo Archeb"
@@ -340,11 +338,9 @@ cy:
   supplier_only: Cyflenwr yn Unig
   has_shopfront: Gyda Blaen Siop
   weight: Pwysau
-  volume: Cyfaint
   items: Eitemau
   summary: Crynodeb
   detailed: Manwl
-  updated: Wedi'i ddiweddaru
   'yes': "Ie"
   'no': "Na"
   y: 'I.'
@@ -374,7 +370,6 @@ cy:
   ship: "Anfon"
   shipping_category: "Categori Anfon"
   height: "Uchder"
-  width: "Lled"
   depth: "Dyfnder"
   payment_could_not_process: "Nid oedd yn bosib prosesu'r taliad"
   payment_could_not_complete: "Nid oedd yn bosib cwblhau'r taliad"
@@ -428,7 +423,6 @@ cy:
     tags: Tagiau
     variant: Amrywiolyn
     weight: Pwysau
-    volume: Cyfaint
     items: Eitemau
     select_all: Dewiswch bob un
     quick_search: Chwilio Cyflym
@@ -1611,15 +1605,11 @@ cy:
   unconfirmed: heb ei gadarnhau
   days: dyddiau
   authorization_failure: "Wedi methu awdurdodi"
-  label_shop: "Siop"
   label_shops: "Siopiau"
   label_map: "Map"
-  label_producer: "Cynhyrchydd"
   label_producers: "Cynhyrchwyr"
   label_groups: "Grwpiau"
   label_about: "Amdanom"
-  label_blog: "Blog"
-  label_support: "Cefnogaeth"
   label_shopping: "Siopa"
   label_login: "Mewngofnodi"
   label_logout: "Allgofnodi"
@@ -1644,7 +1634,6 @@ cy:
   card_masked_digit: "X."
   card_expiry_abbreviation: "Gwariant"
   new_credit_card: "Cerdyn credyd newydd"
-  my_credit_cards: Fy nghardiau credyd
   add_new_credit_card: Ychwanegwch gerdyn credyd newydd
   saved_cards: Cardiau wedi'u cadw
   add_a_card: Ychwanegwch Gerdyn
@@ -1976,7 +1965,6 @@ cy:
   hubs_filter_property: "Eiddo"
   hubs_matches: "Oedd ech chi'n golygu?"
   hubs_intro: Siopa yn eich ardal leol
-  hubs_distance: Agosaf at
   hubs_distance_filter: "Dangoswch siopau i mi ger %{location}"
   shop_changeable_orders_alert_html:
     one: Mae eich archeb gyda <a href='%{path}' target='_blank'>%{shop} / %{order}</a> ar agor i'w hadolygu. Gallwch wneud newidiadau tan %{oc_close}.
@@ -2021,7 +2009,6 @@ cy:
   groups_producers: "Ein cynhyrchwyr"
   groups_hubs: "Ein hybiau"
   groups_contact_web: Cysylltu
-  groups_contact_social: Dilyn
   groups_contact_email: Anfon e-bost atom
   groups_contact_website: Ewch i'n gwefan
   groups_contact_facebook: Dilynwch ni ar Facebook
@@ -2344,7 +2331,6 @@ cy:
   sales_fee: "Ffi gwerthu"
   packing_fee: "Ffi pacio"
   transport_fee: "Ffi cludo"
-  fundraising_fee: "Ffi codi arian"
   price_graph: "Graff prisiau"
   included_tax: "Yn cynnwys treth "
   tax: "Treth"
@@ -2407,8 +2393,6 @@ cy:
   distributor: "Dosbarthwr"
   enterprise_fees: "Ffioedd Menter"
   process_my_order: "Prosesu fy Ngorchymyn"
-  delivery_instructions: Cyfarwyddiadau Cyflenwi
-  delivery_method: Dull Cyflenwi
   fee_type: "Math o Ffi"
   tax_category: "Categori Treth"
   description: "Disgrifiad"
@@ -2460,17 +2444,11 @@ cy:
   spree_admin_enterprises_fees: "Ffioedd Menter"
   spree_admin_enterprises_none_create_a_new_enterprise: "CREU MENTER NEWYDD"
   spree_admin_enterprises_none_text: "Nid oes gennych unrhyw fentrau eto"
-  spree_admin_enterprises_tabs_hubs: "HYBIAU"
   spree_admin_enterprises_producers_manage_products: "RHEOLI CYNNYRCH"
   spree_admin_enterprises_create_new_product: "CREU CYNNYRCH NEWYDD"
-  spree_admin_overview_action_required: "Camau Angenrheidiol"
-  spree_admin_overview_check_your_inbox: "Gwiriwch eich mewnflwch am gyfarwyddiadau pellach. Diolch!"
-  spree_admin_unit_value: Gwerth yr Uned
   spree_admin_unit_description: Disgrifiad o'r Uned
-  spree_admin_variant_unit: Uned amrywiolyn
   spree_admin_variant_unit_scale: Graddfa uned amrywiolyn
   spree_admin_supplier: Cyflenwr
-  spree_admin_product_category: Categori Cynnyrch
   spree_admin_variant_unit_name: Enw uned amrywiolyn
   unit_name: "Enw'r uned"
   change_package: "Newid Pecyn"
@@ -2479,7 +2457,6 @@ cy:
   spree_admin_eg_collect_your_order: "e.e. 'Dylid casglu eich archeb o 123 Ffordd y Don, Pwllheli'"
   spree_classification_primary_taxon_error: "Tacson %{taxon} yw prif dacson %{product} ac ni ellir ei ddileu"
   spree_order_availability_error: "Ni all dosbarthwr neu gylch archebu gyflenwi'r cynnyrch yn eich basged"
-  spree_order_populator_error: "Ni all y dosbarthwr neu'r cylch archebu dan sylw gyflenwi'r holl gynnyrch yn eich basged. Dewiswch un arall."
   spree_order_cycle_error: "Dewiswch gylch archebu ar gyfer archeb hwn."
   spree_order_populator_availability_error: "Nid yw'r cynnyrch hwnnw ar gael  gan y dosbarthwr neu'r cylch archebu a ddewiswyd."
   spree_distributors_error: "Rhaid dewis o leiaf un hwb"
@@ -2509,12 +2486,7 @@ cy:
   enterprise_tos_agree: "Rwy'n cytuno â'r Telerau Gwasanaeth uchod"
   tax_settings: "Gosodiadau Treth"
   products_require_tax_category: "mae angen categori treth ar gyfer cynnyrch"
-  admin_shared_address_1: "Cyfeiriad"
-  admin_shared_address_2: "Cyfeiriad (parhad)"
   admin_share_city: "Dinas"
-  admin_share_zipcode: "Cod post"
-  admin_share_country: "Gwlad"
-  admin_share_state: "Sir"
   hub_sidebar_hubs: "Hybiau"
   hub_sidebar_none_available: "Dim ar gael"
   hub_sidebar_manage: "Rheoli"
@@ -3312,7 +3284,6 @@ cy:
   payment: "Taliad"
   payment_method: "Dull talu"
   shipment: "Llwyth"
-  shipment_inc_vat: "Llwyth sy'n cynnwys TAW"
   shipping_tax_rate: "Cyfradd Treth Anfon"
   category: "Categori"
   import_date: "Dyddiad Mewnforio"
@@ -4160,66 +4131,3 @@ cy:
           other: Taliadau
     unit: Uned
     per_unit: fesul uned
-  datetime:
-    distance_in_words:
-      about_x_hours:
-        one: tua 1 awr
-        two: tua %{count} awr
-        many: tua %{count} awr
-        other: tua %{count} awr
-      about_x_months:
-        one: tua 1 mis
-        two: tua %{count} mis
-        many: tua %{count} mis
-        other: tua %{count} mis
-      about_x_years:
-        one: tua 1 flwyddyn
-        two: tua %{count} mlynedd
-        many: tua %{count} mlynedd
-        other: tua %{count} blwyddyn
-      almost_x_years:
-        one: bron i 1 flwyddyn
-        two: bron %{count} mlynedd
-        many: bron %{count} mlynedd
-        other: bron %{count} blwyddyn
-      half_a_minute: hanner munud
-      less_than_x_seconds:
-        one: llai nag 1 eiliad
-        two: llai na %{count} eiliad
-        many: llai na %{count} eiliad
-        other: llai nag %{count} eiliad
-      less_than_x_minutes:
-        one: llai na munud
-        two: llai nag %{count} munud
-        many: llai nag %{count} munud
-        other: llai nag %{count} munud
-      over_x_years:
-        one: dros 1 flwyddyn
-        two: dros %{count} mlynedd
-        many: dros %{count} mlynedd
-        other: dros %{count} blwyddyn
-      x_seconds:
-        one: "1 eiliad"
-        two: "%{count} eiliad"
-        many: "%{count} eiliad"
-        other: "%{count} eiliad"
-      x_minutes:
-        one: "1 funud"
-        two: "%{count} munud"
-        many: "%{count} munud"
-        other: "%{count} munud"
-      x_days:
-        one: "1 diwrnod"
-        two: "%{count} diwrnod"
-        many: "%{count} diwrnod"
-        other: "%{count} diwrnod"
-      x_months:
-        one: "1 mis"
-        two: "%{count} mis"
-        many: "%{count} mis"
-        other: "%{count} mis"
-      x_years:
-        one: "1 flwyddyn"
-        two: "%{count} mlynedd"
-        many: "%{count} mlynedd"
-        other: "%{count} blwyddyn"

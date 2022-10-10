@@ -117,7 +117,6 @@ pl:
     user_passwords:
       spree_user:
         updated_not_active: "Twoje hasło zostało zresetowane, ale Twój adres e-mail nie został jeszcze potwierdzony."
-        updated: "Twoje hasło zostało pomyślnie zmienione. Jesteś teraz zalogowany."
         send_instructions: "Za kilka minut otrzymasz e-mail z instrukcjami, jak potwierdzić swoje konto."
   models:
     order_cycle:
@@ -204,7 +203,6 @@ pl:
   select_ticket_printer: "Wybierz drukarkę do wydruku biletów"
   send_invoice: "Wyślij fakturę"
   resend_confirmation: "Ponownie wyślij potwierdzenie"
-  view_order: "Wyświetl zamówienie"
   edit_order: "Edytuj zamówienie"
   ship_order: "Dostarcz zamówienie"
   cancel_order: "Anuluj zamówienie"
@@ -251,11 +249,9 @@ pl:
   supplier_only: Tylko dostawca
   has_shopfront: Ma sklep
   weight: Waga
-  volume: Objętość
   items: Sztuki
   summary: Podsumownanie
   detailed: Szczegółowo
-  updated: Zaktualizowano
   'yes': "Tak"
   'no': "Nie"
   y: 'T'
@@ -283,7 +279,6 @@ pl:
   ship: "Wyślij"
   shipping_category: "Kategoria dostawy"
   height: "Wysokość"
-  width: "Szerokość"
   depth: "Głębokość"
   actions:
     create_and_add_another: "Utwórz i dodaj kolejny"
@@ -324,7 +319,6 @@ pl:
     tags: Tagi
     variant: Wariant
     weight: Waga
-    volume: Objętość
     items: Sztuki
     select_all: Zaznacz wszystko
     quick_search: Szybkie wyszukiwanie
@@ -1349,15 +1343,11 @@ pl:
   unconfirmed: niepotwierdzony
   days: dni
   authorization_failure: "Niepowodzenie autoryzacji"
-  label_shop: "Sklep"
   label_shops: "Sklepy"
   label_map: "Mapa"
-  label_producer: "Producent"
   label_producers: "Producenci"
   label_groups: "Grupy"
   label_about: "O nas"
-  label_blog: "Blog"
-  label_support: "Wsparcie"
   label_shopping: "Zakupy"
   label_login: "Zaloguj sie"
   label_logout: "Wyloguj"
@@ -1382,7 +1372,6 @@ pl:
   card_masked_digit: "X"
   card_expiry_abbreviation: "Exp"
   new_credit_card: "Nowa karta kredytowa"
-  my_credit_cards: Moje karty kredytowe
   add_new_credit_card: Dodaj nową kartę kredytową
   saved_cards: Zapisane karty
   add_a_card: Dodaj kartę
@@ -1625,7 +1614,6 @@ pl:
   hubs_filter_property: "własność"
   hubs_matches: "Miałeś na myśli?"
   hubs_intro: Kupuj w swojej okolicy
-  hubs_distance: Najbliżej
   hubs_distance_filter: "Pokaż mi sklepy w pobliżu %{location}"
   orders_changeable_orders_alert_html: To zamówienie zostało potwierdzone, ale możesz wprowadzać zmiany do <strong>%{oc_close}</strong> .
   products_clear: Wyczyść
@@ -1665,7 +1653,6 @@ pl:
   groups_producers: "Nasi producenci"
   groups_hubs: "Nasze huby"
   groups_contact_web: Kontakt
-  groups_contact_social: Obserwuj
   groups_contact_email: Wyślij do nas e-mail
   groups_contact_website: Odwiedz nasza strone internetowa
   groups_contact_facebook: Śledź nas na facebooku
@@ -1978,7 +1965,6 @@ pl:
   sales_fee: "Opłata za sprzedaż"
   packing_fee: "Opłata za pakowanie"
   transport_fee: "Opłata transportowa"
-  fundraising_fee: "Opłata za zbiórkę pieniędzy"
   price_graph: "Wykres cen"
   included_tax: "Podatek wliczony w cenę"
   balance: "Saldo"
@@ -2039,8 +2025,6 @@ pl:
   distributor: "Dystrybutor"
   enterprise_fees: "Opłaty dla podmiotów"
   process_my_order: "Przetwórz moje zamówienie"
-  delivery_instructions: Instrukcje dotyczące dostawy
-  delivery_method: Sposób dostawy
   fee_type: "Typ opłaty"
   tax_category: "Kategoria podatku"
   description: "Opis"
@@ -2088,17 +2072,11 @@ pl:
   spree_admin_enterprises_fees: "Opłaty dla podmiotów"
   spree_admin_enterprises_none_create_a_new_enterprise: "UTWÓRZ NOWY PODMIOT"
   spree_admin_enterprises_none_text: "Nie masz jeszcze żadnych podmiotów"
-  spree_admin_enterprises_tabs_hubs: "Huby"
   spree_admin_enterprises_producers_manage_products: "ZARZĄDZAJ PRODUKTAMI"
   spree_admin_enterprises_create_new_product: "UTWÓRZ NOWY PRODUKT"
-  spree_admin_overview_action_required: "Konieczne działania"
-  spree_admin_overview_check_your_inbox: "Dalsze instrukcje znajdziesz w swojej skrzynce odbiorczej. Dzięki!"
-  spree_admin_unit_value: Wartość jednostki
   spree_admin_unit_description: Opis jednostki
-  spree_admin_variant_unit: Jednostka wariantowa
   spree_admin_variant_unit_scale: Wariantowa skala jednostkowa
   spree_admin_supplier: Dostawca
-  spree_admin_product_category: Kategoria produktu
   spree_admin_variant_unit_name: Nazwa jednostki wariantu
   unit_name: "Nazwa jednostki"
   change_package: "Zmień pakiet"
@@ -2107,7 +2085,6 @@ pl:
   spree_admin_eg_collect_your_order: "np. „Proszę odebrać zamówienie pod adresem Słowackiego 19, Poznań”"
   spree_classification_primary_taxon_error: "Takson %{taxon} jest głównym taksonem %{product} i nie można go usunąć"
   spree_order_availability_error: "Dystrybutor lub cykl zamówień nie mogą dostarczyć produktów w Twoim koszyku"
-  spree_order_populator_error: "Ten dystrybutor lub cykl zamówień nie może dostarczyć wszystkich produktów w Twoim koszyku. Proszę wybierz inny."
   spree_order_populator_availability_error: "Ten produkt nie jest dostępny u wybranego dystrybutora lub cyklu zamówień."
   spree_distributors_error: "Należy wybrać co najmniej jeden hub"
   spree_user_enterprise_limit_error: "^ %{email} nie może posiadać więcej podmiotów (limit to %{enterprise_limit})."
@@ -2136,12 +2113,7 @@ pl:
   enterprise_tos_agree: "Akceptuję powyższe Warunki korzystania z usługi"
   tax_settings: "Ustawienia podatkowe"
   products_require_tax_category: "produkty wymagają kategorii podatkowej"
-  admin_shared_address_1: "Adres"
-  admin_shared_address_2: "Adres (ciąg dalszy)"
   admin_share_city: "Miasto"
-  admin_share_zipcode: "Kod pocztowy"
-  admin_share_country: "Kraj"
-  admin_share_state: "Status"
   hub_sidebar_hubs: "Huby"
   hub_sidebar_none_available: "Niedostępne"
   hub_sidebar_manage: "Zarządzaj"
@@ -2884,7 +2856,6 @@ pl:
   payment: "Płatność"
   payment_method: "Metoda płatności"
   shipment: "Wysyłka"
-  shipment_inc_vat: "Przesyłka z podatkiem VAT"
   shipping_tax_rate: "Stawka podatku od dostawy"
   category: "Kategoria"
   delivery: "Dostawa"

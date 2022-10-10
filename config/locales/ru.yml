@@ -177,7 +177,6 @@ ru:
     user_passwords:
       spree_user:
         updated_not_active: "Ваш пароль был сброшен, но ваш адрес электронной почты еще не подтвержден."
-        updated: "Ваш пароль был успешно изменен. Вы вошли в систему."
         send_instructions: "Вы получите электронное письмо с инструкциями о том, как подтвердить свою учетную запись в течение нескольких минут."
   home_page_alert_html: "HTML оповещения на главной странице"
   hub_signup_case_studies_html: "Примеры использования подписки на хаб HTML"
@@ -295,7 +294,6 @@ ru:
   select_ticket_printer: "Выбрать принтер для счетов"
   send_invoice: "Счёт"
   resend_confirmation: "Подтверждение Заказа"
-  view_order: "Посмотреть Заказ"
   edit_order: "Изменить Заказ"
   ship_order: "Отправить Заказ"
   cancel_order: "Отменить Заказ"
@@ -342,11 +340,9 @@ ru:
   supplier_only: Только Поставщик
   has_shopfront: Есть Витрина
   weight: Вес
-  volume: Значение
   items: Товары
   summary: Сводка
   detailed: Подробный
-  updated: Обновленный
   'yes': "Да"
   'no': "Нет"
   y: 'Д'
@@ -376,7 +372,6 @@ ru:
   ship: "Доставка"
   shipping_category: "Категория Доставки"
   height: "Высота"
-  width: "Ширина"
   depth: "Глубина"
   payment_could_not_process: "Платеж не может быть обработан"
   payment_could_not_complete: "Платеж не может быть завершен"
@@ -430,7 +425,6 @@ ru:
     tags: Метки
     variant: Вариант
     weight: Вес
-    volume: Значение
     items: Товары
     select_all: Выделить Всё
     quick_search: Быстрый Поиск
@@ -1619,15 +1613,11 @@ ru:
   unconfirmed: неподтвержден
   days: дней
   authorization_failure: "Ошибка авторизации"
-  label_shop: "Магазин"
   label_shops: "Магазины"
   label_map: "Карта"
-  label_producer: "Производитель"
   label_producers: "Производители"
   label_groups: "Группы"
   label_about: "О нас"
-  label_blog: "Блог"
-  label_support: "Поддержка"
   label_shopping: "Покупки"
   label_login: "Войти"
   label_logout: "Выйти"
@@ -1652,7 +1642,6 @@ ru:
   card_masked_digit: "X"
   card_expiry_abbreviation: "Срок действия"
   new_credit_card: "Новая кредитная карта"
-  my_credit_cards: Мои кредитные карты
   add_new_credit_card: Добавить новую кредитную карту
   saved_cards: Сохраненные карты
   add_a_card: Добавьте Карту
@@ -1984,7 +1973,6 @@ ru:
   hubs_filter_property: "Свойство"
   hubs_matches: "Вы имели в виду?"
   hubs_intro: Магазин в вашем районе
-  hubs_distance: Ближайший к
   hubs_distance_filter: "Показать магазины рядом %{location}"
   shop_changeable_orders_alert_html:
     one: Ваш заказ с <a href='%{path}' target='_blank'>%{shop} / %{order}</a> открыт для рассмотрения. Вы можете вносить изменения до %{oc_close}.
@@ -2029,7 +2017,6 @@ ru:
   groups_producers: "Наши производители"
   groups_hubs: "Наши Центры"
   groups_contact_web: Контакты
-  groups_contact_social: Присоединяйтесь  
   groups_contact_email: Напишите нам
   groups_contact_website: Зайдите на наш веб сайт
   groups_contact_facebook: Присоединяйтесь к нам на Facebook
@@ -2352,7 +2339,6 @@ ru:
   sales_fee: "Сбор с продаж"
   packing_fee: "Оплата упаковки"
   transport_fee: "Транспортный сбор"
-  fundraising_fee: "Сбор на пожертвования"
   price_graph: "График цен"
   included_tax: "Включенный налог"
   tax: "Налог"
@@ -2415,8 +2401,6 @@ ru:
   distributor: "Дистрибьютор"
   enterprise_fees: "Сборы Предприятия"
   process_my_order: "Обработать Мой Заказ"
-  delivery_instructions: Инструкции по Доставке
-  delivery_method: Способ Доставки
   fee_type: "Тип Сбора"
   tax_category: "Налоговая Категория"
   description: "Описание"
@@ -2468,17 +2452,11 @@ ru:
   spree_admin_enterprises_fees: "Сборы Предприятия"
   spree_admin_enterprises_none_create_a_new_enterprise: "СОЗДАТЬ НОВОЕ ПРЕДПРИЯТИЕ"
   spree_admin_enterprises_none_text: "У Вас еще нет Предприятий"
-  spree_admin_enterprises_tabs_hubs: "ЦЕНТРЫ"
   spree_admin_enterprises_producers_manage_products: "УПРАВЛЯТЬ ТОВАРАМИ"
   spree_admin_enterprises_create_new_product: "СОЗДАТЬ НОВЫЙ ТОВАР"
-  spree_admin_overview_action_required: "Требуется действие"
-  spree_admin_overview_check_your_inbox: "Пожалуйста, проверьте свой почтовый ящик для дальнейших инструкций. Спасибо!"
-  spree_admin_unit_value: Значение Единицы
   spree_admin_unit_description: Описание Единицы
-  spree_admin_variant_unit: Вариант единицы
   spree_admin_variant_unit_scale: Вариант шкалы единиц
   spree_admin_supplier: Поставщик
-  spree_admin_product_category: Категория Продукта
   spree_admin_variant_unit_name: Наименование варианта
   unit_name: "Название элемента"
   change_package: "Сменить Пакет"
@@ -2487,7 +2465,6 @@ ru:
   spree_admin_eg_collect_your_order: "напр. 'Пожалуйста, заберите свой заказ по адресу: ул. Школьная д.1, Воронеж'"
   spree_classification_primary_taxon_error: "Taxon %{taxon} is the primary taxon of %{product} and cannot be deleted"
   spree_order_availability_error: "Дистрибьютор или цикл заказа не могут поставить продукты в Вашей корзине"
-  spree_order_populator_error: "Этот дистрибьютор или цикл заказа не может поставить все продукты в Вашей корзине. Пожалуйста, выберите другой."
   spree_order_cycle_error: "Выберите цикл для этого заказа."
   spree_order_populator_availability_error: "Этот продукт недоступен у выбранного дистрибьютора или цикла заказа."
   spree_distributors_error: "Должен быть выбран хотя бы один Центр"
@@ -2517,12 +2494,7 @@ ru:
   enterprise_tos_agree: "Я согласен с вышеуказанными Условиями Сервиса"
   tax_settings: "Настройки Налогов"
   products_require_tax_category: "товары требуют налоговой категории"
-  admin_shared_address_1: "Адрес"
-  admin_shared_address_2: "Адрес (продолжение.)"
   admin_share_city: "Город"
-  admin_share_zipcode: "Почтовый индекс"
-  admin_share_country: "Страна"
-  admin_share_state: "Область"
   hub_sidebar_hubs: "Центры"
   hub_sidebar_none_available: "Не Доступен"
   hub_sidebar_manage: "Управлять"
@@ -3323,7 +3295,6 @@ ru:
   payment: "Платеж"
   payment_method: "Способ Оплаты"
   shipment: "Доставка"
-  shipment_inc_vat: "Достаква включает налог"
   shipping_tax_rate: "Налог На Доставку"
   category: "Категория"
   import_date: "Дата Импорта"
@@ -4185,69 +4156,6 @@ ru:
           other: Платежи
     unit: Ед. изм
     per_unit: за единицу
-  datetime:
-    distance_in_words:
-      about_x_hours:
-        one: около 1 часа
-        few: около %{count} часов
-        many: около %{count} часов
-        other: около %{count} часов
-      about_x_months:
-        one: около 1 месяца
-        few: около %{count} месяцев
-        many: около %{count} месяцев
-        other: около %{count} месяцев
-      about_x_years:
-        one: около 1 года
-        few: около %{count} лет
-        many: около %{count} лет
-        other: около %{count} лет
-      almost_x_years:
-        one: почти 1 год
-        few: почти %{count} лет
-        many: почти %{count} лет
-        other: почти %{count} лет
-      half_a_minute: полминуты
-      less_than_x_seconds:
-        one: менее 1 секунды
-        few: менее %{count} секунд
-        many: менее %{count} секунд
-        other: менее %{count} секунд
-      less_than_x_minutes:
-        one: меньше минуты
-        few: менее %{count} минут
-        many: менее %{count} минут
-        other: менее %{count} минут
-      over_x_years:
-        one: более 1 года
-        few: более %{count} лет
-        many: более %{count} лет
-        other: более %{count} лет
-      x_seconds:
-        one: "1 секунда"
-        few: "%{count} секунд"
-        many: "%{count} секунд"
-        other: "%{count} секунд"
-      x_minutes:
-        one: "1 минута"
-        few: "%{count} минут"
-        many: "%{count} минут"
-        other: "%{count} минут"
-      x_days:
-        one: "1 день"
-        few: "%{count} дней"
-        many: "%{count} дней"
-        other: "%{count} дней"
-      x_months:
-        one: "1 месяц"
-        few: "%{count} месяцев"
-        many: "%{count} месяцев"
-        other: "%{count} месяцев"
-      x_years:
-        one: "1 год"
-        few: "%{count} лет"
-        many: "%{count} лет"
-        other: "%{count} лет"
   errors:
     not_found:
       title: "Страница не существует (404)"

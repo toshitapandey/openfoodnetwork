@@ -176,7 +176,6 @@ en_CA:
     user_passwords:
       spree_user:
         updated_not_active: "Your password has been reset, but your email has not been confirmed yet."
-        updated: "Your password was changed successfully. You are now signed in."
         send_instructions: "You will receive an email with instructions about how to confirm your account in a few minutes."
   home_page_alert_html: "Home page alert HTML"
   hub_signup_case_studies_html: "Hub signup case studies HTML"
@@ -294,7 +293,6 @@ en_CA:
   select_ticket_printer: "Select printer for tickets"
   send_invoice: "Send Invoice"
   resend_confirmation: "Resend Confirmation"
-  view_order: "View Order"
   edit_order: "Edit Order"
   ship_order: "Ship Order"
   cancel_order: "Cancel Order"
@@ -341,11 +339,9 @@ en_CA:
   supplier_only: Supplier Only
   has_shopfront: Has Shopfront
   weight: Weight
-  volume: Volume
   items: Items
   summary: Summary
   detailed: Detailed
-  updated: Updated
   'yes': "Yes"
   'no': "No"
   y: 'Y'
@@ -375,7 +371,6 @@ en_CA:
   ship: "Ship"
   shipping_category: "Shipping Category"
   height: "Height"
-  width: "Width"
   depth: "Depth"
   payment_could_not_process: "The payment could not be processed"
   payment_could_not_complete: "The payment could not be completed"
@@ -429,7 +424,6 @@ en_CA:
     tags: Tags
     variant: Variant
     weight: Weight
-    volume: Volume
     items: Items
     select_all: Select all
     quick_search: Quick Search
@@ -1617,15 +1611,11 @@ en_CA:
   unconfirmed: unconfirmed
   days: days
   authorization_failure: "Authorization Failure"
-  label_shop: "Shop"
   label_shops: "Shops"
   label_map: "Map"
-  label_producer: "Producer"
   label_producers: "Producers"
   label_groups: "Markets"
   label_about: "About"
-  label_blog: "Blog"
-  label_support: "Support"
   label_shopping: "Shopping"
   label_login: "Login"
   label_logout: "Logout"
@@ -1650,7 +1640,7 @@ en_CA:
   card_masked_digit: "X"
   card_expiry_abbreviation: "Exp"
   new_credit_card: "New credit card"
-  my_credit_cards: My credit cards
+  
   add_new_credit_card: Add new credit card
   saved_cards: Saved cards
   add_a_card: Add a Card
@@ -1982,7 +1972,6 @@ en_CA:
   hubs_filter_property: "Property"
   hubs_matches: "Did you mean?"
   hubs_intro: Shop in your local area
-  hubs_distance: Closest to
   hubs_distance_filter: "Show me shops near %{location}"
   shop_changeable_orders_alert_html:
     one: Your order with <a href='%{path}' target='_blank'>%{shop} / %{order}</a> is open for review.  You can make changes until %{oc_close}.
@@ -2027,7 +2016,6 @@ en_CA:
   groups_producers: "Our vendors"
   groups_hubs: "Go Shopping!"
   groups_contact_web: Contact
-  groups_contact_social: Follow
   groups_contact_email: Email us
   groups_contact_website: Visit our website
   groups_contact_facebook: Follow us on Facebook
@@ -2350,7 +2338,6 @@ en_CA:
   sales_fee: "Sales fee"
   packing_fee: "Packing fee"
   transport_fee: "Transport fee"
-  fundraising_fee: "Fundraising fee"
   price_graph: "Price graph"
   included_tax: "Included tax"
   tax: "Tax"
@@ -2413,8 +2400,6 @@ en_CA:
   distributor: "Distributor"
   enterprise_fees: "Enterprise Fees"
   process_my_order: "Process My Order"
-  delivery_instructions: Delivery Instructions
-  delivery_method: Delivery Method
   fee_type: "Fee Type"
   tax_category: "Tax Category"
   description: "Description"
@@ -2466,17 +2451,17 @@ en_CA:
   spree_admin_enterprises_fees: "Enterprise Fees"
   spree_admin_enterprises_none_create_a_new_enterprise: "CREATE A NEW ENTERPRISE"
   spree_admin_enterprises_none_text: "You don't have any enterprises yet"
-  spree_admin_enterprises_tabs_hubs: "HUBS"
+  
   spree_admin_enterprises_producers_manage_products: "MANAGE PRODUCTS"
   spree_admin_enterprises_create_new_product: "CREATE A NEW PRODUCT"
-  spree_admin_overview_action_required: "Action Required"
-  spree_admin_overview_check_your_inbox: "Please check your inbox for further instructions. Thanks!"
-  spree_admin_unit_value: Unit Value
+  
+  
+  
   spree_admin_unit_description: Unit Description
-  spree_admin_variant_unit: Variant unit
+  
   spree_admin_variant_unit_scale: Variant unit scale
   spree_admin_supplier: Supplier
-  spree_admin_product_category: Product Category
+  
   spree_admin_variant_unit_name: Variant unit name
   unit_name: "Unit Name"
   change_package: "Change Package"
@@ -2485,7 +2470,7 @@ en_CA:
   spree_admin_eg_collect_your_order: "eg. 'Please collect your order from 123 Imaginary St, Your City'"
   spree_classification_primary_taxon_error: "Taxon %{taxon} is the primary taxon of %{product} and cannot be deleted"
   spree_order_availability_error: "Distributor or order cycle cannot supply the products in your cart"
-  spree_order_populator_error: "That distributor or order cycle can't supply all the products in your cart. Please choose another."
+  
   spree_order_cycle_error: "Please choose an order cycle for this order"
   spree_order_populator_availability_error: "That product is not available from the chosen distributor or order cycle."
   spree_distributors_error: "At least one hub must be selected"
@@ -2515,12 +2500,7 @@ en_CA:
   enterprise_tos_agree: "I agree to the above Terms of Service"
   tax_settings: "Tax Settings"
   products_require_tax_category: "products require tax category"
-  admin_shared_address_1: "Address"
-  admin_shared_address_2: "Address (cont.)"
   admin_share_city: "City"
-  admin_share_zipcode: "Postal Code"
-  admin_share_country: "Country"
-  admin_share_state: "Province"
   hub_sidebar_hubs: "Hubs"
   hub_sidebar_none_available: "None Available"
   hub_sidebar_manage: "Manage"
@@ -3269,7 +3249,6 @@ en_CA:
   payment: "Payment"
   payment_method: "Payment Method"
   shipment: "Shipment"
-  shipment_inc_vat: "Shipment including taxes"
   shipping_tax_rate: "Shipping Tax Rate"
   category: "Category"
   import_date: "Import Date"
@@ -4128,45 +4107,6 @@ en_CA:
           other: Payments
     unit: unit
     per_unit: per unit
-  datetime:
-    distance_in_words:
-      about_x_hours:
-        one: about 1 hour
-        other: about %{count} hours
-      about_x_months:
-        one: about 1 month
-        other: about %{count} months
-      about_x_years:
-        one: about 1 year
-        other: about %{count} years
-      almost_x_years:
-        one: almost 1 year
-        other: almost %{count} years
-      half_a_minute: half a minute
-      less_than_x_seconds:
-        one: less than 1 second
-        other: less than %{count} seconds
-      less_than_x_minutes:
-        one: less than a minute
-        other: less than %{count} minutes
-      over_x_years:
-        one: over 1 year
-        other: over %{count} years
-      x_seconds:
-        one: "1 second"
-        other: "%{count} seconds"
-      x_minutes:
-        one: "1 minute"
-        other: "%{count} minutes"
-      x_days:
-        one: "1 day"
-        other: "%{count} days"
-      x_months:
-        one: "1 month"
-        other: "%{count} months"
-      x_years:
-        one: "1 year"
-        other: "%{count} years"
   errors:
     not_found:
       title: "The page you were looking for doesn't exist (404)"

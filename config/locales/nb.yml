@@ -176,7 +176,6 @@ nb:
     user_passwords:
       spree_user:
         updated_not_active: "Ditt passord har blitt tilbakestilt, men epostadressen din er ikke bekreftet enda."
-        updated: "Passordendringen var vellykket. Du er nå pålogget."
         send_instructions: "Du vil motta en epost med instruksjoner om hvordan du bekrefter kontoen din om noen få minutter."
   home_page_alert_html: "HTML for varsler på hjemmeside "
   hub_signup_case_studies_html: "Hub-registrering studier HTML"
@@ -294,7 +293,6 @@ nb:
   select_ticket_printer: "Velg skriver for kvitteringer"
   send_invoice: "Send Faktura"
   resend_confirmation: "Send Bekreftelse på nytt"
-  view_order: "Se Bestilling"
   edit_order: "Rediger Bestilling"
   ship_order: "Send Bestilling"
   cancel_order: "Avbryt Bestilling"
@@ -341,11 +339,9 @@ nb:
   supplier_only: Kun leverandør
   has_shopfront: Har Butikk
   weight: Vekt
-  volume: Volum
   items: Elementer
   summary: Sammendrag
   detailed: Detaljert
-  updated: Oppdatert
   'yes': "Ja"
   'no': "Nei"
   y: 'J'
@@ -375,7 +371,6 @@ nb:
   ship: "Levere"
   shipping_category: "Leveringskategori"
   height: "Høyde"
-  width: "Bredde"
   depth: "Dybde"
   payment_could_not_process: "Betalingen kunne ikke behandles"
   payment_could_not_complete: "Betalingen kunne ikke fullføres"
@@ -429,7 +424,6 @@ nb:
     tags: Merkelapper
     variant: Variant
     weight: Vekt
-    volume: Volum
     items: Varer
     select_all: Velg alle
     quick_search: Hurtigsøk
@@ -1623,15 +1617,11 @@ nb:
   unconfirmed: ubekreftet
   days: dager
   authorization_failure: "Autorisasjonsfeil"
-  label_shop: "Butikk"
   label_shops: "Butikker"
   label_map: "Kart"
-  label_producer: "Produsent"
   label_producers: "Produsenter"
   label_groups: "Grupper"
   label_about: "Om"
-  label_blog: "Blogg"
-  label_support: "Støtte"
   label_shopping: "Handle"
   label_login: "Logg inn"
   label_logout: "Logg ut"
@@ -1656,7 +1646,6 @@ nb:
   card_masked_digit: "X"
   card_expiry_abbreviation: "Exp"
   new_credit_card: "Nytt kredittkort"
-  my_credit_cards: Mine kredittkort
   add_new_credit_card: Legg til nytt kredittkort
   saved_cards: Lagrede kort
   add_a_card: Legg til et kort
@@ -1989,7 +1978,6 @@ nb:
   hubs_filter_property: "Egenskap"
   hubs_matches: "Mente du?"
   hubs_intro: Handle lokalt
-  hubs_distance: Nærmest
   hubs_distance_filter: "Vis meg butikker nær %{location}"
   shop_changeable_orders_alert_html:
     one: Bestillingen din med <a href='%{path}' target='_blank'>%{shop} / %{order}</a> er åpen for gjennomgang. Du kan gjøre endringer til %{oc_close}.
@@ -2034,7 +2022,6 @@ nb:
   groups_producers: "Våre produsenter"
   groups_hubs: "Våre hubs"
   groups_contact_web: Kontakt
-  groups_contact_social: Følg
   groups_contact_email: Send oss epost
   groups_contact_website: Besøk oss på nett
   groups_contact_facebook: Følg oss på Facebook
@@ -2357,7 +2344,6 @@ nb:
   sales_fee: "Salgsgebyr"
   packing_fee: "Pakkegebyr"
   transport_fee: "Transportgebyr"
-  fundraising_fee: "Innsamlingsgebyr"
   price_graph: "Prisgraf"
   included_tax: "Inkludert avgift"
   tax: "Avgift"
@@ -2420,8 +2406,6 @@ nb:
   distributor: "Distributør"
   enterprise_fees: "Bedriftsavgifter"
   process_my_order: "Behandle bestillingen min"
-  delivery_instructions: Leveringsinstruksjoner
-  delivery_method: Leveringsmetode
   fee_type: "Avfgiftstype"
   tax_category: "Avgiftskategori"
   description: "Beskrivelse"
@@ -2473,17 +2457,12 @@ nb:
   spree_admin_enterprises_fees: "Bedriftsavgift"
   spree_admin_enterprises_none_create_a_new_enterprise: "OPPRETT NY BEDRIFT"
   spree_admin_enterprises_none_text: "Du har ingen bedrifter ennå"
-  spree_admin_enterprises_tabs_hubs: "HUBS"
+  
   spree_admin_enterprises_producers_manage_products: "ADMINISTRER PRODUKTER"
   spree_admin_enterprises_create_new_product: "OPPRETT NYTT PRODUKT"
-  spree_admin_overview_action_required: "Handling Nødvendig"
-  spree_admin_overview_check_your_inbox: "Vennligst sjekk din innboks for nærmere instruksjoner. Takk!"
-  spree_admin_unit_value: Enhetsverdi
   spree_admin_unit_description: Enhetsbeskrivelse
-  spree_admin_variant_unit: Variant enhet
   spree_admin_variant_unit_scale: Variant enhetsskala
   spree_admin_supplier: Leverandør
-  spree_admin_product_category: Produktkategori
   spree_admin_variant_unit_name: Variant enhetsnavn
   unit_name: "Enhetsnavn"
   change_package: "Endre Pakke"
@@ -2492,7 +2471,6 @@ nb:
   spree_admin_eg_collect_your_order: "f.eks. 'Vennligst hente din bestilling fra 123 Matveien, Nesodden, 3070'"
   spree_classification_primary_taxon_error: "Gruppe %{taxon} er hovedgruppe til %{product} og kan ikke slettes"
   spree_order_availability_error: "Distributør eller bestillingsrunde kan ikke levere produktene i handlekurven din"
-  spree_order_populator_error: "Den distributøren eller bestillingsrunden kan ikke levere alle produktene i handlekurven din. Vennligst velg en annen."
   spree_order_cycle_error: "Vennligst velg en bestillingsrunde for denne bestillingen."
   spree_order_populator_availability_error: "Det produktet er ikke tilgjengelig fra den valgte distributøren eller bestillingsrunden."
   spree_distributors_error: "Minst en hub må velges"
@@ -2522,12 +2500,7 @@ nb:
   enterprise_tos_agree: "Jeg godtar Tjenestevilkårene over"
   tax_settings: "Avgiftsinnstillinger"
   products_require_tax_category: "produkter krever avgiftskategori"
-  admin_shared_address_1: "Adresse"
-  admin_shared_address_2: "Adresse (forts.)"
   admin_share_city: "By"
-  admin_share_zipcode: "Postnummer"
-  admin_share_country: "Land"
-  admin_share_state: "Fylke"
   hub_sidebar_hubs: "Hubs"
   hub_sidebar_none_available: "Ingen Tilgjengelig"
   hub_sidebar_manage: "Administrer"
@@ -3274,7 +3247,6 @@ nb:
   payment: "Betaling"
   payment_method: "Betalingsmetode"
   shipment: "Leveranse"
-  shipment_inc_vat: "Levering inkludert MVA"
   shipping_tax_rate: "Rate Leveringsavgift"
   category: "Kategori"
   import_date: "Importdato"
@@ -4133,45 +4105,6 @@ nb:
           other: Betalinger
     unit: enhet
     per_unit: per enhet
-  datetime:
-    distance_in_words:
-      about_x_hours:
-        one: omtrent 1 time
-        other: omtrent %{count} timer
-      about_x_months:
-        one: ca 1 måned
-        other: ca %{count} måneder
-      about_x_years:
-        one: ca 1 år
-        other: ca %{count} år
-      almost_x_years:
-        one: nesten 1 år
-        other: nesten %{count} år
-      half_a_minute: et halvt minutt
-      less_than_x_seconds:
-        one: mindre enn 1 sekund
-        other: mindre enn %{count} sekunder
-      less_than_x_minutes:
-        one: mindre enn ett minutt
-        other: mindre enn %{count} minutter
-      over_x_years:
-        one: over 1 år
-        other: over %{count} år
-      x_seconds:
-        one: "1 sekund"
-        other: "%{count} sekunder"
-      x_minutes:
-        one: "1 minutt"
-        other: "%{count} minutter"
-      x_days:
-        one: "1 dag"
-        other: "%{count} dager"
-      x_months:
-        one: "1 måned"
-        other: "%{count} måneder"
-      x_years:
-        one: "1 år"
-        other: "%{count} år"
   errors:
     not_found:
       title: "Siden du lette etter eksisterer ikke (404)"

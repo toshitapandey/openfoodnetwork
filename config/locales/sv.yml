@@ -59,7 +59,6 @@ sv:
   select_ticket_printer: "Välj skrivare för kvitton"
   send_invoice: "Skicka faktura"
   resend_confirmation: "Skicka om bekräftelse"
-  view_order: "Granska beställning"
   edit_order: "Ändra beställning"
   ship_order: "Skicka beställning"
   cancel_order: "Ångra beställning"
@@ -98,10 +97,8 @@ sv:
   profile: Profil
   supplier_only: 'Endast leverantör '
   weight: Vikt
-  volume: Volym
   summary: Sammanfattning
   detailed: Detaljerad
-  updated: Uppdaterad
   'yes': "Ja"
   'no': "Nej"
   y: 'J'
@@ -137,7 +134,6 @@ sv:
     tags: Taggar
     variant: Variant
     weight: Vikt
-    volume: Volym
     items: Artiklar
     select_all: Markera alla
     quick_search: Snabbsökning
@@ -1041,7 +1037,6 @@ sv:
   hubs_filter_property: "Egenskaper"
   hubs_matches: "Menade du?"
   hubs_intro: Handla i ditt närområde
-  hubs_distance: Närmast till
   hubs_distance_filter: "Visa mig butiker nära %{location}"
   shop_changeable_orders_alert_html:
     few: Du har <a href='%{path}' target='_blank'> %{count} beställningar hos %{shop} </a> som granskas för tillfället. Du kan göra ändringar till och med%{oc_close}.
@@ -1076,7 +1071,6 @@ sv:
   groups_producers: "Våra producenter"
   groups_hubs: "Våra utlämningsställen"
   groups_contact_web: Kontakt
-  groups_contact_social: Följ
   groups_contact_email: Mejla oss
   groups_contact_website: Besök vår hemsida
   groups_contact_facebook: Följ oss på Facebook
@@ -1375,7 +1369,6 @@ sv:
   sales_fee: "Försäljningsavgift"
   packing_fee: "Förpackningsvgift"
   transport_fee: "Transportavgift"
-  fundraising_fee: "Insamlingsvgift"
   price_graph: "Priskurva"
   included_tax: "Ingående skatt"
   balance: "Saldo"
@@ -1425,8 +1418,6 @@ sv:
   distributor: "Distributör"
   enterprise_fees: "Företagsavgifter"
   process_my_order: "Behandla min beställning"
-  delivery_instructions: Leveransanvisningar
-  delivery_method: Leveransmetod
   fee_type: "Avgiftstyp"
   tax_category: "Taxområde"
   description: "Beskrivning"
@@ -1466,14 +1457,9 @@ sv:
   spree_admin_enterprises_fees: "Företagsavgifter"
   spree_admin_enterprises_none_create_a_new_enterprise: "SKAPA ETT NYTT FÖRETAG"
   spree_admin_enterprises_none_text: "Du har inget företag ännu"
-  spree_admin_enterprises_tabs_hubs: "MATSTÄLLEN"
   spree_admin_enterprises_producers_manage_products: "HANTERA PRODUKTER"
   spree_admin_enterprises_create_new_product: "SKAPA EN NY PRODUKT"
-  spree_admin_overview_action_required: "Ett ställningstagande behövs"
-  spree_admin_overview_check_your_inbox: "Var vänlig kontrollera din inkorg för ytterligare instruktioner. Tack!"
-  spree_admin_unit_value: Enhetspris
   spree_admin_unit_description: Enhetsbeskrivning
-  spree_admin_variant_unit: Variant enhet
   spree_admin_variant_unit_scale: Variant enhetsskala
   spree_admin_variant_unit_name: 'Variant enhetsnamn '
   change_package: "Ändra förpackning"
@@ -1482,7 +1468,6 @@ sv:
   spree_admin_eg_collect_your_order: "t.ex. \"Var snäll och samla din beställning från Exempelgatan,  100 00 Stad '"
   spree_classification_primary_taxon_error: "Gruppen %{taxon} är den primära gruppen för %{product} och kan inte raderas"
   spree_order_availability_error: "Distributören eller beställningsomgången kan inte leverera produkterna i din kundvagn"
-  spree_order_populator_error: "Denna distributör eller beställningsomgång kan inte leverera alla produkter i din kundvagn. Vänligen välj en annan."
   spree_order_populator_availability_error: "Den produkten är inte tillgänglig från den valda distributören eller denna beställningsomgång."
   spree_distributors_error: "Minst en hub måste väljas"
   spree_user_enterprise_limit_error: "^ %{email} har inte rätt att äga några fler företag (gränsen är %{enterprise_limit})."
@@ -1506,12 +1491,7 @@ sv:
   enterprise_tos_agree: "Jag samtycker med ovanstående servicevillkor "
   tax_settings: "Skatteskalor"
   products_require_tax_category: "produkter kräver skattekategori"
-  admin_shared_address_1: "Adress"
-  admin_shared_address_2: "Adress (forts)"
   admin_share_city: "Ort"
-  admin_share_zipcode: "Postnummer"
-  admin_share_country: "Land"
-  admin_share_state: "Region"
   hub_sidebar_hubs: "Hubbar"
   hub_sidebar_none_available: "Saknas"
   hub_sidebar_manage: "Hantera"

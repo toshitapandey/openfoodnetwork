@@ -175,7 +175,6 @@ uk:
     user_passwords:
       spree_user:
         updated_not_active: "Ваш пароль скинуто, але ваша електронна адреса ще не підтверджена."
-        updated: "Ваш пароль успішно змінено. Тепер ви увійшли."
         send_instructions: "Через кілька хвилин ви отримаєте електронний лист із інструкціями щодо підтвердження облікового запису."
   home_page_alert_html: "HTML сповіщення домашньої сторінки"
   hub_signup_case_studies_html: "HTML із прикладами реєстрації в хабі"
@@ -293,7 +292,6 @@ uk:
   select_ticket_printer: "Виберіть принтер для чеків"
   send_invoice: "Надіслати рахунок"
   resend_confirmation: "Повторно надіслати підтвердження"
-  view_order: "Переглянути замовлення"
   edit_order: "Редагувати замовлення"
   ship_order: "Відправити замовлення"
   cancel_order: "Відмінити замовлення"
@@ -340,11 +338,9 @@ uk:
   supplier_only: Тільки постачальник
   has_shopfront: Має вітрину
   weight: Вага
-  volume: Обсяг
   items: Одиниці
   summary: Резюме
   detailed: Детально
-  updated: Оновлено
   'yes': "Так"
   'no': "Ні"
   y: 'Y'
@@ -374,7 +370,6 @@ uk:
   ship: "Відправити"
   shipping_category: "Категорія доставки"
   height: "Висота"
-  width: "Ширина"
   depth: "Глибина"
   payment_could_not_process: "Не вдалося обробити платіж"
   payment_could_not_complete: "Не вдалося завершити платіж"
@@ -428,7 +423,6 @@ uk:
     tags: Мітки
     variant: Варіант
     weight: Вага
-    volume: Обсяг
     items: Одиниці
     select_all: Вибрати всі
     quick_search: Швидкий пошук
@@ -1614,15 +1608,11 @@ uk:
   unconfirmed: непідтверджений
   days: днів
   authorization_failure: "Помилка авторизації"
-  label_shop: "Магазин"
   label_shops: "Магазини"
   label_map: "Карта"
-  label_producer: "Виробник"
   label_producers: "Виробники"
   label_groups: "Групи"
   label_about: "про"
-  label_blog: "Блог"
-  label_support: "Підтримка"
   label_shopping: "Шопінг"
   label_login: "Логін"
   label_logout: "Вийти"
@@ -1647,7 +1637,6 @@ uk:
   card_masked_digit: "X"
   card_expiry_abbreviation: "Exp"
   new_credit_card: "Нова кредитна картка"
-  my_credit_cards: Мої кредитні картки
   add_new_credit_card: Додати нову кредитну картку
   saved_cards: Збережені картки
   add_a_card: Додати картку
@@ -1979,7 +1968,6 @@ uk:
   hubs_filter_property: "Власність"
   hubs_matches: "Ти мав на увазі?"
   hubs_intro: Робіть покупки у вашому районі
-  hubs_distance: Найближче до
   hubs_distance_filter: "Покажи мені магазини поблизу %{location}"
   shop_changeable_orders_alert_html:
     one: Ваше замовлення в <a href='%{path}' target='_blank'>%{shop} / %{order}</a> відкрите для розгляду. Ви можете вносити зміни до %{oc_close}.
@@ -2024,7 +2012,6 @@ uk:
   groups_producers: "Наші виробники"
   groups_hubs: "Наші центри"
   groups_contact_web: Контакти
-  groups_contact_social: Стежити
   groups_contact_email: Напишіть нам
   groups_contact_website: Відвідайте наш сайт
   groups_contact_facebook: Слідкуйте за нами на Facebook
@@ -2347,7 +2334,6 @@ uk:
   sales_fee: "Плата за продаж"
   packing_fee: "Вартість упаковки"
   transport_fee: "Транспортний збір"
-  fundraising_fee: "Плата за збір коштів"
   price_graph: "Графік цін"
   included_tax: "Включено податок"
   tax: "податок"
@@ -2410,8 +2396,6 @@ uk:
   distributor: "Дистрибютор"
   enterprise_fees: "Комісія підприємства"
   process_my_order: "Обробити моє замовлення"
-  delivery_instructions: Інструкція з доставки
-  delivery_method: Метод доставки
   fee_type: "Тип плати"
   tax_category: "Категорія податку"
   description: "Опис"
@@ -2463,17 +2447,11 @@ uk:
   spree_admin_enterprises_fees: "Комісія підприємства"
   spree_admin_enterprises_none_create_a_new_enterprise: "СТВОРИТИ НОВЕ ПІДПРИЄМСТВО"
   spree_admin_enterprises_none_text: "У вас ще немає підприємств"
-  spree_admin_enterprises_tabs_hubs: "ХАБИ"
   spree_admin_enterprises_producers_manage_products: "КЕРУВАННЯ ПРОДУКТАМИ"
   spree_admin_enterprises_create_new_product: "СТВОРИТИ НОВИЙ ПРОДУКТ"
-  spree_admin_overview_action_required: "Потрібна дія"
-  spree_admin_overview_check_your_inbox: "Щоб отримати подальші інструкції, перевірте свою поштову скриньку. Спасибі!"
-  spree_admin_unit_value: Вартість одиниці
   spree_admin_unit_description: Опис одиниці
-  spree_admin_variant_unit: Варіант одиниці
   spree_admin_variant_unit_scale: Варіант виміру одиниці
   spree_admin_supplier: Постачальник
-  spree_admin_product_category: Категорія товару
   spree_admin_variant_unit_name: Назва варіанту одиниці
   unit_name: "Назва одиниці"
   change_package: "Змінити Пакування"
@@ -2482,7 +2460,6 @@ uk:
   spree_admin_eg_collect_your_order: "напр. \"Будь ласка, заберіть своє замовлення за адресою: 123 Imaginary St, Northcote \";"
   spree_classification_primary_taxon_error: "Таксон %{taxon} є основним таксоном %{product} і не може бути видалений"
   spree_order_availability_error: "Дистриб’ютор або цикл замовлення не можуть надати продукти у вашому кошику"
-  spree_order_populator_error: "Цей дистриб’ютор або цикл замовлення не може забезпечити всі продукти у вашому кошику. Виберіть інший."
   spree_order_cycle_error: "Будь ласка, виберіть цикл замовлення для цього замовлення."
   spree_order_populator_availability_error: "Цей продукт недоступний у вибраного дистриб’ютора або циклу замовлення."
   spree_distributors_error: "Необхідно вибрати принаймні один хаб"
@@ -2512,12 +2489,7 @@ uk:
   enterprise_tos_agree: "Я погоджуюся з наведеними вище Умовами надання послуг"
   tax_settings: "Налаштування податку"
   products_require_tax_category: "продукти потребують податкової категорії"
-  admin_shared_address_1: "Адреса"
-  admin_shared_address_2: "Адреса (продовження)"
   admin_share_city: "Місто"
-  admin_share_zipcode: "Поштовий індекс"
-  admin_share_country: "Країна"
-  admin_share_state: "Стан"
   hub_sidebar_hubs: "Хаби"
   hub_sidebar_none_available: "Немає в наявності"
   hub_sidebar_manage: "Керувати"
@@ -3311,7 +3283,6 @@ uk:
   payment: "Платіж"
   payment_method: "Спосіб оплати"
   shipment: "Відвантаження"
-  shipment_inc_vat: "Доставка з ПДВ"
   shipping_tax_rate: "Ставка податку на доставку"
   category: "Категорія"
   import_date: "Дата імпорту"
@@ -4164,66 +4135,3 @@ uk:
           other: Платежі
     unit: одиниця
     per_unit: на одиницю
-  datetime:
-    distance_in_words:
-      about_x_hours:
-        one: близько 1 години
-        few: близько %{count} год
-        many: близько %{count} год
-        other: близько %{count} год
-      about_x_months:
-        one: приблизно 1 місяць
-        few: близько %{count} місяців
-        many: близько %{count} місяців
-        other: близько %{count} місяців
-      about_x_years:
-        one: приблизно 1 рік
-        few: близько %{count} років
-        many: близько %{count} років
-        other: близько %{count} років
-      almost_x_years:
-        one: майже 1 рік
-        few: майже %{count} років
-        many: майже %{count} років
-        other: майже %{count} років
-      half_a_minute: півхвилини
-      less_than_x_seconds:
-        one: менше 1 секунди
-        few: менше %{count} секунд
-        many: менше %{count} секунд
-        other: менше %{count} секунд
-      less_than_x_minutes:
-        one: менше хвилини
-        few: менше %{count} хвилин
-        many: менше %{count} хвилин
-        other: менше %{count} хвилин
-      over_x_years:
-        one: більше 1 року
-        few: понад %{count} років
-        many: понад %{count} років
-        other: понад %{count} років
-      x_seconds:
-        one: "1 секунда"
-        few: "%{count} секунд"
-        many: "%{count} секунд"
-        other: "%{count} секунд"
-      x_minutes:
-        one: "1 хвилина"
-        few: "%{count} хвилин"
-        many: "%{count} хвилин"
-        other: "%{count} хвилин"
-      x_days:
-        one: "1 день"
-        few: "%{count} днів"
-        many: "%{count} днів"
-        other: "%{count} днів"
-      x_months:
-        one: "1 місяць"
-        few: "%{count} місяців"
-        many: "%{count} місяців"
-        other: "%{count} місяців"
-      x_years:
-        one: "1 рік"
-        few: "%{count} років"
-        many: "%{count} років"
-        other: "%{count} років"

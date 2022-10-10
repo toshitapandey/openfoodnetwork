@@ -116,7 +116,6 @@ tr:
     user_passwords:
       spree_user:
         updated_not_active: "Parolanız sıfırlandı, ancak e-postanız henüz doğrulanmadı."
-        updated: "Parolanız başarılı bir şekilde değiştirildi. Şimdi oturum açtınız."
         send_instructions: "Birkaç dakika içinde, hesabınızı nasıl doğrulayacağınız ile ilgili talimatları içeren bir e-posta alacaksınız."
   home_page_alert_html: "Ana sayfa uyarısı HTML"
   hub_signup_case_studies_html: "Hub kaydı örnek olay incelemeleri HTML"
@@ -233,7 +232,6 @@ tr:
   select_ticket_printer: "Etiketler için yazıcı seçin"
   send_invoice: "Faturayı Gönder"
   resend_confirmation: "Onayı Tekrar Gönderin"
-  view_order: "Siparişi Görüntüle"
   edit_order: "Siparişi Düzenle"
   ship_order: "Siparişi Gönder"
   cancel_order: "Siparişi İptal Et"
@@ -280,11 +278,9 @@ tr:
   supplier_only: Sadece Tedarikçi
   has_shopfront: DÜKKANI VAR
   weight: Ağırlık
-  volume: Hacim
   items: Kalemler
   summary: Özet
   detailed: Detaylı
-  updated: Güncel
   'yes': "Evet"
   'no': "Hayır"
   y: 'E'
@@ -314,7 +310,6 @@ tr:
   ship: "Teslimat"
   shipping_category: "Teslimat KategOrİSİ"
   height: "Boy"
-  width: "En"
   depth: "Boy"
   payment_could_not_process: "Ödeme işlenemedi"
   payment_could_not_complete: "Ödeme tamamlanamadı"
@@ -368,7 +363,6 @@ tr:
     tags: ETİKETLER
     variant: Çeşit
     weight: Ağırlık
-    volume: Hacim
     items: Ölçüler
     select_all: Hepsini seç
     quick_search: Hızlı Arama
@@ -1496,15 +1490,11 @@ tr:
   unconfirmed: doğrulanmamış
   days: günler
   authorization_failure: "Yetki Hatası"
-  label_shop: "Dükkan"
   label_shops: "PAZAR YERİ"
   label_map: "HARİTA"
-  label_producer: "ÜRETİCİ"
   label_producers: "ÜRETİCİLER"
   label_groups: "AĞLAR"
   label_about: "HAKKIMIZDA"
-  label_blog: "Blog"
-  label_support: "Destek"
   label_shopping: "Alışveriş "
   label_login: "Oturum aç"
   label_logout: "Çıkış Yap"
@@ -1529,7 +1519,6 @@ tr:
   card_masked_digit: "X"
   card_expiry_abbreviation: "Son kullanma tarihi"
   new_credit_card: "Yeni kredi kartı"
-  my_credit_cards: Kredi kartlarım
   add_new_credit_card: Yeni kredi kartı ekle
   saved_cards: Kayıtlı kartlar
   add_a_card: Bir kart ekle
@@ -1842,7 +1831,6 @@ tr:
   hubs_filter_property: "Özellik"
   hubs_matches: "Bunu mu arıyordunuz?"
   hubs_intro: Alışverişe başlayın
-  hubs_distance: En yakın
   hubs_distance_filter: "Bana %{location} yakınındaki dükkanları göster"
   shop_changeable_orders_alert_html:
     one: '%{shop}/%{order}siparişiniz gözden geçirilmeye hazır. %{oc_close}''a kadar değişiklik yapabilirsiniz.'
@@ -1887,7 +1875,6 @@ tr:
   groups_producers: "ÜRETİCİLERİMİZ"
   groups_hubs: "Pazarlarımız"
   groups_contact_web: İLETİŞİM
-  groups_contact_social: TAKİP ET
   groups_contact_email: Bize e-posta gönderin
   groups_contact_website: İnternet sitemizi ziyaret edin
   groups_contact_facebook: Bizi Facebook'tan takip edin
@@ -2207,7 +2194,6 @@ tr:
   sales_fee: "Satış Ücreti"
   packing_fee: "Paketleme Ücreti"
   transport_fee: "Taşıma Ücreti"
-  fundraising_fee: "Finans Ücreti"
   price_graph: "Fiyat grafiği"
   included_tax: "Vergi Dahil"
   tax: "Vergi"
@@ -2270,8 +2256,6 @@ tr:
   distributor: "Dağıtımcı"
   enterprise_fees: "İşletme Ücretleri"
   process_my_order: "Siparişimi İşle"
-  delivery_instructions: Teslimat Talimatları
-  delivery_method: Teslimat Yöntemi
   fee_type: "Ücret Türü"
   tax_category: "Vergi Kategorisi"
   description: "Açıklama"
@@ -2322,17 +2306,11 @@ tr:
   spree_admin_enterprises_fees: "İşletme Ücretleri"
   spree_admin_enterprises_none_create_a_new_enterprise: "YENİ BİR İŞLETME OLUŞTUR"
   spree_admin_enterprises_none_text: "Henüz hiç işletmeniz yok"
-  spree_admin_enterprises_tabs_hubs: "PAZARLAR"
   spree_admin_enterprises_producers_manage_products: "ÜRÜNLERİ YÖNET"
   spree_admin_enterprises_create_new_product: "YENİ BİR ÜRÜN OLUŞTUR"
-  spree_admin_overview_action_required: "Eylem Gerekli"
-  spree_admin_overview_check_your_inbox: "Diğer talimatlar için lütfen gelen kutunuzu kontrol edin. Teşekkürler!"
-  spree_admin_unit_value: Birim değeri
   spree_admin_unit_description: Birim Tanımı
-  spree_admin_variant_unit: Çeşit Birimi
   spree_admin_variant_unit_scale: Çeşit Ölçü Birimi
   spree_admin_supplier: Tedarikçi
-  spree_admin_product_category: Ürün Kategorisi
   spree_admin_variant_unit_name: Çeşit Birimi Adı
   unit_name: "Birim adı"
   change_package: "HESAP TÜRÜNÜ DEĞİŞTİR"
@@ -2341,7 +2319,6 @@ tr:
   spree_admin_eg_collect_your_order: "Örn. Lütfen siparişinizi Moda Cad. No:17 Temiz Dükkan'dan teslim alınız."
   spree_classification_primary_taxon_error: "%{taxon} cinsi, %{product}ürününün birincil cinsidir ve silinemez"
   spree_order_availability_error: "Dağıtımcı veya sipariş dönemi sepetinizdeki ürünleri tedarik edemiyor"
-  spree_order_populator_error: "Bu dağıtımcı veya sipariş dönemi, sepetinizdeki tüm ürünleri tedarik edemiyor. Lütfen başka birini seçin."
   spree_order_cycle_error: "Bu sipariş için bir sipariş dönemi seçin."
   spree_order_populator_availability_error: "Bu ürün, seçilen dağıtımcıda veya sipariş döneminde mevcut değil."
   spree_distributors_error: "En az bir pazar seçilmelidir"
@@ -2371,12 +2348,7 @@ tr:
   enterprise_tos_agree: "Yukarıdaki Üyelik Sözleşmesini kabul ediyorum"
   tax_settings: "Vergi Ayarları"
   products_require_tax_category: "ürünler vergi kategorisi gerektirir"
-  admin_shared_address_1: "Adres"
-  admin_shared_address_2: "Adres (devam)"
   admin_share_city: "ŞEHİR"
-  admin_share_zipcode: "posta kodu"
-  admin_share_country: "ülke"
-  admin_share_state: "Şehir"
   hub_sidebar_hubs: "Pazarlar"
   hub_sidebar_none_available: "Yok"
   hub_sidebar_manage: "yönet"
@@ -3107,7 +3079,6 @@ tr:
   payment: "Ödeme"
   payment_method: "ÖDEME YÖNTEMİ"
   shipment: "Teslimat"
-  shipment_inc_vat: "KDV dahil teslimat"
   shipping_tax_rate: "Kargo Vergi Oranı"
   category: "Kategori"
   import_date: "İçe Aktarım Tarihi"
@@ -3943,42 +3914,3 @@ tr:
         spree/payment:
           one: Ödemeler
           other: 'Ödemeler '
-  datetime:
-    distance_in_words:
-      about_x_hours:
-        one: 1 saat civarında
-        other: '%{count} saat '
-      about_x_months:
-        one: yaklaşık 1 ay
-        other: '%{count} ay '
-      about_x_years:
-        one: yaklaşık 1 yıl
-        other: '%{count} yıl '
-      almost_x_years:
-        one: neredeyse 1 yıl
-        other: neredeyse %{count} yıl
-      half_a_minute: yarım dakika
-      less_than_x_seconds:
-        one: 1 saniyeden az
-        other: '%{count} saniyeden az'
-      less_than_x_minutes:
-        one: bir dakikadan az
-        other: '%{count} dakikadan az'
-      over_x_years:
-        one: 1 yıldan fazla
-        other: '%{count} yıldan fazla'
-      x_seconds:
-        one: "1 saniye"
-        other: "%{count} saniye"
-      x_minutes:
-        one: "1 dakika"
-        other: "%{count} dakika"
-      x_days:
-        one: "1 gün"
-        other: "%{count} gün"
-      x_months:
-        one: "1 ay"
-        other: "%{count} ay"
-      x_years:
-        one: "1 yıl"
-        other: "%{count} yıl"

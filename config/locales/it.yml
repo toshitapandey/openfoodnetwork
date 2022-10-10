@@ -176,7 +176,6 @@ it:
     user_passwords:
       spree_user:
         updated_not_active: "La tua password è stata resettata, ma la tua email non è ancora stata confermata."
-        updated: "La tua password è stata modificata con successo.\nOra sei collegato."
         send_instructions: "A breve riceverai una email con le istruzioni per la conferma del tuo account."
   home_page_alert_html: "HTML alert Home page"
   hub_signup_case_studies_html: "HTML iscrizione hub casi studio"
@@ -294,7 +293,6 @@ it:
   select_ticket_printer: "Seleziona la stampante per i biglietti"
   send_invoice: "Invia Conferma d'ordine"
   resend_confirmation: "Rimanda Conferma"
-  view_order: "Vedi Ordine"
   edit_order: "Modifica Ordine"
   ship_order: "Invia Ordine"
   cancel_order: "Cancella Ordine"
@@ -341,11 +339,9 @@ it:
   supplier_only: Solo Fornitore
   has_shopfront: Ha una Vetrina
   weight: Peso
-  volume: Volume
   items: Prodotti
   summary: Sommario
   detailed: Dettaglio
-  updated: Aggiornato
   'yes': "Sì"
   'no': "No"
   y: 'SI'
@@ -375,7 +371,6 @@ it:
   ship: "Spedizione"
   shipping_category: "Categoria Spedizioni"
   height: "Altezza"
-  width: "Larghezza"
   depth: "Profondità"
   payment_could_not_process: "Il pagamento non ha potuto essere processato"
   payment_could_not_complete: "Pagamento non completato"
@@ -429,7 +424,6 @@ it:
     tags: Etichetta
     variant: Variante
     weight: Peso
-    volume: Volume
     items: Prodotti
     select_all: Seleziona tutto
     quick_search: Ricerca veloce
@@ -1620,15 +1614,11 @@ it:
   unconfirmed: non confermato
   days: giorni
   authorization_failure: "Errore di autorizzazione"
-  label_shop: "Negozio"
   label_shops: "Negozi"
   label_map: "Mappa"
-  label_producer: "Produttore"
   label_producers: "Produttori"
   label_groups: "Reti"
   label_about: "Chi siamo"
-  label_blog: "Blog"
-  label_support: "Aiuto"
   label_shopping: "Acquisto"
   label_login: "Accedi"
   label_logout: "Logout"
@@ -1653,7 +1643,6 @@ it:
   card_masked_digit: "X"
   card_expiry_abbreviation: "Exp"
   new_credit_card: "Nuova carta di credito"
-  my_credit_cards: Le mie carte di credito
   add_new_credit_card: Aggiungi nuova carta di credito
   saved_cards: Carta salvata
   add_a_card: Aggiungi una Carta
@@ -1986,7 +1975,6 @@ it:
   hubs_filter_property: "Proprietà"
   hubs_matches: "Intendevi?"
   hubs_intro: Fai la spesa nella tua zona
-  hubs_distance: Più vicino a
   hubs_distance_filter: "Mostrami negozi vicino a %{location}"
   shop_changeable_orders_alert_html:
     one: La tua gentile richiesta con <a href='%{path}' target='_blank'>%{shop} / %{order}</a> può essere modificata fino al %{oc_close}.
@@ -2031,7 +2019,6 @@ it:
   groups_producers: "I nostri produttori"
   groups_hubs: "I nostri hub"
   groups_contact_web: Contatti
-  groups_contact_social: Segui
   groups_contact_email: Scrivici
   groups_contact_website: Visita la nostra pagina web
   groups_contact_facebook: Seguici su Facebook
@@ -2354,7 +2341,6 @@ it:
   sales_fee: "Commissione di vendita"
   packing_fee: "Tariffa imballaggio"
   transport_fee: "Tariffa trasporto"
-  fundraising_fee: "Contributo raccolta fondi"
   price_graph: "Grafico prezzo"
   included_tax: "IVA inclusa"
   tax: "IVA"
@@ -2417,8 +2403,6 @@ it:
   distributor: "Distributore"
   enterprise_fees: "Tariffe dell'azienda"
   process_my_order: "Elabora la mia gentile richiesta"
-  delivery_instructions: Istruzioni di consegna
-  delivery_method: Metodo di consegna
   fee_type: "Tipo di contributo"
   tax_category: "Categoria di imposta"
   description: "Descrizione"
@@ -2470,17 +2454,12 @@ it:
   spree_admin_enterprises_fees: "Tariffe dell'azienda"
   spree_admin_enterprises_none_create_a_new_enterprise: "CREA NUOVA AZIENDA"
   spree_admin_enterprises_none_text: "Non hai nessua azienda al momento"
-  spree_admin_enterprises_tabs_hubs: "HUBS"
+  
   spree_admin_enterprises_producers_manage_products: "GESTISCI PRODOTTI"
   spree_admin_enterprises_create_new_product: "CREA UN NUOVO PRODOTTO"
-  spree_admin_overview_action_required: "Azione richiesta"
-  spree_admin_overview_check_your_inbox: "Controlla le tua email per ulteriori istruzioni. Grazie!"
-  spree_admin_unit_value: Unità di valore
   spree_admin_unit_description: Descrizione Unità
-  spree_admin_variant_unit: Variante
   spree_admin_variant_unit_scale: Scala delle unità
   spree_admin_supplier: Fornitore
-  spree_admin_product_category: Categoria prodotto
   spree_admin_variant_unit_name: Nome della variante
   unit_name: "Nome Unità"
   change_package: "Cambia pacchetto"
@@ -2489,7 +2468,6 @@ it:
   spree_admin_eg_collect_your_order: "es. \"Prego ritira il tuo ordine in via Roma 45\""
   spree_classification_primary_taxon_error: "La classificazione %{taxon} è la classificazione primaria di %{product} e non può essere cancellata"
   spree_order_availability_error: "Il distributore o il ciclo di richiesta non possono rifornire i prodotti nel tuo carrello"
-  spree_order_populator_error: "Il distributore o il ciclo di richieste non hanno disponibilità di alcuni prodotti nel tuo carrello. Per favore scegline un altro."
   spree_order_cycle_error: "Per favore seleziona un ciclo di richieste per questa gentile richiesta."
   spree_order_populator_availability_error: "Questo prodotto non è disponibile dal distributore o nel ciclo di richieste selezionati."
   spree_distributors_error: "Seleziona almeno un hub"
@@ -2519,12 +2497,7 @@ it:
   enterprise_tos_agree: "Accetto i Termini di Servizio"
   tax_settings: "Impostazione contributi"
   products_require_tax_category: "i prodotti richiedono la categoria di tassa"
-  admin_shared_address_1: "Indirizzo"
-  admin_shared_address_2: "Indirizzo (segue)"
   admin_share_city: "Comune"
-  admin_share_zipcode: "CAP"
-  admin_share_country: "Stato"
-  admin_share_state: "Provincia"
   hub_sidebar_hubs: "Hubs"
   hub_sidebar_none_available: "Nussuna disponibilità"
   hub_sidebar_manage: "Gestisci"
@@ -3301,7 +3274,6 @@ it:
   payment: "Pagamento"
   payment_method: "Metodo di pagamento"
   shipment: "Spedizione"
-  shipment_inc_vat: "Spedizione inclusa IVA"
   shipping_tax_rate: "Tariffa spedizione"
   category: "Categoria"
   import_date: "Data di importazione"
@@ -4161,57 +4133,6 @@ it:
           other: Pagamenti
     unit: unità
     per_unit: per unità
-  datetime:
-    distance_in_words:
-      about_x_hours:
-        one: circa 1 ora
-        many: circa %{count} ore
-        other: circa %{count} ore
-      about_x_months:
-        one: circa 1 mese
-        many: circa %{count} mesi
-        other: circa %{count} mesi
-      about_x_years:
-        one: cica 1 anno
-        many: circa %{count} anni
-        other: circa %{count} anni
-      almost_x_years:
-        one: almeno 1 anno
-        many: almeno %{count} anni
-        other: almeno %{count} anni
-      half_a_minute: mezzo minuto
-      less_than_x_seconds:
-        one: meno di 1 secondo
-        many: meno di %{count} secondi
-        other: meno di %{count} secondi
-      less_than_x_minutes:
-        one: meno di un minuto
-        many: meno di %{count} minuti
-        other: meno di %{count} minuti
-      over_x_years:
-        one: oltre 1 anno
-        many: oltre %{count} anni
-        other: oltre %{count} anni
-      x_seconds:
-        one: "1 secondo"
-        many: "%{count} secondi"
-        other: "%{count} secondi"
-      x_minutes:
-        one: "1 minuto"
-        many: "%{count} minuti"
-        other: "%{count} minuti"
-      x_days:
-        one: "1 giorno"
-        many: "%{count} giorni"
-        other: "%{count} giorni"
-      x_months:
-        one: "1 mese"
-        many: "%{count} mesi"
-        other: "%{count} mesi"
-      x_years:
-        one: "1 anno"
-        many: "%{count} anni"
-        other: "%{count} anni"
   errors:
     not_found:
       title: "La pagina che stai cercando non esiste (404)"

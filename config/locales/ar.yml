@@ -174,7 +174,6 @@ ar:
     user_passwords:
       spree_user:
         updated_not_active: "تمت إعادة تعيين كلمة المرور الخاصة بك ، ولكن لم يتم تأكيد بريدك الإلكتروني بعد."
-        updated: "تم تغيير كلمة المرور الخاصة بك بنجاح. انت الآن مسجل دخولك."
         send_instructions: "ستتلقى رسالة بريد إلكتروني تحتوي على إرشادات حول كيفية تأكيد حسابك في بضع دقائق."
   home_page_alert_html: "الصفحة الرئيسية تنبيه HTML"
   hub_signup_case_studies_html: "Hub signup case studies HTML"
@@ -292,7 +291,6 @@ ar:
   select_ticket_printer: "حدد الطابعة للتذاكر"
   send_invoice: "إرسال الفاتورة"
   resend_confirmation: "أعد إرسال التأكيد"
-  view_order: "مشاهدة الطلب"
   edit_order: "تعديل الطلب"
   ship_order: "شحن طلبك"
   cancel_order: "الغاء الطلب"
@@ -339,11 +337,9 @@ ar:
   supplier_only: الموردين فقط
   has_shopfront: لديه واجهة متجر
   weight: وزن
-  volume: الصوت
   items: العناصر
   summary: ملخص
   detailed: تفصيلية
-  updated: محدث
   'yes': "نعم"
   'no': "لا"
   y: 'نعم'
@@ -373,7 +369,6 @@ ar:
   ship: "الشحن"
   shipping_category: "نوع الشحن"
   height: "الارتفاع"
-  width: "العرض"
   depth: "العمق"
   payment_could_not_process: "لا يمكن معالجة الدفع"
   payment_could_not_complete: "لا يمكن إتمام الدفع"
@@ -427,7 +422,6 @@ ar:
     tags: الاوسمة
     variant: النوع
     weight: وزن
-    volume: الصوت
     items: العناصر
     select_all: اختر الكل
     quick_search: بحث سريع
@@ -1583,15 +1577,11 @@ ar:
   unconfirmed: غير مؤكد
   days: أيام
   authorization_failure: "فشل التفويض"
-  label_shop: "متجر"
   label_shops: "متاجر"
   label_map: "خريطة"
-  label_producer: "المنتج"
   label_producers: "المنتجين"
   label_groups: "مجموعات"
   label_about: "حول"
-  label_blog: "مدونة"
-  label_support: "الدعم"
   label_shopping: "التسوق"
   label_login: "تسجيل الدخول"
   label_logout: "تسجيل خروج"
@@ -1616,7 +1606,6 @@ ar:
   card_masked_digit: "X"
   card_expiry_abbreviation: "الانتهاء"
   new_credit_card: "بطاقة ائتمان جديدة"
-  my_credit_cards: بطاقات الائتمان الخاصة بي
   add_new_credit_card: أضف بطاقة ائتمان جديدة
   saved_cards: البطاقات المحفوظة
   add_a_card: إضافة بطاقة
@@ -1947,7 +1936,6 @@ ar:
   hubs_filter_property: "خاصية"
   hubs_matches: "هل تعني؟"
   hubs_intro: تسوق في منطقتك المحلية
-  hubs_distance: الأقرب إلى
   hubs_distance_filter: "أرني المتاجر بالقرب من %{location}"
   shop_changeable_orders_alert_html:
     one: طلبك مع <a href='%{path}' target='_blank'>%{shop} / %{order}</a> مفتوح للمراجعة. يمكنك إجراء تغييرات حتى %{oc_close}.
@@ -1992,7 +1980,6 @@ ar:
   groups_producers: "المنتجين لدينا"
   groups_hubs: "مراكز مبيعاتنا "
   groups_contact_web: اتصل
-  groups_contact_social: إتبع
   groups_contact_email: ارسل لنا عبر البريد الإلكتروني
   groups_contact_website: زيارة موقعنا على الانترنت
   groups_contact_facebook: تابعنا على الفيسبوك
@@ -2312,7 +2299,6 @@ ar:
   sales_fee: "رسوم المبيعات"
   packing_fee: "رسوم التعبئة"
   transport_fee: "رسوم الشحن"
-  fundraising_fee: "رسوم جمع التبرعات"
   price_graph: "الرسم البياني للسعر"
   included_tax: "الضريبة مشمولة"
   tax: "ضريبة"
@@ -2375,8 +2361,6 @@ ar:
   distributor: "الموزع"
   enterprise_fees: "رسوم الشركة"
   process_my_order: "معالجة طلبي"
-  delivery_instructions: تعليمات التوصيل
-  delivery_method: طريقة التوصيل
   fee_type: "نوع الرسوم"
   tax_category: "الفئة الضريبية"
   description: "وصف"
@@ -2428,17 +2412,11 @@ ar:
   spree_admin_enterprises_fees: "رسوم الشركة"
   spree_admin_enterprises_none_create_a_new_enterprise: "إنشاء مؤسسة جديدة"
   spree_admin_enterprises_none_text: "ليس لديك أي مؤسسات حتى الآن"
-  spree_admin_enterprises_tabs_hubs: "مراكز بيع"
   spree_admin_enterprises_producers_manage_products: "إدارة المنتجات"
   spree_admin_enterprises_create_new_product: "إنشاء منتج جديد"
-  spree_admin_overview_action_required: "الإجراء مطلوب"
-  spree_admin_overview_check_your_inbox: "يرجى التحقق من صندوق الوارد الخاص بك لمزيد من التعليمات. شكر!"
-  spree_admin_unit_value: قيمة النوع 
   spree_admin_unit_description: وصف الوحدة
-  spree_admin_variant_unit: 'وحدة النوع '
   spree_admin_variant_unit_scale: 'النوع مقياس وحدة '
   spree_admin_supplier: المورد
-  spree_admin_product_category: 'نوع المنتج '
   spree_admin_variant_unit_name: 'النوع اسم الوحدة '
   unit_name: "إسم الوحدة"
   change_package: "تغيير الحزمة"
@@ -2447,7 +2425,6 @@ ar:
   spree_admin_eg_collect_your_order: "على سبيل المثال. &quot;يرجى جمع طلبك من 123 Imaginary St، Northcote ، 3070&quot;"
   spree_classification_primary_taxon_error: "Taxon %{taxon} هو التصنيف الأساسي %{product} ولا يمكن حذفه"
   spree_order_availability_error: "لا يمكن لموزع أو دورة طلب توفير المنتجات في سلة التسوق"
-  spree_order_populator_error: "لا يمكن لهذا الموزع أو دورة الطلب توفير جميع المنتجات في سلة التسوق. الرجاء اختيار آخر."
   spree_order_cycle_error: "الرجاء اختيار دورة الطلب لهذا الطلب."
   spree_order_populator_availability_error: "هذا المنتج غير متوفر من الموزع المختار أو دورة الطلب."
   spree_distributors_error: "يجب تحديد مركز واحد على الأقل"
@@ -2477,12 +2454,7 @@ ar:
   enterprise_tos_agree: "أوافق على شروط الخدمة المذكورة أعلاه"
   tax_settings: "الإعدادات الضريبية"
   products_require_tax_category: "المنتجات تتطلب فئة الضريبة"
-  admin_shared_address_1: "عنوان"
-  admin_shared_address_2: "عنوان (تابع.)"
   admin_share_city: "مدينة"
-  admin_share_zipcode: "الرمز البريدي"
-  admin_share_country: "بلد"
-  admin_share_state: "ولاية"
   hub_sidebar_hubs: "مراكز بيع"
   hub_sidebar_none_available: "لا شيء متاح"
   hub_sidebar_manage: "يدير"
@@ -3307,7 +3279,6 @@ ar:
   payment: "دفعة"
   payment_method: "طريقة الدفع او السداد"
   shipment: "الشحنة"
-  shipment_inc_vat: "الشحنة شاملة ضريبة القيمة المضافة"
   shipping_tax_rate: "معدل ضريبة الشحن"
   category: "الفئة"
   import_date: "تاريخ الاستيراد"
@@ -4151,90 +4122,3 @@ ar:
           few: المدفوعات
           many: المدفوعات
           other: الدفعات
-  datetime:
-    distance_in_words:
-      about_x_hours:
-        zero: حوالي %{count} ساعة
-        one: حوالي 1 ساعة
-        two: حوالي %{count} ساعة
-        few: حوالي %{count} ساعة
-        many: حوالي %{count} ساعة
-        other: حوالي %{count} ساعة
-      about_x_months:
-        zero: حوالي %{count} شهر
-        one: حوالي 1 شهر
-        two: حوالي %{count} شهر
-        few: حوالي %{count} شهر
-        many: حوالي %{count} شهر
-        other: حوالي %{count} شهر
-      about_x_years:
-        zero: حوالي %{count} سنوات
-        one: حوالي سنة واحدة
-        two: حوالي %{count} سنوات
-        few: حوالي %{count} سنوات
-        many: حوالي %{count} سنوات
-        other: حوالي %{count} سنوات
-      almost_x_years:
-        zero: تقريبا %{count} سنوات
-        one: ما يقرب من 1 سنة
-        two: تقريبا %{count} سنوات
-        few: تقريبا %{count} سنوات
-        many: تقريبا %{count} سنوات
-        other: تقريبا %{count} سنوات
-      half_a_minute: نصف دقيقة
-      less_than_x_seconds:
-        zero: أقل من %{count} ثانية
-        one: أقل من ثانية واحدة
-        two: أقل من %{count} ثانية
-        few: أقل من %{count} ثانية
-        many: أقل من %{count} ثانية
-        other: أقل من %{count} ثانية
-      less_than_x_minutes:
-        zero: أقل من %{count} دقيقة
-        one: أقل من دقيقة
-        two: أقل من %{count} دقيقة
-        few: أقل من %{count} دقيقة
-        many: أقل من %{count} دقيقة
-        other: أقل من %{count} دقيقة
-      over_x_years:
-        zero: أكثر من %{count} سنة
-        one: أكثر من 1 سنة
-        two: أكثر من %{count} سنة
-        few: أكثر من %{count} سنة
-        many: أكثر من %{count} سنة
-        other: أكثر من %{count} سنة
-      x_seconds:
-        zero: "%{count} ثانية"
-        one: "1 ثانية"
-        two: "%{count} ثانية"
-        few: "%{count} ثانية"
-        many: "%{count} ثانية"
-        other: "%{count} ثانية"
-      x_minutes:
-        zero: "%{count} دقيقة"
-        one: "1 دقيقة"
-        two: "%{count} دقيقة"
-        few: "%{count} دقيقة"
-        many: "%{count} دقيقة"
-        other: "%{count} دقيقة"
-      x_days:
-        zero: "%{count} أيام"
-        one: "يوم 1"
-        two: "%{count} أيام"
-        few: "%{count} أيام"
-        many: "%{count} أيام"
-        other: "%{count} أيام"
-      x_months:
-        zero: "%{count} شهور"
-        one: "شهر واحد"
-        two: "%{count} شهور"
-        few: "%{count} شهور"
-        many: "%{count} شهور"
-        other: "%{count} شهور"
-      x_years:
-        zero: "%{count} سنة"
-        one: "سنة واحدة"
-        two: "%{count} سنة"
-        few: "%{count} سنة"
-        many: "%{count} سنة"
-        other: "%{count} سنوات"

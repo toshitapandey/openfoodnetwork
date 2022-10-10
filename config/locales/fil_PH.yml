@@ -105,7 +105,6 @@ fil_PH:
     user_passwords:
       spree_user:
         updated_not_active: "ang inyong password ay na-reset na, ngunit ang inyong email ay hindi pa nakumpirma."
-        updated: "Ang password ay matagumpay na napalitan. Ikaw ay nakasign-in na."
         send_instructions: "Ikaw ay makakatanggap ng email na may panuto kung paano kumpirmahin ang inyong account, sa loob ng ilang minuto."
   models:
     order_cycle:
@@ -192,7 +191,6 @@ fil_PH:
   select_ticket_printer: "pumili ng printer para sa mga ticket"
   send_invoice: "ipadala ang invoice"
   resend_confirmation: "ipadala muli ang kumpirmasyon"
-  view_order: "tignan ang order"
   edit_order: "i-edit ang order"
   ship_order: "i-ship ang order"
   cancel_order: "kanselahin ang order"
@@ -238,11 +236,9 @@ fil_PH:
   supplier_only: Supplier Lamang
   has_shopfront: May Shopfront
   weight: timbang
-  volume: dami
   items: mga item
   summary: Buod
   detailed: detalyado
-  updated: na-update
   'yes': "Oo"
   'no': "Hindi"
   y: 'Y'
@@ -310,7 +306,6 @@ fil_PH:
     tags: tags
     variant: Uri
     weight: Timbang
-    volume: dami
     items: mga item
     select_all: piliin ang lahat
     quick_search: madaliang paghahanap
@@ -1378,15 +1373,11 @@ fil_PH:
   unconfirmed: hindi kumpirmado
   days: mga araw
   authorization_failure: "hindi nagtagumpay ang pagpahintulot"
-  label_shop: "Shop"
   label_shops: "mga shop"
   label_map: "mapa"
-  label_producer: "Producer"
   label_producers: "Mga Producer"
   label_groups: "mga grupo"
   label_about: "tungkol sa"
-  label_blog: "Blog"
-  label_support: "Suporta"
   label_shopping: "Pamimili"
   label_login: "Login"
   label_logout: "mag-log-out"
@@ -1411,7 +1402,6 @@ fil_PH:
   card_masked_digit: "X"
   card_expiry_abbreviation: "Exp"
   new_credit_card: "bagong credit card"
-  my_credit_cards: ang aking mga credit card
   add_new_credit_card: magdagdag ng bagong credit card
   saved_cards: naka-save na mga card
   add_a_card: magdagdag ng card
@@ -1674,7 +1664,6 @@ fil_PH:
   hubs_filter_property: "ari-arian"
   hubs_matches: "ang ibig mo bang sabihin"
   hubs_intro: Mamili sa iyong komunidad
-  hubs_distance: pinakamalapit sa
   hubs_distance_filter: "ipakita ang mga shop malapit sa%{location}"
   shop_changeable_orders_alert_html:
     few: ikaw ay mayroong<a href='%{path}' target='_blank'>%{count} na order sa%{shop}</a> na maaari ngayong tignan. maaaring gumawa ng mga pagbabago hanggang%{oc_close}.
@@ -1711,7 +1700,6 @@ fil_PH:
   groups_producers: "ang aming mga producer"
   groups_hubs: "ang aming mga hub"
   groups_contact_web: Makipag-ugnayan
-  groups_contact_social: sumunod
   groups_contact_email: i-email kami
   groups_contact_website: bisitahin ang aming website
   groups_contact_facebook: i-follow kami sa Facebook
@@ -2023,7 +2011,6 @@ fil_PH:
   sales_fee: "bayad sa pagbebenta"
   packing_fee: "bayad sa pagbabalot"
   transport_fee: "bayad sa pagdadala"
-  fundraising_fee: "bayad sa pangangalap ng pondo"
   price_graph: "graph ng presyo"
   included_tax: "kasamang tax"
   balance: "Balanse"
@@ -2083,8 +2070,6 @@ fil_PH:
   distributor: "Distributor"
   enterprise_fees: "bayad para sa enterprise"
   process_my_order: "iproseso ang aking order"
-  delivery_instructions: mga panuto sa pagdeliver
-  delivery_method: paraan ng pagdeliver
   fee_type: "uri ng kabayaran"
   tax_category: "kategorya ng tax"
   description: "paglalarawan"
@@ -2133,17 +2118,11 @@ fil_PH:
   spree_admin_enterprises_fees: "bayad para sa enterprise"
   spree_admin_enterprises_none_create_a_new_enterprise: "GUMAWA NG BAGONG ENTERPRISE"
   spree_admin_enterprises_none_text: "wala ka pang mga enterprise"
-  spree_admin_enterprises_tabs_hubs: "MGA HUB"
   spree_admin_enterprises_producers_manage_products: "PAMAHALAAN ANG MGA PRODUKTO"
   spree_admin_enterprises_create_new_product: "LUMIKHA NG BAGONG PRODUKTO"
-  spree_admin_overview_action_required: "kailangan ng aksyon"
-  spree_admin_overview_check_your_inbox: "tignan ang iyong inbox para sa karagdagang panuto. maraming salamat!"
-  spree_admin_unit_value: halaga kada yunit
   spree_admin_unit_description: paglalarawan sa bawat yunit
-  spree_admin_variant_unit: Variant unit
   spree_admin_variant_unit_scale: sukat ng Variant unit
   spree_admin_supplier: Supplier
-  spree_admin_product_category: kategorya ng produkto
   spree_admin_variant_unit_name: pangalan ng variant unit
   unit_name: "pangalan ng yunit"
   change_package: "palitan ang package"
@@ -2152,7 +2131,6 @@ fil_PH:
   spree_admin_eg_collect_your_order: "hal. 'Kolektahin ang inyong order sa 123 Kapayapaan St., Tobias Fornier, Antique 5716'"
   spree_classification_primary_taxon_error: "ang Tax sa%{taxon}ay ang pangunahing tax ng %{product}at hindi maaaring tanggalin"
   spree_order_availability_error: "ang distributor o order cycle ay hindi kayang ibigay ang mga produkto sa inyong cart"
-  spree_order_populator_error: "ang distributor o order cycle na ito ay hindi kayang ibigay lahat ng mga produkto sa inyong cart. pumili ng iba."
   spree_order_populator_availability_error: "ang produktong ito ay hindi ngayon available mula sa napiling distributor o order cycle."
   spree_distributors_error: "pumili ng kahit isa sa mga Hub"
   spree_user_enterprise_limit_error: "^%{email}ay walang permiso na mag-ari ng karagdagang mga enterprise (ang limitasyon ay%{enterprise_limit})."
@@ -2180,12 +2158,7 @@ fil_PH:
   enterprise_tos_agree: "ako ay sumasang-ayon sa mga tuntunin ng serbisyo na nasa itaas."
   tax_settings: "settings ng tax"
   products_require_tax_category: "ang mga produkto ay kailangang may kategorya ng tax"
-  admin_shared_address_1: "address"
-  admin_shared_address_2: "address (pagpapatuloy)"
   admin_share_city: "Lungsod"
-  admin_share_zipcode: "Postcode"
-  admin_share_country: "Bansa"
-  admin_share_state: "Status"
   hub_sidebar_hubs: "Mga Hub"
   hub_sidebar_none_available: "walang available"
   hub_sidebar_manage: "pamahalaan"
@@ -2882,7 +2855,6 @@ fil_PH:
   payment: "bayad"
   payment_method: "paraan ng pagbayad"
   shipment: "kargamento"
-  shipment_inc_vat: "kargamento kasama ang VAT"
   shipping_tax_rate: "rate ng tax para sa pagpapadala"
   category: "kategorya"
   import_date: "petsa ng pag-import"

@@ -116,7 +116,6 @@ fr_BE:
     user_passwords:
       spree_user:
         updated_not_active: "Votre mot de passe a bien été réinitialisé, mais votre email n'a pas encore été confirmé."
-        updated: "Votre mot de passe a été changé avec succès. Vous êtes à présent connecté."
         send_instructions: "Un email a été envoyé avec des instructions pour confirmer votre adresse email. Vérifiez votre boite mail!"
   models:
     order_cycle:
@@ -205,7 +204,6 @@ fr_BE:
   select_ticket_printer: "Choisir l'imprimante tickets"
   send_invoice: "Envoyer la facture"
   resend_confirmation: "Renvoyer la confirmation"
-  view_order: "Voir la commande"
   edit_order: "Editer la commande"
   ship_order: "Envoyer la commande"
   cancel_order: "Annuler la commande"
@@ -252,11 +250,9 @@ fr_BE:
   supplier_only: Uniquement Producteur
   has_shopfront: 'A une vitrine '
   weight: Poids
-  volume: Volume
   items: Pièces
   summary: Résumé
   detailed: Détaillé
-  updated: Mis à jour
   'yes': "Oui"
   'no': "Non"
   y: 'O'
@@ -284,7 +280,6 @@ fr_BE:
   ship: "Expédier"
   shipping_category: "Catégorie de livraison"
   height: "Taille"
-  width: "largeur"
   depth: "profondeur"
   actions:
     create_and_add_another: "Créer et ajouter un nouveau"
@@ -327,7 +322,6 @@ fr_BE:
     tags: Tags
     variant: Variante
     weight: Poids
-    volume: Volume
     items: Pièce
     select_all: Tout sélectionner
     quick_search: 'Recherche rapide '
@@ -1452,15 +1446,11 @@ fr_BE:
   unconfirmed: non confirmé
   days: jours
   authorization_failure: "Echec autorisation "
-  label_shop: "Comptoir"
   label_shops: "Comptoirs"
   label_map: "Carte"
-  label_producer: "Producteur·trice"
   label_producers: "Producteur·trice·s"
   label_groups: "Groupes"
   label_about: "A propos"
-  label_blog: "Blog"
-  label_support: "Soutien"
   label_shopping: "Achats"
   label_login: "Se connecter"
   label_logout: "Déconnexion"
@@ -1485,7 +1475,6 @@ fr_BE:
   card_masked_digit: "X"
   card_expiry_abbreviation: "Exp"
   new_credit_card: "Nouvelle carte de crédit"
-  my_credit_cards: Mes cartes bancaires
   add_new_credit_card: Ajouter nouvelle carte de crédit
   saved_cards: Sauvegarder cartes
   add_a_card: Ajouter une Carte
@@ -1758,7 +1747,6 @@ fr_BE:
   hubs_filter_property: "Propriétés / labels"
   hubs_matches: "Vous voulez dire?"
   hubs_intro: Passez commande près de chez vous
-  hubs_distance: Le plus près de
   hubs_distance_filter: "Afficher les comptoirs près de %{location}"
   shop_changeable_orders_alert_html:
     few: Vous avez <a href='%{path}' target='_blank'>%{count} commandes avec %{shop}</a> ouvertes à la vérification. Vous pouvez effectuer des modifications jusqu'au %{oc_close}.
@@ -1802,7 +1790,6 @@ fr_BE:
   groups_producers: "Nos producteurs"
   groups_hubs: "Nos comptoirs"
   groups_contact_web: Contact
-  groups_contact_social: Suivre
   groups_contact_email: Nous écrire
   groups_contact_website: Visiter notre site web
   groups_contact_facebook: Nous suivre sur Facebook
@@ -2116,7 +2103,6 @@ fr_BE:
   sales_fee: "Frais de ventes/marketing"
   packing_fee: "Frais d'emballage"
   transport_fee: "Frais logistiques"
-  fundraising_fee: "Frais recherche de financement"
   price_graph: "Légende détail du prix"
   included_tax: "Inclut TVA"
   balance: "Solde"
@@ -2177,8 +2163,6 @@ fr_BE:
   distributor: "Distributeur"
   enterprise_fees: "Marges et commissions"
   process_my_order: "Valider ma Commande"
-  delivery_instructions: Instructions de Livraison
-  delivery_method: Méthode de Livraison
   fee_type: "Type de marge"
   tax_category: "TVA applicable"
   description: "Description"
@@ -2227,17 +2211,11 @@ fr_BE:
   spree_admin_enterprises_fees: "Marges et commissions"
   spree_admin_enterprises_none_create_a_new_enterprise: "CRÉER UNE NOUVELLE ENTREPRISE"
   spree_admin_enterprises_none_text: "Vous n'avez pas encore d'entreprise"
-  spree_admin_enterprises_tabs_hubs: "COMPTOIRS"
   spree_admin_enterprises_producers_manage_products: "GÉRER LES PRODUITS"
   spree_admin_enterprises_create_new_product: "CRÉER UN NOUVEAU PRODUIT"
-  spree_admin_overview_action_required: "Action requise"
-  spree_admin_overview_check_your_inbox: "Veuillez vérifier votre boîte mail pour les prochaines étapes. Merci!"
-  spree_admin_unit_value: Nb Unités
   spree_admin_unit_description: 'Description complémentaire (ex: "(vrac)")'
-  spree_admin_variant_unit: Unité
   spree_admin_variant_unit_scale: Echelle unitaire (en g ou L)
   spree_admin_supplier: Fournisseur
-  spree_admin_product_category: Catégorie Produit
   spree_admin_variant_unit_name: Nom de la pièce (si vendu à la pièce)
   unit_name: "Nom de l'unité"
   change_package: "Changer de type de compte"
@@ -2246,7 +2224,6 @@ fr_BE:
   spree_admin_eg_collect_your_order: "ex : \"Veuillez récupérer votre commande au 131 Rue Provinciale, 1300 Wavre\""
   spree_classification_primary_taxon_error: "La catégorie %{taxon}est utilisée par %{product} et ne peut être supprimée"
   spree_order_availability_error: "Le distributeur ne peut fournir les produits de votre panier pour ce cycle de vente."
-  spree_order_populator_error: "Le distributeur ne peut fournir tous les produits de votre panier pour ce cycle de vente. Merci de choisir un autre distributeur ou un autre cycle de vente."
   spree_order_populator_availability_error: "Ce produit n'est pas disponible pour ce cycle de vente / distributeur."
   spree_distributors_error: "Veuillez sélectionner au moins un comptoir "
   spree_user_enterprise_limit_error: "^ %{email} ne peut pas créer de nouvelles entreprises (limite actuelle : %{enterprise_limit} entreprises )."
@@ -2275,12 +2252,7 @@ fr_BE:
   enterprise_tos_agree: "J'adhère aux valeurs d'Open Food Network et valide les Conditions Générales d'Utilisation."
   tax_settings: "Paramètres TVA"
   products_require_tax_category: "vous devez choisir la TVA applicable"
-  admin_shared_address_1: "Adresse"
-  admin_shared_address_2: "Adresse (suite)"
   admin_share_city: "Ville"
-  admin_share_zipcode: "Code postal"
-  admin_share_country: "Pays"
-  admin_share_state: "Province"
   hub_sidebar_hubs: "Comptoirs"
   hub_sidebar_none_available: "Aucun disponible"
   hub_sidebar_manage: "Gérer"
@@ -2932,7 +2904,6 @@ fr_BE:
   payment: "Paiement"
   payment_method: "Méthode de paiement"
   shipment: "Envoi"
-  shipment_inc_vat: "Expédition TVA incluse "
   shipping_tax_rate: "TVA applicable pour l'expédition "
   category: "Catégorie"
   import_date: "Date d'import (si import)"

@@ -124,7 +124,6 @@ es_CO:
     user_passwords:
       spree_user:
         updated_not_active: "Su contraseña ha sido restablecida, pero su correo electrónico aún no ha sido confirmado."
-        updated: "Su contraseña ha sido cambiada con éxito. Ya tienes la sesión iniciada."
         send_instructions: "Recibirá un correo electrónico con instrucciones sobre cómo confirmar su cuenta en unos minutos."
   models:
     order_cycle:
@@ -212,7 +211,6 @@ es_CO:
   select_ticket_printer: "Seleccionar impresora para los tickets"
   send_invoice: "Enviar factura"
   resend_confirmation: "Reenviar confirmación"
-  view_order: "Ver pedido"
   edit_order: "Editar pedido"
   ship_order: "Enviar pedido"
   cancel_order: "Cancelar pedido"
@@ -259,11 +257,9 @@ es_CO:
   supplier_only: Sólo proveedor
   has_shopfront: Tiene tienda
   weight: Peso
-  volume: Volumen
   items: Elementos
   summary: Resumen
   detailed: Detallado
-  updated: Actualizado
   'yes': "Sí"
   'no': "No"
   y: 'S'
@@ -291,7 +287,6 @@ es_CO:
   ship: "Envío"
   shipping_category: "Categoría de envío"
   height: "Altura"
-  width: "Anchura"
   depth: "Profundidad"
   actions:
     create_and_add_another: "Crear y agregar otro"
@@ -334,7 +329,6 @@ es_CO:
     tags: Etiquetas
     variant: Variedad
     weight: Peso
-    volume: Volumen
     items: Artículos
     select_all: Seleccionar todo
     quick_search: Búsqueda rápida
@@ -1419,15 +1413,11 @@ es_CO:
   unconfirmed: sin confirmar
   days: días
   authorization_failure: "Fallo de autorización"
-  label_shop: "Tienda"
   label_shops: "Tiendas"
   label_map: "Mapa"
-  label_producer: "Productor"
   label_producers: "Productores"
   label_groups: "Grupos"
   label_about: "Acerca de"
-  label_blog: "Blog"
-  label_support: "Soporte"
   label_shopping: "Tienda"
   label_login: "Iniciar sesión"
   label_logout: "Cerrar sesión"
@@ -1452,7 +1442,7 @@ es_CO:
   card_masked_digit: "X"
   card_expiry_abbreviation: "Exp"
   new_credit_card: "Nueva tarjeta de crédito"
-  my_credit_cards: Mis tarjetas de crédito
+  
   add_new_credit_card: Añadir nueva tarjeta de crédito
   saved_cards: Tarjetas de crédito guardadas
   add_a_card: Añade una tarjeta
@@ -1721,7 +1711,6 @@ es_CO:
   hubs_filter_property: "Propiedad"
   hubs_matches: "¿Quiso decir?"
   hubs_intro: Compra en tu localidad
-  hubs_distance: Más cercano a
   hubs_distance_filter: "Muéstrame tiendas cerca de %{location}"
   shop_changeable_orders_alert_html:
     few: 'Usted tiene <a href=''%{path}'' target=''_blank''> %{count} pedidos con %{shop} </a> actualmente abiertos para revisión. Puede realizar cambios hasta %{oc_close}. '
@@ -1765,7 +1754,6 @@ es_CO:
   groups_producers: "Nuestros productores"
   groups_hubs: "Nuestros nodos"
   groups_contact_web: Contacto
-  groups_contact_social: Seguir
   groups_contact_email: Envíenos un correo electrónico
   groups_contact_website: Visite nuestro sitio web
   groups_contact_facebook: Síganos en Facebook
@@ -2078,7 +2066,6 @@ es_CO:
   sales_fee: "Comisión de ventas"
   packing_fee: "Cuota de empaquetado"
   transport_fee: "Comisión de transporte"
-  fundraising_fee: "Cuota para recaudación de fondos"
   price_graph: "Gráfico de precios"
   included_tax: "Impuesto incluido"
   balance: "Saldo"
@@ -2139,8 +2126,6 @@ es_CO:
   distributor: "Distribuidor"
   enterprise_fees: "Comisiones de la Organización"
   process_my_order: "Procesar mi pedido"
-  delivery_instructions: Instrucciones de Entrega
-  delivery_method: Método de entrega
   fee_type: "Tipo de Comisión"
   tax_category: "Categoría del impuesto"
   description: "Descripción"
@@ -2189,17 +2174,11 @@ es_CO:
   spree_admin_enterprises_fees: "Comisiones de la Organización"
   spree_admin_enterprises_none_create_a_new_enterprise: "CREAR NUEVA ORGANIZACIÓN"
   spree_admin_enterprises_none_text: "No tienes ninguna organización"
-  spree_admin_enterprises_tabs_hubs: "NODOS"
   spree_admin_enterprises_producers_manage_products: "GESTIONAR PRODUCTOS"
   spree_admin_enterprises_create_new_product: "CREAR UN NUEVO PRODUCTO"
-  spree_admin_overview_action_required: "Acción Requerida"
-  spree_admin_overview_check_your_inbox: "Revisa tu bandeja de entrada para las siguientes instrucciones. Gracias!"
-  spree_admin_unit_value: Valor unidad
   spree_admin_unit_description: Descripción de la unidad
-  spree_admin_variant_unit: Variante
   spree_admin_variant_unit_scale: Escala de unidad
   spree_admin_supplier: Proveedora
-  spree_admin_product_category: categoría del producto
   spree_admin_variant_unit_name: Nombre de la variante
   unit_name: "Nombre de la unidad"
   change_package: "Cambiar Perfil"
@@ -2208,7 +2187,6 @@ es_CO:
   spree_admin_eg_collect_your_order: "p.ej. 'Por favor recoge tu pedido en la Calle del Hormiguero nº3'"
   spree_classification_primary_taxon_error: "La clasificación %{taxon} es la clasificación primaria de %{product} y no puede ser eliminada"
   spree_order_availability_error: "El Distribuidor o el Ciclo de Pedido no pueden suministrar los productos en su carrito"
-  spree_order_populator_error: "Este Distribuidor o Ciclo de Pedido no puede suministrar todos los productos en tu carrito. Por favor, elige otro."
   spree_order_populator_availability_error: "Este producto no está disponible por el distribuidor o Ciclo de Pedido elegido."
   spree_distributors_error: "Se debe seleccionar al menos un nodo"
   spree_user_enterprise_limit_error: "^ %{email} no está autorizado a tener más organizaciones (el límite es %{enterprise_limit})."
@@ -2237,12 +2215,7 @@ es_CO:
   enterprise_tos_agree: "Estoy de acuerdo con los Términos del Servicio"
   tax_settings: "Configuración de Impuestos"
   products_require_tax_category: "Los productos requieren categoría de impuesto"
-  admin_shared_address_1: "Dirección"
-  admin_shared_address_2: "Dirección (cont.)"
   admin_share_city: "Ciudad"
-  admin_share_zipcode: "Código Postal"
-  admin_share_country: "País"
-  admin_share_state: "Provincia"
   hub_sidebar_hubs: "Nodos"
   hub_sidebar_none_available: "Ninguno Disponible"
   hub_sidebar_manage: "Gestionar"
@@ -2971,7 +2944,6 @@ es_CO:
   payment: "Pago"
   payment_method: "Método de pago"
   shipment: "Envío"
-  shipment_inc_vat: "Envío incluido VAT"
   shipping_tax_rate: "Impuestos de envío"
   category: "Categoría"
   import_date: "Fecha de importación"

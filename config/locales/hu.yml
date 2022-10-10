@@ -174,7 +174,6 @@ hu:
     user_passwords:
       spree_user:
         updated_not_active: "Jelszava visszaállításra került, de e-mail-címét még nem erősítették meg."
-        updated: "Jelszava sikeresen megváltozott. Ön most bejelentkezett."
         send_instructions: "Néhány percen belül e-mailt fog kapni a fiók megerősítéséhez szükséges utasításokkal."
   home_page_alert_html: "Kezdőlap figyelmeztető HTML"
   hub_signup_case_studies_html: "Hub regisztrációs esettanulmányok HTML"
@@ -292,7 +291,6 @@ hu:
   select_ticket_printer: "Válasszon nyomtatót a jegyekhez"
   send_invoice: "Számla küldése"
   resend_confirmation: "Visszaigazolás újraküldése"
-  view_order: "Megtekintési sorrend"
   edit_order: "Rendelés szerkesztése"
   ship_order: "Szállítási rendelés"
   cancel_order: "Megrendelés visszavonása"
@@ -339,11 +337,9 @@ hu:
   supplier_only: Csak szállító
   has_shopfront: Van Shopfront
   weight: Súly
-  volume: Hangerő
   items: Tételek
   summary: Összegzés
   detailed: Részletes
-  updated: Frissítve
   'yes': "Igen"
   'no': "Nem"
   y: 'Y'''
@@ -373,7 +369,6 @@ hu:
   ship: "Szállítás"
   shipping_category: "Szállítási kategória"
   height: "Magasság"
-  width: "Szélesség"
   depth: "Mélység"
   payment_could_not_process: "A fizetést nem sikerült feldolgozni"
   payment_could_not_complete: "A fizetés nem hajtható végre"
@@ -427,7 +422,6 @@ hu:
     tags: Címkék
     variant: Változat
     weight: Súly
-    volume: Hangerő
     items: Tételek
     select_all: Mindet kiválaszt
     quick_search: Gyors keresés
@@ -1587,15 +1581,11 @@ hu:
   unconfirmed: nem megerősített
   days: napok
   authorization_failure: "Engedélyezési hiba"
-  label_shop: "Üzlet"
   label_shops: "Üzletek"
   label_map: "Térkép"
-  label_producer: "Termelő"
   label_producers: "Termelők"
   label_groups: "Csoportok"
   label_about: "Rólunk"
-  label_blog: "Blog"
-  label_support: "Támogatás"
   label_shopping: "Bevásárlás"
   label_login: "Belépés"
   label_logout: "Kijelentkezés"
@@ -1620,7 +1610,6 @@ hu:
   card_masked_digit: "x"
   card_expiry_abbreviation: "Exp"
   new_credit_card: "Új hitelkártya"
-  my_credit_cards: A hitelkártyáim
   add_new_credit_card: Új hitelkártya hozzáadása
   saved_cards: Mentett kártyák
   add_a_card: Adj hozzá egy kártyát
@@ -1951,7 +1940,6 @@ hu:
   hubs_filter_property: "Ingatlan"
   hubs_matches: "Úgy értetted?"
   hubs_intro: Vásároljon a környéken
-  hubs_distance: Legközelebb
   hubs_distance_filter: "Mutasson üzleteket %{location} közelében"
   shop_changeable_orders_alert_html:
     one: 'Megrendelése a következővel: <a href=''%{path}'' target=''_blank''>%{shop} / %{order}</a> nyitva áll ellenőrzésre. A módosításokat a következő időpontig hajthatja végre: %{oc_close}.'
@@ -1996,7 +1984,6 @@ hu:
   groups_producers: "Termelőink"
   groups_hubs: "A mi központjaink"
   groups_contact_web: Kapcsolatba lépni
-  groups_contact_social: Kövesse
   groups_contact_email: Küldj egy emailt nekünk
   groups_contact_website: Látogasd meg weboldalunkat
   groups_contact_facebook: Kövess minket Facebookon
@@ -2316,7 +2303,6 @@ hu:
   sales_fee: "Értékesítési díj"
   packing_fee: "Csomagolási díj"
   transport_fee: "Szállítási díj"
-  fundraising_fee: "Adománygyűjtési díj"
   price_graph: "Árgrafikon"
   included_tax: "Tartalmazza az adót"
   tax: "Adó"
@@ -2379,8 +2365,6 @@ hu:
   distributor: "Elosztó"
   enterprise_fees: "Vállalkozási díjak"
   process_my_order: "Rendelésem feldolgozása"
-  delivery_instructions: Szállítási útmutató
-  delivery_method: szállítási mód
   fee_type: "Díjtípus"
   tax_category: "Adókategória"
   description: "Leírás"
@@ -2432,17 +2416,12 @@ hu:
   spree_admin_enterprises_fees: "Vállalkozási díjak"
   spree_admin_enterprises_none_create_a_new_enterprise: "ÚJ VÁLLALKOZÁS LÉTREHOZÁSA"
   spree_admin_enterprises_none_text: "Még nincsenek vállalkozásai"
-  spree_admin_enterprises_tabs_hubs: "HUBS"
+  
   spree_admin_enterprises_producers_manage_products: "TERMÉKEK KEZELÉSE"
   spree_admin_enterprises_create_new_product: "ÚJ TERMÉK KÉSZÍTÉSE"
-  spree_admin_overview_action_required: "Cselekvést kíván"
-  spree_admin_overview_check_your_inbox: "Kérjük, nézze meg beérkezett üzeneteit a további utasításokért. Kösz!"
-  spree_admin_unit_value: Egységérték
   spree_admin_unit_description: Egység leírása
-  spree_admin_variant_unit: Változatos egység
   spree_admin_variant_unit_scale: Változat mértékegység skála
   spree_admin_supplier: Támogató
-  spree_admin_product_category: Termékkategória
   spree_admin_variant_unit_name: Változat egység neve
   unit_name: "Az egység neve"
   change_package: "Csomag módosítása"
@@ -2451,7 +2430,6 @@ hu:
   spree_admin_eg_collect_your_order: "például. \"Kérjük, vegye át rendelését a 123 Imaginary St, Northcote, 3070 címről\""
   spree_classification_primary_taxon_error: "A %{taxon} taxon a %{product} elsődleges taxonja, és nem törölhető"
   spree_order_availability_error: "forgalmazó vagy a rendelési ciklus nem tudja szállítani a kosárban lévő termékeket"
-  spree_order_populator_error: "Ez a forgalmazó vagy a rendelési ciklus nem tudja a kosárban lévő összes terméket szállítani. Kérjük, válasszon másikat."
   spree_order_cycle_error: "Kérjük, válasszon rendelési ciklust ehhez a rendeléshez."
   spree_order_populator_availability_error: "Ez a termék nem elérhető a kiválasztott forgalmazótól vagy rendelési ciklustól."
   spree_distributors_error: "Legalább egy hubot ki kell választani"
@@ -2481,12 +2459,7 @@ hu:
   enterprise_tos_agree: "Elfogadom a fenti szolgáltatási feltételeket"
   tax_settings: "Adóbeállítások"
   products_require_tax_category: "a termékek adókategóriát igényelnek"
-  admin_shared_address_1: "Cím"
-  admin_shared_address_2: "Cím (folyt.)"
   admin_share_city: "Város"
-  admin_share_zipcode: "Irányítószám"
-  admin_share_country: "Ország"
-  admin_share_state: "Állapot"
   hub_sidebar_hubs: "Hubok"
   hub_sidebar_none_available: "Nincs elérhető"
   hub_sidebar_manage: "Kezelése"
@@ -3274,7 +3247,6 @@ hu:
   payment: "Fizetés"
   payment_method: "Fizetési mód"
   shipment: "Szállítás"
-  shipment_inc_vat: "Szállítás ÁFA-val"
   shipping_tax_rate: "Szállítási adó mértéke"
   category: "Kategória"
   import_date: "Importálás dátuma"
@@ -4114,42 +4086,3 @@ hu:
         spree/payment:
           one: Fizetés
           other: Kifizetések
-  datetime:
-    distance_in_words:
-      about_x_hours:
-        one: kb 1 óra
-        other: kb %{count} óra
-      about_x_months:
-        one: kb 1 hónap
-        other: körülbelül %{count} hónap
-      about_x_years:
-        one: kb 1 év
-        other: körülbelül %{count} év
-      almost_x_years:
-        one: majdnem 1 éve
-        other: majdnem %{count} év
-      half_a_minute: fél perc
-      less_than_x_seconds:
-        one: kevesebb, mint 1 másodperc
-        other: kevesebb, mint %{count} másodperc
-      less_than_x_minutes:
-        one: kevesebb mint egy perc
-        other: kevesebb, mint %{count} perc
-      over_x_years:
-        one: több mint 1 év
-        other: több mint %{count} év
-      x_seconds:
-        one: "1 másodperc"
-        other: "%{count} másodperc"
-      x_minutes:
-        one: "1 perc"
-        other: "%{count} perc"
-      x_days:
-        one: "1 nap"
-        other: "%{count} nap"
-      x_months:
-        one: "1 hónap"
-        other: "%{count} hónap"
-      x_years:
-        one: "1 év"
-        other: "%{count} év"

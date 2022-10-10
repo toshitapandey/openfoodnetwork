@@ -174,7 +174,6 @@ de_CH:
     user_passwords:
       spree_user:
         updated_not_active: "Ihr Passwort wurde zurückgesetzt, aber ihre E-Mail-Adresse muss noch bestätigt werden."
-        updated: "Ihr Kennwort wurde erfolgreich geändert. Sie sind jetzt angemeldet."
         send_instructions: "Sie erhalten in Kürze eine E-Mail mit Anweisungen zur Bestätigung Ihres Kontos."
   home_page_alert_html: "Startseite Banner HTML"
   hub_signup_case_studies_html: "Registrierung für Läden - Beispiele HTML"
@@ -292,7 +291,6 @@ de_CH:
   select_ticket_printer: "Wählen Sie einen Drucker für die Belege."
   send_invoice: "Rechnung senden"
   resend_confirmation: "Bestätigung erneut senden"
-  view_order: "Bestellung anzeigen"
   edit_order: "Bestellung bearbeiten"
   ship_order: "Bestellung liefern"
   cancel_order: "Bestellung stornieren"
@@ -339,11 +337,9 @@ de_CH:
   supplier_only: Nur Lieferant
   has_shopfront: mit Online-Shop
   weight: Gewicht
-  volume: Volumen
   items: Artikel
   summary: Zusammenfassung
   detailed: Detailliert
-  updated: Gespeichert
   'yes': "Ja"
   'no': "Nein"
   y: 'J'
@@ -373,7 +369,6 @@ de_CH:
   ship: "Liefern"
   shipping_category: "Lieferkategorie"
   height: "Höhe"
-  width: "Breite"
   depth: "Tiefe"
   payment_could_not_process: "Die Zahlung konnte nicht verarbeitet werden"
   payment_could_not_complete: "Die Zahlung konnte nicht abgeschlossen werden"
@@ -427,7 +422,6 @@ de_CH:
     tags: Stichwörter
     variant: Produktvariante
     weight: Gewicht
-    volume: Volumen
     items: Artikel
     select_all: Alle auswählen
     quick_search: Schnellsuche
@@ -1602,15 +1596,11 @@ de_CH:
   unconfirmed: unbestätigt
   days: Tage
   authorization_failure: "Fehler bei der Autorisierung"
-  label_shop: "Laden"
   label_shops: "Einkaufen"
   label_map: "Karte"
-  label_producer: "Produzent"
   label_producers: "Produzenten"
   label_groups: "Gruppen"
   label_about: "Über uns"
-  label_blog: "Blog"
-  label_support: "Hilfe"
   label_shopping: "Einkaufen"
   label_login: "Einloggen"
   label_logout: "Ausloggen"
@@ -1635,7 +1625,6 @@ de_CH:
   card_masked_digit: "X"
   card_expiry_abbreviation: "Gültig"
   new_credit_card: "Neue Kreditkarte"
-  my_credit_cards: Meine Kreditkarten
   add_new_credit_card: Neue Kreditkarte hinzufügen
   saved_cards: Gespeicherte Kreditkarten
   add_a_card: Kreditkarte hinzufügen
@@ -1967,7 +1956,6 @@ de_CH:
   hubs_filter_property: "Eigenschaften"
   hubs_matches: "Ergebnisse für"
   hubs_intro: Wo möchten Sie regional einkaufen?
-  hubs_distance: In der Nähe von
   hubs_distance_filter: "Läden in der Nähe von %{location} suchen"
   shop_changeable_orders_alert_html:
     one: Prüfen Sie Ihre Bestellung unter <a href='%{path}' target='_blank'>%{shop}/%{order}</a>. Sie können Änderungen bis %{oc_close} vornehmen.
@@ -2012,7 +2000,6 @@ de_CH:
   groups_producers: "Unsere Produzenten"
   groups_hubs: "Unsere Läden"
   groups_contact_web: Kontakt
-  groups_contact_social: Folgen
   groups_contact_email: Schreiben Sie uns eine E-Mail
   groups_contact_website: Besuchen Sie unsere Homepage
   groups_contact_facebook: Folgen Sie uns auf Facebook
@@ -2332,7 +2319,6 @@ de_CH:
   sales_fee: "Verkaufsgebühr"
   packing_fee: "Verpackungsgebühr"
   transport_fee: "Liefergebühr"
-  fundraising_fee: "Fundraising-Gebühr"
   price_graph: "Preisdiagramm"
   included_tax: "inkl. Steuern"
   tax: "Steuern"
@@ -2395,8 +2381,6 @@ de_CH:
   distributor: "Verteilstelle"
   enterprise_fees: "Gebühren"
   process_my_order: "Verarbeite meine Bestellung"
-  delivery_instructions: Informationen zur Lieferung
-  delivery_method: Lieferoption
   fee_type: "Art der Gebühr"
   tax_category: "Steuerkategorie"
   description: "Beschreibung"
@@ -2448,17 +2432,13 @@ de_CH:
   spree_admin_enterprises_fees: "Gebühren"
   spree_admin_enterprises_none_create_a_new_enterprise: "ERSTELLEN SIE EIN NEUES UNTERNEHMEN"
   spree_admin_enterprises_none_text: "Sie haben noch keine Unternehmen."
-  spree_admin_enterprises_tabs_hubs: "HUBS"
+  
   spree_admin_enterprises_producers_manage_products: "PRODUKTE VERWALTEN"
   spree_admin_enterprises_create_new_product: "NEUES PRODUKT"
-  spree_admin_overview_action_required: "Handlung erforderlich"
-  spree_admin_overview_check_your_inbox: "Bitte überprüfen Sie Ihren Posteingang für weitere Anweisungen. Vielen Dank!"
-  spree_admin_unit_value: Einheitswert
+  
   spree_admin_unit_description: Einheit Beschreibung
-  spree_admin_variant_unit: Varianteneinheit
   spree_admin_variant_unit_scale: Einheit der Produktvariante
   spree_admin_supplier: Lieferant
-  spree_admin_product_category: Produktkategorie
   spree_admin_variant_unit_name: Einheit der Produktvariante
   unit_name: "Einheitenname"
   change_package: "Paket ändern"
@@ -2467,7 +2447,6 @@ de_CH:
   spree_admin_eg_collect_your_order: "z. B. 'Bitte holen Sie Ihre Bestellung in der Gartenstrasse 123 in 30701 Nordwestheim ab.'"
   spree_classification_primary_taxon_error: "Kategorie %{taxon} ist die primäre Kategorie von %{product} und kann nicht gelöscht werden."
   spree_order_availability_error: "Verteilstelle oder Bestellzyklus kann die Produkte in Ihrem Warenkorb nicht liefern"
-  spree_order_populator_error: "Diese Verteilstelle oder dieser Bestellzyklus kann nicht alle Produkte aus Ihrem Warenkorb liefern. Bitte ändern Sie Ihre Auswahl."
   spree_order_cycle_error: "Bitte wählen Sie einen Bestellzyklus für diese Bestellung aus."
   spree_order_populator_availability_error: "Dieses Produkt ist bei der ausgewählten Verteilstelle oder im ausgewählten Bestellzyklus nicht verfügbar."
   spree_distributors_error: "Mindestens ein Hub muss ausgewählt sein."
@@ -2497,12 +2476,7 @@ de_CH:
   enterprise_tos_agree: "Ich stimme den oben genannten Nutzungsbedingungen zu"
   tax_settings: "Steuereinstellungen"
   products_require_tax_category: "Produkte benötigen eine Steuerkategorie."
-  admin_shared_address_1: "Adresse"
-  admin_shared_address_2: "Adresszusatz (optional)"
   admin_share_city: "Ort"
-  admin_share_zipcode: "Postleitzahl"
-  admin_share_country: "Land"
-  admin_share_state: "Bundesland"
   hub_sidebar_hubs: "Hubs"
   hub_sidebar_none_available: "Keine verfügbar"
   hub_sidebar_manage: "Verwalten"
@@ -3257,7 +3231,7 @@ de_CH:
   payment: "Zahlung"
   payment_method: "Zahlungsart"
   shipment: "Lieferung"
-  shipment_inc_vat: "Liefergebühr inkl. Mehrwertsteuer"
+  
   shipping_tax_rate: "Steuersatz der Liefergebühr"
   category: "Kategorie"
   import_date: "Importdatum"
@@ -4098,42 +4072,3 @@ de_CH:
           other: Zahlungen
     unit: Einheit
     per_unit: pro Einheit
-  datetime:
-    distance_in_words:
-      about_x_hours:
-        one: etwa 1 Stunde
-        other: etwa %{count} Stunden
-      about_x_months:
-        one: etwa 1 Monat
-        other: etwa %{count} Monaten
-      about_x_years:
-        one: etwa 1 Jahr
-        other: etwa %{count} Jahren
-      almost_x_years:
-        one: fast 1 Jahr
-        other: fast %{count} Jahren
-      half_a_minute: 30 Sekunden
-      less_than_x_seconds:
-        one: weniger als 1 Sekunde
-        other: weniger als %{count} Sekunden
-      less_than_x_minutes:
-        one: weniger als einer Minute
-        other: weniger als %{count} Minuten
-      over_x_years:
-        one: über 1 Jahr
-        other: über %{count} Jahren
-      x_seconds:
-        one: "1 Sekunde"
-        other: "%{count} Sekunden"
-      x_minutes:
-        one: "1 Minute"
-        other: "%{count} Minuten"
-      x_days:
-        one: "1 Tag"
-        other: "%{count} Tagen"
-      x_months:
-        one: "1 Monat"
-        other: "%{count} Monaten"
-      x_years:
-        one: "1 Jahr"
-        other: "%{count} Jahren"

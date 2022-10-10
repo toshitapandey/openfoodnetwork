@@ -174,7 +174,6 @@ fr_CH:
     user_passwords:
       spree_user:
         updated_not_active: "Votre mot de passe a bien été réinitialisé, mais votre email n'a pas encore été confirmé."
-        updated: "Votre mot de passer a été changé avec succès. Vous êtes maintenant connecté(e)."
         send_instructions: "Un email a été envoyé avec des instructions pour confirmer votre adresse email. Vérifiez votre boite mail!"
   home_page_alert_html: "Bannière d'alerte sur la page d'acceuil en HTML"
   hub_signup_case_studies_html: "HTML page cas d'études hub"
@@ -292,7 +291,6 @@ fr_CH:
   select_ticket_printer: "Choisir l'imprimante tickets"
   send_invoice: "Envoyer la facture"
   resend_confirmation: "Renvoyer la confirmation"
-  view_order: "Voir la commande"
   edit_order: "Editer la commande"
   ship_order: "Envoyer la commande"
   cancel_order: "Annuler la commande"
@@ -339,11 +337,9 @@ fr_CH:
   supplier_only: ne gère pas de boutique
   has_shopfront: gère une boutique
   weight: Poids
-  volume: Volume
   items: Pièces
   summary: Résumé
   detailed: Détaillé
-  updated: Mis à jour
   'yes': "Oui"
   'no': "Non"
   y: 'O'
@@ -373,7 +369,6 @@ fr_CH:
   ship: "Expédier"
   shipping_category: "Condition de transport"
   height: "Hauteur"
-  width: "Largeur"
   depth: "Profondeur"
   payment_could_not_process: "Le paiement n'a pas pu être traité"
   payment_could_not_complete: "Le paiement n'a pas pu être finalisé"
@@ -427,7 +422,6 @@ fr_CH:
     tags: Tags
     variant: Variante
     weight: Poids
-    volume: Volume
     items: Pièce
     select_all: Tout sélectionner
     quick_search: Recherche rapide
@@ -1602,15 +1596,11 @@ fr_CH:
   unconfirmed: non confirmé
   days: jours
   authorization_failure: "Echec de l'autorisation"
-  label_shop: "Boutique"
   label_shops: "Boutiques"
   label_map: "Carte"
-  label_producer: "Producteur"
   label_producers: "Producteurs"
   label_groups: "Groupes"
   label_about: "A propos"
-  label_blog: "Blog"
-  label_support: "Soutien"
   label_shopping: "Achats"
   label_login: "Se connecter"
   label_logout: "Déconnexion"
@@ -1635,7 +1625,6 @@ fr_CH:
   card_masked_digit: "X"
   card_expiry_abbreviation: "Exp"
   new_credit_card: "Nouvelle carte de crédit"
-  my_credit_cards: Mes cartes bancaires
   add_new_credit_card: Ajouter nouvelle carte de crédit
   saved_cards: Sauvegarder cartes
   add_a_card: Ajouter une Carte
@@ -1967,7 +1956,6 @@ fr_CH:
   hubs_filter_property: "Propriétés / labels"
   hubs_matches: "Vous voulez dire?"
   hubs_intro: Passez commande près de chez vous
-  hubs_distance: Le plus près de
   hubs_distance_filter: "Afficher les boutiques près de %{location}"
   shop_changeable_orders_alert_html:
     one: Votre commande avec <a href='%{path}' target='_blank'>%{shop}/%{order}</a> est disponible pour vérification. Vous pouvez réaliser des modifications jusqu'au %{oc_close}.
@@ -2012,7 +2000,6 @@ fr_CH:
   groups_producers: "Nos producteurs"
   groups_hubs: "Nos boutiques"
   groups_contact_web: Contact
-  groups_contact_social: Suivre
   groups_contact_email: Nous écrire
   groups_contact_website: Visiter notre site web
   groups_contact_facebook: Nous suivre sur Facebook
@@ -2332,7 +2319,6 @@ fr_CH:
   sales_fee: "Frais de ventes/marketing"
   packing_fee: "Frais de packaging"
   transport_fee: "Frais logistiques"
-  fundraising_fee: "Frais recherche de financement"
   price_graph: "Légende détail du prix"
   included_tax: "Inclut TVA"
   tax: "Taxe"
@@ -2395,8 +2381,6 @@ fr_CH:
   distributor: "Distributeur"
   enterprise_fees: "Marges et commissions"
   process_my_order: "Valider ma Commande"
-  delivery_instructions: Instructions de Livraison
-  delivery_method: Méthode de Livraison
   fee_type: "Type de marge"
   tax_category: "TVA applicable"
   description: "Description"
@@ -2448,17 +2432,14 @@ fr_CH:
   spree_admin_enterprises_fees: "Marges et commissions"
   spree_admin_enterprises_none_create_a_new_enterprise: "CRÉER UNE NOUVELLE ENTREPRISE"
   spree_admin_enterprises_none_text: "Vous n'avez pas encore d'entreprise"
-  spree_admin_enterprises_tabs_hubs: "BOUTIQUES"
+  
   spree_admin_enterprises_producers_manage_products: "GÉRER LES PRODUITS"
   spree_admin_enterprises_create_new_product: "CRÉER UN NOUVEAU PRODUIT"
-  spree_admin_overview_action_required: "Action requise"
-  spree_admin_overview_check_your_inbox: "Veuillez vérifier votre boîte mail pour les prochaines étapes. Merci !"
-  spree_admin_unit_value: Nb Unités
+  
+  
   spree_admin_unit_description: 'Description complémentaire (ex: "(vrac)")'
-  spree_admin_variant_unit: Unité
   spree_admin_variant_unit_scale: Echelle unitaire (en g ou L)
   spree_admin_supplier: Fournisseur
-  spree_admin_product_category: Catégorie Produit
   spree_admin_variant_unit_name: Nom de la pièce (si vendu à la pièce)
   unit_name: "Unité"
   change_package: "Changer de type de profil"
@@ -2467,7 +2448,6 @@ fr_CH:
   spree_admin_eg_collect_your_order: "ex : \"Veuillez récupérer votre commande au 34 rue Victor Hugo, 75018 Paris\""
   spree_classification_primary_taxon_error: "La catégorie %{taxon} est utilisée par %{product} et ne peut être supprimée"
   spree_order_availability_error: "Le distributeur ne peut fournir les produits de votre panier pour ce cycle de vente."
-  spree_order_populator_error: "Le distributeur ne peut fournir tous les produits de votre panier pour ce cycle de vente. Merci de choisir un autre distributeur ou un autre cycle de vente."
   spree_order_cycle_error: "Veuillez sélectionner une option pour cette commande."
   spree_order_populator_availability_error: "Ce produit n'est pas disponible pour ce cycle de vente / distributeur."
   spree_distributors_error: "Veuillez sélectionner au moins une boutique"
@@ -2497,12 +2477,7 @@ fr_CH:
   enterprise_tos_agree: "Je valide les Conditions Générales d'Utilisation de Open Food Suisse."
   tax_settings: "Paramètres TVA"
   products_require_tax_category: "vous devez choisir la TVA applicable"
-  admin_shared_address_1: "Adresse"
-  admin_shared_address_2: "Adresse (suite)"
   admin_share_city: "Ville"
-  admin_share_zipcode: "Code postal"
-  admin_share_country: "Pays"
-  admin_share_state: "Département"
   hub_sidebar_hubs: "Boutiques"
   hub_sidebar_none_available: "Aucun disponible"
   hub_sidebar_manage: "Gérer"
@@ -3301,7 +3276,7 @@ fr_CH:
   payment: "Paiement"
   payment_method: "Méthode de paiement"
   shipment: "Livraison"
-  shipment_inc_vat: "Livraison incluant TVA"
+  
   shipping_tax_rate: "Taux TVA livraison"
   category: "Catégorie"
   import_date: "Date d'import (si import)"
@@ -4145,54 +4120,3 @@ fr_CH:
           other: Paiements
     unit: unité
     per_unit: par unité
-  datetime:
-    distance_in_words:
-      about_x_hours:
-        one: environ 1 heure
-        many: environ %{count} heures
-        other: environ %{count} heures
-      about_x_months:
-        one: environ 1 mois
-        many: environ %{count} mois
-        other: environ %{count} mois
-      about_x_years:
-        one: environ 1 année
-        many: environ %{count} années
-        other: environ %{count} années
-      almost_x_years:
-        one: presque 1 année
-        many: presque %{count} années
-        other: presque %{count} années
-      half_a_minute: moins d'une minute
-      less_than_x_seconds:
-        one: moins d' 1 seconde
-        many: moins de %{count} secondes
-        other: moins de %{count} secondes
-      less_than_x_minutes:
-        one: moins d'une minute
-        many: moins de %{count} minutes
-        other: moins de %{count} minutes
-      over_x_years:
-        one: plus d' 1 an
-        many: plus de %{count} années
-        other: plus de %{count} années
-      x_seconds:
-        one: "1 seconde"
-        many: "%{count} secondes"
-        other: "%{count} secondes"
-      x_minutes:
-        one: "1 minute"
-        many: "%{count} minutes"
-        other: "%{count} minutes"
-      x_days:
-        one: "1 jour"
-        many: "%{count} jours"
-        other: "%{count} jours"
-      x_months:
-        one: "1 mois"
-        many: "%{count} mois"
-        other: "%{count} mois"
-      x_years:
-        one: "1 an"
-        many: "%{count} ans"
-        other: "%{count} ans"
