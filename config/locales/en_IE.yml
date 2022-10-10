@@ -1880,11 +1880,8 @@ en_IE:
   products_elsewhere: "Products found elsewhere"
   email_confirmed: "Thank you for confirming your email address."
   email_confirmation_activate_account: "Before we can activate your new account, we need to confirm your email address."
-  email_confirmation_greeting: "Hi, %{contact}!"
-  email_confirmation_profile_created: "A profile for %{name} has been successfully created! To activate your Profile we need to confirm this email address."
   email_confirmation_click_link: "Please click the link below to confirm your email and to continue setting up your profile."
   email_confirmation_link_label: "Confirm this email address »"
-  email_confirmation_help_html: "After confirming your email you can access your administration account for this enterprise. See the %{link} to find out more about %{sitename}'s features and to start using your profile or online store."
   email_confirmation_notice_unexpected: "You received this message because you signed up on %{sitename}, or were invited to sign up by someone you probably know. If you don't understand why you are receiving this email, please write to %{contact}."
   email_social: "Connect with Us:"
   email_contact: "Email us:"
@@ -1909,13 +1906,11 @@ en_IE:
   email_payment_not_paid: NOT PAID
   email_payment_description: Payment Description at Checkout
   email_payment_summary: Payment summary
-  email_payment_method: "Paying via:"
   email_so_placement_intro_html: "You have a new order with <strong>%{distributor}</strong>"
   email_so_placement_details_html: "Here are the details of your order for <strong>%{distributor}</strong>:"
   email_so_placement_changes: "Unfortunately, not all products that you requested were available. The original quantities that you requested appear crossed-out below."
   email_so_payment_success_intro_html: "An automatic payment has been processed for your order from <strong>%{distributor}</strong>."
   email_so_placement_explainer_html: "This order was automatically created for you."
-  email_so_edit_true_html: "You can <a href='%{order_url}'>make changes</a> until orders close on %{orders_close_at}."
   email_so_edit_false_html: "You can <a href='%{order_url}'>view details of this order</a> at any time."
   email_so_contact_distributor_html: "If you have any questions you can contact <strong>%{distributor}</strong> via %{email}."
   email_so_contact_distributor_to_change_order_html: "This order was automatically created for you. You can make changes until orders close on %{orders_close_at} by contacting <strong>%{distributor}</strong> via %{email}."
@@ -2024,8 +2019,6 @@ en_IE:
   products_no_results_html: "Sorry, no results found for %{query}"
   products_clear_search: "Clear search"
   search_no_results_html: "Sorry, no results found for %{query}. Try another search?"
-  components_profiles_popover: "Profiles do not have a shopfront on the Open Food Network, but may have their own physical or online shop elsewhere"
-  components_profiles_show: "Show profiles"
   components_filters_nofilters: "No filters"
   components_filters_clearfilters: "Clear all filters"
   groups_title: Groups
@@ -2038,7 +2031,6 @@ en_IE:
   groups_hubs: "Our hubs"
   groups_contact_web: Contact
   groups_contact_social: Follow
-  groups_contact_address: Address
   groups_contact_email: Email us
   groups_contact_website: Visit our website
   groups_contact_facebook: Follow us on Facebook
@@ -2480,8 +2472,6 @@ en_IE:
   spree_admin_enterprises_tabs_hubs: "HUBS"
   spree_admin_enterprises_producers_manage_products: "MANAGE PRODUCTS"
   spree_admin_enterprises_create_new_product: "CREATE A NEW PRODUCT"
-  spree_admin_single_enterprise_alert_mail_confirmation: "Please confirm the email address for"
-  spree_admin_single_enterprise_alert_mail_sent: "We've sent an email to"
   spree_admin_overview_action_required: "Action Required"
   spree_admin_overview_check_your_inbox: "Please check your inbox for further instructions. Thanks!"
   spree_admin_unit_value: Unit Value
@@ -2544,8 +2534,6 @@ en_IE:
   report_customers_distributor: "Distributor"
   report_customers_supplier: "Supplier"
   report_customers_cycle: "Order Cycle"
-  report_customers_type: "Report Type"
-  report_customers_csv: "Download as csv"
   report_producers: "Producers"
   report_type: "Report Type"
   report_hubs: "Hubs"
@@ -2656,7 +2644,6 @@ en_IE:
   report_header_weight: Weight
   report_header_sum_total: Sum Total
   report_header_date_of_order: Date of Order
-  report_header_amount_owing: Amount Owing
   report_header_amount_paid: Amount Paid
   report_header_units_required: Units Required
   report_header_remainder: Remainder
@@ -2672,13 +2659,11 @@ en_IE:
   report_header_payment_type: Payment Type
   report_header_item_price: "Item (%{currency})"
   report_header_item_fees_price: "Item + Fees (%{currency})"
-  report_header_admin_handling_fees: "Admin & Handling (%{currency})"
   report_header_ship_price: "Ship (%{currency})"
   report_header_pay_fee_price: "Pay fee (%{currency})"
   report_header_total_price: "Total (%{currency})"
   report_header_product_total_price: "Product Total (%{currency})"
   report_header_shipping_total_price: "Shipping Total (%{currency})"
-  report_header_outstanding_balance_price: "Outstanding Balance (%{currency})"
   report_header_eft_price: "EFT (%{currency})"
   report_header_paypal_price: "PayPal (%{currency})"
   report_header_sku: Product Code
@@ -2745,8 +2730,6 @@ en_IE:
   enterprise_fee_whole_order: Whole order
   enterprise_fee_by: "%{type} fee by %{role} %{enterprise_name}"
   validation_msg_relationship_already_established: "^That relationship is already established."
-  validation_msg_at_least_one_hub: "^At least one hub must be selected"
-  validation_msg_tax_category_cant_be_blank: "^Tax Category can't be blank"
   validation_msg_is_associated_with_an_exising_customer: "is associated with an existing customer"
   content_configuration_pricing_table: "(TODO: Pricing table)"
   content_configuration_case_studies: "(TODO: Case studies)"
@@ -3321,7 +3304,6 @@ en_IE:
     add_state: "Add state"
     adjustment: "Adjustment"
     all: "All"
-    associated_adjustment_closed: "Associated adjustment closed"
     back_to_adjustments_list: "Back to adjustments"
     back_to_users_list: "Back to users"
     back_to_zones_list: "Back to zones"

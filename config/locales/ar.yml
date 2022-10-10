@@ -1842,11 +1842,8 @@ ar:
   products_elsewhere: "المنتجات الموجودة في مكان آخر"
   email_confirmed: "شكرا لتأكيد عنوان بريدك الإلكتروني."
   email_confirmation_activate_account: "قبل أن نتمكن من تنشيط حسابك الجديد ، نحتاج إلى تأكيد عنوان بريدك الإلكتروني."
-  email_confirmation_greeting: "مرحبًا ، %{contact}!"
-  email_confirmation_profile_created: "تم إنشاء الملف الشخصي لل%{name} بنجاح! لتنشيط ملفك الشخصي ، نحتاج إلى تأكيد عنوان البريد الإلكتروني هذا."
   email_confirmation_click_link: "يرجى النقر على الرابط أدناه لتأكيد بريدك الإلكتروني ومتابعة إعداد ملفك الشخصي."
   email_confirmation_link_label: "تأكيد عنوان البريد الإلكتروني »"
-  email_confirmation_help_html: "بعد تأكيد بريدك الإلكتروني ، يمكنك الوصول إلى حساب الإدارة الخاص بك لهذه المؤسسة. راجع %{link} لمعرفة المزيد حول ميزات %{sitename} ولبدء استخدام ملفك الشخصي أو متجرك الإلكتروني."
   email_confirmation_notice_unexpected: "لقد تلقيت هذه الرسالة لأنك قمت بالتسجيل في %{sitename} ، أو تمت دعوتك للاشتراك من قبل شخص تعرفه على الأرجح. إذا كنت لا تفهم سبب تلقي هذا البريد الإلكتروني ، فيرجى الكتابة إلى %{contact}."
   email_social: "اتصل بنا:"
   email_contact: "ارسل لنا عبر البريد الإلكتروني:"
@@ -1871,13 +1868,11 @@ ar:
   email_payment_not_paid: لم يتم الدفع
   email_payment_description: وصف الدفع عند الخروج
   email_payment_summary: ملخص الدفع
-  email_payment_method: "الدفع عن طريق:"
   email_so_placement_intro_html: "لديك طلب جديد مع <strong>%{distributor}</strong>"
   email_so_placement_details_html: "هنا تفاصيل طلبك ل <strong>%{distributor}</strong> :"
   email_so_placement_changes: "لسوء الحظ ، لم تكن جميع المنتجات التي طلبتها متاحة. تظهر الكميات الأصلية التي طلبتها مشطوبًا أدناه."
   email_so_payment_success_intro_html: "تمت معالجة الدفع التلقائي لطلبك من <strong>%{distributor}</strong> ."
   email_so_placement_explainer_html: "تم إنشاء هذا الطلب تلقائيًا لك."
-  email_so_edit_true_html: "يمكنك <a href='%{order_url}'>إجراء تغييرات</a> حتى يتم إغلاق الطلبات على %{orders_close_at}."
   email_so_edit_false_html: "يمكنك <a href='%{order_url}'>عرض تفاصيل هذا الطلب</a> في أي وقت."
   email_so_contact_distributor_html: "إذا كان لديك أي أسئلة يمكنك الاتصال <strong>%{distributor}</strong> عبر %{email}."
   email_so_contact_distributor_to_change_order_html: "تم إنشاء هذا الطلب تلقائيًا لك. يمكنك إجراء تغييرات حتى يتم إغلاق الطلبات على %{orders_close_at} عن طريق الاتصال <strong>%{distributor}</strong> عبر %{email}."
@@ -1986,8 +1981,6 @@ ar:
   products_no_results_html: "عذرا ، لم يتم العثور على نتائج لـ %{query}"
   products_clear_search: "مسح البحث"
   search_no_results_html: "عذرًا ، لم يتم العثور على نتائج لـ %{query}. جرب بحث آخر؟"
-  components_profiles_popover: "لا تملك ملفات التعريف واجهة متجر على شبكة الغذاء المفتوح ، ولكن قد يكون لها متجر على ارض الواقع أو عبر الإنترنت في أي مكان آخر"
-  components_profiles_show: "إظهار الملفات الشخصية"
   components_filters_nofilters: "لا يوجد مرشحات"
   components_filters_clearfilters: "مسح جميع المرشحات"
   groups_title: مجموعات
@@ -2000,7 +1993,6 @@ ar:
   groups_hubs: "مراكز مبيعاتنا "
   groups_contact_web: اتصل
   groups_contact_social: إتبع
-  groups_contact_address: عنوان
   groups_contact_email: ارسل لنا عبر البريد الإلكتروني
   groups_contact_website: زيارة موقعنا على الانترنت
   groups_contact_facebook: تابعنا على الفيسبوك
@@ -2439,8 +2431,6 @@ ar:
   spree_admin_enterprises_tabs_hubs: "مراكز بيع"
   spree_admin_enterprises_producers_manage_products: "إدارة المنتجات"
   spree_admin_enterprises_create_new_product: "إنشاء منتج جديد"
-  spree_admin_single_enterprise_alert_mail_confirmation: "يرجى تأكيد عنوان البريد الإلكتروني ل"
-  spree_admin_single_enterprise_alert_mail_sent: "لقد أرسلنا رسالة إلكترونية إلى"
   spree_admin_overview_action_required: "الإجراء مطلوب"
   spree_admin_overview_check_your_inbox: "يرجى التحقق من صندوق الوارد الخاص بك لمزيد من التعليمات. شكر!"
   spree_admin_unit_value: قيمة النوع 
@@ -2503,8 +2493,6 @@ ar:
   report_customers_distributor: "الموزع"
   report_customers_supplier: "المورد"
   report_customers_cycle: "ترتيب الدورة"
-  report_customers_type: "نوع التقرير"
-  report_customers_csv: "تنزيل بتنسيق CSV"
   report_producers: "المنتجين"
   report_type: "نوع التقرير"
   report_hubs: "مراكز بيع"
@@ -2608,7 +2596,6 @@ ar:
   report_header_weight: وزن
   report_header_sum_total: اجمالي
   report_header_date_of_order: تاريخ الطلب
-  report_header_amount_owing: المبلغ المستحق
   report_header_amount_paid: المبلغ المدفوع
   report_header_units_required: الوحدات المطلوبة
   report_header_remainder: تنبيه
@@ -2624,13 +2611,11 @@ ar:
   report_header_payment_type: نوع الدفع
   report_header_item_price: "عنصر (%{currency})"
   report_header_item_fees_price: "البند + الرسوم (%{currency})"
-  report_header_admin_handling_fees: "الإدارة والمناولة (%{currency})"
   report_header_ship_price: "الشحن(%{currency})"
   report_header_pay_fee_price: "دفع الرسوم (%{currency})"
   report_header_total_price: "المجموع (%{currency})"
   report_header_product_total_price: "إجمالي المنتج (%{currency})"
   report_header_shipping_total_price: "إجمالي الشحن (%{currency})"
-  report_header_outstanding_balance_price: "الرصيد الباقي(%{currency})"
   report_header_eft_price: "تحويل الأموال الإلكتروني (%{currency})"
   report_header_paypal_price: "PayPal (%{currency})"
   report_header_sku: SKU
@@ -2692,8 +2677,6 @@ ar:
   enterprise_fee_whole_order: الطلب كله
   enterprise_fee_by: "%{type} رسوم بواسطة %{role} %{enterprise_name}"
   validation_msg_relationship_already_established: "^ تم تأسيس هذه العلاقة بالفعل."
-  validation_msg_at_least_one_hub: "^ يجب تحديد مركز واحد على الأقل"
-  validation_msg_tax_category_cant_be_blank: "^ فئة الضرائب لا يمكن أن تكون فارغة"
   validation_msg_is_associated_with_an_exising_customer: "مرتبط مع العملاء الحاليين"
   content_configuration_pricing_table: "(TODO: جدول التسعير)"
   content_configuration_case_studies: "(TODO: دراسات الحالة)"
@@ -3349,7 +3332,6 @@ ar:
     add_state: "أضف المدينة"
     adjustment: "تعديل"
     all: "الكل"
-    associated_adjustment_closed: "تم إغلاق التعديل المرتبط"
     back_to_adjustments_list: "رجوع إلى التعديلات"
     back_to_users_list: "رجوع إلى المستخدمين"
     back_to_zones_list: "العودة إلى المناطق"

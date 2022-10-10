@@ -1856,11 +1856,8 @@ ko:
   products_elsewhere: "다른 곳에서 발견된 제품"
   email_confirmed: "이메일 주소를 확인해주셔서 감사합니다."
   email_confirmation_activate_account: "새 계정을 활성화하기 전에 이메일 주소를 확인해야 합니다."
-  email_confirmation_greeting: "안녕하세요,  %{contact}님!"
-  email_confirmation_profile_created: "%{name}에 대한 프로필이 성공적으로 생성되었습니다! 프로필을 활성화하려면 이 이메일 주소를 확인해야 합니다."
   email_confirmation_click_link: "아래 링크를 클릭하여 이메일을 확인하고 프로필 설정을 계속하십시오."
   email_confirmation_link_label: "이 이메일 주소 확인 »"
-  email_confirmation_help_html: "이메일을 확인한 후 이 기업의 관리 계정에 접근할 수 있습니다. %{sitename}의 기능에 대해 자세히 알아보고 프로필 또는 온라인 상점을 사용하려면 %{link}를 참조하십시오."
   email_confirmation_notice_unexpected: "%{sitename}으로 등록하셨거나 아는 사람의 초대로 이 메시지를 받으셨습니다. 이 이메일을 받는 이유를 이해하지 못하셨을 경우, %{contact}로 메세지를 보내십시오."
   email_social: "연락 방법 :"
   email_contact: "이메일 주소 :"
@@ -1885,13 +1882,11 @@ ko:
   email_payment_not_paid: 무료
   email_payment_description: 체크아웃 시 결제 내용
   email_payment_summary: 결제 요약
-  email_payment_method: "지불 방법 :"
   email_so_placement_intro_html: "<strong>%{distributor}</strong>의 새 주문이 있습니다."
   email_so_placement_details_html: "<strong>%{distributor}</strong> 주문의 세부사항이 있습니다 :"
   email_so_placement_changes: "안타깝게도,  요청하셨던 모든 제품이 사용 가능하지 않습니다. 요청하셨던 원래 수량은 다음와 같습니다."
   email_so_payment_success_intro_html: "<strong>%{distributor}</strong>의 주문에 대한 자동 결제가 처리되었습니다."
   email_so_placement_explainer_html: "이 주문은 사용자를 위해 자동으로 작성되었습니다."
-  email_so_edit_true_html: "%{orders_close_at}때까지 <a href='%{order_url}'>변경</a>할 수 있습니다."
   email_so_edit_false_html: "언제든지 <a href='%{order_url}'>이 주문의 세부 정보</a>를 볼 수 있습니다."
   email_so_contact_distributor_html: "질문이 있으시다면 %{email}를 통해 <strong>%{distributor}</strong>에 연락할 수 있습니다."
   email_so_contact_distributor_to_change_order_html: "이 주문은 사용자를 위해 자동으로 작성되었습니다. 주문이 취소될 때 까지 %{email}을 통해 <strong>%{distributor}</strong>에 연락함으로써 %{orders_close_at}에 대하여 변경할 수 있습니다."
@@ -2000,8 +1995,6 @@ ko:
   products_no_results_html: "죄송합니다. %{query}에 대한 결과를 찾을 수 없습니다."
   products_clear_search: "검색 지우기"
   search_no_results_html: "죄송합니다. %{query}에 대한 결과를 찾을 수 없습니다. 다른 검색을 시도하시겠습니까?"
-  components_profiles_popover: "프로필은 Open Food Network에서 매장이 없지만, 다른 곳에 자체적인 물리적 또는 온라인 매장이 있을 수 있습니다."
-  components_profiles_show: "프로필 보기"
   components_filters_nofilters: "필터 없음"
   components_filters_clearfilters: "모든 필터 지우기"
   groups_title: 그룹
@@ -2014,7 +2007,6 @@ ko:
   groups_hubs: "우리 허브"
   groups_contact_web: 연락처
   groups_contact_social: 팔로우
-  groups_contact_address: 주소
   groups_contact_email: 이메일 주소
   groups_contact_website: 저희 사이트로 놀러오세요
   groups_contact_facebook: Facebook으로 저희를 팔로우 해보세요
@@ -2453,8 +2445,6 @@ ko:
   spree_admin_enterprises_tabs_hubs: "허브"
   spree_admin_enterprises_producers_manage_products: "생산품 관리"
   spree_admin_enterprises_create_new_product: "새 생산품 생성하기"
-  spree_admin_single_enterprise_alert_mail_confirmation: "이메일 주소를 확인해 주십시요."
-  spree_admin_single_enterprise_alert_mail_sent: "이메일을 전송했습니다"
   spree_admin_overview_action_required: "필요한 작업"
   spree_admin_overview_check_your_inbox: "자세한 내용은 받은 편지함을 확인하시면 됩니다. 감사합니다!"
   spree_admin_unit_value: 단위 값
@@ -2517,8 +2507,6 @@ ko:
   report_customers_distributor: "유통업체"
   report_customers_supplier: "공급업체"
   report_customers_cycle: "주문 주기"
-  report_customers_type: "유형 기록하기"
-  report_customers_csv: "csv 형태로 다운로드"
   report_producers: "생산자들"
   report_type: "유형 기록하기"
   report_hubs: "물류센터"
@@ -2627,7 +2615,6 @@ ko:
   report_header_weight: 무게
   report_header_sum_total: 총합
   report_header_date_of_order: 주문 날짜
-  report_header_amount_owing: 미지급액
   report_header_amount_paid: 지급액
   report_header_units_required: 필요한 단위
   report_header_remainder: 나머지
@@ -2643,13 +2630,11 @@ ko:
   report_header_payment_type: 결제 유형
   report_header_item_price: "물품 (%{currency})"
   report_header_item_fees_price: "물품 + 수수료 (%{currency})"
-  report_header_admin_handling_fees: "관리 및 처리 (%{currency})"
   report_header_ship_price: "수송 (%{currency})"
   report_header_pay_fee_price: "지불 수수료 (%{currency})"
   report_header_total_price: "총합 (%{currency})"
   report_header_product_total_price: "물품 총합 (%{currency})"
   report_header_shipping_total_price: "배송 총합 (%{currency})"
-  report_header_outstanding_balance_price: "미지급 잔액 (%{currency})"
   report_header_eft_price: "계좌이체 (%{currency})"
   report_header_paypal_price: "페이팔 (%{currency})"
   report_header_sku: 재고 관리 단위
@@ -2716,8 +2701,6 @@ ko:
   enterprise_fee_whole_order: 전체 주문
   enterprise_fee_by: "%{role}%{enterprise_name}의 %{type} 수수료"
   validation_msg_relationship_already_established: "그 관계는 이미 정해져 있습니다."
-  validation_msg_at_least_one_hub: "적어도 하나 이상의 허브를 선택해야 합니다."
-  validation_msg_tax_category_cant_be_blank: "세금 카테고리는 비워 둘 수 없습니다."
   validation_msg_is_associated_with_an_exising_customer: "기존 고객과 연결되어 있습니다."
   content_configuration_pricing_table: "(할 일 : 가격표)"
   content_configuration_case_studies: "(할 일 : 사례 연구)"
@@ -3238,7 +3221,6 @@ ko:
     add_state: "주 추가"
     adjustment: "조정"
     all: "모두"
-    associated_adjustment_closed: "관련 조정 닫힘"
     back_to_adjustments_list: "조정 메뉴로 돌아가기"
     back_to_users_list: "사용자 메뉴로 돌아가기"
     back_to_zones_list: "구역 메뉴로 돌아가기"

@@ -1881,11 +1881,8 @@ it:
   products_elsewhere: "Prodotti trovati altrove"
   email_confirmed: "Grazie per aver confermato il tuo indirizzo email"
   email_confirmation_activate_account: "Prima di attivare il tuo nuovo account, dobbiamo verificare il tuo indirizzo email"
-  email_confirmation_greeting: "Ciao, %{contact}!"
-  email_confirmation_profile_created: "Un profilo per %{name} è stato creato con successo! Per attivare il tuo Profilo abbiamo bisogno di confermare questo indirizzo email."
   email_confirmation_click_link: "Per favore clicca il link di seguito per confermare la tua email e continuare l'impostazione del tuo profilo"
   email_confirmation_link_label: "Conferma questo indirizzo email »"
-  email_confirmation_help_html: "Dopo aver confermato il tuo indirizzo email puoi accedere al tuo account di amministrazione per questa impresa. Vedi il link %{link} per scoprire di più sulle funzionalità di %{sitename} e iniziare a usare il tuo profilo e il tuo negozio online."
   email_confirmation_notice_unexpected: "Hai ricevuto questo messaggio perché ti sei iscritto a %{sitename} o sei stato invitato a iscriverti da qualcuno che probabilmente conosci. Se non capisci perché stai ricevendo questa e-mail, scrivi a %{contact}."
   email_social: "Connettiti con Noi:"
   email_contact: "Scrivici:"
@@ -1910,13 +1907,11 @@ it:
   email_payment_not_paid: NON PAGATO
   email_payment_description: Descrizione pagamento alla Conferma
   email_payment_summary: Importo da pagare
-  email_payment_method: "Metodo di Pagamento:"
   email_so_placement_intro_html: "Hai una nuova gentile richiesta di <strong>%{distributor}</strong>"
   email_so_placement_details_html: "Ecco i dettagli della gentile richiesta per <strong>%{distributor}</strong>:"
   email_so_placement_changes: "Purtroppo alcuni prodotti richiesti non sono disponibili. Le quantità originali richieste sono barrate qui sotto."
   email_so_payment_success_intro_html: "Un pagamento automatico è stato elaborato per il tuo ordine da<strong>%{distributor}</strong>."
   email_so_placement_explainer_html: "Questa gentile richiesta è stata elaborata automaticamente per te."
-  email_so_edit_true_html: "Puoi <a href='%{order_url}'>apportare modifiche</a> finchè la gentile richiesta chiuderà, il %{orders_close_at}."
   email_so_edit_false_html: "Puoi <a href='%{order_url}'>visualizzare i dettagli di questa gentile richiesta</a> in qualsiasi momento."
   email_so_contact_distributor_html: "Per qualsiasi domanda, puoi contattare <strong>%{distributor}</strong> via %{email}."
   email_so_contact_distributor_to_change_order_html: "Questa gentile richiesta è stata creata automaticamente per te. Puoi modificarla fino alla data di chiusura prestabilita, il  %{orders_close_at} contattando <strong>%{distributor}</strong> via %{email}."
@@ -2025,8 +2020,6 @@ it:
   products_no_results_html: "Mi spiace, nessun risultato per %{query}"
   products_clear_search: "Pulisci ricerca"
   search_no_results_html: "Mi dispiace, nessun risultato per %{query}. Vuoi provare un'altra ricerca?"
-  components_profiles_popover: "I profili non hanno una vetrina su Open Food Network, ma potrebbero avere il proprio negozio fisico o online altrove"
-  components_profiles_show: "Mostra profili"
   components_filters_nofilters: "Nessun filtro"
   components_filters_clearfilters: "Cancella tutti i filtri"
   groups_title: Reti
@@ -2039,7 +2032,6 @@ it:
   groups_hubs: "I nostri hub"
   groups_contact_web: Contatti
   groups_contact_social: Segui
-  groups_contact_address: Indirizzo
   groups_contact_email: Scrivici
   groups_contact_website: Visita la nostra pagina web
   groups_contact_facebook: Seguici su Facebook
@@ -2481,8 +2473,6 @@ it:
   spree_admin_enterprises_tabs_hubs: "HUBS"
   spree_admin_enterprises_producers_manage_products: "GESTISCI PRODOTTI"
   spree_admin_enterprises_create_new_product: "CREA UN NUOVO PRODOTTO"
-  spree_admin_single_enterprise_alert_mail_confirmation: "Conferma l'indirizzo email per"
-  spree_admin_single_enterprise_alert_mail_sent: "Abbiamo spedito una mail a"
   spree_admin_overview_action_required: "Azione richiesta"
   spree_admin_overview_check_your_inbox: "Controlla le tua email per ulteriori istruzioni. Grazie!"
   spree_admin_unit_value: Unità di valore
@@ -2545,8 +2535,6 @@ it:
   report_customers_distributor: "Distributore"
   report_customers_supplier: "Fornitore"
   report_customers_cycle: "Ciclo di richieste"
-  report_customers_type: "Tipo di rapporto"
-  report_customers_csv: "Scarica come csv"
   report_producers: "Produttori"
   report_type: "Tipo di rapporto"
   report_hubs: "Distributori"
@@ -2657,7 +2645,6 @@ it:
   report_header_weight: Peso
   report_header_sum_total: Somma Tolale
   report_header_date_of_order: Data Richiesta
-  report_header_amount_owing: Quantità disponibile
   report_header_amount_paid: Importo pagato
   report_header_units_required: Unità richieste
   report_header_remainder: Pro-memoria
@@ -2673,13 +2660,11 @@ it:
   report_header_payment_type: Tipo Pagamento
   report_header_item_price: "Articolo (%{currency})"
   report_header_item_fees_price: "Articolo + maggiorazioni (%{currency})"
-  report_header_admin_handling_fees: "Costi di gestione (%{currency})"
   report_header_ship_price: "Consegna (%{currency})"
   report_header_pay_fee_price: "Tassa pagamento (%{currency})"
   report_header_total_price: "Totale (%{currency})"
   report_header_product_total_price: "Totale Prodotto (%{currency})"
   report_header_shipping_total_price: "Totale consegna (%{currency})"
-  report_header_outstanding_balance_price: "Saldo in sospeso (%{currency})"
   report_header_eft_price: "EFT (%{currency})"
   report_header_paypal_price: "PayPal (%{currency})"
   report_header_sku: Codice ID
@@ -2746,8 +2731,6 @@ it:
   enterprise_fee_whole_order: Ordine intero
   enterprise_fee_by: "%{type} tariffa da %{role} %{enterprise_name}"
   validation_msg_relationship_already_established: "^Questa relazione è già stabilita."
-  validation_msg_at_least_one_hub: "^Almeno un hub deve essere selezionato"
-  validation_msg_tax_category_cant_be_blank: "^Categoria di tassa non può essere vuoto"
   validation_msg_is_associated_with_an_exising_customer: "è associato con un cliente esistente"
   content_configuration_pricing_table: "(TODO: tabella dei prezzi)"
   content_configuration_case_studies: "(TODO: Casi studio)"
@@ -3343,7 +3326,6 @@ it:
     add_state: "Aggiungi provincia"
     adjustment: "Aggiustamenti"
     all: "Tutti"
-    associated_adjustment_closed: "Modifica anche impostazioni associate"
     back_to_adjustments_list: "Indietro ad Aggiustamenti"
     back_to_users_list: "Indietro a Utenti"
     back_to_zones_list: "Indietro a Zone"

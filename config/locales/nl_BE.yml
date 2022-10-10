@@ -1608,11 +1608,8 @@ nl_BE:
   products_elsewhere: "Producten die ergens anders gevonden zijn"
   email_confirmed: "Bedankt om je E-mailadres te bevestigen."
   email_confirmation_activate_account: "Voor we je nieuwe account kunnen activeren, moet je je E-mailadres bevestigen."
-  email_confirmation_greeting: "Hallo, %{contact}!"
-  email_confirmation_profile_created: "Het profiel aanmaken voor %{name} is goed gelukt! Om je Profiel te activeren moet je nu nog slechts je E-mailadres bevestigen."
   email_confirmation_click_link: "Klik alsjeblieft in de link hieronder om je E-mail te bevestigen en om verder te gaan met je profiel te vervolledigen."
   email_confirmation_link_label: "Bevestig dit E-mailadres »"
-  email_confirmation_help_html: "Na het bevestigen van je E-mailadres krijg je toegang tot je administratie-account voor deze onderneming. Bekijk de %{link} om meer te weten te komen over %{sitename} z'n toepassingen en om van start te gaan met je profiel of online winkel."
   email_confirmation_notice_unexpected: "Je krijgt dit bericht omdat je je inschreef op %{sitename}, of uitgenodigd was om in te schrijven door iemand die je waarschijnlijk kent. Als je niet begrijpt waarom je deze E-mail kreeg, contacteer dan alsjeblieft %{contact}."
   email_social: "Neem Contact met Ons op:"
   email_contact: "E-mail ons:"
@@ -1636,13 +1633,11 @@ nl_BE:
   email_payment_paid: BETAALD
   email_payment_not_paid: NIET BETAALD
   email_payment_summary: Betalingsbevestiging
-  email_payment_method: "Betalingswijze:"
   email_so_placement_intro_html: "Je hebt een nieuwe bestelling met <strong>%{distributor}</strong>"
   email_so_placement_details_html: "Hier zijn de details van je bestelling voor <strong>%{distributor}</strong>:"
   email_so_placement_changes: "Helaas, niet alle producten die je vroeg zijn beschikbaar. De oorspronkelijke hoeveelheden die je hebt gevraagd verschijnen hier onder doorstreept."
   email_so_payment_success_intro_html: "Een automatische betaling werd verwerkt om je bestellingen van <strong>%{distributor}</strong>."
   email_so_placement_explainer_html: "Deze bestelling werd automatisch voor je gecreëerd."
-  email_so_edit_true_html: "Je kan <a href='%{order_url}'>verandering aanbrengen</a>tot de bestelling sluit om %{orders_close_at}."
   email_so_edit_false_html: "Je kan op om het even welk moment <a href='%{order_url}'>de details bekijken van deze bestelling</a>."
   email_so_contact_distributor_html: "Als je een vraag hebt dan kan je<strong>%{distributor}</strong>contacteren via %{email}."
   email_so_contact_distributor_to_change_order_html: "Deze bestelling werd automatisch voor je aangemaakt. Je kan aanpassingen maken tot de bestelling sluit op %{orders_close_at} door <strong>%{distributor}</strong> te contacteren via %{email}."
@@ -1747,8 +1742,6 @@ nl_BE:
   products_no_results_html: "Sorry, er werden geen resultaten gevonden voor %{query}"
   products_clear_search: "Verwijder zoektermen"
   search_no_results_html: "Sorry, er werden geen resultaten gevonden voor %{query}. Probeer een andere te zoeken?"
-  components_profiles_popover: "Profielen die geen etalage hebben in het Open Food Network, maar kunnen hun eigen fysieke of online winkel elders hebben."
-  components_profiles_show: "Toon profielen"
   components_filters_nofilters: "Geen filters"
   components_filters_clearfilters: "Verwijder alle filters"
   groups_title: Groepen
@@ -1761,7 +1754,6 @@ nl_BE:
   groups_hubs: "Onze Hubs"
   groups_contact_web: Contact
   groups_contact_social: Volg
-  groups_contact_address: Adres
   groups_contact_email: Mail ons
   groups_contact_website: Bezoek onze website
   groups_contact_facebook: Volg ons op Facebook
@@ -2189,8 +2181,6 @@ nl_BE:
   spree_admin_enterprises_tabs_hubs: "HUBS"
   spree_admin_enterprises_producers_manage_products: "BEHEER PRODUKTEN"
   spree_admin_enterprises_create_new_product: "MAAK EEN  NIEUW PRODUKT"
-  spree_admin_single_enterprise_alert_mail_confirmation: "Gelieve het e-mailadres te bevestigen voor"
-  spree_admin_single_enterprise_alert_mail_sent: "We hebben je een E-mail verzonden"
   spree_admin_overview_action_required: "Actie Vereist"
   spree_admin_overview_check_your_inbox: "Controleer alsjeblieft je inbox voor verdere instructies. Dankje!"
   spree_admin_unit_value: Eenheid Waarde
@@ -2252,8 +2242,6 @@ nl_BE:
   report_customers_distributor: "Distributeur"
   report_customers_supplier: "Leverancier"
   report_customers_cycle: "Bestelcyclus"
-  report_customers_type: "Vermeld Type"
-  report_customers_csv: "Download als csv"
   report_producers: "Producenten"
   report_type: "Vermeld Type"
   report_hubs: "Hubs"
@@ -2358,7 +2346,6 @@ nl_BE:
   report_header_weight: Gewicht
   report_header_sum_total: Totaal bedrag
   report_header_date_of_order: Bestellingsdatum
-  report_header_amount_owing: Openstaand bedrag
   report_header_amount_paid: Betaald bedrag
   report_header_units_required: Vereiste hoeveelheden
   report_header_remainder: 'Nog te betalen '
@@ -2374,13 +2361,11 @@ nl_BE:
   report_header_payment_type: Betalingsmiddel
   report_header_item_price: "Kost producten (%{currency}) "
   report_header_item_fees_price: "Kost produkten + marge (%{currency})"
-  report_header_admin_handling_fees: "Admin&behandeling (%{currency})"
   report_header_ship_price: "Vervoer (%{currency}) "
   report_header_pay_fee_price: "transactiekosten(%{currency})"
   report_header_total_price: "Totaal(%{currency}) "
   report_header_product_total_price: "Totaal product(%{currency}) "
   report_header_shipping_total_price: "Totaal verzending(%{currency}) "
-  report_header_outstanding_balance_price: "Saldo(%{currency}) "
   report_header_eft_price: "EFT (%{currency}) "
   report_header_paypal_price: "PayPal (%{currency}) "
   report_header_sku: SKU
@@ -2440,8 +2425,6 @@ nl_BE:
   enterprise_fee_whole_order: Volledige bestelling
   enterprise_fee_by: "1%{type},marges/kosten 2%{role} 3%{enterprise_name}"
   validation_msg_relationship_already_established: "^Een link is reeds gemaakt met deze bedrijven."
-  validation_msg_at_least_one_hub: "^Selecteer minstens één winkel"
-  validation_msg_tax_category_cant_be_blank: "^Gelieve de toepaste BTW te selecteren"
   validation_msg_is_associated_with_an_exising_customer: "is betrokken bij een bestaande koper"
   content_configuration_pricing_table: "(TE DOEN : tarieventabel)"
   content_configuration_case_studies: "(TE DOEN : gevalstudie) "

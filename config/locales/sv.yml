@@ -968,11 +968,8 @@ sv:
   products_at: "hos %{distributor}"
   products_elsewhere: "Produkter funna annorstädes"
   email_confirmed: "Tack för att du bekräftat din e-postadress."
-  email_confirmation_greeting: "Hej, %{contact}!"
-  email_confirmation_profile_created: "En profil för %{name} har skapats! För att aktivera din profil behöver vi få en bekräftelse på din e-postadress."
   email_confirmation_click_link: "Var vänlig att klicka på länken nedan för att bekräfta din e-postadress och fortsätt att skapa din profil."
   email_confirmation_link_label: "Bekräfta din e-postadress »"
-  email_confirmation_help_html: "Sedan du bekräftat din e-postadress har du tillgång till ditt konto för denna firma. Se %{link} för att ta reda på mer om %{sitename} artiklar och börja använda din profil eller online butik."
   email_social: "Koppla ihop med Oss:"
   email_contact: "Mejla oss:"
   email_signoff: "Hälsningar,"
@@ -994,7 +991,6 @@ sv:
   email_payment_paid: BETALD
   email_payment_not_paid: INTE BETALD
   email_payment_summary: Ordersumma
-  email_payment_method: "Betalar via:"
   email_shipping_delivery_details: Leveransdetaljer
   email_shipping_delivery_time: "Leveransdag"
   email_shipping_delivery_address: "Leveransadress"
@@ -1069,8 +1065,6 @@ sv:
   products_update_error_data: "Sparandet misslyckades beroende på felaktiga data."
   products_changes_saved: "Ändringar sparade."
   search_no_results_html: "Beklagar, ingen träff på %{query}. Försök på nytt?"
-  components_profiles_popover: "Profiler har inget skyltfönster i Open Food Network, men kan ha sin egen fysiska eller webbutik någon annan stans"
-  components_profiles_show: "Visa profiler"
   components_filters_nofilters: "Inga filter"
   components_filters_clearfilters: "Ta bort alla filter"
   groups_title: Grupper
@@ -1083,7 +1077,6 @@ sv:
   groups_hubs: "Våra utlämningsställen"
   groups_contact_web: Kontakt
   groups_contact_social: Följ
-  groups_contact_address: Adress
   groups_contact_email: Mejla oss
   groups_contact_website: Besök vår hemsida
   groups_contact_facebook: Följ oss på Facebook
@@ -1476,8 +1469,6 @@ sv:
   spree_admin_enterprises_tabs_hubs: "MATSTÄLLEN"
   spree_admin_enterprises_producers_manage_products: "HANTERA PRODUKTER"
   spree_admin_enterprises_create_new_product: "SKAPA EN NY PRODUKT"
-  spree_admin_single_enterprise_alert_mail_confirmation: "Var vänlig och fastställ e-postadressen för"
-  spree_admin_single_enterprise_alert_mail_sent: "Vi har sänt e-post till "
   spree_admin_overview_action_required: "Ett ställningstagande behövs"
   spree_admin_overview_check_your_inbox: "Var vänlig kontrollera din inkorg för ytterligare instruktioner. Tack!"
   spree_admin_unit_value: Enhetspris
@@ -1530,8 +1521,6 @@ sv:
   report_customers_distributor: "Distributör"
   report_customers_supplier: "Leverantör"
   report_customers_cycle: "Ordercykel"
-  report_customers_type: "Rapporttyp"
-  report_customers_csv: "Ladda ned sm csv"
   report_producers: "Producenter "
   report_type: "Rapporttyp"
   report_hubs: "Hubbar"
@@ -1635,7 +1624,6 @@ sv:
   report_header_weight: Vikt
   report_header_sum_total: Summa Totalt
   report_header_date_of_order: Beställningsdatum
-  report_header_amount_owing: Utestående belopp
   report_header_amount_paid: Betalt
   report_header_units_required: Enheter som krävs
   report_header_remainder: Rest
@@ -1651,13 +1639,11 @@ sv:
   report_header_payment_type: Betalningstyp
   report_header_item_price: "Artikel (%{currency})"
   report_header_item_fees_price: "Vara + Avgifter (%{currency})"
-  report_header_admin_handling_fees: "Administration & Hantering (%{currency})"
   report_header_ship_price: "Frakta (%{currency})"
   report_header_pay_fee_price: "Betalningsavgift (%{currency})"
   report_header_total_price: "Totalt (%{currency})"
   report_header_product_total_price: "Produkt Totalt (%{currency})"
   report_header_shipping_total_price: "Frakt Totalt (%{currency})"
-  report_header_outstanding_balance_price: "Utestående balans (%{currency})"
   report_header_eft_price: "EFT (%{currency})"
   report_header_paypal_price: "PayPal (%{currency})"
   report_header_sku: SKU
@@ -1711,8 +1697,6 @@ sv:
   enterprise_fee_whole_order: Hela beställningen
   enterprise_fee_by: "%{type} avgift vid %{role} %{enterprise_name}"
   validation_msg_relationship_already_established: "^Den förbindelsen är redan upprättad."
-  validation_msg_at_least_one_hub: "^Åtminstone ett matställe måste väljas"
-  validation_msg_tax_category_cant_be_blank: "^Skattekategori kan inte vara blank"
   validation_msg_is_associated_with_an_exising_customer: "är knuten till en existerande kund"
   content_configuration_pricing_table: "(TODO: Pristabell)"
   content_configuration_case_studies: "(TODO: Case studies)"

@@ -1573,11 +1573,8 @@ fil_PH:
   products_elsewhere: "ang mga produkto ay hindi dito natagpuan"
   email_confirmed: "Maraming salamat sa pagkumpirma ng inyong email address."
   email_confirmation_activate_account: "Bago natin ma-activate ang inyong account, kailangan munang kumpirmahin ang iyong email address."
-  email_confirmation_greeting: "magandang araw, %{contact}!"
-  email_confirmation_profile_created: "ang profile para kay/sa %{name}ay matagumpay na nagawa! para i-activate ang inyong profile, kailangan naming kumpirmahin ang email address na ito."
   email_confirmation_click_link: "pindutin ang link sa ibaba para kumpirmahin ang iyong email address at upang maipagpatuloy ang pagset-up ng inyong profile."
   email_confirmation_link_label: "kumpirmahin ang email address na ito »"
-  email_confirmation_help_html: "pagkatapos makumpirma ang iyong email, maaari mo na i-access ang iyong administration account para sa enterprise na ito. tignan ang%{link}upang lalong mas maunawaan ang%{sitename}at masimulan na ang paggamit ng inyong profile o online na tindahan."
   email_confirmation_notice_unexpected: "natanggap mo ang mensahe na ito sapagkat ikaw ay nagsign-up sa%{sitename}, o inimbitahan para magsign-up ng isang tao na maaring kilala mo. kung hindi maintindihan kung bakit ka nakakatanggap ng ganitong email, maaring sumulat sa%{contact}."
   email_social: "kumonekta sa amin:"
   email_contact: "i-email kami:"
@@ -1601,13 +1598,11 @@ fil_PH:
   email_payment_paid: BAYAD NA
   email_payment_not_paid: HINDI PA BAYAD
   email_payment_summary: buod ng kabayaran
-  email_payment_method: "magbabayad sa pamamagitan ng:"
   email_so_placement_intro_html: "mayroon kang bagong order kasama ang<strong>%{distributor}</strong>"
   email_so_placement_details_html: "narito ang mga detalye ng inyong order para sa <strong>%{distributor}</strong>:"
   email_so_placement_changes: "sa kasamaang palad, hindi lahat ng produkto na iyong isinama ay available. ang orihinal na dami ng mga isinamang produkto ay naka-ekis sa baba."
   email_so_payment_success_intro_html: "ang awtomatikong pagbabayad ay naproseso para sa iyong order mula sa<strong>%{distributor}</strong>."
   email_so_placement_explainer_html: "ang order na ito ay awtomatikong ginawa para sa iyo."
-  email_so_edit_true_html: "maaari kang<a href='%{order_url}'> gumawa ng mga pagbabago</a> hanggang magsara ang iyong mga order sa%{orders_close_at}."
   email_so_edit_false_html: "maari mong<a href='%{order_url}'> tignan ang mga detalye ng order na ito</a>kahit kailan."
   email_so_contact_distributor_html: "Kung ikaw ay may mga katanungan, maaring makipag-ugnayan sa<strong>%{distributor}</strong> sa%{email}."
   email_so_contact_distributor_to_change_order_html: "Ang order na ito ay awtomatikong ginawa para sa iyo. Maaari kang gumawa ng mga pagbabago hanggang magsara ang mga order sa%{orders_close_at} sa pamamagitan ng pakikipag-ugnayan sa<strong>%{distributor}</strong> sa%{email}."
@@ -1705,8 +1700,6 @@ fil_PH:
   products_update_error_data: "hindi nagpatuloy ang pag-save dahil sa hindi valid na data:"
   products_changes_saved: "nai-save ang mga pagbabago"
   search_no_results_html: "Paumahin, walang resultang nahanap para sa%{query}. Maaari kang sumubok ng isa pang keyword."
-  components_profiles_popover: "ang mga profile ay walang Shopfront sa Open Food Network, ngunit maaaring mayroong sariling pisikal o online na shop sa ibang lugar"
-  components_profiles_show: "Ipakita ang mga profile"
   components_filters_nofilters: "walang mga filter"
   components_filters_clearfilters: "alisin lahat ng mga filter"
   groups_title: mga grupo
@@ -1719,7 +1712,6 @@ fil_PH:
   groups_hubs: "ang aming mga hub"
   groups_contact_web: Makipag-ugnayan
   groups_contact_social: sumunod
-  groups_contact_address: Address
   groups_contact_email: i-email kami
   groups_contact_website: bisitahin ang aming website
   groups_contact_facebook: i-follow kami sa Facebook
@@ -2144,8 +2136,6 @@ fil_PH:
   spree_admin_enterprises_tabs_hubs: "MGA HUB"
   spree_admin_enterprises_producers_manage_products: "PAMAHALAAN ANG MGA PRODUKTO"
   spree_admin_enterprises_create_new_product: "LUMIKHA NG BAGONG PRODUKTO"
-  spree_admin_single_enterprise_alert_mail_confirmation: "kumpirmahin ang email address para sa/kay"
-  spree_admin_single_enterprise_alert_mail_sent: "naipadala na ang email sa"
   spree_admin_overview_action_required: "kailangan ng aksyon"
   spree_admin_overview_check_your_inbox: "tignan ang iyong inbox para sa karagdagang panuto. maraming salamat!"
   spree_admin_unit_value: halaga kada yunit
@@ -2205,8 +2195,6 @@ fil_PH:
   report_customers_distributor: "Distributor"
   report_customers_supplier: "Supplier"
   report_customers_cycle: "order cycle"
-  report_customers_type: "uri ng ulat"
-  report_customers_csv: "i-download bilang csv"
   report_producers: "Mga Producer"
   report_type: "uri ng ulat"
   report_hubs: "mga Hub"
@@ -2311,7 +2299,6 @@ fil_PH:
   report_header_weight: timbang
   report_header_sum_total: Kabuuan
   report_header_date_of_order: Petsa ng Order
-  report_header_amount_owing: halaga  ng utang
   report_header_amount_paid: Halagang Nabayaran
   report_header_units_required: mga kailangang yunit
   report_header_remainder: Natitira
@@ -2327,13 +2314,11 @@ fil_PH:
   report_header_payment_type: uri ng pagbabayad
   report_header_item_price: "item(%{currency})"
   report_header_item_fees_price: "item + fees (%{currency})"
-  report_header_admin_handling_fees: "Admin at paghawak (%{currency})"
   report_header_ship_price: "pagdala (%{currency})"
   report_header_pay_fee_price: "Bayad sa pagbabayad (%{currency})"
   report_header_total_price: "Kabuuan (%{currency})"
   report_header_product_total_price: "Kabuuang Produkto (%{currency})"
   report_header_shipping_total_price: "kabuuan ng ipapadala (%{currency})"
-  report_header_outstanding_balance_price: "Kasalukuyang balanse (%{currency})"
   report_header_eft_price: "EFT (%{currency})"
   report_header_paypal_price: "Paypal (%{currency})"
   report_header_sku: SKU
@@ -2393,8 +2378,6 @@ fil_PH:
   enterprise_fee_whole_order: Buong order
   enterprise_fee_by: "%{type}na bayad ng%{role}%{enterprise_name}"
   validation_msg_relationship_already_established: "^ang relasyon na iyan ay naitatag na"
-  validation_msg_at_least_one_hub: "^kailangang kahit isang Hub ay piliin"
-  validation_msg_tax_category_cant_be_blank: "^ang kategorya ng tax ay hindi maaaring walang sagot"
   validation_msg_is_associated_with_an_exising_customer: "ay nauugnay na sa isang customer"
   content_configuration_pricing_table: "(DAPATGAWIN: TALAAN NG PRESYO)"
   content_configuration_case_studies: "(DAPATGAWIN: mga pag-aaral ng kaso)"

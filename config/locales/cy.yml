@@ -1871,11 +1871,8 @@ cy:
   products_elsewhere: "Cynnyrch sydd ar gael rhywle arall"
   email_confirmed: "Diolch am gadarnhau eich cyfeiriad e-bost."
   email_confirmation_activate_account: "Cyn y gallwn actifadu eich cyfrif newydd, mae angen i ni gadarnhau eich cyfeiriad e-bost."
-  email_confirmation_greeting: "Helo, %{contact}!"
-  email_confirmation_profile_created: "Llwyddwyd i greu proffil ar gyfer %{name}! Er mwyn actifadu eich Proffil mae angen i ni gadarnhau'r cyfeiriad e-bost hwn."
   email_confirmation_click_link: "Cliciwch ar y ddolen isod i gadarnhau eich e-bost ac i barhau i sefydlu'ch proffil."
   email_confirmation_link_label: "Cadarnhau'r cyfeiriad e-bost hwn »"
-  email_confirmation_help_html: "Ar ôl cadarnhau eich e-bost gallwch gael mynediad i'ch cyfrif gweinyddol ar gyfer y fenter hon. Gweler  %{link} i ddarganfod mwy am nodweddion %{sitename} ac i ddechrau defnyddio'ch proffil neu'ch siop ar-lein."
   email_confirmation_notice_unexpected: "Rydych wedi derbyn y neges hon oherwydd i chi gofrestru ar %{sitename}, neu ar ôl cael eich gwahodd i gofrestru gan rywun rydych chi'n ei adnabod mae'n debyg. Os nad ydych yn deall pam eich bod yn derbyn yr e-bost hwn, ysgrifennwch at %{contact}."
   email_social: "Cysylltu â Ni:"
   email_contact: "Anfon ebost atom:"
@@ -1900,13 +1897,11 @@ cy:
   email_payment_not_paid: HEB EI DALU
   email_payment_description: Disgrifiad o'r tâl wrth y Ddesg Talu
   email_payment_summary: Crynodeb o'r taliad
-  email_payment_method: "Talu trwy:"
   email_so_placement_intro_html: "Mae gennych archeb newydd gydag <strong>%{distributor}</strong>"
   email_so_placement_details_html: "Dyma fanylion eich archeb am <strong>%{distributor}</strong> :"
   email_so_placement_changes: "Yn anffodus, nid oedd yr holl gynnyrch yn eich archeb ar gael. Gweler isod y nifer wreiddiol y gwnaethoch ofyn amdanynt, wedi'u croesi allan."
   email_so_payment_success_intro_html: "Proseswyd taliad awtomatig ar gyfer eich archeb  gan <strong>%{distributor}</strong> ."
   email_so_placement_explainer_html: "Crëwyd yr archeb hon yn awtomatig i chi."
-  email_so_edit_true_html: "Gallwch <a href='%{order_url}'>wneud newidiadau</a> nes bydd archebion yn cau ar %{orders_close_at}."
   email_so_edit_false_html: "Gallwch <a href='%{order_url}'>weld manylion yr archeb hon</a> ar unrhyw adeg."
   email_so_contact_distributor_html: "Os oes gennych unrhyw gwestiynau gallwch gysylltu ag <strong> %{distributor} trwy %{email}."
   email_so_contact_distributor_to_change_order_html: "Crëwyd yr archeb hon yn awtomatig i chi. Gallwch wneud newidiadau nes bod archebion yn cau ar %{orders_close_at} trwy gysylltu ag <strong>%{distributor}</strong> trwy %{email}."
@@ -2015,8 +2010,6 @@ cy:
   products_no_results_html: "Mae'n ddrwg gennym, ni chafwyd hyd i unrhyw ganlyniadau ar gyfer %{query}"
   products_clear_search: "Clirio'r chwiliad"
   search_no_results_html: "Mae'n ddrwg gennym, ni chafwyd hyd i unrhyw ganlyniadau ar gyfer %{query}. Rhowch gynnig ar chwiliad arall?"
-  components_profiles_popover: "Ar y Open Food Network nid oes ffrynt siop ar gyfer proffiliau ond hwyrach y bydd ganddynt siop gorfforol neu siop ar-lein yn rhywle arall."
-  components_profiles_show: "Dangos proffiliau"
   components_filters_nofilters: "Dim hidlwyr"
   components_filters_clearfilters: "Cliriwch yr holl hidlwyr"
   groups_title: Grwpiau
@@ -2029,7 +2022,6 @@ cy:
   groups_hubs: "Ein hybiau"
   groups_contact_web: Cysylltu
   groups_contact_social: Dilyn
-  groups_contact_address: Cyfeiriad
   groups_contact_email: Anfon e-bost atom
   groups_contact_website: Ewch i'n gwefan
   groups_contact_facebook: Dilynwch ni ar Facebook
@@ -2471,8 +2463,6 @@ cy:
   spree_admin_enterprises_tabs_hubs: "HYBIAU"
   spree_admin_enterprises_producers_manage_products: "RHEOLI CYNNYRCH"
   spree_admin_enterprises_create_new_product: "CREU CYNNYRCH NEWYDD"
-  spree_admin_single_enterprise_alert_mail_confirmation: "Dylid cadarnhau'r cyfeiriad e-bost ar gyfer"
-  spree_admin_single_enterprise_alert_mail_sent: "Anfonwyd e-bost at"
   spree_admin_overview_action_required: "Camau Angenrheidiol"
   spree_admin_overview_check_your_inbox: "Gwiriwch eich mewnflwch am gyfarwyddiadau pellach. Diolch!"
   spree_admin_unit_value: Gwerth yr Uned
@@ -2535,8 +2525,6 @@ cy:
   report_customers_distributor: "Dosbarthwr"
   report_customers_supplier: "Cyflenwr"
   report_customers_cycle: "Cylch archebu "
-  report_customers_type: "Math o Adroddiad"
-  report_customers_csv: "Lawrlwytho fel csv"
   report_producers: "Prynu bwyd"
   report_type: "Math o Adroddiad"
   report_hubs: "Hybiau"
@@ -2645,7 +2633,6 @@ cy:
   report_header_weight: Pwysau
   report_header_sum_total: 'Cyfanswm '
   report_header_date_of_order: Dyddiad archebu
-  report_header_amount_owing: Swm sy'n ddyledus
   report_header_amount_paid: Swm a Dalwyd
   report_header_units_required: Unedau sydd eu hangen
   report_header_remainder: Yn weddill
@@ -2661,13 +2648,11 @@ cy:
   report_header_payment_type: Math o Daliad
   report_header_item_price: "Eitem (%{currency})"
   report_header_item_fees_price: "Eitem + Ffioedd  (%{currency})"
-  report_header_admin_handling_fees: "Gweinyddiaeth a Thrin (%{currency})"
   report_header_ship_price: "Anfon(%{currency})"
   report_header_pay_fee_price: "Talu Ffi (%{currency})"
   report_header_total_price: "Cyfanswm (%{currency})"
   report_header_product_total_price: "Cyfanswm y Cynnyrch (%{currency})"
   report_header_shipping_total_price: "Cyfanswm costau anfon(%{currency})"
-  report_header_outstanding_balance_price: "Balans sy'n weddill (%{currency})"
   report_header_eft_price: "EFT (%{currency})"
   report_header_paypal_price: "PayPal (%{currency})"
   report_header_sku: Cod y Cynnyrch
@@ -2734,8 +2719,6 @@ cy:
   enterprise_fee_whole_order: Archeb cyfan
   enterprise_fee_by: "ffi %{type} erbyn %{role} %{enterprise_name}"
   validation_msg_relationship_already_established: "^ Sefydlwyd y berthynas honno eisoes."
-  validation_msg_at_least_one_hub: "^ Rhaid dewis o leiaf un hwb"
-  validation_msg_tax_category_cant_be_blank: "^ Ni chaniateir gadael y Categori Trethi yn wag"
   validation_msg_is_associated_with_an_exising_customer: "yn gysylltiedig â chwsmer presennol"
   content_configuration_pricing_table: "(TODO: Tabl prisio)"
   content_configuration_case_studies: "(TODO: Astudiaethau achos)"
@@ -3354,7 +3337,6 @@ cy:
     add_state: "Ychwanegu sir"
     adjustment: "Addasiad"
     all: "I gyd"
-    associated_adjustment_closed: "Cyflawni addasiad cysylltiedig"
     back_to_adjustments_list: "Nôl at addasiadau"
     back_to_users_list: "Nôl at ddefnyddwyr"
     back_to_zones_list: "Nôl at barthau"

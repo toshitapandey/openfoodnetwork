@@ -1885,11 +1885,8 @@ fr:
   products_elsewhere: "Produits trouvés ailleurs"
   email_confirmed: "Veuillez confirmer votre adresse email."
   email_confirmation_activate_account: "Avant de pouvoir activer votre compte, nous devons nous assurer de la validité de votre adresse email."
-  email_confirmation_greeting: "Bonjour %{contact},"
-  email_confirmation_profile_created: "Le profil pour %{name} a été créé avec succès! Pour activer votre Profil nous devons vérifier cette adresse email."
   email_confirmation_click_link: "Veuillez cliquer sur le lien ci-dessous pour confirmer votre email et continuer la configuration de votre compte."
   email_confirmation_link_label: "Confirmer cette adresse email »"
-  email_confirmation_help_html: "Après confirmation de votre email, vous pourrez accéder au compte d'administration de cette entreprise. Voir %{link} pour en savoir plus à propos de %{sitename} et commencer à utiliser votre profil et/ou boutique en ligne."
   email_confirmation_notice_unexpected: "Vous recevez ce message car vous vous êtes inscrit sur %{sitename}, ou avez été invité à vous inscrire par l'un de vos contacts. Si vous ne comprenez pas pourquoi vous recevez ce message, écrivez à bonjour@coopcircuits.fr."
   email_social: "Nous suivre:"
   email_contact: "Nous écrire:"
@@ -1914,13 +1911,11 @@ fr:
   email_payment_not_paid: NON RÉGLÉ
   email_payment_description: Informations concernant le mode de paiement
   email_payment_summary: Résumé du paiement
-  email_payment_method: "Payer via :"
   email_so_placement_intro_html: "Une nouvelle commande automatique a été passée pour vous chez <strong>%{distributor}</strong>"
   email_so_placement_details_html: "Voici les détails de votre commande pour <strong>%{distributor}</strong>:"
   email_so_placement_changes: "Malheureusement, certains produits demandés n'étaient pas disponibles. Les quantités d'origine demandées apparaissent comme barrées ci-dessous."
   email_so_payment_success_intro_html: "Un paiement automatique a été effectué pour votre commande auprès de <strong>%{distributor}</strong>."
   email_so_placement_explainer_html: "Cette commande a été créée automatiquement dans le cadre de votre abonnement."
-  email_so_edit_true_html: "Vous pouvez <a href='%{order_url}'>effectuer des modifications</a> jusqu'à la fermeture de la période de commande le %{orders_close_at}."
   email_so_edit_false_html: "Vous pouvez <a href='%{order_url}'>consulter les détails de cette commande</a> à tout moment."
   email_so_contact_distributor_html: "Pour toute question contactez <strong>%{distributor}</strong> via %{email}."
   email_so_contact_distributor_to_change_order_html: "Cette commande a été automatiquement créée en votre nom. Vous pouvez effectuer des modifications sur cette commande jusqu'à fermeture de la période de commande le %{orders_close_at} en contactant <strong>%{distributor}</strong> à %{email}."
@@ -2029,8 +2024,6 @@ fr:
   products_no_results_html: "Nous sommes navrés, mais aucun résultat n'a été trouvé pour %{query}"
   products_clear_search: "Annuler la recherche"
   search_no_results_html: "Désolé, aucun résultat pour %{query}. Autre recherche?"
-  components_profiles_popover: "Certaines entreprises ont juste créé leur profil sur CoopCircuits mais ne vendent pas via la plateforme. Elles ont peut-être une boutique physique, ou une boutique en ligne sur une autre plateforme."
-  components_profiles_show: "Afficher aussi les profils"
   components_filters_nofilters: "Pas de filtre"
   components_filters_clearfilters: "Vider les filtres"
   groups_title: Groupes
@@ -2043,7 +2036,6 @@ fr:
   groups_hubs: "Nos boutiques"
   groups_contact_web: Contact
   groups_contact_social: Suivre
-  groups_contact_address: Adresse
   groups_contact_email: Nous écrire
   groups_contact_website: Visiter notre site web
   groups_contact_facebook: Nous suivre sur Facebook
@@ -2485,8 +2477,6 @@ fr:
   spree_admin_enterprises_tabs_hubs: "BOUTIQUES"
   spree_admin_enterprises_producers_manage_products: "GÉRER LES PRODUITS"
   spree_admin_enterprises_create_new_product: "CRÉER UN NOUVEAU PRODUIT"
-  spree_admin_single_enterprise_alert_mail_confirmation: "Veuillez confirmer l'adresse mail pour"
-  spree_admin_single_enterprise_alert_mail_sent: "Email envoyé à "
   spree_admin_overview_action_required: "Action requise"
   spree_admin_overview_check_your_inbox: "Veuillez vérifier votre boîte mail pour les prochaines étapes. Merci !"
   spree_admin_unit_value: Nb Unités
@@ -2549,8 +2539,6 @@ fr:
   report_customers_distributor: "Distributeur"
   report_customers_supplier: "Fournisseur"
   report_customers_cycle: "Cycle de vente"
-  report_customers_type: "Type de rapport"
-  report_customers_csv: "Télécharger en csv"
   report_producers: "Producteurs"
   report_type: "Type de rapport"
   report_hubs: "Boutiques"
@@ -2661,7 +2649,6 @@ fr:
   report_header_weight: Poids
   report_header_sum_total: Total déjà commandé
   report_header_date_of_order: Date de Commande
-  report_header_amount_owing: Montant dû
   report_header_amount_paid: Montant payé
   report_header_units_required: Nb Unités Requises
   report_header_remainder: Reste à payer
@@ -2677,13 +2664,11 @@ fr:
   report_header_payment_type: Type de Paiement
   report_header_item_price: "Coût produits (%{currency})"
   report_header_item_fees_price: "Coût produits + Marge (%{currency})"
-  report_header_admin_handling_fees: "Frais si par commande (%{currency})"
   report_header_ship_price: "Frais de livraison (%{currency})"
   report_header_pay_fee_price: "Frais de Transaction (%{currency})"
   report_header_total_price: "Total (%{currency})"
   report_header_product_total_price: "Total Produit (%{currency})"
   report_header_shipping_total_price: "Total Livaison (%{currency})"
-  report_header_outstanding_balance_price: "Solde (%{currency})"
   report_header_eft_price: "TEF / Transfert Electronique (%{currency})"
   report_header_paypal_price: "Paypal (%{currency})"
   report_header_sku: Référence Produit
@@ -2750,8 +2735,6 @@ fr:
   enterprise_fee_whole_order: Commande totale
   enterprise_fee_by: "%{type} marges/frais par %{role} %{enterprise_name}"
   validation_msg_relationship_already_established: "^Un lien est déjà établi entre ces entreprises."
-  validation_msg_at_least_one_hub: "^Sélectionnez au moins une boutique"
-  validation_msg_tax_category_cant_be_blank: "^Veuillez sélectionner la TVA applicable"
   validation_msg_is_associated_with_an_exising_customer: "est associé à un acheteur existant"
   content_configuration_pricing_table: "(A FAIRE : Tableau des tarifs)"
   content_configuration_case_studies: "(A FAIRE : Etudes de Cas)"
@@ -3371,7 +3354,6 @@ fr:
     add_state: "Ajouter un département"
     adjustment: "Ajustement"
     all: "Tous"
-    associated_adjustment_closed: "L'ajustement associé est fermé"
     back_to_adjustments_list: "Retour aux ajustements"
     back_to_users_list: "Retour à la liste d'utilisateurs"
     back_to_zones_list: "Retour à la liste de zones"

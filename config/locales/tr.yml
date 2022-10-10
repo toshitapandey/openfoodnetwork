@@ -1738,11 +1738,8 @@ tr:
   products_elsewhere: "Başka yerde bulunan ürünler"
   email_confirmed: "E-posta adresinizi onayladığınız için teşekkür ederiz."
   email_confirmation_activate_account: "Yeni hesabınızı etkinleştirmeden önce e-posta adresinizi doğrulamamız gerekiyor."
-  email_confirmation_greeting: "Merhaba, %{contact}!"
-  email_confirmation_profile_created: "%{name} adlı kullanıcının profili başarıyla oluşturuldu! Profilinizi etkinleştirmek için bu e-posta adresini onaylamamız gerekiyor."
   email_confirmation_click_link: "E-postanızı doğrulamak ve profilinizi oluşturmaya devam etmek için lütfen aşağıdaki bağlantıyı tıklayın."
   email_confirmation_link_label: "Bu e-posta adresini onaylayın »"
-  email_confirmation_help_html: "E-postanızı onayladıktan sonra bu işletme için yönetim hesabınıza erişebilirsiniz. %{sitename} 'ın özellikleri ve kullanımı hakkında daha fazla bilgi edinmek için %{link} sayfasına bakın."
   email_confirmation_notice_unexpected: "Bu mesajı, %{sitename} adresine kaydolduğunuz veya muhtemelen tanıdığınız biri tarafından kaydolmaya davet edildiğiniz için aldınız. Bu e-postayı neden aldığınızı anlamıyorsanız, lütfen %{contact} adresine yazın."
   email_social: "Bizimle iletişime geçin:"
   email_contact: "Bize e-posta gönderin:"
@@ -1767,13 +1764,11 @@ tr:
   email_payment_not_paid: ÖDENMEDİ
   email_payment_description: Ödeme Açıklaması
   email_payment_summary: Ödeme özeti
-  email_payment_method: "Ödeme aracı:"
   email_so_placement_intro_html: "<strong>%{distributor}</strong> ile yeni bir siparişiniz var"
   email_so_placement_details_html: "<strong>%{distributor}</strong> için sipariş detayları:"
   email_so_placement_changes: "Maalesef, talep ettiğiniz tüm ürünler mevcut değildi. Sizin istediğiniz miktarlar aşağıda çarpı işareti şeklinde görünür."
   email_so_payment_success_intro_html: "<strong>%{distributor}</strong> üzerinden gelen siparişiniz için otomatik ödeme işleme koyuldu ."
   email_so_placement_explainer_html: "Bu sipariş sizin için otomatik olarak oluşturuldu."
-  email_so_edit_true_html: "%{orders_close_at} vaktinde kapanana kadar siparişlerinde <a href='%{order_url}'>değişiklik</a> yapabilirsiniz."
   email_so_edit_false_html: "<a href='%{order_url}'>Bu siparişin ayrıntılarını</a> istediğiniz zaman görüntüleyebilirsiniz."
   email_so_contact_distributor_html: "Herhangi bir sorunuz varsa <strong>%{distributor}</strong> ile %{email} aracılığıyla iletişime geçebilirsiniz."
   email_so_contact_distributor_to_change_order_html: "Bu sipariş sizin için otomatik olarak oluşturuldu. <strong>%{distributor}</strong> ile %{email} aracılığıyla iletişim kurarak <strong>%{orders_close_at}</strong> vaktinde kapanana kadar siparişlerde değişiklik yapabilirsiniz."
@@ -1881,8 +1876,6 @@ tr:
   products_no_results_html: "Üzgünüz, sonuç bulunamadı %{query}"
   products_clear_search: "Aramayı temizle"
   search_no_results_html: "Üzgünüz, %{query} sonuç bulunamadı. Başka bir arama yapmak ister misiniz?"
-  components_profiles_popover: "Açık Gıda Ağında bir dükkanı olmayan ancak başka bir sitede kendi satış siteleri olan hesaplar"
-  components_profiles_show: "Profilleri göster"
   components_filters_nofilters: "Filtresiz"
   components_filters_clearfilters: "TÜM FİLTRELERİ TEMİZLE"
   groups_title: Gruplar
@@ -1895,7 +1888,6 @@ tr:
   groups_hubs: "Pazarlarımız"
   groups_contact_web: İLETİŞİM
   groups_contact_social: TAKİP ET
-  groups_contact_address: Adres
   groups_contact_email: Bize e-posta gönderin
   groups_contact_website: İnternet sitemizi ziyaret edin
   groups_contact_facebook: Bizi Facebook'tan takip edin
@@ -2333,8 +2325,6 @@ tr:
   spree_admin_enterprises_tabs_hubs: "PAZARLAR"
   spree_admin_enterprises_producers_manage_products: "ÜRÜNLERİ YÖNET"
   spree_admin_enterprises_create_new_product: "YENİ BİR ÜRÜN OLUŞTUR"
-  spree_admin_single_enterprise_alert_mail_confirmation: "Lütfen e-posta adresini onaylayın:"
-  spree_admin_single_enterprise_alert_mail_sent: "Bu adrese bir e-posta gönderdik:"
   spree_admin_overview_action_required: "Eylem Gerekli"
   spree_admin_overview_check_your_inbox: "Diğer talimatlar için lütfen gelen kutunuzu kontrol edin. Teşekkürler!"
   spree_admin_unit_value: Birim değeri
@@ -2397,8 +2387,6 @@ tr:
   report_customers_distributor: "Dağıtımcı"
   report_customers_supplier: "Tedarikçi"
   report_customers_cycle: "Sipariş Dönemi"
-  report_customers_type: "Rapor türü"
-  report_customers_csv: "Csv olarak indir"
   report_producers: "ÜRETİCİLER"
   report_type: "Rapor türü"
   report_hubs: "Pazarlar"
@@ -2503,7 +2491,6 @@ tr:
   report_header_weight: Ağırlık
   report_header_sum_total: Toplamı
   report_header_date_of_order: Sipariş Tarihi
-  report_header_amount_owing: Borç Tutarı
   report_header_amount_paid: Ödenen Miktar
   report_header_units_required: Gerekli Birimler
   report_header_remainder: kalan
@@ -2519,13 +2506,11 @@ tr:
   report_header_payment_type: Ödeme şekli
   report_header_item_price: "Ürün (%{currency})"
   report_header_item_fees_price: "Ürün + Ücretler (%{currency})"
-  report_header_admin_handling_fees: "Yönetim & Operasyon (%{currency})"
   report_header_ship_price: "Nakliye (%{currency})"
   report_header_pay_fee_price: "Ödeme ücreti (%{currency})"
   report_header_total_price: "Toplam (%{currency})"
   report_header_product_total_price: "Ürün Toplamı (%{currency})"
   report_header_shipping_total_price: "Teslimat Toplamı (%{currency})"
-  report_header_outstanding_balance_price: "Ödenmemiş Bakiye (%{currency})"
   report_header_eft_price: "EFT (%{currency})"
   report_header_paypal_price: "PayPal (%{currency})"
   report_header_sku: Stok Kodu
@@ -2587,8 +2572,6 @@ tr:
   enterprise_fee_whole_order: Tüm sipariş
   enterprise_fee_by: "%{role}%{enterprise_name} tarafından%{type} ücreti"
   validation_msg_relationship_already_established: "^ Bu ilişki zaten kurulmuş."
-  validation_msg_at_least_one_hub: "^ En az bir pazar seçilmelidir"
-  validation_msg_tax_category_cant_be_blank: "^ Vergi Kategorisi boş bırakılamaz"
   validation_msg_is_associated_with_an_exising_customer: "mevcut bir müşteriyle bağlantılı"
   content_configuration_pricing_table: "(YAPILACAKLAR: Fiyatlandırma tablosu)"
   content_configuration_case_studies: "(TODO: Vaka çalışmaları)"
@@ -3149,7 +3132,6 @@ tr:
     add_state: "Şehir ekle"
     adjustment: "Düzenleme"
     all: "Hepsi"
-    associated_adjustment_closed: "İlişkili düzenleme kapatıldı"
     back_to_adjustments_list: "Düzenelemere geri dön"
     back_to_users_list: "Kullanıcılara geri dön"
     back_to_zones_list: "Bölgelere geri dön"

@@ -1631,11 +1631,8 @@ pt:
   products_elsewhere: "Produtos encontrados em outros lugares"
   email_confirmed: "Obrigado por confirmar o seu endereço de email."
   email_confirmation_activate_account: "Antes de podermos activar a sua conta, precisamos de confirmar o seu endereço de email."
-  email_confirmation_greeting: "Olá, %{contact}!"
-  email_confirmation_profile_created: "Um perfil para %{name} foi criado com sucesso!\nPara ativar o seu Perfil precisamos que confirme este endereço de email."
   email_confirmation_click_link: "Clique no link abaixo para confirmar o seu email e continuar a criar o seu perfil."
   email_confirmation_link_label: "Confirme este endereço de email »"
-  email_confirmation_help_html: "Depois de confirmar o seu email, pode aceder à conta de administração desta organização. Veja o %{link} para saber mais sobre a %{sitename} e para começar a utilizar o seu perfil ou loja online."
   email_confirmation_notice_unexpected: "Está a receber esta mensagem por se registou em %{sitename}, ou foi convidado para se registar por alguém que provavelmente conhece. Se não entende porque está a receber esta mensagem, por favor escreva para  %{contact}."
   email_social: "Conecte-se connosco:"
   email_contact: "Envie-nos um email:"
@@ -1659,13 +1656,11 @@ pt:
   email_payment_paid: PAGO
   email_payment_not_paid: NÃO PAGO
   email_payment_summary: Resumo do pagamento
-  email_payment_method: "Pagando com:"
   email_so_placement_intro_html: "Tem uma nova encomenda com <strong>%{distributor}</strong>"
   email_so_placement_details_html: "Aqui estão os detalhes da sua encomenda com <strong>%{distributor}</strong>:"
   email_so_placement_changes: "Infelizmente, nem todos os produtos que requisitou estão disponíveis. As quantidades originais que requisitou aparecem riscadas abaixo."
   email_so_payment_success_intro_html: "Um pagamento automático foi processado para a sua encomenda com <strong>%{distributor}</strong>."
   email_so_placement_explainer_html: "Esta encomenda foi criada automaticamente para si."
-  email_so_edit_true_html: "Pode <a href='%{order_url}'>fazer alterações</a> até ao fecho das encomendas a %{orders_close_at}."
   email_so_edit_false_html: "Pode <a href='%{order_url}'>ver detalhes desta encomenda</a> em qualquer momento. "
   email_so_contact_distributor_html: "Se tiver alguma questão pode contactar <strong>%{distributor}</strong>através de %{email}."
   email_so_contact_distributor_to_change_order_html: "Esta encomenda foi criada automaticamente para si. Pode fazer alterações até as encomendas fecharem em %{orders_close_at} contactando <strong>%{distributor}</strong> através do email %{email}."
@@ -1764,8 +1759,6 @@ pt:
   products_update_error_data: "Falha ao guardar devido a dados inválidos:"
   products_changes_saved: "Alterações gravadas."
   search_no_results_html: "Desculpe, nenhum resultado encontrado para %{query}. Tente fazer outra pesquisa."
-  components_profiles_popover: "Os Perfis não possuem loja na Open Food Network, mas podem ter as suas próprias lojas físicas ou online noutro endereço."
-  components_profiles_show: "Mostrar perfis"
   components_filters_nofilters: "Nenhum filtro"
   components_filters_clearfilters: "Limpar filtros"
   groups_title: Grupos
@@ -1778,7 +1771,6 @@ pt:
   groups_hubs: "Nossas centrais"
   groups_contact_web: Contacto
   groups_contact_social: Seguir
-  groups_contact_address: Morada
   groups_contact_email: Envie-nos um email
   groups_contact_website: Visite o nosso website
   groups_contact_facebook: Siga-nos no Facebook
@@ -2200,8 +2192,6 @@ pt:
   spree_admin_enterprises_tabs_hubs: "CENTRAIS"
   spree_admin_enterprises_producers_manage_products: "GERIR PRODUTOS"
   spree_admin_enterprises_create_new_product: "CRIAR UM NOVO PRODUTO"
-  spree_admin_single_enterprise_alert_mail_confirmation: "Por favor confirme o endereço de email para"
-  spree_admin_single_enterprise_alert_mail_sent: "Enviamos um email para"
   spree_admin_overview_action_required: "Ação Requerida"
   spree_admin_overview_check_your_inbox: "Por favor, verifique a sua caixa de correio para mais instruções. Obrigada!"
   spree_admin_unit_value: Valor Unitário
@@ -2261,8 +2251,6 @@ pt:
   report_customers_distributor: "Distribuidor"
   report_customers_supplier: "Fornecedor"
   report_customers_cycle: "Ciclo de Encomendas"
-  report_customers_type: "Tipo de Relatório"
-  report_customers_csv: "Descarregar como csv"
   report_producers: "Produtores"
   report_type: "Tipo de Relatório"
   report_hubs: "Centrais"
@@ -2367,7 +2355,6 @@ pt:
   report_header_weight: Peso
   report_header_sum_total: Soma Total
   report_header_date_of_order: Data da encomenda
-  report_header_amount_owing: Quantia em dívida
   report_header_amount_paid: Quantia Paga
   report_header_units_required: Unidades Requisitadas
   report_header_remainder: Restante
@@ -2383,13 +2370,11 @@ pt:
   report_header_payment_type: Tipo de Pagamento
   report_header_item_price: "Item (%{currency})"
   report_header_item_fees_price: "Item + Taxas (%{currency})"
-  report_header_admin_handling_fees: "Administração & Handling (%{currency})"
   report_header_ship_price: "Enviar (%{currency})"
   report_header_pay_fee_price: "Pagar taxa (%{currency})"
   report_header_total_price: "Total (%{currency})"
   report_header_product_total_price: "Total do Produto (%{currency})"
   report_header_shipping_total_price: "Total do Envio (%{currency})"
-  report_header_outstanding_balance_price: "Saldo pendente (%{currency})"
   report_header_eft_price: "Transferência (%{currency})"
   report_header_paypal_price: "Paypal (%{currency})"
   report_header_sku: SKU
@@ -2448,8 +2433,6 @@ pt:
   enterprise_fee_whole_order: Encomenda completa
   enterprise_fee_by: "Taxa %{type} por %{role}%{enterprise_name}"
   validation_msg_relationship_already_established: "^Essa relação já foi estabelecida."
-  validation_msg_at_least_one_hub: "^Pelo menos uma central deve ser selecionada"
-  validation_msg_tax_category_cant_be_blank: "^A Categoria de Imposto deve ser preenchida"
   validation_msg_is_associated_with_an_exising_customer: "está associado com um consumidor existente"
   content_configuration_pricing_table: "(AFAZER: Tabela de preços)"
   content_configuration_case_studies: "(AFAZER: Casos de estudo)"

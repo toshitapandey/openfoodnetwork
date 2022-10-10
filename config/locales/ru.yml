@@ -1879,11 +1879,8 @@ ru:
   products_elsewhere: "Товары, найденные в других местах"
   email_confirmed: "Спасибо за подтверждение Вашего email адреса."
   email_confirmation_activate_account: "Перед тем как сможем активировать Ваш профиль, мы должны подтвердить Ваш email адрес."
-  email_confirmation_greeting: "Привет, %{contact}!"
-  email_confirmation_profile_created: "Профиль для %{name} успешно создан! Для активации Вашего профиля нам необходимо подтвердить этот email адрес."
   email_confirmation_click_link: "Пожалуйста нажмите на ссылку ниже, чтобы подтвердить Ваш email и продолжить настраивать Ваш профиль."
   email_confirmation_link_label: "Подтвердить email адрес »"
-  email_confirmation_help_html: "После подтверждения Вашего email, Вы можете войти в свой административный профиль для этого предприятия. Смотрите %{link}, чтобы узнать больше о функциях %{sitename} и начать использовать свой профиль или интернет-магазин."
   email_confirmation_notice_unexpected: "Вы получили это сообщение, потому что Вы зарегистрировались в %{sitename} или Вас пригласил зарегистрироваться кто-то, кого Вы, вероятно, знаете. Если вы не понимаете, почему вы получили это письмо, напишите на %{contact}."
   email_social: "Связаться с нами:"
   email_contact: "Напишите нам:"
@@ -1908,13 +1905,11 @@ ru:
   email_payment_not_paid: НЕ ОПЛАЧЕН
   email_payment_description: Описание Платежа при Оформлении Заказа
   email_payment_summary: Статус оплаты
-  email_payment_method: "Тип оплаты:"
   email_so_placement_intro_html: "У Вас есть новый заказ с <strong>%{distributor}</strong>"
   email_so_placement_details_html: "Вот детали вашего заказа для <strong>%{distributor}</strong>:"
   email_so_placement_changes: "К сожалению, не все продукты, которые Вы запрашивали, были доступны. Запрошенные Вами исходные количества указаны ниже."
   email_so_payment_success_intro_html: "Для вашего заказа был выполнен автоматический платеж от <strong>%{distributor}</strong>."
   email_so_placement_explainer_html: "Этот заказ был автоматически для вас создан."
-  email_so_edit_true_html: "Вы можете <a href='%{order_url}'>сделать изменения</a> пока не закроются заказы в %{orders_close_at}."
   email_so_edit_false_html: "Вы можете <a href=''%{order_url}''>посмотреть подробности этого заказа</a> в любое время."
   email_so_contact_distributor_html: "Если у Вас есть вопросы, Вы можете связаться с <strong>%{distributor}</strong> через %{email}."
   email_so_contact_distributor_to_change_order_html: "Этот заказ был автоматически создан для Вас. Вы можете вносить изменения до тех пор, пока заказы не закроются на %{orders_close_at}, связавшись с <strong>%{distributor}</strong> через %{email}."
@@ -2023,8 +2018,6 @@ ru:
   products_no_results_html: "Извините, результаты для %{query} не найдены"
   products_clear_search: "Сбросить поиск"
   search_no_results_html: "Извините, ничего не найдено для %{query}. Попробуйте другой поиск?"
-  components_profiles_popover: "Профили не имеют витрины в Открытой Сети Продуктов, но могут иметь свои собственные физические или онлайн-магазины в других местах."
-  components_profiles_show: "Показать профили"
   components_filters_nofilters: "Нет фильтров"
   components_filters_clearfilters: "Очистить все фильтры"
   groups_title: Группы
@@ -2036,8 +2029,7 @@ ru:
   groups_producers: "Наши производители"
   groups_hubs: "Наши Центры"
   groups_contact_web: Контакты
-  groups_contact_social: Присоединяйтесь
-  groups_contact_address: Адрес
+  groups_contact_social: Присоединяйтесь  
   groups_contact_email: Напишите нам
   groups_contact_website: Зайдите на наш веб сайт
   groups_contact_facebook: Присоединяйтесь к нам на Facebook
@@ -2479,8 +2471,6 @@ ru:
   spree_admin_enterprises_tabs_hubs: "ЦЕНТРЫ"
   spree_admin_enterprises_producers_manage_products: "УПРАВЛЯТЬ ТОВАРАМИ"
   spree_admin_enterprises_create_new_product: "СОЗДАТЬ НОВЫЙ ТОВАР"
-  spree_admin_single_enterprise_alert_mail_confirmation: "Пожалуйста, подтвердите адрес электронной почты для"
-  spree_admin_single_enterprise_alert_mail_sent: "Мы отправили письмо на"
   spree_admin_overview_action_required: "Требуется действие"
   spree_admin_overview_check_your_inbox: "Пожалуйста, проверьте свой почтовый ящик для дальнейших инструкций. Спасибо!"
   spree_admin_unit_value: Значение Единицы
@@ -2543,8 +2533,6 @@ ru:
   report_customers_distributor: "Дистрибьютор"
   report_customers_supplier: "Поставщик"
   report_customers_cycle: "Цикл Заказа"
-  report_customers_type: "Тип Отчета"
-  report_customers_csv: "Скачать как csv"
   report_producers: "Производители"
   report_type: "Тип Отчета"
   report_hubs: "Центры"
@@ -2653,7 +2641,6 @@ ru:
   report_header_weight: Вес
   report_header_sum_total: Итого
   report_header_date_of_order: Дата Заказа
-  report_header_amount_owing: Сумма Задолженности
   report_header_amount_paid: Выплаченная Сумма
   report_header_units_required: Необходимые Единицы
   report_header_remainder: Остаток
@@ -2669,13 +2656,11 @@ ru:
   report_header_payment_type: Способ Оплаты
   report_header_item_price: "Товар (%{currency})"
   report_header_item_fees_price: "Товар + Комиссии (%{currency})"
-  report_header_admin_handling_fees: "Администрирование и Обработка (%{currency})"
   report_header_ship_price: "Доставка (%{currency})"
   report_header_pay_fee_price: "Комиссия за оплату (%{currency})"
   report_header_total_price: "Итого (%{currency})"
   report_header_product_total_price: "Итого по Продукту (%{currency})"
   report_header_shipping_total_price: "Итого за Доставку (%{currency})"
-  report_header_outstanding_balance_price: "Непогашенный Остаток (%{currency})"
   report_header_eft_price: "EFT (%{currency})"
   report_header_paypal_price: "PayPal (%{currency})"
   report_header_sku: SKU
@@ -2742,8 +2727,6 @@ ru:
   enterprise_fee_whole_order: Весь заказ
   enterprise_fee_by: "%{type} сбор за %{role} %{enterprise_name}"
   validation_msg_relationship_already_established: "^Эти отношения уже установлены."
-  validation_msg_at_least_one_hub: "^Должен быть выбран хотя бы один Центр"
-  validation_msg_tax_category_cant_be_blank: "^Налоговая Категория не может быть пустой"
   validation_msg_is_associated_with_an_exising_customer: "связан с существующим клиентом"
   content_configuration_pricing_table: "(СДЕЛАТЬ: таблица цен)"
   content_configuration_case_studies: "(СДЕЛАТЬ: Примеры из практики)"
@@ -3365,7 +3348,6 @@ ru:
     add_state: "Добавить область"
     adjustment: "Корректирование"
     all: "Все"
-    associated_adjustment_closed: "Связанная корректировка закрыта"
     back_to_adjustments_list: "Вернуться к корректировкам"
     back_to_users_list: "Вернуться к пользователям"
     back_to_zones_list: "Вернуться в зоны"

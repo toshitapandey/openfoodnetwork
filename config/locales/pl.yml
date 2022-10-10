@@ -1524,11 +1524,8 @@ pl:
   products_elsewhere: "Produkty znalezione gdzie indziej"
   email_confirmed: "Dziękujemy za potwierdzenie adresu e-mail."
   email_confirmation_activate_account: "Zanim będziemy mogli aktywować Twoje nowe konto, musimy potwierdzić Twój adres e-mail."
-  email_confirmation_greeting: "Cześć, %{contact}!"
-  email_confirmation_profile_created: "Profil dla %{name} został pomyślnie utworzony! Aby aktywować Twój profil, musimy potwierdzić ten adres e-mail."
   email_confirmation_click_link: "Kliknij poniższy link, aby potwierdzić swój adres e-mail i kontynuować konfigurację profilu."
   email_confirmation_link_label: "Potwierdź ten adres e-mail »"
-  email_confirmation_help_html: "Po potwierdzeniu adresu e-mail możesz uzyskać dostęp do swojego konta administracyjnego dla tego podmiotu. Zobacz %{link}, aby dowiedzieć się więcej o funkcjach %{sitename} i zacząć korzystać ze swojego profilu lub sklepu internetowego."
   email_confirmation_notice_unexpected: "Otrzymałeś tę wiadomość, ponieważ zarejestrowałeś się na %{sitename} lub zostałeś zaproszony do zarejestrowania się przez osobę, którą prawdopodobnie znasz. Jeśli nie rozumiesz, dlaczego otrzymujesz tę wiadomość e-mail, napisz do %{contact}."
   email_social: "Połącz się z nami:"
   email_contact: "Wyślij do nas e-mail:"
@@ -1552,13 +1549,11 @@ pl:
   email_payment_paid: OPŁACONY
   email_payment_not_paid: NIEZAPŁACONE
   email_payment_summary: Podsumowanie płatności
-  email_payment_method: "Płacąc przez:"
   email_so_placement_intro_html: "Masz nowe zamówienie z <strong>%{distributor}</strong>"
   email_so_placement_details_html: "Oto szczegóły Twojego zamówienia dla <strong>%{distributor}</strong> :"
   email_so_placement_changes: "Niestety nie wszystkie produkty, o które prosiłeś, były dostępne. Oryginalne ilości, o które prosiłeś, są poniżej przekreślone."
   email_so_payment_success_intro_html: "Przetworzono automatyczną płatność za Twoje zamówienie od <strong>%{distributor}</strong> ."
   email_so_placement_explainer_html: "To zamówienie zostało utworzone automatycznie."
-  email_so_edit_true_html: "Możesz <a href='%{order_url}'>wprowadzać zmiany</a> do zamknięcia zamówień pod numerem %{orders_close_at}."
   email_so_edit_false_html: "W każdej chwili możesz <a href='%{order_url}'>wyświetlić szczegóły tego zamówienia</a> ."
   email_so_contact_distributor_html: "Jeśli masz jakieś pytania, możesz skontaktować się z <strong>%{distributor}</strong> za pośrednictwem %{email}."
   email_so_contact_distributor_to_change_order_html: "To zamówienie zostało utworzone automatycznie. Możesz wprowadzać zmiany aż do zamknięcia zamówień na %{orders_close_at}, kontaktując się z <strong>%{distributor}</strong> przez %{email}."
@@ -1659,8 +1654,6 @@ pl:
   products_no_results_html: "Przepraszamy, nie znaleziono wyników wyszukiwania hasła %{query}"
   products_clear_search: "Wyczyść wyszukiwanie"
   search_no_results_html: "Przepraszamy, nie znaleziono wyników wyszukiwania hasła %{query}. Spróbujesz innego wyszukiwania?"
-  components_profiles_popover: "Profile nie mają witryny sklepowej w Open Food Network, ale mogą mieć własny sklep fizyczny lub internetowy w innym miejscu"
-  components_profiles_show: "Pokaż profile"
   components_filters_nofilters: "Bez filtrów"
   components_filters_clearfilters: "Wyczyść wszystkie filtry"
   groups_title: Grupy
@@ -1673,7 +1666,6 @@ pl:
   groups_hubs: "Nasze huby"
   groups_contact_web: Kontakt
   groups_contact_social: Obserwuj
-  groups_contact_address: Adres
   groups_contact_email: Wyślij do nas e-mail
   groups_contact_website: Odwiedz nasza strone internetowa
   groups_contact_facebook: Śledź nas na facebooku
@@ -2099,8 +2091,6 @@ pl:
   spree_admin_enterprises_tabs_hubs: "Huby"
   spree_admin_enterprises_producers_manage_products: "ZARZĄDZAJ PRODUKTAMI"
   spree_admin_enterprises_create_new_product: "UTWÓRZ NOWY PRODUKT"
-  spree_admin_single_enterprise_alert_mail_confirmation: "Potwierdź adres e-mail dla"
-  spree_admin_single_enterprise_alert_mail_sent: "Wysłaliśmy e-mail do"
   spree_admin_overview_action_required: "Konieczne działania"
   spree_admin_overview_check_your_inbox: "Dalsze instrukcje znajdziesz w swojej skrzynce odbiorczej. Dzięki!"
   spree_admin_unit_value: Wartość jednostki
@@ -2162,8 +2152,6 @@ pl:
   report_customers_distributor: "Dystrybutor"
   report_customers_supplier: "Dostawca"
   report_customers_cycle: "Cykl zamówień"
-  report_customers_type: "Typ raportu"
-  report_customers_csv: "Pobierz jako plik csv"
   report_producers: "Producenci"
   report_hubs: "Huby"
   report_payment: "Metody płatności"
@@ -2263,7 +2251,6 @@ pl:
   report_header_weight: Waga
   report_header_sum_total: Całkowita suma
   report_header_date_of_order: Data zamówienia
-  report_header_amount_owing: Kwota należna
   report_header_amount_paid: Opłata zapłacona
   report_header_units_required: Wymagane jednostki
   report_header_remainder: Reszta
@@ -2279,13 +2266,11 @@ pl:
   report_header_payment_type: Typ płatności
   report_header_item_price: "Pozycja (%{currency})"
   report_header_item_fees_price: "Pozycja + opłaty (%{currency})"
-  report_header_admin_handling_fees: "Administracja i obsługa (%{currency})"
   report_header_ship_price: "Statek (%{currency})"
   report_header_pay_fee_price: "Opłata (%{currency})"
   report_header_total_price: "Razem (%{currency})"
   report_header_product_total_price: "Produkt łącznie (%{currency})"
   report_header_shipping_total_price: "Suma kosztów wysyłki (%{currency})"
-  report_header_outstanding_balance_price: "Zadłużenie (%{currency})"
   report_header_eft_price: "EFT (%{currency})"
   report_header_paypal_price: "PayPal (%{currency})"
   report_header_sku: SKU
@@ -2345,8 +2330,6 @@ pl:
   enterprise_fee_whole_order: Całe zamówienie
   enterprise_fee_by: "%{type} opłata przez %{role} %{enterprise_name}"
   validation_msg_relationship_already_established: "^ Ten związek jest już ustanowiony."
-  validation_msg_at_least_one_hub: "^ Należy wybrać co najmniej jeden hub"
-  validation_msg_tax_category_cant_be_blank: "^ Kategoria podatku nie może być pusta"
   validation_msg_is_associated_with_an_exising_customer: "jest powiązany z istniejącym klientem"
   content_configuration_pricing_table: "(TODO: Tabela cen)"
   content_configuration_case_studies: "(TODO: Case studies)"

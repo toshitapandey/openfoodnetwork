@@ -1846,11 +1846,8 @@ hu:
   products_elsewhere: "Máshol talált termékek"
   email_confirmed: "Köszönjük, hogy megerősítette e-mail címét."
   email_confirmation_activate_account: "Mielőtt aktiválhatnánk új fiókját, meg kell erősíteni az e-mail címét."
-  email_confirmation_greeting: "Szia %{contact}!"
-  email_confirmation_profile_created: "A %{name} profilja sikeresen létrejött! Profilod aktiválásához meg kell erősíteni ezt az e-mail címet."
   email_confirmation_click_link: "Kérjük, kattintson az alábbi linkre az e-mail-cím megerősítéséhez és a profil beállításának folytatásához."
   email_confirmation_link_label: "Erősítse meg ezt az e-mail címet »"
-  email_confirmation_help_html: "Az e-mail-cím megerősítése után hozzáférhet a vállalat adminisztrációs fiókjához. Tekintse meg a %{link} webhelyet, hogy többet megtudjon %{sitename} szolgáltatásairól, és elkezdhesse használni profilját vagy online áruházát."
   email_confirmation_notice_unexpected: "Azért kaptad ezt az üzenetet, mert regisztráltál a(z) %{sitename} webhelyen, vagy egy olyan személy, akit valószínűleg ismersz, meghívta a regisztrációra. Ha nem érti, miért kapta ezt az e-mailt, kérjük, írjon a %{contact} címre."
   email_social: "Kapcsolatba lép velünk:"
   email_contact: "Küldj egy emailt nekünk:"
@@ -1875,13 +1872,11 @@ hu:
   email_payment_not_paid: NEM FIZETETT
   email_payment_description: Fizetési leírás a pénztárnál
   email_payment_summary: Fizetési összefoglaló
-  email_payment_method: "Fizetés:"
   email_so_placement_intro_html: "Új rendelése van a <strong>%{distributor}</strong>-nál"
   email_so_placement_details_html: "Íme a <strong>%{distributor}</strong>-ra vonatkozó megrendelésének részletei:"
   email_so_placement_changes: "Sajnos nem minden kért termék volt elérhető. Az Ön által kért eredeti mennyiségek alább áthúzva jelennek meg."
   email_so_payment_success_intro_html: "A(z) <strong>%{distributor}</strong> kereskedőtől származó megrendelésének automatikus fizetése megtörtént."
   email_so_placement_explainer_html: "Ez a rendelés automatikusan létrejött az Ön számára."
-  email_so_edit_true_html: "Addig <a href='%{order_url}'>módosításokat hajthat végre</a>, amíg a rendelések le nem zárulnak a következő napon: %{orders_close_at}."
   email_so_edit_false_html: "Bármikor <a href='%{order_url}'>megtekintheti a rendelés részleteit</a>."
   email_so_contact_distributor_html: "Ha bármilyen kérdése van, forduljon a következőhöz: <strong>%{distributor}</strong> a %{email} címen."
   email_so_contact_distributor_to_change_order_html: "Ez a rendelés automatikusan létrejött az Ön számára. A(z) %{orders_close_at} napon a rendelések lezárásáig módosíthatja a következőt: <strong>%{distributor}</strong> a %{email} címen."
@@ -1990,8 +1985,6 @@ hu:
   products_no_results_html: "Sajnáljuk, nem található találat a következőre: %{query}"
   products_clear_search: "Keresés törlése"
   search_no_results_html: "Sajnáljuk, nem található eredmény a %{query} kifejezésre. Próbálkozzon másik kereséssel?"
-  components_profiles_popover: "profiloknak nincs kirakata az Open Food Network-ben, de lehet, hogy van saját fizikai vagy online boltjuk máshol"
-  components_profiles_show: "Profilok megjelenítése"
   components_filters_nofilters: "Nincsenek szűrők"
   components_filters_clearfilters: "Törölje az összes szűrőt"
   groups_title: Csoportok
@@ -2004,7 +1997,6 @@ hu:
   groups_hubs: "A mi központjaink"
   groups_contact_web: Kapcsolatba lépni
   groups_contact_social: Kövesse
-  groups_contact_address: Cím
   groups_contact_email: Küldj egy emailt nekünk
   groups_contact_website: Látogasd meg weboldalunkat
   groups_contact_facebook: Kövess minket Facebookon
@@ -2443,8 +2435,6 @@ hu:
   spree_admin_enterprises_tabs_hubs: "HUBS"
   spree_admin_enterprises_producers_manage_products: "TERMÉKEK KEZELÉSE"
   spree_admin_enterprises_create_new_product: "ÚJ TERMÉK KÉSZÍTÉSE"
-  spree_admin_single_enterprise_alert_mail_confirmation: "Kérjük, erősítse meg az e-mail címet"
-  spree_admin_single_enterprise_alert_mail_sent: "E-mailt küldtünk a címre"
   spree_admin_overview_action_required: "Cselekvést kíván"
   spree_admin_overview_check_your_inbox: "Kérjük, nézze meg beérkezett üzeneteit a további utasításokért. Kösz!"
   spree_admin_unit_value: Egységérték
@@ -2507,8 +2497,6 @@ hu:
   report_customers_distributor: "Elosztó"
   report_customers_supplier: "Támogató"
   report_customers_cycle: "Rendelési ciklus"
-  report_customers_type: "Jelentés típusa"
-  report_customers_csv: "Letöltés csv-ként"
   report_producers: "Termelők"
   report_type: "Jelentés típusa"
   report_hubs: "Hubok"
@@ -2613,7 +2601,6 @@ hu:
   report_header_weight: Súly
   report_header_sum_total: Összeg összesen
   report_header_date_of_order: Megrendelés dátuma
-  report_header_amount_owing: Fizetendő összeg
   report_header_amount_paid: Kifizetett összeg
   report_header_units_required: Egységek szükségesek
   report_header_remainder: Maradék
@@ -2629,13 +2616,11 @@ hu:
   report_header_payment_type: Fizetési mód
   report_header_item_price: "Tétel (%{currency})"
   report_header_item_fees_price: "Tétel + díjak (%{currency})"
-  report_header_admin_handling_fees: "Adminisztráció és kezelés (%{currency})"
   report_header_ship_price: "Szállítás (%{currency})"
   report_header_pay_fee_price: "Díj befizetése (%{currency})"
   report_header_total_price: "Összesen (%{currency})"
   report_header_product_total_price: "Termék összesen (%{currency})"
   report_header_shipping_total_price: "Szállítás teljes összege (%{currency})"
-  report_header_outstanding_balance_price: "Tartozó egyenleg (%{currency})"
   report_header_eft_price: "EFT (%{currency})"
   report_header_paypal_price: "PayPal (%{currency})"
   report_header_sku: SKU
@@ -2697,8 +2682,6 @@ hu:
   enterprise_fee_whole_order: Az egész rendelés
   enterprise_fee_by: "%{type} díj: %{role} %{enterprise_name}"
   validation_msg_relationship_already_established: "^Ez a kapcsolat már létrejött."
-  validation_msg_at_least_one_hub: "^Legalább egy hubot ki kell választani"
-  validation_msg_tax_category_cant_be_blank: "^Az adókategória mező nem lehet üres"
   validation_msg_is_associated_with_an_exising_customer: "meglévő ügyfélhez van társítva"
   content_configuration_pricing_table: "(TODO: Ártáblázat)"
   content_configuration_case_studies: "(TODO: Esettanulmányok)"
@@ -3316,7 +3299,6 @@ hu:
     add_state: "Állapot hozzáadása"
     adjustment: "Beállítás"
     all: "Minden"
-    associated_adjustment_closed: "A kapcsolódó beállítás lezárva"
     back_to_adjustments_list: "Vissza a beállításokhoz"
     back_to_users_list: "Vissza a felhasználókhoz"
     back_to_zones_list: "Vissza a zónákhoz"

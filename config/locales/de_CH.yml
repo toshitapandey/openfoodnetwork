@@ -1862,11 +1862,8 @@ de_CH:
   products_elsewhere: "Produkte an anderer Stelle"
   email_confirmed: "Vielen Dank für die Bestätigung Ihrer E-Mail-Adresse."
   email_confirmation_activate_account: "Bevor wir Ihr neues Konto aktivieren können, bestätigen Sie bitte Ihre E-Mail-Adresse."
-  email_confirmation_greeting: "Hallo %{contact}!"
-  email_confirmation_profile_created: "Das Profil für %{name} wurde erfolgreich erstellt! Zur Aktivierung des Profils, bitten wir Sie diese E-Mail-Adresse zu bestätigen."
   email_confirmation_click_link: "Bitte klicken Sie auf den untenstehenden Link, um Ihre E-Mail-Adresse zu bestätigen und mit der Einrichtung Ihres Profils fortzufahren."
   email_confirmation_link_label: "E-Mail-Adresse bestätigen"
-  email_confirmation_help_html: "Nachdem Sie Ihre E-Mail-Adresse bestätigt haben, können Sie auf die Einstellungen dieses Unternehmens zugreifen. Sehen Sie sich die %{link} an, um mehr über die Funktionen des Open Food Networks zu erfahren und Ihr Profil oder Ihren Online-Shop einzurichten."
   email_confirmation_notice_unexpected: "Sie haben diese Nachricht erhalten, weil Sie sich im Open Food Network angemeldet haben oder von einer Person dazu eingeladen wurden. Wenn Sie nicht verstehen, warum Sie diese E-Mail erhalten, schreiben Sie bitte an %{contact}."
   email_social: "Verbinden Sie sich mit uns:"
   email_contact: "Schreiben Sie uns eine E-Mail:"
@@ -1891,13 +1888,11 @@ de_CH:
   email_payment_not_paid: NICHT BEZAHLT
   email_payment_description: 'Hinweise zur Zahlung '
   email_payment_summary: Zahlungsübersicht
-  email_payment_method: "Zahlungsart:"
   email_so_placement_intro_html: "Sie haben eine neue Bestellung bei <strong>%{distributor}</strong> erhalten!"
   email_so_placement_details_html: "Nachfolgend finden Sie die Details Ihrer Bestellung für <strong>%{distributor}</strong>:"
   email_so_placement_changes: "Leider waren nicht alle von Ihnen bestellten Produkte verfügbar. Die von Ihnen gewünschten Originalmengen sind unten durchgestrichen."
   email_so_payment_success_intro_html: "Es wurde eine automatische Zahlung für Ihre Bestellung bei <strong>%{distributor}</strong> vorgenommen."
   email_so_placement_explainer_html: "Diese Bestellung wurde automatisch für Sie erstellt."
-  email_so_edit_true_html: "Sie können <a href='%{order_url}'>Änderungen vornehmen</a>, bis Bestellungen am %{orders_close_at} schliessen."
   email_so_edit_false_html: "Sie können jederzeit <a href='%{order_url}'>Details zu dieser Bestellung anzeigen</a>."
   email_so_contact_distributor_html: "Wenn Sie Fragen haben, können Sie sich mit <strong>%{distributor}</strong> über %{email} in Verbindung setzen."
   email_so_contact_distributor_to_change_order_html: "Diese Bestellung wurde automatisch für Sie erstellt. Sie können Änderungen vornehmen, bis die Bestellungen am %{orders_close_at} geschlossen werden, indem Sie <strong>%{distributor}</strong> über %{email} kontaktieren."
@@ -2006,8 +2001,6 @@ de_CH:
   products_no_results_html: "Leider wurden keine Ergebnisse gefunden für %{query}"
   products_clear_search: "Suche zurücksetzen"
   search_no_results_html: "Es wurden leider keine Ergebnisse für %{query} gefunden."
-  components_profiles_popover: "Profile haben keinen eigenen Laden im Open Food Schweiz, verkaufen ihre Produkte aber möglicherweise online oder offline über andere Läden."
-  components_profiles_show: "Profile anzeigen"
   components_filters_nofilters: "Keine Filter"
   components_filters_clearfilters: "Filter zurücksetzen"
   groups_title: Gruppen
@@ -2020,7 +2013,6 @@ de_CH:
   groups_hubs: "Unsere Läden"
   groups_contact_web: Kontakt
   groups_contact_social: Folgen
-  groups_contact_address: Adresse
   groups_contact_email: Schreiben Sie uns eine E-Mail
   groups_contact_website: Besuchen Sie unsere Homepage
   groups_contact_facebook: Folgen Sie uns auf Facebook
@@ -2459,8 +2451,6 @@ de_CH:
   spree_admin_enterprises_tabs_hubs: "HUBS"
   spree_admin_enterprises_producers_manage_products: "PRODUKTE VERWALTEN"
   spree_admin_enterprises_create_new_product: "NEUES PRODUKT"
-  spree_admin_single_enterprise_alert_mail_confirmation: "Bitte bestätigen Sie die E-Mail-Adresse für"
-  spree_admin_single_enterprise_alert_mail_sent: "Wir haben eine E-Mail gesendet an "
   spree_admin_overview_action_required: "Handlung erforderlich"
   spree_admin_overview_check_your_inbox: "Bitte überprüfen Sie Ihren Posteingang für weitere Anweisungen. Vielen Dank!"
   spree_admin_unit_value: Einheitswert
@@ -2523,8 +2513,6 @@ de_CH:
   report_customers_distributor: "Verteilstelle"
   report_customers_supplier: "Lieferant"
   report_customers_cycle: "Bestellzyklus"
-  report_customers_type: "Berichtsart"
-  report_customers_csv: "Als csv-Datei herunterladen"
   report_producers: "Unsere Produzenten"
   report_type: "Berichtsart"
   report_hubs: "Hubs"
@@ -2633,7 +2621,6 @@ de_CH:
   report_header_weight: Gewicht
   report_header_sum_total: Gesamtsumme
   report_header_date_of_order: Bestelldatum
-  report_header_amount_owing: Offener Betrag
   report_header_amount_paid: Bezahlter Betrag
   report_header_units_required: Benötigte Einheiten
   report_header_remainder: Rest
@@ -2649,13 +2636,11 @@ de_CH:
   report_header_payment_type: Zahlungsart
   report_header_item_price: "Produkt (%{currency})"
   report_header_item_fees_price: "Produkt + Gebühren (%{currency})"
-  report_header_admin_handling_fees: "Bearbeitungsgebühr (%{currency})"
   report_header_ship_price: "Liefergebühr (%{currency})"
   report_header_pay_fee_price: "Zahlungsgebühr (%{currency})"
   report_header_total_price: "Gesamt (%{currency})"
   report_header_product_total_price: "Produkte gesamt (%{currency})"
   report_header_shipping_total_price: "Liefersumme (%{currency})"
-  report_header_outstanding_balance_price: "Offener Betrag (%{currency})"
   report_header_eft_price: "Bargeldlos (%{currency})"
   report_header_paypal_price: "PayPal (%{currency})"
   report_header_sku: Artikelnummer
@@ -2722,8 +2707,6 @@ de_CH:
   enterprise_fee_whole_order: Gesamte Bestellung
   enterprise_fee_by: "%{type} Gebühr von %{role} %{enterprise_name}"
   validation_msg_relationship_already_established: "^ Diese Beziehung besteht bereits."
-  validation_msg_at_least_one_hub: "^ Mindestens ein Hub muss ausgewählt sein."
-  validation_msg_tax_category_cant_be_blank: "^ Steuerkategorie darf nicht leer sein."
   validation_msg_is_associated_with_an_exising_customer: "ist mit einem bestehenden Kunden verbunden"
   content_configuration_pricing_table: "(TODO: Preistabelle)"
   content_configuration_case_studies: "(TODO: Beispiele)"
@@ -3299,7 +3282,6 @@ de_CH:
     add_state: "Neues Bundesland"
     adjustment: "Anpassung"
     all: "Alle"
-    associated_adjustment_closed: "Zugehörige Anpassung geschlossen"
     back_to_adjustments_list: "Zurück zu Anpassungen"
     back_to_users_list: "Zurück zur Benutzerliste"
     back_to_zones_list: "Zurück zur Zonenliste"

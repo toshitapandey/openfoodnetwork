@@ -1884,11 +1884,8 @@ nb:
   products_elsewhere: "Produkter funnet andre steder"
   email_confirmed: "Takk for at du bekrefter din epostadresse"
   email_confirmation_activate_account: "Før vi kan aktivere den nye kontoen din, må vi bekrefte epostadressen din."
-  email_confirmation_greeting: "Hei, %{contact}!"
-  email_confirmation_profile_created: "En profil for %{name} har blitt opprettet! For å aktivere din profil må du bekrefte denne epostadressen."
   email_confirmation_click_link: "Trykk på linken under for å bekrefte din epost og for å fortsette oppsettet av din profil."
   email_confirmation_link_label: "Bekreft denne epostadressen »"
-  email_confirmation_help_html: "Etter du har bekreftet epostadressen din får du tilgang til din administrasjonskonto for denne bedriften. Se linken %{link} for å finne ut mer om %{sitename}s funksjoner og for å begynne å bruke din profil eller nettbutikk."
   email_confirmation_notice_unexpected: "Du har mottatt denne meldingen fordi du registrerte deg på %{sitename}, eller ble invitert til å registrere deg av noen du sikkert kjenner. Hvis du ikke forstår hvorfor du mottar denne e-posten, skriv til %{contact}."
   email_social: "Her finner du oss:"
   email_contact: "Send oss en epost:"
@@ -1913,13 +1910,11 @@ nb:
   email_payment_not_paid: IKKE BETALT
   email_payment_description: Betalingsbeskrivelse i kassen
   email_payment_summary: Betalingssammendrag
-  email_payment_method: "Betaler via:"
   email_so_placement_intro_html: "Du har en ny bestilling med <strong> %{distributor} </strong>"
   email_so_placement_details_html: "Her er detaljene i bestillingen din for <strong> %{distributor} </strong>:"
   email_so_placement_changes: "Dessverre var ikke alle produktene du ba om tilgjengelig. De opprinnelige mengdene du forespurte vises krysset ut nedenfor."
   email_so_payment_success_intro_html: "En automatisk betaling er behandlet for bestillingen din fra <strong> %{distributor} </strong>."
   email_so_placement_explainer_html: "Denne bestillingen ble automatisk opprettet for deg."
-  email_so_edit_true_html: "Du kan <a href='%{order_url}'> gjøre endringer </a> til bestillinger lukkes på %{orders_close_at}."
   email_so_edit_false_html: "Du kan <a href='%{order_url}'> se detaljer på denne bestillingen </a> når som helst."
   email_so_contact_distributor_html: "Hvis du har spørsmål, kan du kontakte <strong> %{distributor}</strong> via %{email}."
   email_so_contact_distributor_to_change_order_html: "Denne bestillingen ble automatisk opprettet for deg. Du kan gjøre endringer til bestillinger stenger på %{orders_close_at} ved å kontakte <strong> %{distributor} </strong> via %{email}."
@@ -2028,8 +2023,6 @@ nb:
   products_no_results_html: "Beklager, ingen resultater for %{query}"
   products_clear_search: "Tøm søk"
   search_no_results_html: "Beklager, ingen treff på %{query}. Prøv på nytt?"
-  components_profiles_popover: "Profiler har ikke butikk på Open Food Network men kan ha sin egen fysiske butikk eller nettbutikk et annet sted"
-  components_profiles_show: "Vis profiler"
   components_filters_nofilters: "Ingen filter"
   components_filters_clearfilters: "Fjern alle filtre"
   groups_title: Grupper
@@ -2042,7 +2035,6 @@ nb:
   groups_hubs: "Våre hubs"
   groups_contact_web: Kontakt
   groups_contact_social: Følg
-  groups_contact_address: Adresse
   groups_contact_email: Send oss epost
   groups_contact_website: Besøk oss på nett
   groups_contact_facebook: Følg oss på Facebook
@@ -2484,8 +2476,6 @@ nb:
   spree_admin_enterprises_tabs_hubs: "HUBS"
   spree_admin_enterprises_producers_manage_products: "ADMINISTRER PRODUKTER"
   spree_admin_enterprises_create_new_product: "OPPRETT NYTT PRODUKT"
-  spree_admin_single_enterprise_alert_mail_confirmation: "Vennligst bekreft epostadressen for"
-  spree_admin_single_enterprise_alert_mail_sent: "Vi har sendt epost til"
   spree_admin_overview_action_required: "Handling Nødvendig"
   spree_admin_overview_check_your_inbox: "Vennligst sjekk din innboks for nærmere instruksjoner. Takk!"
   spree_admin_unit_value: Enhetsverdi
@@ -2548,8 +2538,6 @@ nb:
   report_customers_distributor: "Distributør"
   report_customers_supplier: "Leverandør"
   report_customers_cycle: "Bestillingsrunde"
-  report_customers_type: "Rapporttype"
-  report_customers_csv: "Last ned som csv"
   report_producers: "Produsenter"
   report_type: "Rapporttype"
   report_hubs: "Hubs"
@@ -2660,7 +2648,6 @@ nb:
   report_header_weight: Vekt
   report_header_sum_total: Totalsum
   report_header_date_of_order: Bestillingsdato
-  report_header_amount_owing: Skyldig Beløp
   report_header_amount_paid: Beløp Betalt
   report_header_units_required: Enheter som kreves
   report_header_remainder: Rest
@@ -2676,13 +2663,11 @@ nb:
   report_header_payment_type: Betalingstype
   report_header_item_price: "Vare (%{currency})"
   report_header_item_fees_price: "Vare + Avgifter (%{currency})"
-  report_header_admin_handling_fees: "Admin & Håntering (%{currency})"
   report_header_ship_price: "Levering (%{currency})"
   report_header_pay_fee_price: "Betalingsavgift (%{currency})"
   report_header_total_price: "Total (%{currency})"
   report_header_product_total_price: "Vare Total (%{currency})"
   report_header_shipping_total_price: "Frakt Total (%{currency})"
-  report_header_outstanding_balance_price: "Utestående saldo (%{currency})"
   report_header_eft_price: "EFT (%{currency})"
   report_header_paypal_price: "PayPal (%{currency})"
   report_header_sku: SKU
@@ -2749,8 +2734,6 @@ nb:
   enterprise_fee_whole_order: Hele bestillingen
   enterprise_fee_by: "%{type} avgift ved %{role} %{enterprise_name}"
   validation_msg_relationship_already_established: "^Den relasjonen er allerede etablert."
-  validation_msg_at_least_one_hub: "^Minst én hub må være valgt"
-  validation_msg_tax_category_cant_be_blank: "^Avgiftskategori kan ikke være blank"
   validation_msg_is_associated_with_an_exising_customer: "er assosiert med en eksisterende kunde"
   content_configuration_pricing_table: "(TODO: Pristabell)"
   content_configuration_case_studies: "(TODO: Casestudier)"
@@ -3316,7 +3299,6 @@ nb:
     add_state: "Legg til fylke"
     adjustment: "Justering"
     all: "Alle"
-    associated_adjustment_closed: "Tilknyttet justering lukket"
     back_to_adjustments_list: "Tilbake til justeringer"
     back_to_users_list: "Tilbake til brukere"
     back_to_zones_list: "Tilbake til soner"

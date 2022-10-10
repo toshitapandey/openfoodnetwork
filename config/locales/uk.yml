@@ -1874,11 +1874,8 @@ uk:
   products_elsewhere: "Продукти, знайдені в інших місцях"
   email_confirmed: "Дякуємо за підтвердження адреси електронної пошти."
   email_confirmation_activate_account: "Перш ніж ми зможемо активувати ваш новий обліковий запис, нам потрібно підтвердити вашу електронну адресу."
-  email_confirmation_greeting: "Привіт, %{contact}!"
-  email_confirmation_profile_created: "Профіль для %{name} успішно створено! Щоб активувати ваш профіль, нам потрібно підтвердити цю електронну адресу."
   email_confirmation_click_link: "Клацніть посилання нижче, щоб підтвердити свою електронну адресу та продовжити налаштування профілю."
   email_confirmation_link_label: "Підтвердіть цю електронну адресу »"
-  email_confirmation_help_html: "Після підтвердження електронної пошти ви зможете отримати доступ до облікового запису адміністратора цього підприємства. Перегляньте %{link}, щоб дізнатися більше про функції %{sitename} і почати використовувати свій профіль або онлайн-магазин."
   email_confirmation_notice_unexpected: "Ви отримали це повідомлення, оскільки ви зареєструвалися на %{sitename} або вас запросив зареєструватися хтось, кого ви, напевно, знаєте. Якщо ви не розумієте, чому ви отримали цей електронний лист, напишіть на %{contact}."
   email_social: "Зв'яжіться з нами:"
   email_contact: "Напишіть нам:"
@@ -1903,13 +1900,11 @@ uk:
   email_payment_not_paid: НЕ ОПЛАЧЕНО
   email_payment_description: Опис платежу під час оформлення замовлення
   email_payment_summary: Підсумок платежу
-  email_payment_method: "Оплата через:"
   email_so_placement_intro_html: "У вас є нове замовлення з <strong>%{distributor}</strong>"
   email_so_placement_details_html: "Ось деталі вашого замовлення для <strong>%{distributor}</strong> :"
   email_so_placement_changes: "На жаль, не всі продукти, які ви запитували, були доступні. Початкові кількості, які ви запитували, перекреслені нижче."
   email_so_payment_success_intro_html: "За ваше замовлення від <strong>%{distributor}</strong> оброблено автоматичний платіж."
   email_so_placement_explainer_html: "Це замовлення було створено для вас автоматично."
-  email_so_edit_true_html: "Ви можете <a href='%{order_url}'>вносити зміни</a> до закриття замовлень на %{orders_close_at}."
   email_so_edit_false_html: "Ви можете <a href='%{order_url}'>переглянути деталі цього замовлення</a> в будь-який час."
   email_so_contact_distributor_html: "Якщо у вас є будь-які запитання, ви можете зв’язатися з <strong>%{distributor}</strong> через %{email}."
   email_so_contact_distributor_to_change_order_html: "Це замовлення було створено для вас автоматично. Ви можете вносити зміни до завершення замовлення за номером %{orders_close_at}, зв’язавшись з <strong>%{distributor}</strong> через %{email}"
@@ -2018,8 +2013,6 @@ uk:
   products_no_results_html: "На жаль, для %{query} результатів не знайдено"
   products_clear_search: "Очистити пошук"
   search_no_results_html: "На жаль, для %{query} результатів не знайдено. Спробувати інший пошук?"
-  components_profiles_popover: "Профілі не мають вітрини у Open Food Network, але можуть мати власний фізичний або онлайн-магазин в іншому місці"
-  components_profiles_show: "Показати профілі"
   components_filters_nofilters: "Без фільтрів"
   components_filters_clearfilters: "Очистити всі фільтри"
   groups_title: Групи
@@ -2032,7 +2025,6 @@ uk:
   groups_hubs: "Наші центри"
   groups_contact_web: Контакти
   groups_contact_social: Стежити
-  groups_contact_address: Адреса
   groups_contact_email: Напишіть нам
   groups_contact_website: Відвідайте наш сайт
   groups_contact_facebook: Слідкуйте за нами на Facebook
@@ -2474,8 +2466,6 @@ uk:
   spree_admin_enterprises_tabs_hubs: "ХАБИ"
   spree_admin_enterprises_producers_manage_products: "КЕРУВАННЯ ПРОДУКТАМИ"
   spree_admin_enterprises_create_new_product: "СТВОРИТИ НОВИЙ ПРОДУКТ"
-  spree_admin_single_enterprise_alert_mail_confirmation: "Будь ласка, підтвердіть електронну адресу для"
-  spree_admin_single_enterprise_alert_mail_sent: "Ми надіслали електронний лист на адресу"
   spree_admin_overview_action_required: "Потрібна дія"
   spree_admin_overview_check_your_inbox: "Щоб отримати подальші інструкції, перевірте свою поштову скриньку. Спасибі!"
   spree_admin_unit_value: Вартість одиниці
@@ -2538,8 +2528,6 @@ uk:
   report_customers_distributor: "Дистрибютор"
   report_customers_supplier: "Постачальник"
   report_customers_cycle: "Цикл замовлення"
-  report_customers_type: "Тип звіту"
-  report_customers_csv: "Завантажити як csv"
   report_producers: "Виробники"
   report_type: "Тип звіту"
   report_hubs: "Хаби"
@@ -2648,7 +2636,6 @@ uk:
   report_header_weight: Вага
   report_header_sum_total: Сума Загальна
   report_header_date_of_order: Дата замовлення
-  report_header_amount_owing: Сума заборгованості
   report_header_amount_paid: Виплачувана сума
   report_header_units_required: Необхідні одиниці вимірювання
   report_header_remainder: Залишок
@@ -2664,13 +2651,11 @@ uk:
   report_header_payment_type: Тип оплати
   report_header_item_price: "Пункт (%{currency})"
   report_header_item_fees_price: "Товар + комісії (%{currency})"
-  report_header_admin_handling_fees: "Адміністрування та керування (%{currency})"
   report_header_ship_price: "Доставка (%{currency})"
   report_header_pay_fee_price: "Сплатити комісію (%{currency})"
   report_header_total_price: "Всього (%{currency})"
   report_header_product_total_price: "Усього продукту (%{currency})"
   report_header_shipping_total_price: "Всього за доставку (%{currency})"
-  report_header_outstanding_balance_price: "Непогашений залишок (%{currency})"
   report_header_eft_price: "EFT (%{currency})"
   report_header_paypal_price: "PayPal (%{currency})"
   report_header_sku: Артикул
@@ -2737,8 +2722,6 @@ uk:
   enterprise_fee_whole_order: Ціле замовлення
   enterprise_fee_by: "%{type} комісія від %{role} %{enterprise_name}"
   validation_msg_relationship_already_established: "^Цей зв'язок уже встановлений."
-  validation_msg_at_least_one_hub: "^Потрібно вибрати принаймні один хаб"
-  validation_msg_tax_category_cant_be_blank: "^Податкова категорія не може бути пустою"
   validation_msg_is_associated_with_an_exising_customer: "пов’язаний із існуючим клієнтом"
   content_configuration_pricing_table: "(TODO: Таблиця цін)"
   content_configuration_case_studies: "(TODO: тематичні дослідження)"
@@ -3353,7 +3336,6 @@ uk:
     add_state: "Додати регіон"
     adjustment: "Коригування"
     all: "Всі"
-    associated_adjustment_closed: "Пов'язане коригування закрито"
     back_to_adjustments_list: "Назад до налаштувань"
     back_to_users_list: "Повернутися до користувачів"
     back_to_zones_list: "Назад до зон"
