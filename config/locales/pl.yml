@@ -629,8 +629,6 @@ pl:
         variants_without_unit_value: "OSTRZEŻENIE: Niektóre warianty nie mają określonej jednostki"
         all: "Wszystko"
       select_variant: "Wybierz wariant"
-    enterprise:
-      select_outgoing_oc_products_from: Wybierz wychodzące produkty OC z
     enterprises:
       index:
         title: Podmioty
@@ -798,16 +796,12 @@ pl:
           add_new_rule: '+ Dodaj nową regułę'
           add_new_tag: '+ Dodaj nowy tag'
         users:
-          email_confirmation_notice_html: "Oczekuje na potwierdzenie e-mailem. Wysłaliśmy wiadomość e-mail z potwierdzeniem na adres %{email}."
           resend: Wysłać ponownie
           owner: 'Właściciel'
           contact: "Kontakt"
           contact_tip: "Menedżer, który będzie otrzymywał firmowe wiadomości e-mail dotyczące zamówień i powiadomień. Musi mieć potwierdzony adres e-mail."
           owner_tip: Główny użytkownik odpowiedzialny za ten podmiot.
           notifications: Powiadomienia
-          notifications_tip: Powiadomienia o zamówieniach będą wysyłane na ten adres e-mail.
-          notifications_placeholder: np. jan@sliwa.pl
-          notifications_note: 'Uwaga: nowy adres e-mail może wymagać potwierdzenia przed użyciem'
           managers: Menedżerowie
           managers_tip: Inni użytkownicy z uprawnieniami do zarządzania tym podmiotem.
           invite_manager: "Zaproś menedżera"
@@ -1029,7 +1023,6 @@ pl:
       resend_email: Ponownie wysłać wiadomość e-mail
       has_no_payment_methods: "%{enterprise} obecnie nie ma żadnych metod płatności"
       has_no_shipping_methods: "%{enterprise} obecnie nie ma metod dostaw"
-      email_confirmation: "Oczekuje na potwierdzenie e-mailem. Wysłaliśmy wiadomość e-mail z potwierdzeniem na adres %{email}."
       not_visible: "%{enterprise} nie jest widoczny, więc nie można go znaleźć na mapie ani w wynikach wyszukiwania"
     reports:
       hidden: UKRYTY
@@ -1491,7 +1484,6 @@ pl:
   order_total: Całkowite zamówienie
   order_payment: "Płatność:"
   order_billing_address: Adres rozliczeniowy
-  order_delivery_on: Dostawa w dniu
   order_delivery_address: Adres dostawy
   order_delivery_time: Czas dostawy
   order_special_instructions: "Twoje notatki:"
@@ -1501,7 +1493,6 @@ pl:
   order_total_price: Razem
   order_includes_tax: (zawiera podatek)
   order_payment_paypal_successful: Twoja płatność za pośrednictwem PayPal została pomyślnie przetworzona.
-  order_hub_info: Informacje o hubie
   order_back_to_store: Powrót do sklepu
   order_back_to_cart: Powrót do koszyka
   bom_tip: "Użyj tej strony, aby zmienić ilości produktów w wielu zamówieniach. W razie potrzeby produkty mogą być również całkowicie usunięte z zamówień."
@@ -1546,7 +1537,6 @@ pl:
   email_so_edit_false_html: "W każdej chwili możesz <a href='%{order_url}'>wyświetlić szczegóły tego zamówienia</a> ."
   email_so_contact_distributor_html: "Jeśli masz jakieś pytania, możesz skontaktować się z <strong>%{distributor}</strong> za pośrednictwem %{email}."
   email_so_contact_distributor_to_change_order_html: "To zamówienie zostało utworzone automatycznie. Możesz wprowadzać zmiany aż do zamknięcia zamówień na %{orders_close_at}, kontaktując się z <strong>%{distributor}</strong> przez %{email}."
-  email_so_confirmation_intro_html: "Twoje zamówienie z <strong>%{distributor}</strong> zostało potwierdzone"
   email_so_confirmation_explainer_html: "To zamówienie zostało automatycznie złożone dla Ciebie i zostało sfinalizowane."
   email_so_confirmation_details_html: "Oto wszystko, co musisz wiedzieć o swoim zamówieniu od <strong>%{distributor}</strong> :"
   email_so_empty_intro_html: "Próbowaliśmy złożyć nowe zamówienie za pomocą <strong>%{distributor}</strong> , ale mieliśmy pewne problemy ..."
@@ -1572,7 +1562,6 @@ pl:
     greeting: "Dzień dobry!"
     invited_to_manage: "Zostałeś zaproszony do zarządzania %{enterprise} na %{instance}."
     confirm_your_email: "Powinieneś otrzymać lub wkrótce otrzymasz wiadomość e-mail z linkiem potwierdzającym. Nie będziesz mieć dostępu do profilu %{enterprise}, dopóki nie potwierdzisz swojego adresu e-mail."
-    set_a_password: "Zostaniesz poproszony o ustawienie hasła, zanim będziesz mógł administrować podmiotem."
     mistakenly_sent: "Nie wiesz, dlaczego otrzymałeś ten e-mail? Aby uzyskać więcej informacji, skontaktuj się z %{owner_email}."
   producer_mail_greeting: "Drogi"
   producer_mail_order_text: "Oto podsumowanie zamówień na Twoje produkty:"
@@ -2049,7 +2038,6 @@ pl:
   in_progress: "W trakcie"
   started_at: "Zaczęło się o"
   queued: "W kolejce"
-  scheduled_for: "Zaplanowane na"
   customers: "Klienci"
   please_select_hub: "Wybierz hub"
   loading_customers: "Ładowanie klientów"
@@ -2108,7 +2096,6 @@ pl:
   last_name_begins_with: "Nazwisko zaczyna się od"
   shipping_method: "Metoda dostawy"
   new_order: "Nowe zamówienie"
-  enterprise_tos_link: "Link do warunków korzystania z usługi dla podmiotów"
   enterprise_tos_message: "Chcemy pracować z ludźmi, którzy podzielają nasze cele i wartości. W związku z tym prosimy nowe podmioty o wyrażenie zgody na nasze"
   enterprise_tos_agree: "Akceptuję powyższe Warunki korzystania z usługi"
   tax_settings: "Ustawienia podatkowe"
@@ -2135,8 +2122,6 @@ pl:
   report_columns: Kulumny
   report_enterprises: "Podmioty"
   report_enterprise_fee: "Nazwy opłat"
-  report_tax_rates: Wysokość podatków
-  report_tax_types: Rodzaje podatków
   report_header_order_cycle: Cykl zamówień
   report_header_user: Użytkownik
   report_header_email: E-mail
@@ -2193,8 +2178,6 @@ pl:
   report_header_quantity: Ilość
   report_header_max_quantity: Maksymalna ilość
   report_header_variant: Wariant
-  report_header_variant_value: Wartość wariantu
-  report_header_variant_unit: Jednostka wariantu
   report_header_total_available: Całkowicie dostęny
   report_header_unallocated: Nieprzydzielone
   report_header_max_quantity_excess: Maksymalna ilość nadwyżki
@@ -2210,7 +2193,6 @@ pl:
   report_header_total_shipping_cost: Całkowity koszt dostawy
   report_header_payment_method: Metoda płatności
   report_header_sells: Sprzedaje
-  report_header_visible: Widoczny
   report_header_price: Cena £
   report_header_unit_size: Rozmiar jednostki
   report_header_distributor: Dystrybutor
@@ -2220,7 +2202,6 @@ pl:
   report_header_delivery_address: Adres dostawy
   report_header_delivery_postcode: Kod pocztowy dostawy
   report_header_bulk_unit_size: Rozmiar jednostki zbiorczej
-  report_header_weight: Waga
   report_header_sum_total: Całkowita suma
   report_header_date_of_order: Data zamówienia
   report_header_amount_paid: Opłata zapłacona
@@ -2316,9 +2297,6 @@ pl:
   product_importer_products_save_error: nie zapisał pomyślnie żadnych produktów
   product_import_file_not_found_notice: 'Nie znaleziono pliku lub nie można go otworzyć'
   product_import_no_data_in_spreadsheet_notice: 'Brak danych w arkuszu kalkulacyjnym'
-  order_choosing_hub_notice: Twój hub został wybrana.
-  order_cycle_selecting_notice: Twój cykl zamówień został wybrany.
-  adjustments_tax_rate_error: "^ Sprawdź, czy stawka podatku dla tej korekty jest prawidłowa."
   active_distributors_not_ready_for_checkout_message_singular: >-
       Hub %{distributor_names} jest wymieniony w aktywnym cyklu zamówień, ale nie
       ma prawidłowych metod dostaw i płatności. Dopóki ich nie skonfigurujesz, klienci

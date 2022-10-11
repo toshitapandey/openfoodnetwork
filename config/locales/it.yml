@@ -770,8 +770,6 @@ it:
       note:
         note_label: "Note:"
         no_note_present: "Nessuna nota fornita."
-    enterprise:
-      select_outgoing_oc_products_from: Seleziona prodotti OC in uscita da
     enterprises:
       index:
         title: Aziende
@@ -985,16 +983,13 @@ it:
           add_new_tag: '+ Aggiungi una nuova etichetta'
         users:
           legend: "Utenti"
-          email_confirmation_notice_html: "Email di conferma in sospeso. Abbiamo inviato una mail di conferma a %{email}."
+          
           resend: Invia di nuovo
           owner: 'Proprietario'
           contact: "Contatto"
           contact_tip: "Il referente che riceverà le mail dell'azienda per le gentili richieste e le notifiche. Deve essere un indirizzo mail confermato."
           owner_tip: L'utente responsabile per questa azienda.
           notifications: Notifiche
-          notifications_tip: Le notifiche riguardanti gli ordini saranno inviate a questo indirizzo mail
-          notifications_placeholder: es. gustav@gmail.com
-          notifications_note: 'Nota: se inserisci un nuovo indirizzo mail, ti sarà richiesto di confermarlo prima dell''uso.'
           managers: Referenti
           managers_tip: Altri utenti abilitati a gestire questa azienda.
           invite_manager: "Invita referente"
@@ -1245,7 +1240,6 @@ it:
       resend_email: Invia di nuovo Email
       has_no_payment_methods: "%{enterprise} attualmente non ha metodi di pagamento"
       has_no_shipping_methods: "%{enterprise} attualmente non ha metodi di consegna"
-      email_confirmation: "Email di conferma in sospeso. Abbiamo inviato una mail di conferma a %{email}."
       not_visible: "%{enterprise} non sono visibili e quindi non possono essere trovati nella mappa o nelle ricerche"
     reports:
       hidden: NASCOSTO
@@ -1847,7 +1841,6 @@ it:
   order_total: Importo totale
   order_payment: "Metodo di Pagamento:"
   order_billing_address: Indirizzo di fatturazione
-  order_delivery_on: Consegna il
   order_delivery_address: Indirizzo di consegna
   order_delivery_time: Tempo di consegna
   order_special_instructions: "Tue note:"
@@ -1857,7 +1850,6 @@ it:
   order_total_price: Totale
   order_includes_tax: (importo IVA incluso nel totale)
   order_payment_paypal_successful: Il tuo pagamento con PayPal è stato elaborato con successo.
-  order_hub_info: Info Hub
   order_back_to_store: Torna al negozio
   order_back_to_cart: Torna al carrello
   order_back_to_website: Indietro al sito
@@ -1904,7 +1896,7 @@ it:
   email_so_edit_false_html: "Puoi <a href='%{order_url}'>visualizzare i dettagli di questa gentile richiesta</a> in qualsiasi momento."
   email_so_contact_distributor_html: "Per qualsiasi domanda, puoi contattare <strong>%{distributor}</strong> via %{email}."
   email_so_contact_distributor_to_change_order_html: "Questa gentile richiesta è stata creata automaticamente per te. Puoi modificarla fino alla data di chiusura prestabilita, il  %{orders_close_at} contattando <strong>%{distributor}</strong> via %{email}."
-  email_so_confirmation_intro_html: "La tua gentile richiesta per <strong>%{distributor}</strong> è ora confermata"
+  
   email_so_confirmation_explainer_html: "Questo ordine p stato confermato automaticamente per te, e ora è stato ultimato."
   email_so_confirmation_details_html: "Ecco tutto ciò che è necessario sapere riguardo la tua gentile richiesta da <strong>%{distributor}</strong>:"
   email_so_empty_intro_html: "Abbiamo cercato di confermare una nuova gentile richiesta con <strong>%{distributor}</strong>, ma abbiamo avuto dei problemi..."
@@ -1930,7 +1922,7 @@ it:
     greeting: "Ciao!"
     invited_to_manage: "Sei stata/o invitata/o a gestire %{enterprise} su %{instance}."
     confirm_your_email: "Dovresti aver ricevuto o ricevere a breve un'email con un link di conferma, Non potrai accedere al profilo di %{enterprise} finché non avrai confermato la tua mail."
-    set_a_password: "Ti sarà richiesto di impostare una password prima di poter gestire la pagina dell'azienda."
+    
     mistakenly_sent: "Non sai perché hai ricevuto questa mail? Per favore contatta %{owner_email} per maggiori informazioni."
   producer_mail_greeting: "Cara/o"
   producer_mail_text_before: "Qui sotto trovi il resoconto delle gentili richieste per il ciclo: "
@@ -2431,7 +2423,7 @@ it:
   in_progress: "In elaborazione"
   started_at: "Iniziato alle"
   queued: "In coda"
-  scheduled_for: "Programmato per"
+  
   customers: "Clienti"
   please_select_hub: "Seleziona un hub"
   loading_customers: "Caricamento Clienti"
@@ -2492,7 +2484,7 @@ it:
   last_name_begins_with: "Il cognome inizia con"
   shipping_method: "Metodi di spedizione"
   new_order: "Nuovo ordine"
-  enterprise_tos_link: "link Termini di Servizio Aziende"
+  
   enterprise_tos_message: "Abbiamo bisogno di lavorare con persone che condividono i nostri scopi e i nostri valori. Per questo chiediamo alle nuove aziende di sottoscrivere i nostri"
   enterprise_tos_agree: "Accetto i Termini di Servizio"
   tax_settings: "Impostazione contributi"
@@ -2523,8 +2515,6 @@ it:
   report_enterprises: "Aziende"
   report_enterprise_fee: "Nomi Tariffe"
   report_users: "Utenti"
-  report_tax_rates: Tariffe
-  report_tax_types: Tipo tariffe
   report_filters: Filtri Report
   report_print: Stampa Report
   report_render_options: Opzioni di restituzione
@@ -2588,8 +2578,6 @@ it:
   report_header_quantity: Quantità
   report_header_max_quantity: Quantità massima
   report_header_variant: Variante
-  report_header_variant_value: Valore della Variante
-  report_header_variant_unit: Unità Variante
   report_header_total_available: Totale disponibile
   report_header_unallocated: Non assegnato
   report_header_max_quantity_excess: Quantità massima
@@ -2605,7 +2593,6 @@ it:
   report_header_total_shipping_cost: Totale costo consegna
   report_header_payment_method: Metodo di pagamento
   report_header_sells: Vende
-  report_header_visible: Visibile
   report_header_price: Prezzo
   report_header_unit_size: Unità di misura
   report_header_distributor: Distributore
@@ -2615,7 +2602,6 @@ it:
   report_header_delivery_address: Indirizzo consegna
   report_header_delivery_postcode: CAP consegna
   report_header_bulk_unit_size: Quantità minima per Acquisto di Gruppo
-  report_header_weight: Peso
   report_header_sum_total: Somma Tolale
   report_header_date_of_order: Data Richiesta
   report_header_amount_paid: Importo pagato
@@ -2718,9 +2704,6 @@ it:
   product_importer_products_save_error: Nessun prodotto salvato con successo
   product_import_file_not_found_notice: 'Documento non trovato o non disponibile'
   product_import_no_data_in_spreadsheet_notice: 'Nessun dato trovato nel foglio elettronico'
-  order_choosing_hub_notice: Il tuo hub è stato selezionato
-  order_cycle_selecting_notice: Il tuo ciclo di richieste è stato selezionato
-  adjustments_tax_rate_error: "^Verificate che l'aliquota d'imposta per questo adeguamento sia corretta."
   active_distributors_not_ready_for_checkout_message_singular: >-
       L'hub %{distributor_names} figura in un ciclo di richieste attivo, ma non ha
       metodi di consegna e di pagamento validi. Finché non li imposti, i clienti non

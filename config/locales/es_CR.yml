@@ -769,8 +769,6 @@ es_CR:
       note:
         note_label: "Nota:"
         no_note_present: "No se proporcionó nota."
-    enterprise:
-      select_outgoing_oc_products_from: Selecciona los productos OC que salgan de
     enterprises:
       index:
         title: Organizaciones
@@ -985,16 +983,14 @@ es_CR:
           add_new_tag: '+ Añadir una nueva etiqueta'
         users:
           legend: "Usuarios"
-          email_confirmation_notice_html: "Falta la confirmación del email. Te hemos enviado un correo de confirmación a %{email}."
+          
           resend: Reenviar
           owner: 'Propietaria'
           contact: "Contacto"
           contact_tip: "El administrador que recibirá los correos electrónicos de la empresa para pedidos y notificaciones. Debe tener una dirección de correo electrónico confirmada."
           owner_tip: La principal usaría responsable para esta organización.
           notifications: Notificaciones
-          notifications_tip: Las Notificaciones sobre los pedidos se enviarán a esta dirección de correo.
-          notifications_placeholder: ej. gustav@truffles.com
-          notifications_note: 'Nota: Una nueva dirección de correo debe ser confirmada. '
+          
           managers: Gestoras
           managers_tip: Otras usuarias con permiso para gestionar esta organización.
           invite_manager: "Invitar administrador"
@@ -1244,7 +1240,6 @@ es_CR:
       resend_email: Reenviar correo electrónico
       has_no_payment_methods: "%{enterprise} actualmente no tiene métodos de pago"
       has_no_shipping_methods: "%{enterprise} no tiene actualmente métodos de envío"
-      email_confirmation: "La confirmación de correo electrónico está pendiente. Hemos enviado un correo electrónico de confirmación a %{email}."
       not_visible: "%{enterprise} no es visible y no se puede encontrar en el mapa o en búsquedas"
     reports:
       hidden: OCULTO
@@ -1843,7 +1838,7 @@ es_CR:
   order_total: Pedido total
   order_payment: "Pagando con:"
   order_billing_address: Dirección de cobro
-  order_delivery_on: Entregar en
+  
   order_delivery_address: Dirección de entrega
   order_delivery_time: Tiempo de entrega
   order_special_instructions: "Sus notas:"
@@ -1853,7 +1848,6 @@ es_CR:
   order_total_price: Total
   order_includes_tax: (incluye impuesto)
   order_payment_paypal_successful: Su pago a través de PayPal ha sido procesado con éxito.
-  order_hub_info: Información del centro de acopio
   order_back_to_store: Volver a la Tienda
   order_back_to_cart: Volver al Carrito
   order_back_to_website: Volver al sitio web
@@ -1900,7 +1894,7 @@ es_CR:
   email_so_edit_false_html: "Puede <a href='%{order_url}'> ver detalles de este pedido </a> en cualquier momento."
   email_so_contact_distributor_html: "Si tiene alguna pregunta, puede contactar a <strong> %{distributor} </strong> a través de %{email}."
   email_so_contact_distributor_to_change_order_html: "Has creado este pedido automáticamente. Puedes realizar cambios hasta que los pedidos se cierren en %{orders_close_at} contactando a<strong> %{distributor}  a través de %{email}."
-  email_so_confirmation_intro_html: "Su pedido con <strong> %{distributor} </strong> ahora está confirmado"
+  
   email_so_confirmation_explainer_html: "Este pedido fue colocado automáticamente para usted, y ahora ha sido finalizado."
   email_so_confirmation_details_html: "Aquí encontrará todo lo que necesita saber sobre su pedido en <strong> %{distributor} </strong>:"
   email_so_empty_intro_html: "Intentamos realizar un nuevo pedido con <strong> %{distributor} </strong>, pero tuvimos algunos problemas ..."
@@ -1926,7 +1920,7 @@ es_CR:
     greeting: "¡Hola!"
     invited_to_manage: "Ha sido invitado a administrar %{enterprise} en %{instance}."
     confirm_your_email: "Debería haber recibido o recibirá pronto un correo electrónico con un enlace de confirmación. No podrá acceder al perfil de %{enterprise} hasta que haya confirmado su correo electrónico."
-    set_a_password: "Luego se le pedirá que establezca una contraseña antes de poder administrar la organización."
+    
     mistakenly_sent: "¿No está seguro de por qué ha recibido este correo electrónico? Por favor, póngase en contacto con %{owner_email} para más información."
   producer_mail_greeting: "Estimada"
   producer_mail_text_before: "A continuación encontrará una actualización sobre el ciclo de pedidos listo para:"
@@ -2427,7 +2421,6 @@ es_CR:
   in_progress: "En Proceso"
   started_at: "Empezó el"
   queued: "En Cola"
-  scheduled_for: "Planificado para"
   customers: "Consumidores"
   please_select_hub: "Selecciona un Grupo"
   loading_customers: "Cargando Consumidores"
@@ -2493,7 +2486,7 @@ es_CR:
   last_name_begins_with: "El apellido comienza con"
   shipping_method: "Método de envío"
   new_order: "Nuevo pedido"
-  enterprise_tos_link: "Enlace a los Términos del Servicio de la Organización"
+  
   enterprise_tos_message: "Queremos trabajar con personas que compartan nuestros objetivos y valores. Por ello, pedimos a las nuevas organizaciones que acepten"
   enterprise_tos_agree: "Estoy de acuerdo con los Términos del Servicio"
   tax_settings: "Configuración de Impuestos"
@@ -2524,8 +2517,8 @@ es_CR:
   report_enterprises: "Organizaciones"
   report_enterprise_fee: "Nombres de las comisiones"
   report_users: "Usuarios"
-  report_tax_rates: Porcentajes de los Impuestos
-  report_tax_types: Tipos de Impuestos
+  
+  
   report_filters: Filtros de informe
   report_print: Informe de impresión
   report_render_options: Opciones de renderizado 
@@ -2587,8 +2580,8 @@ es_CR:
   report_header_quantity: Cantidad
   report_header_max_quantity: Cantidad máxima
   report_header_variant: Variante
-  report_header_variant_value: Valor de la variante
-  report_header_variant_unit: Unidad Variante
+  
+  
   report_header_total_available: Total disponible
   report_header_unallocated: Sin asignar
   report_header_max_quantity_excess: Cantidad máxima
@@ -2604,7 +2597,7 @@ es_CR:
   report_header_total_shipping_cost: Costo total del envío
   report_header_payment_method: Método de pago
   report_header_sells: Vende
-  report_header_visible: Visible
+  
   report_header_price: Precio
   report_header_unit_size: Tamaño de la unidad
   report_header_distributor: Distribuidor
@@ -2614,7 +2607,7 @@ es_CR:
   report_header_delivery_address: Dirección de entrega
   report_header_delivery_postcode: Código postal de entrega
   report_header_bulk_unit_size: Tamaño de la unidad a granel
-  report_header_weight: Peso
+  
   report_header_sum_total: Suma Total
   report_header_date_of_order: Fecha de pedido
   report_header_amount_paid: Cantidad pagada
@@ -2717,9 +2710,6 @@ es_CR:
   product_importer_products_save_error: No se guardó ningún producto con éxito
   product_import_file_not_found_notice: 'Archivo no encontrado o no se pudo abrir'
   product_import_no_data_in_spreadsheet_notice: 'No se encontraron datos en la hoja de cálculo'
-  order_choosing_hub_notice: Tu Grupo se ha seleccionado.
-  order_cycle_selecting_notice: Se ha seleccionado el ciclo de pedido.
-  adjustments_tax_rate_error: "^Comprueba que los impuestos para este ajuste es correcta."
   active_distributors_not_ready_for_checkout_message_singular: >-
       El Grupo %{distributor_names} aparece en un ciclo de pedido activo, pero no
       tiene métodos de envío y pago válidos. Hasta que los configure, los clientes

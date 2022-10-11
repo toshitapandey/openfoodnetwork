@@ -760,8 +760,6 @@ ar:
         variants_without_unit_value: "تحذير: بعض الانواع لا تحتوي على قيمة وحدة"
         all: "الكل"
       select_variant: "اختيار النوع"
-    enterprise:
-      select_outgoing_oc_products_from: حدد منتجات OC الصادرة من
     enterprises:
       index:
         title: المؤسسات
@@ -965,16 +963,12 @@ ar:
           add_new_tag: '+ أضف وسم جديدة'
         users:
           legend: "المستخدمين"
-          email_confirmation_notice_html: "تأكيد البريد الإلكتروني معلق. لقد أرسلنا رسالة تأكيد بالبريد الإلكتروني إلى %{email}."
           resend: إعادة إرسال
           owner: 'المالك'
           contact: "اتصل"
           contact_tip: "المدير الذي سيتلقى رسائل البريد الإلكتروني للمؤسسة للطلبات والإشعارات. يجب أن يكون لديك عنوان بريد إلكتروني مؤكد."
           owner_tip: المستخدم الرئيسي المسؤول عن هذه الشركة.
           notifications: إشعارات
-          notifications_tip: سيتم إرسال إعلامات حول الطلبات إلى عنوان البريد الإلكتروني هذا.
-          notifications_placeholder: على سبيل المثال. gustav@truffles.com
-          notifications_note: 'ملاحظة: قد يلزم تأكيد عنوان بريد إلكتروني جديد قبل استخدامه'
           managers: مدراء
           managers_tip: المستخدمين الآخرين مع إذن لإدارة هذه الشركة.
           invite_manager: "دعوة مدير"
@@ -1220,7 +1214,6 @@ ar:
       resend_email: إعادة إرسال البريد الإلكتروني
       has_no_payment_methods: "لا تحتوي %{enterprise} حاليًا على طريقة دفع"
       has_no_shipping_methods: "%{enterprise} لا يوجد لديها حاليا طريقة شحن"
-      email_confirmation: "تأكيد البريد الإلكتروني معلق. لقد أرسلنا لك رسالة تأكيد على البريد الإلكتروني إلى %{email}."
       not_visible: "%{enterprise} غير مرئي وبالتالي لا يمكن العثور عليه على الخريطة أو في عمليات البحث"
     reports:
       hidden: خفية
@@ -1809,7 +1802,6 @@ ar:
   order_total: اجمالي الطلب
   order_payment: "الدفع عن طريق:"
   order_billing_address: عنوان وصول الفواتير
-  order_delivery_on: التسليم في
   order_delivery_address: عنوان التسليم
   order_delivery_time: موعد التسليم
   order_special_instructions: "ملاحظاتك:"
@@ -1819,7 +1811,6 @@ ar:
   order_total_price: مجموع
   order_includes_tax: (يشمل الضريبة)
   order_payment_paypal_successful: تمت معالجة دفعتك عبر PayPal بنجاح.
-  order_hub_info: معلومات مركز البيع
   order_back_to_store: عودة للمخزن
   order_back_to_cart: العودة إلى السلة
   bom_tip: "استخدم هذه الصفحة لتغيير كميات المنتج عبر طلبات متعددة. يمكن أيضًا إزالة المنتجات من الطلبات تمامًا ، إذا لزم الأمر."
@@ -1865,7 +1856,6 @@ ar:
   email_so_edit_false_html: "يمكنك <a href='%{order_url}'>عرض تفاصيل هذا الطلب</a> في أي وقت."
   email_so_contact_distributor_html: "إذا كان لديك أي أسئلة يمكنك الاتصال <strong>%{distributor}</strong> عبر %{email}."
   email_so_contact_distributor_to_change_order_html: "تم إنشاء هذا الطلب تلقائيًا لك. يمكنك إجراء تغييرات حتى يتم إغلاق الطلبات على %{orders_close_at} عن طريق الاتصال <strong>%{distributor}</strong> عبر %{email}."
-  email_so_confirmation_intro_html: "طلبك باستخدام <strong>%{distributor}</strong> تم الآن تأكيده"
   email_so_confirmation_explainer_html: "تم وضع هذا الطلب تلقائيًا لك ، وقد تم الانتهاء منه الآن."
   email_so_confirmation_details_html: "إليك كل ما تحتاج لمعرفته حول طلبك من <strong>%{distributor}</strong> :"
   email_so_empty_intro_html: "حاولنا تقديم طلب جديد باستخدام <strong>%{distributor}</strong> ، ولكن <strong>واجهنا</strong> بعض المشكلات ..."
@@ -1891,7 +1881,6 @@ ar:
     greeting: "مرحبا!"
     invited_to_manage: "لقد تمت دعوتك لإدارة %{enterprise} على %{instance}."
     confirm_your_email: "يجب أن تكون قد استلمت أو ستتلقى رسالة بريد إلكتروني قريبًا بها رابط تأكيد. لن تتمكن من الوصول إلى ملف تعريف %{enterprise} حتى يتم تأكيد بريدك الإلكتروني."
-    set_a_password: "سيُطلب منك بعد ذلك تعيين كلمة مرور قبل أن تتمكن من إدارة الشركة."
     mistakenly_sent: "لست متأكدا لماذا تلقيت هذا البريد الإلكتروني؟ يرجى الاتصال %{owner_email} لمزيد من المعلومات."
   producer_mail_greeting: "عزيزي"
   producer_mail_text_before: "يرجى الاطلاع أدناه على تحديث حول دورة الطلب الجاهزة لـ:"
@@ -2389,7 +2378,6 @@ ar:
   in_progress: "في تقدم"
   started_at: "بدأت في"
   queued: "في قائمة الانتظار"
-  scheduled_for: "المقرر ل"
   customers: "العملاء"
   please_select_hub: "يرجى اختيار مركز"
   loading_customers: "تحميل العملاء"
@@ -2449,7 +2437,6 @@ ar:
   last_name_begins_with: "اسم العائلة يبدأ بـ"
   shipping_method: "طريقة الشحن"
   new_order: "طلب جديد"
-  enterprise_tos_link: "شروط المؤسسة لخدمة الرابط"
   enterprise_tos_message: "نريد العمل مع أشخاص يشاركوننا أهدافنا وقيمنا. على هذا النحو ، نطلب من المؤسسات الجديدة الموافقة على"
   enterprise_tos_agree: "أوافق على شروط الخدمة المذكورة أعلاه"
   tax_settings: "الإعدادات الضريبية"
@@ -2478,8 +2465,6 @@ ar:
   report_enterprises: "المؤسسات"
   report_enterprise_fee: "أسماء الرسوم"
   report_users: "المستخدمين"
-  report_tax_rates: معدلات الضريبة
-  report_tax_types: أنواع الضرائب
   report_header_order_cycle: ترتيب الدورة
   report_header_user: المستعمل
   report_header_email: البريد الإلكتروني
@@ -2538,8 +2523,6 @@ ar:
   report_header_quantity: الكمية
   report_header_max_quantity: اعلى كمية
   report_header_variant: النوع
-  report_header_variant_value: قيمة النوع
-  report_header_variant_unit: وحدة النوع
   report_header_total_available: القيمة الكلية متاحة
   report_header_unallocated: غير موزعة
   report_header_max_quantity_excess: اعلى كمية زائدة
@@ -2555,7 +2538,6 @@ ar:
   report_header_total_shipping_cost: إجمالي تكلفة الشحن
   report_header_payment_method: طريقة الدفع او السداد
   report_header_sells: يبيع
-  report_header_visible: مرئي
   report_header_price: السعر
   report_header_unit_size: حجم الوحدة
   report_header_distributor: الموزع
@@ -2565,7 +2547,6 @@ ar:
   report_header_delivery_address: عنوان التسليم
   report_header_delivery_postcode: تسليم الرمز البريدي
   report_header_bulk_unit_size: حجم الوحدة بالجملة
-  report_header_weight: وزن
   report_header_sum_total: اجمالي
   report_header_date_of_order: تاريخ الطلب
   report_header_amount_paid: المبلغ المدفوع
@@ -2663,9 +2644,6 @@ ar:
   product_importer_products_save_error: لم تحفظ أي منتجات بنجاح
   product_import_file_not_found_notice: 'لم يتم العثور على الملف أو تعذر فتحه'
   product_import_no_data_in_spreadsheet_notice: 'لا توجد بيانات في جدول البيانات'
-  order_choosing_hub_notice: تم اختيار المركز الخاص بك.
-  order_cycle_selecting_notice: تم اختيار دورة الطلب.
-  adjustments_tax_rate_error: "^ يرجى التحقق من صحة معدل الضريبة لهذا التعديل."
   active_distributors_not_ready_for_checkout_message_singular: >-
       مركز %{distributor_names} مدرج في دورة طلب نشطة ، لكن ليس لديها طرق شحن وسداد
       صالحة. حتى تقوم بإعدادها ، لن يتمكن العملاء من التسوق في هذا المتجر.

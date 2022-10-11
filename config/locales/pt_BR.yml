@@ -701,8 +701,6 @@ pt_BR:
         variants_without_unit_value: "AVISO: Algumas variantes não possuem unidade de medida"
         all: "Todos"
       select_variant: "Selecione uma variante"
-    enterprise:
-      select_outgoing_oc_products_from: 'Selecione a saída do ciclo de pedidos  '
     enterprises:
       index:
         title: Iniciativas
@@ -889,16 +887,12 @@ pt_BR:
           add_new_tag: '+ Adicionar nova tag'
         users:
           legend: "Usuários"
-          email_confirmation_notice_html: "Confirmação de e-mail está pendente. Enviamos um e-mail de confirmação para %{email}."
           resend: Reenviar
           owner: 'Proprietário'
           contact: "Contato"
           contact_tip: "O gerente que receberá e-mails corporativos para pedidos e notificações. Deve ter um endereço de e-mail confirmado."
           owner_tip: O usuário principal é responsável por esta iniciativa.
           notifications: Notificações
-          notifications_tip: Notificações sobre pedidos serão enviadas para este endereço de e-mail.
-          notifications_placeholder: 'ex: gustavo@trufas.com.br'
-          notifications_note: 'Nota: um novo endereço de e-mail pode precisar ser confirmado antes do uso'
           managers: Administradores
           managers_tip: Os outros usuários com permissão para gerenciar esta iniciativa.
           invite_manager: "Convidar gerente"
@@ -1141,7 +1135,6 @@ pt_BR:
       resend_email: Reenviar e-mail
       has_no_payment_methods: "%{enterprise} atualmente não possui métodos de pagamento"
       has_no_shipping_methods: "%{enterprise} atualmente não possui métodos de envio"
-      email_confirmation: "A confirmação de e-mail está pendente. Enviamos um e-mail de confirmação para %{email}."
       not_visible: "%{enterprise} não está visível e, portanto, não pode ser encontrado no mapa ou em pesquisas"
     reports:
       hidden: ESCONDIDO
@@ -1668,7 +1661,6 @@ pt_BR:
   order_total: Total do pedido
   order_payment: "Pagando com:"
   order_billing_address: Endereço de fatura
-  order_delivery_on: Entrega em
   order_delivery_address: Endereço para entrega
   order_delivery_time: Tempo de entrega
   order_special_instructions: "Suas anotações"
@@ -1678,7 +1670,6 @@ pt_BR:
   order_total_price: Total
   order_includes_tax: (inclui taxas)
   order_payment_paypal_successful: Seu pagamento via Paypal foi processado com sucesso.
-  order_hub_info: Informações da central
   order_back_to_store: Voltar à loja
   order_back_to_cart: Voltar ao carrinho
   bom_tip: "Use esta página para alterar as quantidades de produtos em vários pedidos. Os produtos também podem ser inteiramente removidos dos pedidos, se necessário."
@@ -1724,7 +1715,6 @@ pt_BR:
   email_so_edit_false_html: "Você pode <a href='%{order_url}'>visualizar os detalhes desse pedido</a> a qualquer momento."
   email_so_contact_distributor_html: "Se você tiver alguma dúvida, entre em contato com <strong>%{distributor}</strong> através de %{email}."
   email_so_contact_distributor_to_change_order_html: "Este pedido foi criado automaticamente para você. Você pode fazer alterações até o fechamento dos pedidos em %{orders_close_at} entrando em contato com <strong>%{distributor}</strong> por meio de %{email}."
-  email_so_confirmation_intro_html: "Seu pedido com <strong>%{distributor}</strong> agora está confirmado"
   email_so_confirmation_explainer_html: "Esse pedido foi feito automaticamente para você e agora foi finalizado."
   email_so_confirmation_details_html: "Aqui está tudo o que você precisa saber sobre seu pedido em <strong>%{distributor}</strong> :"
   email_so_empty_intro_html: "Tentamos fazer um novo pedido com <strong>%{distributor}</strong> , mas tivemos alguns problemas ..."
@@ -1750,7 +1740,6 @@ pt_BR:
     greeting: "Olá!"
     invited_to_manage: "Você foi convidado a gerenciar %{enterprise} em %{instance}."
     confirm_your_email: "Você deveria ter recebido ou em breve receberá um email com um link de confirmação. Você não poderá acessar o perfil de %{enterprise} até confirmar seu email. "
-    set_a_password: "Você será solicitado a definir uma senha antes de poder administrar a empresa."
     mistakenly_sent: "Não sabe ao certo por que você recebeu este e-mail? Entre em contato com %{owner_email} para obter mais informações."
   producer_mail_greeting: "Querido"
   producer_mail_text_before: "Veja abaixo uma atualização para o ciclo de pedidos com entregas em:"
@@ -2243,7 +2232,7 @@ pt_BR:
   in_progress: "Em andamento"
   started_at: "Começou em "
   queued: "Aguardando"
-  scheduled_for: "Agendado para"
+  
   customers: "Compradores"
   please_select_hub: "Por favor selecione uma central"
   loading_customers: "Carregando compradores"
@@ -2304,7 +2293,6 @@ pt_BR:
   last_name_begins_with: "O sobrenome começa com"
   shipping_method: "Método de Envio"
   new_order: "Novo Pedido"
-  enterprise_tos_link: "Link de Termos de Serviço da iniciativa"
   enterprise_tos_message: "Queremos trabalhar com pessoas que compartilham nossos objetivos e valores. Como tal, pedimos às novas iniciativas que concordem com nossos"
   enterprise_tos_agree: "Aceito os Termos de Serviço acima"
   tax_settings: "Configurações de Taxas"
@@ -2332,8 +2320,6 @@ pt_BR:
   report_columns: Colunas
   report_enterprises: "Iniciativas"
   report_users: "Usuários"
-  report_tax_rates: Alíquotas das taxas
-  report_tax_types: Tipos de impostos
   report_header_order_cycle: Ciclo de pedidos
   report_header_user: Usuário
   report_header_email: E-mail
@@ -2392,8 +2378,6 @@ pt_BR:
   report_header_quantity: Quantidade
   report_header_max_quantity: Quantidade máxima
   report_header_variant: Variante
-  report_header_variant_value: Valor da variante
-  report_header_variant_unit: Unidade variante
   report_header_total_available: Total disponível
   report_header_unallocated: Não atribuído
   report_header_max_quantity_excess: Excesso de quantidade máxima
@@ -2409,7 +2393,6 @@ pt_BR:
   report_header_total_shipping_cost: Total do custo de envio
   report_header_payment_method: Método de pagamento
   report_header_sells: Vende
-  report_header_visible: Visível
   report_header_price: Preço
   report_header_unit_size: Unidade de Medida
   report_header_distributor: Distribuidor
@@ -2419,7 +2402,6 @@ pt_BR:
   report_header_delivery_address: Endereço para entrega
   report_header_delivery_postcode: CEP para entrega
   report_header_bulk_unit_size: Quantidade Mínima para Compra em Atacado
-  report_header_weight: Peso
   report_header_sum_total: Soma total
   report_header_date_of_order: Data do pedido
   report_header_amount_paid: Quantia paga
@@ -2517,9 +2499,6 @@ pt_BR:
   product_importer_products_save_error: não salvou nenhum produto com sucesso
   product_import_file_not_found_notice: 'O arquivo não foi encontrado ou não pôde ser aberto'
   product_import_no_data_in_spreadsheet_notice: 'Nenhum dado encontrado na planilha'
-  order_choosing_hub_notice: Sua central foi selecionado.
-  order_cycle_selecting_notice: O seu ciclo de pedidos foi selecionado.
-  adjustments_tax_rate_error: "^ Por favor verifique se a alíquota da taxa para este ajuste está correta."
   active_distributors_not_ready_for_checkout_message_singular: >-
       A central %{distributor_names} está listado em um ciclo de pedidos ativo, mas
       não possui métodos de envio e pagamento válidos. Até que você configure eles,

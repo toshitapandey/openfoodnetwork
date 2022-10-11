@@ -733,8 +733,6 @@ ca:
         variants_without_unit_value: "Atenció: algunes variants no tenen cap unitat assignada."
         all: "Tots"
       select_variant: "Selecciona un paràmetre"
-    enterprise:
-      select_outgoing_oc_products_from: Selecciona els productes sortints del Cicle de Comandes
     enterprises:
       index:
         title: Organitzacions
@@ -928,16 +926,12 @@ ca:
           add_new_tag: '+ Afegeix una nova etiqueta'
         users:
           legend: "Usuàries"
-          email_confirmation_notice_html: "La confirmació de correu electrònic està pendent. Hem enviat un correu electrònic de confirmació a %{email}."
           resend: Reenviar
           owner: 'Propietària'
           contact: "Contacte"
           contact_tip: "El gestor que rebrà els missatges de correu electrònic de l'organització per a comandes i notificacions. Ha de tenir una adreça electrònica confirmada."
           owner_tip: La usuària principal responsable d'aquesta organització.
           notifications: Notificacions
-          notifications_tip: Les notificacions sobre les comandes s'enviaran a aquesta adreça de correu electrònic.
-          notifications_placeholder: 'p. ex: contacte@hortajosepribes.com'
-          notifications_note: 'Nota: és possible que hagi de confirmar una nova adreça de correu electrònic abans d''utilitzar-la'
           managers: Gestors
           managers_tip: Altres usuàries amb permisos per gestionar aquesta organització
           invite_manager: "Convida un gestor"
@@ -1181,7 +1175,6 @@ ca:
       resend_email: Reenvia el correu electrònic
       has_no_payment_methods: "%{enterprise} actualment no té mètodes de pagament"
       has_no_shipping_methods: "%{enterprise} actualment no té mètodes d'enviament"
-      email_confirmation: "La confirmació de correu electrònic està pendent. Hem enviat un correu electrònic de confirmació a %{email}."
       not_visible: "%{enterprise} no és visible i, per tant, no es pot trobar al mapa ni a les cerques"
     reports:
       hidden: OCULT
@@ -1711,7 +1704,6 @@ ca:
   order_total: Total de la comanda
   order_payment: "Pagament a través de:"
   order_billing_address: Adreça de facturació
-  order_delivery_on: Lliurament a
   order_delivery_address: Adreça de lliurament
   order_delivery_time: Hora de lliurament
   order_special_instructions: "Les teves notes:"
@@ -1721,7 +1713,6 @@ ca:
   order_total_price: Total
   order_includes_tax: (inclou impostos)
   order_payment_paypal_successful: El teu pagament mitjançant PayPal s'ha processat correctament.
-  order_hub_info: Informació del grup
   order_back_to_store: Tornar a la botiga
   order_back_to_cart: Tornar a la cistella
   bom_tip: "Utilitzeu aquesta pàgina per alterar les quantitats de productes en diverses comandes. Els productes també es poden eliminar de les comandes completament, si es requereix."
@@ -1767,7 +1758,6 @@ ca:
   email_so_edit_false_html: "Pots <a href='%{order_url}'> veure detalls d'aquesta comanda </a> en qualsevol moment."
   email_so_contact_distributor_html: "Si tens alguna pregunta pots contactar amb <strong>%{distributor}</strong> a través d'%{email}."
   email_so_contact_distributor_to_change_order_html: "Aquesta comanda s'ha creat automàticament per a vostè. Podeu fer canvis fins que les comandes es tanquin a %{orders_close_at} contactant a <strong> %{distributor} </strong> a través d'%{email}."
-  email_so_confirmation_intro_html: "La teva comanda amb <strong>%{distributor}</strong> ja està confirmada"
   email_so_confirmation_explainer_html: "Vas realitzar aquesta comanda automàticament i ara s'ha finalitzat."
   email_so_confirmation_details_html: "A continuació trobareu tot el que necessiteu saber sobre la comanda de <strong>%{distributor}</strong> :"
   email_so_empty_intro_html: "Hem intentat fer una nova comanda amb <strong> %{distributor} </strong>, però hem tingut alguns problemes..."
@@ -1793,7 +1783,6 @@ ca:
     greeting: "Hola! "
     invited_to_manage: "Has estat convidada a gestionar %{enterprise} a %{instance}."
     confirm_your_email: "Hauries d'haver rebut o aviat rebràs un correu electrònic amb un enllaç de confirmació. No podràs accedir al perfil de %{enterprise} fins que no hagis confirmat el teu correu electrònic."
-    set_a_password: "A continuació se us demanarà que configureu una contrasenya abans de poder administrar l'organització."
     mistakenly_sent: "No esteu segur de perquè heu rebut aquest correu electrònic? Poseu-vos en contacte amb %{owner_email} per obtenir més informació."
   producer_mail_greeting: "Benvolguda"
   producer_mail_text_before: "A continuació, trobareu una actualització sobre el cicle de comanda a punt per:"
@@ -2287,7 +2276,6 @@ ca:
   in_progress: "En progrés"
   started_at: "Va començar a"
   queued: "En cua"
-  scheduled_for: "Programat per a"
   customers: "Consumidores"
   please_select_hub: "Si us plau selecciona un grup"
   loading_customers: "Carregant consumidores"
@@ -2347,7 +2335,6 @@ ca:
   last_name_begins_with: "El cognom comença amb"
   shipping_method: "Mètode d'enviament"
   new_order: "Nova comanda"
-  enterprise_tos_link: "Enllaç a les condicions d'ús de l'organització"
   enterprise_tos_message: "Volem treballar amb persones que comparteixen els nostres objectius i valors. Com a tal, demanem a les noves organitzacions que acceptin la nostra"
   enterprise_tos_agree: "Accepto els Termes i condicions anteriors"
   tax_settings: "Configuració fiscal"
@@ -2377,8 +2364,6 @@ ca:
   report_enterprises: "Organitzacions"
   report_enterprise_fee: "Noms de les comissions"
   report_users: "Usuàries"
-  report_tax_rates: Taxes d'impostos
-  report_tax_types: Tipus d'impostos
   report_print: Imprimir informe
   report_header_order_cycle: Cicle de comanda
   report_header_user: Usuàries
@@ -2438,8 +2423,6 @@ ca:
   report_header_quantity: Quantitat
   report_header_max_quantity: Quantitat màxima
   report_header_variant: Variant
-  report_header_variant_value: Valor de la variant
-  report_header_variant_unit: Unitat de la variant
   report_header_total_available: Total disponible
   report_header_unallocated: Sense assignar
   report_header_max_quantity_excess: Quantitat màxima d'excés
@@ -2455,7 +2438,6 @@ ca:
   report_header_total_shipping_cost: Cost total d'enviament
   report_header_payment_method: Mètode de pagament
   report_header_sells: Ven
-  report_header_visible: Visible
   report_header_price: Preu
   report_header_unit_size: Mida d'unitat
   report_header_distributor: Distribuïdora
@@ -2465,7 +2447,6 @@ ca:
   report_header_delivery_address: Adreça de lliurament
   report_header_delivery_postcode: Codi postal de lliurament
   report_header_bulk_unit_size: Mida de la unitat a granel
-  report_header_weight: Pes
   report_header_sum_total: Suma total
   report_header_date_of_order: Data de la comanda
   report_header_amount_paid: Import pagat
@@ -2564,9 +2545,6 @@ ca:
   product_importer_products_save_error: no s'han desat cap producte amb èxit
   product_import_file_not_found_notice: 'No s''ha trobat el fitxer o no s''ha pogut obrir'
   product_import_no_data_in_spreadsheet_notice: 'No s''ha trobat cap dada al full de càlcul'
-  order_choosing_hub_notice: El teu grup ha estat seleccionat.
-  order_cycle_selecting_notice: S'ha seleccionat el teu cicle de comanda.
-  adjustments_tax_rate_error: "^ Si us plau, comproveu que el tipus impositiu d'aquest ajust és correcte."
   active_distributors_not_ready_for_checkout_message_singular: >-
       El grup %{distributor_names} apareix en un cicle de comanda actiu, però no té
       mètodes de pagament i enviament vàlids. Fins que no ho configureu, els clients

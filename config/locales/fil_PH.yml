@@ -621,8 +621,6 @@ fil_PH:
         variants_without_unit_value: "BABALA: Ang ibang variant ay walang halaga ang yunit"
         all: "Lahat"
       select_variant: "pumili ng variant"
-    enterprise:
-      select_outgoing_oc_products_from: pumili ng lumalabas na mga produktong OC mula
     enterprises:
       index:
         title: enterprises
@@ -804,16 +802,12 @@ fil_PH:
           add_new_tag: '+ Magdagdag ng bagong tag'
         users:
           legend: "mga gumagamit"
-          email_confirmation_notice_html: "ang kumpirmasyon ng email ay nakabinbin pa. kami ay nagpadala ng kumpirmasyon ng email sa %{email}."
           resend: Ipadala muli
           owner: 'May-ari'
           contact: "Makipag-usap"
           contact_tip: "ang tagapamahala na makakatanggap ng enterprise emails para sa mga order at mga abiso. kailangang may kumpirmadong email address."
           owner_tip: ang pangunahing gumagamit na responsable sa enterprise na ito.
           notifications: mga abiso
-          notifications_tip: ang mga abiso tungkol sa mga order ay ipapadala sa email address na ito.
-          notifications_placeholder: hal. gustav@truffles.com
-          notifications_note: 'Tandaan: ang bagong email address ay kailangang kumpirmado bago magamit'
           managers: Tagapamahala
           managers_tip: ang ibang gagamit na may permisong pamahalaan ang enterprise na ito.
           invite_manager: "Mag-imbita ng Tagapamahala"
@@ -1054,7 +1048,6 @@ fil_PH:
       resend_email: ipadala muli ang email
       has_no_payment_methods: "%{enterprise}ay kasalukuyang walang mga paraan ng pagbabayad"
       has_no_shipping_methods: "%{enterprise}ay kasalukuyang walang mga paraan ng pagpapadala"
-      email_confirmation: "ang kumpirmasyon ng email ay nakabinbin pa. kami ay nagpadala ng kumpirmasyon ng email sa %{email}."
       not_visible: "%{enterprise}ay hindi nakikita kaya hindi matagpuan sa mapa o sa kahit saang paghahanap"
     reports:
       hidden: NAKATAGO
@@ -1541,7 +1534,6 @@ fil_PH:
   order_total: kabuuang order
   order_payment: "magbabayad sa pamamagitan ng:"
   order_billing_address: Billing address
-  order_delivery_on: petsa ng delivery
   order_delivery_address: address kung saan ide-deliver
   order_delivery_time: oras ng pagde-deliver
   order_special_instructions: "ang iyong mga tala"
@@ -1551,7 +1543,6 @@ fil_PH:
   order_total_price: kabuuan
   order_includes_tax: (kasama ang tax)
   order_payment_paypal_successful: ang iyong bayad gamit ang PayPal ay matagumpay na naproseso.
-  order_hub_info: impormasyon ng Hub
   order_back_to_store: bumalik sa pamillihan
   order_back_to_cart: bumalik sa Cart
   bom_tip: "gamitin ang pahina na ito para baguhin ang dami ng mga produkto sa maramihang mga order. maaari ding magtanggal ng mga produkto mula sa order kung kinakailangan."
@@ -1596,7 +1587,6 @@ fil_PH:
   email_so_edit_false_html: "maari mong<a href='%{order_url}'> tignan ang mga detalye ng order na ito</a>kahit kailan."
   email_so_contact_distributor_html: "Kung ikaw ay may mga katanungan, maaring makipag-ugnayan sa<strong>%{distributor}</strong> sa%{email}."
   email_so_contact_distributor_to_change_order_html: "Ang order na ito ay awtomatikong ginawa para sa iyo. Maaari kang gumawa ng mga pagbabago hanggang magsara ang mga order sa%{orders_close_at} sa pamamagitan ng pakikipag-ugnayan sa<strong>%{distributor}</strong> sa%{email}."
-  email_so_confirmation_intro_html: "ang iyong order kasama ang<strong>%{distributor}</strong> ay kumpirmado na."
   email_so_confirmation_explainer_html: "ang order na ito ay awtomatikong na-place para sa iyo at ngayon ay pinalisa na."
   email_so_confirmation_details_html: "ang lahat ng kailangan mong malaman tungkol sa iyong order mula sa<strong>%{distributor}</strong> ay narito:"
   email_so_empty_intro_html: "sinubukan naming mag-place ng bagong order sa<strong>%{distributor}</strong>, ngunit nagkaroon ng ilang problema..."
@@ -1622,7 +1612,6 @@ fil_PH:
     greeting: "Magandang araw!"
     invited_to_manage: "ikaw ay naanyayahan para pamahalaan ang%{enterprise}sa%{instance}."
     confirm_your_email: "Maaaring natanggap mo na o matatanggap pa lamang ang email na may link ng kumpirmasyon. hindi mo mapupuntahan ang profile ng%{enterprise}hanggang hindi pa nakukumpirma ang inyong email."
-    set_a_password: "pagkatapos ay dapat kang magset ng password bago mapamahalaan ang enterprise."
     mistakenly_sent: "Hindi sigurado kung bakit ka nakatanggap ang email na ito? Makipagugnayan sa%{owner_email} para sa karagdagang impormasyon."
   producer_mail_greeting: "Minamahal naming"
   producer_mail_order_text: "narito ang buod ng mga order para inyong mga produkto:"
@@ -2095,7 +2084,6 @@ fil_PH:
   in_progress: "nasa proseso"
   started_at: "nagsimula sa"
   queued: "nakapila"
-  scheduled_for: "naka-iskedyul para sa"
   customers: "mga customer"
   please_select_hub: "pumili ng Hub"
   loading_customers: "naglo-load ng mga Customer"
@@ -2153,7 +2141,6 @@ fil_PH:
   first_name_begins_with: "ang pangalan ay nagsisimula sa"
   last_name_begins_with: "ang apelyido ay nagsisimula sa"
   new_order: "bagong order"
-  enterprise_tos_link: "Link para sa palatuntunan ng serbisyo ng Enterprise"
   enterprise_tos_message: "nais naming makiisa sa mga taong kapareho ng aming layunin at adhikain. Dahil dito, hinihiling namin sa mga bagong enterprise na sumang-ayon sa aming"
   enterprise_tos_agree: "ako ay sumasang-ayon sa mga tuntunin ng serbisyo na nasa itaas."
   tax_settings: "settings ng tax"
@@ -2182,8 +2169,6 @@ fil_PH:
   report_enterprises: "mga enterprise"
   report_enterprise_fee: "pangalan ng mga Fees"
   report_users: "mga gumagamit"
-  report_tax_rates: mga rate ng tax
-  report_tax_types: mga uri ng tax
   report_header_order_cycle: order cycle
   report_header_user: User
   report_header_email: email
@@ -2242,8 +2227,6 @@ fil_PH:
   report_header_quantity: dami
   report_header_max_quantity: Pinakamarami
   report_header_variant: Uri
-  report_header_variant_value: Halaga ng Variant
-  report_header_variant_unit: Yunit ng variant
   report_header_total_available: Kabuuan na mayroon
   report_header_unallocated: hindi pinapamahalaan
   report_header_max_quantity_excess: Sumobra sa limit na pinakamarami
@@ -2259,7 +2242,6 @@ fil_PH:
   report_header_total_shipping_cost: 'kabuuang bayad sa pagpapadala '
   report_header_payment_method: paraan ng pagbayad
   report_header_sells: nagbebenta
-  report_header_visible: nakikita
   report_header_price: presyo
   report_header_unit_size: laki kada yunit
   report_header_distributor: Distributor
@@ -2269,7 +2251,6 @@ fil_PH:
   report_header_delivery_address: address kung saan ide-deliver
   report_header_delivery_postcode: postcode kung saan ide-deliver
   report_header_bulk_unit_size: laki ng bawat bultuhang yunit
-  report_header_weight: timbang
   report_header_sum_total: Kabuuan
   report_header_date_of_order: Petsa ng Order
   report_header_amount_paid: Halagang Nabayaran
@@ -2364,9 +2345,6 @@ fil_PH:
   product_importer_products_save_error: hindi matagumpay na na-save ang mga produkto
   product_import_file_not_found_notice: 'ang file ay hindi mahanap o mabuksan '
   product_import_no_data_in_spreadsheet_notice: 'walang data na mahanap sa spreadsheet'
-  order_choosing_hub_notice: ang iyong Hub ay napili
-  order_cycle_selecting_notice: ang iyong order cycle ay napili
-  adjustments_tax_rate_error: "^siguraduhing ang rate ng tax para sa adjustment na ito ay tama."
   active_distributors_not_ready_for_checkout_message_singular: >-
       ang Hub na%{distributor_names}ay kasamang nakalista sa isang aktibong order
       cyle ngunit walang valid na paraan ng pagbabayad at pagpapadala. Hanggang hindi

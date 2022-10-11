@@ -634,8 +634,6 @@ nl_BE:
         variants_without_unit_value: "Waarschuwing: Sommige varianten hebben geen eenheidswaarde."
         all: "Universum"
       select_variant: "Selecteer een variant"
-    enterprise:
-      select_outgoing_oc_products_from: Selecteer uitgaande OC producten uit
     enterprises:
       index:
         title: Ondernemingen
@@ -822,16 +820,12 @@ nl_BE:
           add_new_tag: '+Voeg een nieuw label toe'
         users:
           legend: "Gebruikers"
-          email_confirmation_notice_html: "E-mailbevestiging is lopende. We hebben een bevestigings-e-mail gestuurd naar %{email}."
           resend: Zend opnieuw
           owner: 'Eigenaar'
           contact: "Contact"
           contact_tip: "De manager zal een ondernemings-e-mail ontvangen voor bestellingen en notificaties. Een bevestigd e-mailadres is hiervoor noodzakelijk."
           owner_tip: De hoofdgebruiker is verantwoordelijk voor deze onderneming.
           notifications: Notificaties
-          notifications_tip: Bestellingsnotificaties zullen verzonden worden naar dit e-mailadres.
-          notifications_placeholder: vb. jan@paddenstoel.com
-          notifications_note: 'Let op: Het is mogelijk dat een nieuw e-mailadres eerst moet bevestigd worden voor gebruik'
           managers: Beheerders
           managers_tip: De andere gebruikers met machtiging om deze onderneming te beheren.
           invite_manager: "Nodig Beheerders uit"
@@ -1074,7 +1068,6 @@ nl_BE:
       resend_email: email opnieuw versturen
       has_no_payment_methods: "%{enterprise} heeft momenteel geen betaalmethoden"
       has_no_shipping_methods: "%{enterprise} heeft momenteel geen verzendmethoden"
-      email_confirmation: "E-mailbevestiging is lopende. We hebben een bevestigings-e-mail gestuurd naar %{email}."
       not_visible: "%{enterprise} niet zichtbaar is en dus niet kan worden gevonden op de kaart of in zoekopdrachten"
     reports:
       hidden: HIDDEN
@@ -1575,7 +1568,6 @@ nl_BE:
   order_total: Totale bestelling
   order_payment: "Betalingswijze:"
   order_billing_address: 'Facturatie-adres:'
-  order_delivery_on: Levering op
   order_delivery_address: Leveringsadres
   order_delivery_time: Leveringsdag
   order_special_instructions: "Jouw opmerkingen:"
@@ -1585,7 +1577,6 @@ nl_BE:
   order_total_price: Totaal
   order_includes_tax: (belastingen inbegrepen)
   order_payment_paypal_successful: Je betalingen via PayPal is goed verwerkt
-  order_hub_info: Hub Info
   order_back_to_store: Terug Naar de Winkel
   order_back_to_cart: Terug Naar je Winkelwagentje
   bom_tip: "Gebruik deze pagina om producthoeveelheden te verspreiden over meerdere bestellingen. Indien noodzakelijk mogen producten ook verwijderd worden uit de bestelling."
@@ -1630,7 +1621,6 @@ nl_BE:
   email_so_edit_false_html: "Je kan op om het even welk moment <a href='%{order_url}'>de details bekijken van deze bestelling</a>."
   email_so_contact_distributor_html: "Als je een vraag hebt dan kan je<strong>%{distributor}</strong>contacteren via %{email}."
   email_so_contact_distributor_to_change_order_html: "Deze bestelling werd automatisch voor je aangemaakt. Je kan aanpassingen maken tot de bestelling sluit op %{orders_close_at} door <strong>%{distributor}</strong> te contacteren via %{email}."
-  email_so_confirmation_intro_html: "Je bestelling met <strong>%{distributor}</strong> is nu bevestigd."
   email_so_confirmation_explainer_html: "Deze beste bestelling werd automatisch voor je geplaatst, en is nu afgerond."
   email_so_confirmation_details_html: "Hier heb je alles wat je nodig hebt om te weten over je bestelling van <strong>%{distributor}</strong>:"
   email_so_empty_intro_html: "We probeerden om een bestelling te plaatsen bij <strong>%{distributor}</strong>, maar we stootten op enkele moeilijkheden..."
@@ -1656,7 +1646,6 @@ nl_BE:
     greeting: "Hallo! "
     invited_to_manage: "Je bent uitgenodigd om %{enterprise} op %{instance} te beheren."
     confirm_your_email: "Je een E-mail moeten hebben of binnenkort moeten ontvangen met een bevestigingslink. Het zal niet mogelijk zijn toegang te verkrijgen tot je %{enterprise}' profiel tot je een bevestigde E-mail hebt."
-    set_a_password: "Je zal dan gevraagd worden een wachtwoord in te stellen voordat je je ondernemingen kan inschrijven."
     mistakenly_sent: "Ben je niet zeker waarom je deze E-mail hebt ontvangen? Contacteer dan alsjeblieft %{owner_email} voor meer informatie."
   producer_mail_greeting: "Beste"
   producer_mail_order_text: "Hier heb je een samenvatting van bestellingen van al je producten:"
@@ -2139,7 +2128,6 @@ nl_BE:
   in_progress: "In vooruitgang"
   started_at: "Begonnen op"
   queued: "In de wachtrij"
-  scheduled_for: "Gepland tegen"
   customers: "Klanten"
   please_select_hub: "Selecteer alsjeblieft een Hub"
   loading_customers: "Klanten Ladend"
@@ -2199,7 +2187,6 @@ nl_BE:
   last_name_begins_with: "Familienaam begint met "
   shipping_method: "Verzending methode"
   new_order: "Nieuwe bestelling"
-  enterprise_tos_link: "Link Voorwaarden Onderneming"
   enterprise_tos_message: "We willen met mensen werken die onze normen en waarden en delen. Daarom vragen wij aan de nieuwe bedrijven akkoord te gaan met onze  "
   enterprise_tos_agree: "Ik ga akkoord met bovenstaande Voorwaarden"
   tax_settings: "Belastings Instellingen"
@@ -2229,8 +2216,6 @@ nl_BE:
   report_enterprises: "Ondernemingen"
   report_enterprise_fee: "Vergoedingen Namen"
   report_users: "Gebruikers"
-  report_tax_rates: Belastingspercentage
-  report_tax_types: Belasting Type
   report_header_order_cycle: Bestelcyclus
   report_header_user: Gebruiker
   report_header_email: Email
@@ -2289,8 +2274,6 @@ nl_BE:
   report_header_quantity: Kwantiteit
   report_header_max_quantity: Maximale Hoeveelheid
   report_header_variant: Variant
-  report_header_variant_value: Eénheidsaantal
-  report_header_variant_unit: Eénheid
   report_header_total_available: Totaal beschikbaar
   report_header_unallocated: Niet toegewezen
   report_header_max_quantity_excess: Max hoeveelheid overschreden
@@ -2306,7 +2289,6 @@ nl_BE:
   report_header_total_shipping_cost: Totale verzendingskosten
   report_header_payment_method: Betaalmethode
   report_header_sells: Verkoopt
-  report_header_visible: Zichtbaar
   report_header_price: Prijs
   report_header_unit_size: Stukgrootte
   report_header_distributor: Distributeur
@@ -2316,7 +2298,6 @@ nl_BE:
   report_header_delivery_address: Leveringsadres
   report_header_delivery_postcode: Postcode levering
   report_header_bulk_unit_size: Totale hoeveelheid van de partij
-  report_header_weight: Gewicht
   report_header_sum_total: Totaal bedrag
   report_header_date_of_order: Bestellingsdatum
   report_header_amount_paid: Betaald bedrag
@@ -2411,9 +2392,6 @@ nl_BE:
   product_importer_products_save_error: geen producten met succes heeft opgeslagen
   product_import_file_not_found_notice: 'Bestand niet gevonden of kon niet worden geopend'
   product_import_no_data_in_spreadsheet_notice: 'Geen gegevens gevonden in spreadsheet'
-  order_choosing_hub_notice: Uw winkel is geselecteerd.
-  order_cycle_selecting_notice: Uw bestelcyclus is geselecteerd.
-  adjustments_tax_rate_error: "^Gelieve BTW  aan de aanpassing toe te passen  na te checken "
   active_distributors_not_ready_for_checkout_message_singular: >-
       De winkel %{distributor_names}is vermeld als verdeler in een aktieve verkoopcyclus
       maar heeft geen leverings- en/of betalingswijze ingesteld. Deze winkel blijft

@@ -765,8 +765,6 @@ cy:
       note:
         note_label: "Noder:"
         no_note_present: "Ni ddarparwyd nodyn."
-    enterprise:
-      select_outgoing_oc_products_from: Dewiswch gynnyrch OC sy'n mynd allan o
     enterprises:
       index:
         title: Mentrau
@@ -979,16 +977,13 @@ cy:
           add_new_tag: '+ Ychwanegu Tag Newydd'
         users:
           legend: "Defnyddwyr"
-          email_confirmation_notice_html: "Mae cadarnhad e-bost yn yr arfaeth. Anfonwyd cadarnhad e-bost at %{email}."
           resend: Ailanfon
           owner: 'Perchennog'
           contact: "Cysylltu"
           contact_tip: "Y rheolwr sy'n derbyn e-byst y fenter o ran archebion a hysbysiadau. Rhaid cael cyfeiriad e-bost a gadarnhawyd."
           owner_tip: Y prif ddefnyddiwr sy'n gyfrifol am y fenter hon.
           notifications: Hysbysiadau
-          notifications_tip: Anfonir hysbysiadau am archebion i'r cyfeiriad e-bost hwn.
-          notifications_placeholder: ee. gustav@truffles.com
-          notifications_note: 'Noder: Efallai y bydd angen cadarnhau cyfeiriad e-bost newydd cyn ei ddefnyddio'
+          
           managers: Rheolwyr
           managers_tip: Y defnyddwyr eraill sydd â chaniatâd i reoli'r fenter hon.
           invite_manager: "Gwahodd Rheolwr"
@@ -1239,7 +1234,6 @@ cy:
       resend_email: Ailanfon E-bost
       has_no_payment_methods: "ar hyn o bryd nid oes gan %{enterprise} unrhyw ddulliau talu"
       has_no_shipping_methods: "ar hyn o bryd nid oes gan %{enterprise} unrhyw ddulliau anfon"
-      email_confirmation: "Mae cadarnhad e-bost yn yr arfaeth. Rydym wedi anfon e-bost cadarnhad at %{email}."
       not_visible: "nid yw %{enterprise} yn weladwy ac felly ni ellir ei ddarganfod ar y map nac mewn chwiliadau"
     reports:
       hidden: CUDD
@@ -1837,7 +1831,6 @@ cy:
   order_total: Cyfanswm archeb
   order_payment: "Talu trwy:"
   order_billing_address: Cyfeiriad bilio
-  order_delivery_on: Dosbarthu ar
   order_delivery_address: Cyfeiriad dosbarthu
   order_delivery_time: Amser dosbarthu
   order_special_instructions: "Eich nodiadau:"
@@ -1847,7 +1840,6 @@ cy:
   order_total_price: Cyfanswm
   order_includes_tax: (yn cynnwys treth)
   order_payment_paypal_successful: Proseswyd eich taliad trwy PayPal yn llwyddiannus.
-  order_hub_info: Gwybodaeth Hwb
   order_back_to_store: Yn ôl i'r siop
   order_back_to_cart: Yn ôl i'r basged
   order_back_to_website: Yn ôl i’r Wefan
@@ -1894,7 +1886,6 @@ cy:
   email_so_edit_false_html: "Gallwch <a href='%{order_url}'>weld manylion yr archeb hon</a> ar unrhyw adeg."
   email_so_contact_distributor_html: "Os oes gennych unrhyw gwestiynau gallwch gysylltu ag <strong> %{distributor} trwy %{email}."
   email_so_contact_distributor_to_change_order_html: "Crëwyd yr archeb hon yn awtomatig i chi. Gallwch wneud newidiadau nes bod archebion yn cau ar %{orders_close_at} trwy gysylltu ag <strong>%{distributor}</strong> trwy %{email}."
-  email_so_confirmation_intro_html: "Mae eich archeb gydag <strong>%{distributor}</strong> bellach wedi'i gadarnhau"
   email_so_confirmation_explainer_html: "Gosodwyd yr archeb hon yn awtomatig ar eich cyfer chi, ac mae bellach wedi'i gwblhau."
   email_so_confirmation_details_html: "Dyma bopeth sydd angen i chi ei wybod am eich archeb o <strong>%{distributor}</strong> :"
   email_so_empty_intro_html: "Fe wnaethon ni geisio gosod archeb newydd gydag <strong>%{distributor}</strong> , ond <strong>cawsom</strong>  rai problemau ..."
@@ -1920,7 +1911,6 @@ cy:
     greeting: "Helo!"
     invited_to_manage: "Estynnir gwahoddiad ichi reoli %{enterprise} ar %{instance}."
     confirm_your_email: "Dylech fod wedi derbyn neu byddwch yn derbyn e-bost cyn bo hir gyda dolen gadarnhau. Ni fyddwch yn gallu cyrchu proffil %{enterprise} nes ichi gadarnhau'ch e-bost."
-    set_a_password: "Wedyn cewch eich annog i osod cyfrinair cyn y gallwch weinyddu'r fenter."
     mistakenly_sent: "Ddim yn siŵr pam rydych chi wedi derbyn yr e-bost hwn? Cysylltwch â %{owner_email} i gael mwy o wybodaeth."
   producer_mail_greeting: "Annwyl"
   producer_mail_text_before: "Gweler isod ddiweddariad am y cylch archebu'n barod ar gyfer:"
@@ -2421,7 +2411,6 @@ cy:
   in_progress: "Ar y gweill"
   started_at: "Dechreuwyd am"
   queued: "Ciwio"
-  scheduled_for: "Trefnwyd ar gyfer"
   customers: "Cwsmeriaid"
   please_select_hub: "Dewiswch Hwb"
   loading_customers: "Llwytho Cwsmeriaid"
@@ -2481,7 +2470,6 @@ cy:
   last_name_begins_with: "Mae'r enw olaf yn dechrau gyda"
   shipping_method: "Dull cludo"
   new_order: "Archeb newydd"
-  enterprise_tos_link: "Dolen at Telerau Gwasanaeth y Fenter"
   enterprise_tos_message: "Rydym yn awydus i weithio gyda phobl sy'n rhannu ein nodau a'n gwerthoedd. Felly, gofynnwn i fentrau newydd gytuno â'n"
   enterprise_tos_agree: "Rwy'n cytuno â'r Telerau Gwasanaeth uchod"
   tax_settings: "Gosodiadau Treth"
@@ -2512,8 +2500,6 @@ cy:
   report_enterprises: "Mentrau"
   report_enterprise_fee: "Enwau Ffioedd"
   report_users: "Defnyddwyr"
-  report_tax_rates: Cyfraddau treth
-  report_tax_types: Mathau treth
   report_filters: Hidlau’r Adroddiad
   report_print: Argraffu Adroddiad
   report_render_options: Opsiynau Creu
@@ -2575,8 +2561,6 @@ cy:
   report_header_quantity: Nifer
   report_header_max_quantity: Uchafswm nifer
   report_header_variant: Amrywiolyn
-  report_header_variant_value: Gwerth Amrywiolyn
-  report_header_variant_unit: Uned Amrywiolyn
   report_header_total_available: Cyfanswm ar gael
   report_header_unallocated: Heb ei ddyrannu
   report_header_max_quantity_excess: Gormodedd Uchafswm nifer
@@ -2592,7 +2576,6 @@ cy:
   report_header_total_shipping_cost: Cyfanswm costau anfon
   report_header_payment_method: Dull talu
   report_header_sells: Gwerthu
-  report_header_visible: Gweladwy
   report_header_price: Pris
   report_header_unit_size: Maint yr Uned
   report_header_distributor: Dosbarthwr
@@ -2602,7 +2585,6 @@ cy:
   report_header_delivery_address: Cyfeiriad Dosbarthu
   report_header_delivery_postcode: Cod Post Cyflenwi
   report_header_bulk_unit_size: Maint Uned Swmp
-  report_header_weight: Pwysau
   report_header_sum_total: 'Cyfanswm '
   report_header_date_of_order: Dyddiad archebu
   report_header_amount_paid: Swm a Dalwyd
@@ -2705,9 +2687,6 @@ cy:
   product_importer_products_save_error: ni lwyddwyd i gadw unrhyw gynnyrch
   product_import_file_not_found_notice: 'Ni ddaethpwyd o hyd i ffeil neu nid oedd yn bosib ei hagor'
   product_import_no_data_in_spreadsheet_notice: 'Ni ddarganfuwyd unrhyw ddata yn y daenlen'
-  order_choosing_hub_notice: Dewiswyd eich hwb.
-  order_cycle_selecting_notice: Dewiswyd eich cylch archebu.
-  adjustments_tax_rate_error: "^ Gwiriwch fod y gyfradd dreth ar gyfer yr addasiad hwn yn gywir."
   active_distributors_not_ready_for_checkout_message_singular: >-
       Rhestrir yr hwb%{distributor_names} mewn cylch archebu gweithredol, ond nid
       oes ganddo ddulliau anfon a thalu dilys. Nes i chi gadarnhau'r rhain, ni fydd

@@ -620,8 +620,6 @@ en_ZA:
         variants_without_unit_value: "WARNING: Some variants do not have a unit value"
         all: "All"
       select_variant: "Select a variant"
-    enterprise:
-      select_outgoing_oc_products_from: Select outgoing OC products from
     enterprises:
       index:
         title: Enterprises
@@ -802,16 +800,13 @@ en_ZA:
           add_new_tag: '+ Add A New Tag'
         users:
           legend: "Users"
-          email_confirmation_notice_html: "Email confirmation is pending. We've sent a confirmation email to %{email}."
+          
           resend: Resend
           owner: 'Owner'
           contact: "Contact"
           contact_tip: "The manager who will receive enterprise emails for orders and notifications. Must have a confirmed email adress."
           owner_tip: The primary user responsible for this enterprise.
           notifications: Notifications
-          notifications_tip: Notifications about orders will be send to this email address.
-          notifications_placeholder: e.g. siya@truffles.com
-          notifications_note: 'Note: A new email address may need to be confirmed prior to use'
           managers: Managers
           managers_tip: The other users with permission to manage this enterprise.
           invite_manager: "Invite Manager"
@@ -1053,7 +1048,6 @@ en_ZA:
       resend_email: Resend Email
       has_no_payment_methods: "%{enterprise} currently has no payment methods"
       has_no_shipping_methods: "%{enterprise} currently has no shipping methods"
-      email_confirmation: "Email confirmation is pending. We've sent a confirmation email to %{email}."
       not_visible: "%{enterprise} is not visible and so cannot be found on the map or in searches"
     reports:
       hidden: HIDDEN
@@ -1540,7 +1534,7 @@ en_ZA:
   order_total: Total order
   order_payment: "Paying via:"
   order_billing_address: Billing address
-  order_delivery_on: Delivery on
+  
   order_delivery_address: Delivery address
   order_delivery_time: Delivery time
   order_special_instructions: "Your notes:"
@@ -1550,7 +1544,7 @@ en_ZA:
   order_total_price: Total
   order_includes_tax: (includes tax)
   order_payment_paypal_successful: Your payment via PayPal has been processed successfully.
-  order_hub_info: Hub info
+  
   order_back_to_store: Back To Store
   order_back_to_cart: Back To Cart
   bom_tip: "Use this page to alter product quantities across multiple orders. Products may also be removed from orders entirely, if required."
@@ -1595,7 +1589,7 @@ en_ZA:
   email_so_edit_false_html: "You can <a href='%{order_url}'>view details of this order</a> at any time."
   email_so_contact_distributor_html: "If you have any questions you can contact <strong>%{distributor}</strong> via %{email}."
   email_so_contact_distributor_to_change_order_html: "This order was automatically created for you. You can make changes until orders close on %{orders_close_at} by contacting <strong>%{distributor}</strong> via %{email}."
-  email_so_confirmation_intro_html: "Your order with <strong>%{distributor}</strong> is now confirmed"
+  
   email_so_confirmation_explainer_html: "This order was automatically placed for you, and it has now been finalised."
   email_so_confirmation_details_html: "Here's everything you need to know about your order from <strong>%{distributor}</strong>:"
   email_so_empty_intro_html: "We tried to place a new order with <strong>%{distributor}</strong>, but had some problems..."
@@ -1621,7 +1615,7 @@ en_ZA:
     greeting: "Hello!"
     invited_to_manage: "You have been invited to manage %{enterprise} on %{instance}."
     confirm_your_email: "You should have received or will soon receive an email with a confirmation link. You won’t be able to access %{enterprise}'s profile until you have confirmed your email."
-    set_a_password: "You will then be prompted to set a password before you are able to administer the enterprise."
+    
     mistakenly_sent: "Not sure why you have received this email? Please contact %{owner_email} for more information."
   producer_mail_greeting: "Dear"
   producer_mail_order_text: "Here is a summary of the orders for your products:"
@@ -2101,7 +2095,7 @@ en_ZA:
   in_progress: "In Progress"
   started_at: "Started at"
   queued: "Queued"
-  scheduled_for: "Scheduled for"
+  
   customers: "Customers"
   please_select_hub: "Please select a Hub"
   loading_customers: "Loading Customers"
@@ -2166,7 +2160,7 @@ en_ZA:
   first_name_begins_with: "First name begins with"
   last_name_begins_with: "Surname begins with"
   new_order: "New Order"
-  enterprise_tos_link: "Enterprise Terms of Service link"
+  
   enterprise_tos_message: "We want to work with people that share our aims and values. As such we ask new enterprises to agree to our "
   enterprise_tos_agree: "I agree to the above Terms of Service"
   tax_settings: "Tax Settings"
@@ -2195,8 +2189,8 @@ en_ZA:
   report_enterprises: "Enterprises"
   report_enterprise_fee: "Fees Names"
   report_users: "Users"
-  report_tax_rates: Tax rates
-  report_tax_types: Tax types
+  
+  
   report_header_order_cycle: Order Cycle
   report_header_user: User
   report_header_email: Email
@@ -2255,8 +2249,8 @@ en_ZA:
   report_header_quantity: Quantity
   report_header_max_quantity: Max Quantity
   report_header_variant: Variant
-  report_header_variant_value: Variant Value
-  report_header_variant_unit: Variant Unit
+  
+  
   report_header_total_available: Total available
   report_header_unallocated: Unallocated
   report_header_max_quantity_excess: Max Quantity Excess
@@ -2272,7 +2266,7 @@ en_ZA:
   report_header_total_shipping_cost: Total Shipping Cost
   report_header_payment_method: Payment Method
   report_header_sells: Sells
-  report_header_visible: Visible
+  
   report_header_price: Price
   report_header_unit_size: Unit Size
   report_header_distributor: Distributor
@@ -2282,7 +2276,7 @@ en_ZA:
   report_header_delivery_address: Delivery Address
   report_header_delivery_postcode: Delivery Postcode
   report_header_bulk_unit_size: Bulk Unit Size
-  report_header_weight: Weight
+  
   report_header_sum_total: Sum Total
   report_header_date_of_order: Date of Order
   report_header_amount_paid: Amount Paid
@@ -2377,9 +2371,9 @@ en_ZA:
   product_importer_products_save_error: did not save any products successfully
   product_import_file_not_found_notice: 'File not found or could not be opened'
   product_import_no_data_in_spreadsheet_notice: 'No data found in spreadsheet'
-  order_choosing_hub_notice: Your hub has been selected.
-  order_cycle_selecting_notice: Your order cycle has been selected.
-  adjustments_tax_rate_error: "^Please check that the tax rate for this adjustment is correct."
+  
+  
+  
   active_distributors_not_ready_for_checkout_message_singular: >-
       The hub %{distributor_names} is listed in an active order cycle, but does not
       have valid shipping and payment methods. Until you set these up, customers will

@@ -699,8 +699,6 @@ tr:
         variants_without_unit_value: "UYARI: Bazı çeşitlerin birim değeri yok"
         all: "Hepsi"
       select_variant: "Bir çeşit seçin"
-    enterprise:
-      select_outgoing_oc_products_from: Sipariş dönemi giden ürünleri şurdan seçin
     enterprises:
       index:
         title: İşletmeler
@@ -891,16 +889,12 @@ tr:
           add_new_tag: '+ Yeni Etiket Ekle'
         users:
           legend: "Kullanıcılar"
-          email_confirmation_notice_html: "E-posta onayı bekleniyor. %{email} adresine bir doğrulama e-postası gönderdik."
           resend: Yeniden gönder
           owner: 'Sahip'
           contact: "İLETİŞİM"
           contact_tip: "İşletme adına sipariş ve bildirim e-postalarını alacak olan yönetici. Onaylanmış bir e-posta adresi olması gerekir."
           owner_tip: Bu işletmeden sorumlu birincil kullanıcı.
           notifications: BİLDİRİMLER
-          notifications_tip: Siparişlerle ilgili bildirimler bu e-posta adresine gönderilecektir.
-          notifications_placeholder: Örn. toprak@yesiller.com
-          notifications_note: 'Not: Kullanmadan önce yeni bir e-posta adresinin onaylanması gerekebilir'
           managers: YÖNETİCİLER
           managers_tip: Bu işletmeyi yönetme izni olan diğer kullanıcılar.
           invite_manager: "YÖNETİCİ Davet Et"
@@ -1144,7 +1138,6 @@ tr:
       resend_email: E-postayı yeniden gönder
       has_no_payment_methods: "%{enterprise} için şu anda bir ödeme yöntemi mevcut değil"
       has_no_shipping_methods: "%{enterprise}  ‘nin şu anda bir teslimat yöntemi yok"
-      email_confirmation: "E-posta onayı bekleniyor. %{email} adresine bir onay e-postası gönderdik."
       not_visible: "%{enterprise} görünür değil ve bu nedenle haritada veya aramalarda bulunamıyor"
     reports:
       hidden: GİZLİ
@@ -1705,7 +1698,6 @@ tr:
   order_total: Sipariş toplamı
   order_payment: "Ödeme yöntemi:"
   order_billing_address: Fatura Adresi
-  order_delivery_on: Teslimat tarihi
   order_delivery_address: Teslimat adresi
   order_delivery_time: Teslimat zamanı
   order_special_instructions: "Notların:"
@@ -1715,7 +1707,6 @@ tr:
   order_total_price: Toplam
   order_includes_tax: (vergi)
   order_payment_paypal_successful: PayPal ile ödemeniz başarıyla işlendi.
-  order_hub_info: Pazar Bilgisi
   order_back_to_store: Siteye Geri Dön
   order_back_to_cart: Sepete geri dön
   bom_tip: "Birden çok siparişteki ürün miktarlarını değiştirmek için bu sayfayı kullanın. Ürünler gerektiğinde tüm siparişlerden tamamen kaldırılabilir."
@@ -1761,7 +1752,6 @@ tr:
   email_so_edit_false_html: "<a href='%{order_url}'>Bu siparişin ayrıntılarını</a> istediğiniz zaman görüntüleyebilirsiniz."
   email_so_contact_distributor_html: "Herhangi bir sorunuz varsa <strong>%{distributor}</strong> ile %{email} aracılığıyla iletişime geçebilirsiniz."
   email_so_contact_distributor_to_change_order_html: "Bu sipariş sizin için otomatik olarak oluşturuldu. <strong>%{distributor}</strong> ile %{email} aracılığıyla iletişim kurarak <strong>%{orders_close_at}</strong> vaktinde kapanana kadar siparişlerde değişiklik yapabilirsiniz."
-  email_so_confirmation_intro_html: "<strong>%{distributor}</strong> ile siparişiniz onaylandı"
   email_so_confirmation_explainer_html: "Bu sipariş sizin için otomatik olarak verildi ve şimdi tamamlandı."
   email_so_confirmation_details_html: "İşte <strong>%{distributor}</strong> ile olan siparişiniz hakkında bilmeniz gereken her şey:"
   email_so_empty_intro_html: "<strong>%{distributor}</strong> ile yeni bir sipariş vermeye çalıştık ancak bazı sorunlar yaşadık ..."
@@ -1787,7 +1777,6 @@ tr:
     greeting: "Merhaba!"
     invited_to_manage: "%{instance} üzerinde %{enterprise} 'ı yönetmeye davet edildiniz."
     confirm_your_email: "Onay bağlantısı içeren bir e-posta almış olmanız veya yakında almanız gerekir. E-posta onayınızı tamamlayana kadar %{enterprise} kullanıcısının profiline erişemezsiniz."
-    set_a_password: "Daha sonra, işletmeyi yönetebilmeniz için önce bir parola ayarlamanız istenecek."
     mistakenly_sent: "Bu e-postayı neden aldığınızdan emin değil misiniz? Daha fazla bilgi için lütfen %{owner_email} ile iletişime geçin."
   producer_mail_greeting: "Sevgili"
   producer_mail_text_before: "Aşağıdaki tarihte hazır olacak sipariş dönemine dair güncelleme: "
@@ -2283,7 +2272,6 @@ tr:
   in_progress: "Devam ediyor"
   started_at: "Başlama tarihi"
   queued: "sıraya eklendi"
-  scheduled_for: "Planlanan tarih"
   customers: "MÜŞTERİLER"
   please_select_hub: "Lütfen bir pazar seçin"
   loading_customers: "Müşteriler Yükleniyor"
@@ -2343,7 +2331,6 @@ tr:
   last_name_begins_with: "Soyadının BAŞ HARFİ"
   shipping_method: "Teslimat Yöntemi"
   new_order: "Yeni Sipariş"
-  enterprise_tos_link: "İşletme Üyelik Sözleşmesi bağlantısı"
   enterprise_tos_message: "Amaçlarımızı ve değerlerimizi paylaşan insanlarla çalışmak istiyoruz. Yasal zorunluluk gereği de yeni işletmelerden kabul etmesini istiyoruz:"
   enterprise_tos_agree: "Yukarıdaki Üyelik Sözleşmesini kabul ediyorum"
   tax_settings: "Vergi Ayarları"
@@ -2373,8 +2360,6 @@ tr:
   report_enterprises: "İşletmeler"
   report_enterprise_fee: "ÜCRET İSİMLERİ"
   report_users: "Kullanıcılar"
-  report_tax_rates: Vergi oranları
-  report_tax_types: Vergi türleri
   report_header_order_cycle: Sipariş Dönemi
   report_header_user: kullanıcı
   report_header_email: E-posta
@@ -2433,8 +2418,6 @@ tr:
   report_header_quantity: miktar
   report_header_max_quantity: Maksimum Miktar
   report_header_variant: Çeşit
-  report_header_variant_value: Çeşit Değeri
-  report_header_variant_unit: Çeşit Birimi
   report_header_total_available: Toplam mevcut
   report_header_unallocated: Paylaştırılmamış
   report_header_max_quantity_excess: Maksimum Miktar Fazlası
@@ -2450,7 +2433,6 @@ tr:
   report_header_total_shipping_cost: Toplam Teslimat Maliyeti
   report_header_payment_method: ÖDEME YÖNTEMİ
   report_header_sells: NE SATIYOR
-  report_header_visible: Görünür
   report_header_price: Fiyat
   report_header_unit_size: Ölçü Birimi
   report_header_distributor: Dağıtımcı
@@ -2460,7 +2442,6 @@ tr:
   report_header_delivery_address: Teslimat Adresi
   report_header_delivery_postcode: Teslimat Adresi Posta Kodu
   report_header_bulk_unit_size: Toplu Alım Miktarı
-  report_header_weight: Ağırlık
   report_header_sum_total: Toplamı
   report_header_date_of_order: Sipariş Tarihi
   report_header_amount_paid: Ödenen Miktar
@@ -2558,9 +2539,6 @@ tr:
   product_importer_products_save_error: hiçbir ürün başarıyla kaydedilmedi
   product_import_file_not_found_notice: 'Dosya bulunamadı veya açılamadı'
   product_import_no_data_in_spreadsheet_notice: 'Tabloda veri bulunamadı'
-  order_choosing_hub_notice: Pazarınız seçildi.
-  order_cycle_selecting_notice: Sipariş döneminiz seçildi.
-  adjustments_tax_rate_error: "^ Lütfen bu düzenleme için vergi oranının doğru olup olmadığını kontrol edin."
   active_distributors_not_ready_for_checkout_message_singular: >-
       %{distributor_names} pazarı, aktif sipariş döneminde listelenmiştir, ancak geçerli
       teslimat ve ödeme yöntemleri yoktur. Bunları ayarlayana kadar, müşteriler bu

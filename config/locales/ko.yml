@@ -761,8 +761,6 @@ ko:
         variants_without_unit_value: "경고 : 일부 변경사항에는 단위 값이 없습니다."
         all: "모두"
       select_variant: "변경할 항목을 선택하세요."
-    enterprise:
-      select_outgoing_oc_products_from: '출품되는 청구 제품 선택 '
     enterprises:
       index:
         title: 회사
@@ -967,16 +965,12 @@ ko:
           add_new_tag: '+ 새 태그 추가'
         users:
           legend: "사용자"
-          email_confirmation_notice_html: "이메일 확인이 보류 중입니다. %{email}에게 확인 메일을 보냈습니다."
           resend: 재전송
           owner: '오너'
           contact: "연락처"
           contact_tip: "주문 및 알림에 대한 회사 이메일을 수신할 관리자입니다. 확인된 이메일 주소가 있어야 합니다."
           owner_tip: 이 회사를 담당하는 기본 사용자입니다.
           notifications: 알림
-          notifications_tip: 주문에 대한 알림이 이 이메일 주소로 전송됩니다.
-          notifications_placeholder: 예. gustav@truffles.com
-          notifications_note: '참고: 사용하기 전에 새 이메일 주소를 확인해야 할 수 있습니다.'
           managers: 관리자
           managers_tip: 이 회사를 관리할 수 있는 권한이 있는 다른 사용자.
           invite_manager: "관리자 초대"
@@ -1224,7 +1218,6 @@ ko:
       resend_email: 이메일 재전송
       has_no_payment_methods: "%{enterprise}는 현재 지불 방법이 없습니다."
       has_no_shipping_methods: "%{enterprise}는 현재 전송 방법이 없습니다."
-      email_confirmation: "이메일 확인이 보류 중입니다. %{email}에게 확인 메일을 보냈습니다."
       not_visible: "%{enterprise}가 표시되지 않으므로 지도 또는 검색에서 찾을 수 없습니다."
     reports:
       hidden: 숨김
@@ -1822,7 +1815,6 @@ ko:
   order_total: 총 주문
   order_payment: "지불 방법 :"
   order_billing_address: 청구서 발송지
-  order_delivery_on: 배달일
   order_delivery_address: 배달 주소
   order_delivery_time: 배달 시간
   order_special_instructions: "메모 :"
@@ -1832,7 +1824,6 @@ ko:
   order_total_price: 총합
   order_includes_tax: (세금 포함)
   order_payment_paypal_successful: PayPal을 통한 결제가 성공적으로 처리되었습니다.
-  order_hub_info: 허브 정보
   order_back_to_store: 가게로 돌아가기
   order_back_to_cart: 카트로 돌아가기
   order_back_to_website: 웹 사이트로 돌아기기
@@ -1879,7 +1870,6 @@ ko:
   email_so_edit_false_html: "언제든지 <a href='%{order_url}'>이 주문의 세부 정보</a>를 볼 수 있습니다."
   email_so_contact_distributor_html: "질문이 있으시다면 %{email}를 통해 <strong>%{distributor}</strong>에 연락할 수 있습니다."
   email_so_contact_distributor_to_change_order_html: "이 주문은 사용자를 위해 자동으로 작성되었습니다. 주문이 취소될 때 까지 %{email}을 통해 <strong>%{distributor}</strong>에 연락함으로써 %{orders_close_at}에 대하여 변경할 수 있습니다."
-  email_so_confirmation_intro_html: "<strong>%{distributor}</strong>에 대한 주문이 확인되었습니다."
   email_so_confirmation_explainer_html: "이 주문은 자동으로 이루어졌으며, 이제 주문이 완료되었습니다."
   email_so_confirmation_details_html: "<strong>%{distributor}</strong>의 주문에 대한 모든 것이 여기에 있습니다 : "
   email_so_empty_intro_html: "우리는 <strong>%{distributor}</strong>에 새로운 주문을 하려고 했지만, 문제가 생겼습니다..."
@@ -1905,7 +1895,6 @@ ko:
     greeting: "안녕하세요!"
     invited_to_manage: "%{instance}에서 %{enterprise}를 관리하도록 초대되셨습니다."
     confirm_your_email: "확인 링크가 포함된 이메일을 받으셨거나 곧 받으실 것입니다. 이메일을 확인할 때까지 %{enterprise}의 프로필에 접근하실 수 없습니다."
-    set_a_password: "그런 다음 기업을 관리하기 전에 암호를 설정하라는 메시지가 표시됩니다."
     mistakenly_sent: "왜 이 이메일을 받았는지 확실하지 않으십니까? 자세한 내용은 %{owner_email}에 문의하십시오."
   producer_mail_greeting: "친애하는"
   producer_mail_text_before: "다음 주문 주기에 대한 업데이트를 아래에서 확인하십시오 :"
@@ -2403,7 +2392,6 @@ ko:
   in_progress: "진행 중"
   started_at: "시작 기간"
   queued: "대기 중"
-  scheduled_for: "예정 일"
   customers: "소비자"
   please_select_hub: "허브를 선택해 주세요"
   loading_customers: "고객 로딩 중"
@@ -2463,7 +2451,6 @@ ko:
   last_name_begins_with: "성"
   shipping_method: "배송 방법"
   new_order: "새로운 주문"
-  enterprise_tos_link: "회사 서비스 약관 링크"
   enterprise_tos_message: "저희는 저희의 목표와 가치를 공유하는 사람들과 일하고 싶습니다.  따라서 저희는 새 기업들에게 저희 의견에 동의하기를 원합니다."
   enterprise_tos_agree: "위의 서비스 약관에 동의합니다."
   tax_settings: "세금 설정"
@@ -2494,8 +2481,6 @@ ko:
   report_enterprises: "회사"
   report_enterprise_fee: "수수료 확인"
   report_users: "사용자"
-  report_tax_rates: 세율
-  report_tax_types: 조세 유형
   report_filters: 기록 필터
   report_print: 보고서 출력
   report_render_options: 렌더링 옵션
@@ -2557,8 +2542,6 @@ ko:
   report_header_quantity: 수량
   report_header_max_quantity: 최대 수량
   report_header_variant: 다른 상품
-  report_header_variant_value: 변경된 값
-  report_header_variant_unit: 구성 단위 변경
   report_header_total_available: 사용 가능한 항목 총합
   report_header_unallocated: 할당되지 않음
   report_header_max_quantity_excess: 최대 수량 초과
@@ -2574,7 +2557,6 @@ ko:
   report_header_total_shipping_cost: 배송 비용 총합
   report_header_payment_method: 결제 방식
   report_header_sells: 판매할 물품
-  report_header_visible: 표시
   report_header_price: 가격
   report_header_unit_size: 물건 크기
   report_header_distributor: 유통업체
@@ -2584,7 +2566,6 @@ ko:
   report_header_delivery_address: 배달 주소
   report_header_delivery_postcode: 배달 우편번호
   report_header_bulk_unit_size: 대량 단위 크기
-  report_header_weight: 무게
   report_header_sum_total: 총합
   report_header_date_of_order: 주문 날짜
   report_header_amount_paid: 지급액
@@ -2687,9 +2668,6 @@ ko:
   product_importer_products_save_error: 제품을 저장하지 않았습니다.
   product_import_file_not_found_notice: '파일을 찾을 수 없거나 열 수 없습니다.'
   product_import_no_data_in_spreadsheet_notice: '스프레드시트에서 데이터를 찾을 수 없습니다.'
-  order_choosing_hub_notice: 허브가 선택되었습니다.
-  order_cycle_selecting_notice: 주문 주기가 선택되었습니다.
-  adjustments_tax_rate_error: "이번 조정에 대한 세율이 맞는지 확인 부탁드립니다."
   active_distributors_not_ready_for_checkout_message_singular: >-
       허브 %{distributor_names}는 활성 주문 주기에 나열되지만 올바른 배송 및 결제 방법이 없습니다. 이러한 항목을 설정할 때까지
       고객은 이 허브에서 쇼핑을 할 수 없습니다.

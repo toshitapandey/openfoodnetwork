@@ -767,8 +767,6 @@ uk:
       note:
         note_label: "Примітка:"
         no_note_present: "Примітка не надана."
-    enterprise:
-      select_outgoing_oc_products_from: Виберіть вихідні продукти OC
     enterprises:
       index:
         title: Підприємства
@@ -982,16 +980,12 @@ uk:
           add_new_tag: '+ Додати новий тег'
         users:
           legend: "Користувачі"
-          email_confirmation_notice_html: "Очікується підтвердження електронною поштою. Ми надіслали електронний лист із підтвердженням на адресу %{email}."
           resend: Надіслати повторно
           owner: 'Власник'
           contact: "Контакти"
           contact_tip: "Менеджер, який отримуватиме корпоративні електронні листи для замовлень і повідомлень. Необхідно мати підтверджену електронну адресу."
           owner_tip: Основний користувач, відповідальний за це підприємство.
           notifications: Сповіщення
-          notifications_tip: На цю електронну адресу будуть надходити повідомлення про замовлення.
-          notifications_placeholder: напр. gustav@truffles.com
-          notifications_note: 'Примітка: перед використанням може знадобитися підтвердити нову електронну адресу'
           managers: Менеджери
           managers_tip: Інші користувачі з дозволом на керування цим підприємством.
           invite_manager: "Запросити менеджера"
@@ -1242,7 +1236,6 @@ uk:
       resend_email: Повторно надіслати email
       has_no_payment_methods: "%{enterprise} наразі не має способів оплати"
       has_no_shipping_methods: "%{enterprise} наразі не має способів доставки"
-      email_confirmation: "Очікується підтвердження електронною поштою. Ми надіслали електронний лист із підтвердженням на адресу %{email}."
       not_visible: "%{enterprise} не видно, тому його не можна знайти на карті чи в результатах пошуку"
     reports:
       hidden: ПРИХОВАНО
@@ -1840,7 +1833,6 @@ uk:
   order_total: Замовлено всього
   order_payment: "Оплата через:"
   order_billing_address: Платіжна адреса
-  order_delivery_on: Доставка на
   order_delivery_address: Адреса доставки
   order_delivery_time: Час доставки
   order_special_instructions: "Ваші примітки:"
@@ -1850,7 +1842,6 @@ uk:
   order_total_price: Всього
   order_includes_tax: (включає податок)
   order_payment_paypal_successful: Ваш платіж через PayPal успішно оброблено.
-  order_hub_info: Інформація про хаб
   order_back_to_store: Назад до магазину
   order_back_to_cart: Назад до кошика
   order_back_to_website: Назад на сайт
@@ -1897,7 +1888,6 @@ uk:
   email_so_edit_false_html: "Ви можете <a href='%{order_url}'>переглянути деталі цього замовлення</a> в будь-який час."
   email_so_contact_distributor_html: "Якщо у вас є будь-які запитання, ви можете зв’язатися з <strong>%{distributor}</strong> через %{email}."
   email_so_contact_distributor_to_change_order_html: "Це замовлення було створено для вас автоматично. Ви можете вносити зміни до завершення замовлення за номером %{orders_close_at}, зв’язавшись з <strong>%{distributor}</strong> через %{email}"
-  email_so_confirmation_intro_html: "Ваше замовлення в <strong>%{distributor}</strong> тепер підтверджено"
   email_so_confirmation_explainer_html: "Це замовлення було автоматично розміщено для вас, і зараз його завершено."
   email_so_confirmation_details_html: "Ось усе, що вам потрібно знати про своє замовлення від <strong>%{distributor}</strong> :"
   email_so_empty_intro_html: "Ми спробували розмістити нове замовлення за допомогою <strong>%{distributor}</strong> , але виникли деякі проблеми..."
@@ -1923,7 +1913,6 @@ uk:
     greeting: "Привіт!"
     invited_to_manage: "Вас запросили керувати %{enterprise} на %{instance}."
     confirm_your_email: "Ви повинні були отримати або незабаром отримаєте електронний лист із посиланням для підтвердження. Ви не зможете отримати доступ до профілю %{enterprise}, доки не підтвердите свою електронну адресу."
-    set_a_password: "Потім вам буде запропоновано встановити пароль, перш ніж ви зможете адмініструвати підприємство."
     mistakenly_sent: "Не знаєте, чому ви отримали цей електронний лист? Будь ласка, зв'яжіться з %{owner_email} для отримання додаткової інформації."
   producer_mail_greeting: "Дорогий"
   producer_mail_text_before: "Нижче наведено оновлену інформацію про готовність циклу замовлення:"
@@ -2424,7 +2413,6 @@ uk:
   in_progress: "В процесі"
   started_at: "Розпочато о"
   queued: "У черзі"
-  scheduled_for: "Заплановано на"
   customers: "Клієнти"
   please_select_hub: "Виберіть хаб"
   loading_customers: "Завантаження Клієнтів"
@@ -2484,7 +2472,6 @@ uk:
   last_name_begins_with: "Прізвище починається з"
   shipping_method: "Метод доставки"
   new_order: "Нове замовлення"
-  enterprise_tos_link: "Посилання на Загальні положення та умови підприємства"
   enterprise_tos_message: "Ми хочемо працювати з людьми, які поділяють наші цілі та цінності. Таким чином, ми просимо нових підприємств погодитися на наші"
   enterprise_tos_agree: "Я погоджуюся з наведеними вище Умовами надання послуг"
   tax_settings: "Налаштування податку"
@@ -2515,8 +2502,6 @@ uk:
   report_enterprises: "Підприємства"
   report_enterprise_fee: "Назви зборів"
   report_users: "Користувачі"
-  report_tax_rates: Ставки податків
-  report_tax_types: Види податків
   report_filters: Фільтри звітів
   report_print: Роздрукувати звіт
   report_render_options: Параметри візуалізації
@@ -2578,8 +2563,6 @@ uk:
   report_header_quantity: Кількість
   report_header_max_quantity: Максимальна кількість
   report_header_variant: Варіант
-  report_header_variant_value: Значення Варіанту
-  report_header_variant_unit: Варіант одиниці
   report_header_total_available: Всього доступно
   report_header_unallocated: Нерозподілений
   report_header_max_quantity_excess: Перевищення максимальної кількості
@@ -2595,7 +2578,6 @@ uk:
   report_header_total_shipping_cost: Загальна вартість доставки
   report_header_payment_method: Спосіб оплати
   report_header_sells: Продає
-  report_header_visible: Видимий
   report_header_price: Ціна
   report_header_unit_size: Розмір одиниці
   report_header_distributor: Дистрибютор
@@ -2605,7 +2587,6 @@ uk:
   report_header_delivery_address: Адреса доставки
   report_header_delivery_postcode: Поштовий індекс доставки
   report_header_bulk_unit_size: Масовий розмір одиниці
-  report_header_weight: Вага
   report_header_sum_total: Сума Загальна
   report_header_date_of_order: Дата замовлення
   report_header_amount_paid: Виплачувана сума
@@ -2708,9 +2689,6 @@ uk:
   product_importer_products_save_error: не вдалося зберегти жодних продуктів
   product_import_file_not_found_notice: 'Файл не знайдено або не вдалося відкрити'
   product_import_no_data_in_spreadsheet_notice: 'У електронній таблиці даних не знайдено'
-  order_choosing_hub_notice: Ваш хаб вибрано.
-  order_cycle_selecting_notice: Ваш цикл замовлення вибрано.
-  adjustments_tax_rate_error: "^Перевірте правильність ставки податку для цього налаштування."
   active_distributors_not_ready_for_checkout_message_singular: >-
       Хаб %{distributor_names} вказано в активному циклі замовлень, але не має дійсних
       способів доставки та оплати. Доки ви не налаштуєте їх, клієнти не зможуть робити

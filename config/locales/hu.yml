@@ -760,8 +760,6 @@ hu:
         variants_without_unit_value: "FIGYELMEZTETÉS: Egyes változatok nem rendelkeznek egységértékkel"
         all: "Minden"
       select_variant: "Válasszon egy változatot"
-    enterprise:
-      select_outgoing_oc_products_from: Válassza ki a kimenő OC termékeket
     enterprises:
       index:
         title: Vállalkozások
@@ -970,16 +968,12 @@ hu:
           add_new_tag: '+ Új címke hozzáadása'''
         users:
           legend: "Felhasználók"
-          email_confirmation_notice_html: "Az e-mail megerősítés függőben van. Megerősítő e-mailt küldtünk a következő címre: %{email}."
           resend: Újraküldés
           owner: 'Tulajdonos'''
           contact: "Kapcsolatba lépni"
           contact_tip: "A menedzser, aki vállalati e-maileket kap a rendelésekről és értesítésekről. Megerősített e-mail címmel kell rendelkeznie."
           owner_tip: A vállalkozásért felelős elsődleges felhasználó.
           notifications: Értesítések
-          notifications_tip: A megrendelésekről szóló értesítéseket erre az e-mail címre küldjük.
-          notifications_placeholder: például. gustav@truffles.com
-          notifications_note: 'Megjegyzés: Előfordulhat, hogy használat előtt meg kell erősíteni egy új e-mail címet.'
           managers: Menedzserek
           managers_tip: A többi felhasználó, aki jogosult a vállalkozás kezelésére.
           invite_manager: "Menedzser meghívása"
@@ -1227,7 +1221,6 @@ hu:
       resend_email: E-mail újraküldése
       has_no_payment_methods: "%{enterprise} jelenleg nem rendelkezik fizetési móddal"
       has_no_shipping_methods: "%{enterprise} jelenleg nem rendelkezik szállítási móddal"
-      email_confirmation: "Az e-mail megerősítés függőben van. Megerősítő e-mailt küldtünk a következő címre: %{email}."
       not_visible: "%{enterprise} nem látható, ezért nem található a térképen vagy a keresésekben"
     reports:
       hidden: REJTETT
@@ -1813,7 +1806,6 @@ hu:
   order_total: Teljes rendelés
   order_payment: "Fizetés:"
   order_billing_address: Számlázási cím
-  order_delivery_on: Kiszállítás
   order_delivery_address: Szállítási cím
   order_delivery_time: Szállítási idő
   order_special_instructions: "Az Ön megjegyzései:"
@@ -1823,7 +1815,6 @@ hu:
   order_total_price: Teljes
   order_includes_tax: (adót tartalmaz)
   order_payment_paypal_successful: PayPal-on keresztüli fizetését sikeresen feldolgoztuk.
-  order_hub_info: Hub Info
   order_back_to_store: Vissza a boltba
   order_back_to_cart: Vissza a kosárba
   bom_tip: "Ezen az oldalon módosíthatja a termékek mennyiségét több rendelés esetén. Szükség esetén a termékek teljes egészében eltávolíthatók a megrendelésekből."
@@ -1869,7 +1860,6 @@ hu:
   email_so_edit_false_html: "Bármikor <a href='%{order_url}'>megtekintheti a rendelés részleteit</a>."
   email_so_contact_distributor_html: "Ha bármilyen kérdése van, forduljon a következőhöz: <strong>%{distributor}</strong> a %{email} címen."
   email_so_contact_distributor_to_change_order_html: "Ez a rendelés automatikusan létrejött az Ön számára. A(z) %{orders_close_at} napon a rendelések lezárásáig módosíthatja a következőt: <strong>%{distributor}</strong> a %{email} címen."
-  email_so_confirmation_intro_html: "Megrendelése a(z) <strong>%{distributor}</strong>-tól megerősítve"
   email_so_confirmation_explainer_html: "Ezt a rendelést automatikusan feladtuk Önnek, és most már véglegesítettük."
   email_so_confirmation_details_html: "Itt van minden, amit tudnia kell a <strong>%{distributor}</strong>-tól származó megrendelésével kapcsolatban:"
   email_so_empty_intro_html: "Megpróbáltunk új rendelést leadni a <strong>%{distributor}</strong> szolgáltatónál, de volt néhány probléma..."
@@ -1895,7 +1885,6 @@ hu:
     greeting: "Helló!"
     invited_to_manage: "Meghívást kaptál, hogy kezeld a(z) %{enterprise} %{instance} szolgáltatást."
     confirm_your_email: "Egy megerősítő linket tartalmazó e-mailt kellett volna kapnia, vagy hamarosan kapni fog. Addig nem férhetsz hozzá %{enterprise} profiljához, amíg meg nem erősíted az e-mail címedet."
-    set_a_password: "Ezután a rendszer kéri, hogy állítson be egy jelszót, mielőtt felügyelheti a vállalatot."
     mistakenly_sent: "Nem tudja, miért kapta ezt az e-mailt? További információért forduljon %{owner_email}-hoz."
   producer_mail_greeting: "kedves"
   producer_mail_text_before: "Alább megtalálja a rendelési ciklusra vonatkozó frissítést:"
@@ -2393,7 +2382,6 @@ hu:
   in_progress: "Folyamatban"
   started_at: "-kor kezdődött"
   queued: "Sorban"
-  scheduled_for: "Ütemezett:"
   customers: "Ügyfelek"
   please_select_hub: "Kérjük, válasszon Hubot"
   loading_customers: "Ügyfelek betöltése"
@@ -2454,7 +2442,6 @@ hu:
   last_name_begins_with: "A vezetéknév karakterrel kezdődik"
   shipping_method: "Szállítási Mód"
   new_order: "Új rend"
-  enterprise_tos_link: "Vállalati szolgáltatási feltételek link"
   enterprise_tos_message: "Olyan emberekkel akarunk dolgozni, akik osztoznak a céljainkban és az értékeinkben. Ezért arra kérjük az új vállalkozásokat, hogy egyeztessenek velünk"
   enterprise_tos_agree: "Elfogadom a fenti szolgáltatási feltételeket"
   tax_settings: "Adóbeállítások"
@@ -2484,8 +2471,6 @@ hu:
   report_enterprises: "Vállalkozások"
   report_enterprise_fee: "Díjak nevek"
   report_users: "Felhasználók"
-  report_tax_rates: Adókulcsok
-  report_tax_types: Adófajták
   report_header_order_cycle: Rendelési ciklus
   report_header_user: Felhasználó
   report_header_email: Email
@@ -2544,8 +2529,6 @@ hu:
   report_header_quantity: Mennyiség
   report_header_max_quantity: Max Mennyiség
   report_header_variant: Változat
-  report_header_variant_value: Változat értéke
-  report_header_variant_unit: Változatos egység
   report_header_total_available: Összesen elérhető
   report_header_unallocated: Kiosztatlan
   report_header_max_quantity_excess: Maximális többlet
@@ -2561,7 +2544,6 @@ hu:
   report_header_total_shipping_cost: Teljes szállítási költség
   report_header_payment_method: Fizetési mód
   report_header_sells: Eladja
-  report_header_visible: Látható
   report_header_price: Ár
   report_header_unit_size: Egység mérete
   report_header_distributor: Elosztó
@@ -2571,7 +2553,6 @@ hu:
   report_header_delivery_address: Szállítási cím
   report_header_delivery_postcode: Szállítási irányítószám
   report_header_bulk_unit_size: Tömeges egység mérete
-  report_header_weight: Súly
   report_header_sum_total: Összeg összesen
   report_header_date_of_order: Megrendelés dátuma
   report_header_amount_paid: Kifizetett összeg
@@ -2669,9 +2650,6 @@ hu:
   product_importer_products_save_error: egyetlen terméket sem mentett sikeresen
   product_import_file_not_found_notice: 'A fájl nem található vagy nem nyitható meg'''
   product_import_no_data_in_spreadsheet_notice: 'Nem található adat a táblázatban'
-  order_choosing_hub_notice: Hubja ki lett választva.
-  order_cycle_selecting_notice: Megrendelési ciklusa kiválasztott.
-  adjustments_tax_rate_error: "^Kérjük, ellenőrizze, hogy az adókulcs megfelelő-e ehhez a korrekcióhoz."
   active_distributors_not_ready_for_checkout_message_singular: >-
       The hub %{distributor_names} is listed in an active order cycle,: A %{distributor_names}
       hub egy aktív rendelési ciklusban szerepel but does not have valid shipping

@@ -306,8 +306,6 @@ sv:
         order_error: "En del misstag måste korrigeras innan du kan uppdatera en order. Alla rödmarkerade fält innehåller fel."
         variants_without_unit_value: "VARNING: På en del ställen saknas antalsuppgift"
         all: "Alla"
-    enterprise:
-      select_outgoing_oc_products_from: Välj utgående produkter i beställningsrunda från
     enterprises:
       index:
         title: Företag
@@ -454,15 +452,11 @@ sv:
           add_new_tag: '+ Lägg till en ny etikett'
         users:
           legend: "Användare"
-          email_confirmation_notice_html: "E-post bekräftelse har inte kommit. Vi har sänt en bekräftande e-post till %{email}."
           resend: Återsänd
           owner: 'Ägare'
           contact: "Kontakt"
           owner_tip: Den primära användaren är ansvarig för detta företag.
           notifications: Meddelanden
-          notifications_tip: Meddelanden om order kommer att sändas till denna e-postadress,
-          notifications_placeholder: ex gustav@telia.com
-          notifications_note: 'Observera: En ny e-postadress behöver kanske bli bekräftad före användning'
           managers: Chefer
           managers_tip: Andra användare med tillstånd att leda detta företag.
       actions:
@@ -637,7 +631,6 @@ sv:
       resend_email: Skicka igen
       has_no_payment_methods: "%{enterprise} har för närvarande inga betalningsmetoder"
       has_no_shipping_methods: "%{enterprise} har för närvarande inga leveransmetoder"
-      email_confirmation: "E-postbekräftelse är pågående. Vi har skickat ett bekräftelsemail till %{email}."
       not_visible: "%{enterprise} är inte synlig och kan därför inte hittas på kartan eller i sökningar"
     reports:
       hidden: DOLD
@@ -943,7 +936,6 @@ sv:
   order_total: Total order
   order_payment: "Betalar via:"
   order_billing_address: 'Faktureringsadress '
-  order_delivery_on: Leverans på
   order_delivery_address: 'Leveransadress '
   order_delivery_time: Leveranstid
   order_special_instructions: "Dina anteckningar:"
@@ -953,7 +945,6 @@ sv:
   order_total_price: 'Summa '
   order_includes_tax: (inkluderar skatter)
   order_payment_paypal_successful: Din betalning via PayPal har gått bra.
-  order_hub_info: Hub-information
   order_back_to_store: Tillbaka till butik
   order_back_to_cart: Tillbaka till varukorgen
   bom_tip: "Använd denna sida för att ändra produktkvantiteter på flera order samtidigt. Produkter kan också tas bort från fler order samtidigt, om så erfordras."
@@ -1435,7 +1426,6 @@ sv:
   in_progress: "Under bearbetning"
   started_at: "Startade kl"
   queued: "Köad"
-  scheduled_for: "Planerad för"
   customers: "Kunder"
   please_select_hub: "Var vänlig välj ett matställe"
   loading_customers: "Laddar kunder"
@@ -1486,7 +1476,6 @@ sv:
   order_cycle: "Ordercykel"
   order_cycles: "Beställningsomgångar"
   remove_tax: "Tag bort skatt"
-  enterprise_tos_link: "Länk till företagets servicevillkor"
   enterprise_tos_message: "Vi vill arbeta med personer som delar våra mål och värderingar. Därför ber vi nya företag att samtycka med vår"
   enterprise_tos_agree: "Jag samtycker med ovanstående servicevillkor "
   tax_settings: "Skatteskalor"
@@ -1514,8 +1503,6 @@ sv:
   report_columns: Kolumner
   report_enterprises: "Företag"
   report_users: "Användare"
-  report_tax_rates: Skattesatser
-  report_tax_types: Typer av skatt
   report_header_order_cycle: Beställningsomgång
   report_header_user: Användare
   report_header_email: E-post
@@ -1574,8 +1561,6 @@ sv:
   report_header_quantity: Antal
   report_header_max_quantity: Max antal
   report_header_variant: Variant
-  report_header_variant_value: Värde för variant
-  report_header_variant_unit: Enhet för variant
   report_header_total_available: Totalt tillgängligt
   report_header_unallocated: Oallokerat
   report_header_max_quantity_excess: Max överskott
@@ -1591,7 +1576,6 @@ sv:
   report_header_total_shipping_cost: Total fraktkostnad
   report_header_payment_method: Betalningsmetod
   report_header_sells: Försäljningar
-  report_header_visible: Synlig
   report_header_price: Pris
   report_header_unit_size: Enhetsstorlek
   report_header_distributor: Distributör
@@ -1601,7 +1585,6 @@ sv:
   report_header_delivery_address: Leveransadress
   report_header_delivery_postcode: Leverans Postnummer
   report_header_bulk_unit_size: Bulk enhetsstorlek
-  report_header_weight: Vikt
   report_header_sum_total: Summa Totalt
   report_header_date_of_order: Beställningsdatum
   report_header_amount_paid: Betalt
@@ -1689,9 +1672,6 @@ sv:
   product_importer_products_save_error: sparade inte några produkter
   product_import_file_not_found_notice: 'Filen hittades inte eller kunde inte öppnas'
   product_import_no_data_in_spreadsheet_notice: 'Ingen data hittades i kalkylbladet'
-  order_choosing_hub_notice: Din hub har valts.
-  order_cycle_selecting_notice: Din beställningsomgång har valts.
-  adjustments_tax_rate_error: "^ Kontrollera att skattesatsen för denna justering är korrekt."
   active_distributors_not_ready_for_checkout_message_singular: >-
       Hubben %{distributor_names} är listat i en aktiv beställningsomgång, men har
       inga giltiga frakt- och betalningsmetoder. Kunderna kommer inte kunna handla

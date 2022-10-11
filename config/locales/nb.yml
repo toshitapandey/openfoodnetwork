@@ -770,8 +770,6 @@ nb:
       note:
         note_label: "Merk:"
         no_note_present: "Ingen merknad gitt."
-    enterprise:
-      select_outgoing_oc_products_from: Velg utgående bestillingsrundeprodukter fra
     enterprises:
       index:
         title: Bedrifter
@@ -984,16 +982,12 @@ nb:
           add_new_tag: '+ Legg til ny Merkelapp'
         users:
           legend: "Brukere"
-          email_confirmation_notice_html: "Epostbekreftelse venter. Vi har sendt en bekreftelsesepost til %{email}."
           resend: Send på nytt
           owner: 'Eier'
           contact: "Kontakt"
           contact_tip: "Administrator som mottar bedriftsepost for bestillinger og varsler. Må ha en bekreftet epostadresse."
           owner_tip: Primærbrukeren ansvarlig for denne bedriften.
           notifications: Varslinger
-          notifications_tip: Varslinger om bestillinger vil bli sendt til denne epostadressen.
-          notifications_placeholder: f.eks. gustav@truffles.com
-          notifications_note: 'Merk: En ny epostadresse må kanskje bekreftes før bruk'
           managers: Administratorer
           managers_tip: Andre brukere med tilgang til å administrere denne bedriften.
           invite_manager: "Inviter Administrator"
@@ -1248,7 +1242,6 @@ nb:
       resend_email: Send e-post igjen
       has_no_payment_methods: "%{enterprise} har ingen betalingsmetoder"
       has_no_shipping_methods: "%{enterprise} har ingen fraktmetoder"
-      email_confirmation: "E-postbekreftelse venter. Vi har sendt en bekreftelses-epost til %{email}."
       not_visible: "%{enterprise} er ikke synlig og kan derfor ikke finnes på kartet eller i søk"
     reports:
       hidden: SKJULTE
@@ -1850,7 +1843,6 @@ nb:
   order_total: Sum bestilling
   order_payment: "Betaler via:"
   order_billing_address: Fakturaadresse
-  order_delivery_on: Levering på
   order_delivery_address: Leveringsadresse
   order_delivery_time: Leveringstid
   order_special_instructions: "Dine kommentarer:"
@@ -1860,7 +1852,6 @@ nb:
   order_total_price: Sum
   order_includes_tax: (inkludert avgift)
   order_payment_paypal_successful: Din betaling via PayPal har blitt godkjent.
-  order_hub_info: Hub info
   order_back_to_store: Tilbake til butikken
   order_back_to_cart: Tilbake til handlekurven
   order_back_to_website: Tilbake til nettsiden
@@ -1907,7 +1898,6 @@ nb:
   email_so_edit_false_html: "Du kan <a href='%{order_url}'> se detaljer på denne bestillingen </a> når som helst."
   email_so_contact_distributor_html: "Hvis du har spørsmål, kan du kontakte <strong> %{distributor}</strong> via %{email}."
   email_so_contact_distributor_to_change_order_html: "Denne bestillingen ble automatisk opprettet for deg. Du kan gjøre endringer til bestillinger stenger på %{orders_close_at} ved å kontakte <strong> %{distributor} </strong> via %{email}."
-  email_so_confirmation_intro_html: "Bestillingen din med <strong> %{distributor} </strong> er nå bekreftet"
   email_so_confirmation_explainer_html: "Denne bestillingen ble automatisk lagt inn for deg, og den er nå fullført."
   email_so_confirmation_details_html: "Her er alt du trenger å vite om bestillingen din fra <strong> %{distributor} </strong>:"
   email_so_empty_intro_html: "Vi prøvde å legge inn en ny bestilling med <strong> %{distributor} </strong>, men hadde noen problemer ..."
@@ -1933,7 +1923,6 @@ nb:
     greeting: "Hallo!"
     invited_to_manage: "Du har blitt invitert til å administrere %{enterprise} på %{instance}."
     confirm_your_email: "Du burde ha mottatt eller vil snart motta en epost med en bekreftelseslenke. Du vil ikke kunne få tilgang til %{enterprise}s profil før du har bekreftet din epost."
-    set_a_password: "Du blir da bedt om å angi et passord før du kan administrere bedriften."
     mistakenly_sent: "Ikke sikker på hvorfor du har mottatt denne e-posten? Kontakt %{owner_email} for mer informasjon."
   producer_mail_greeting: "Kjære"
   producer_mail_text_before: "Nedenfor finner du en oppdatering om bestillingssyklusen klar for:"
@@ -2434,7 +2423,6 @@ nb:
   in_progress: "Pågår"
   started_at: "Startet"
   queued: "Satt i kø"
-  scheduled_for: "Planlagt for"
   customers: "Kunder"
   please_select_hub: "Vennligst velg en Hub"
   loading_customers: "Laster Kunder"
@@ -2495,7 +2483,6 @@ nb:
   last_name_begins_with: "Etternavn begynner med"
   shipping_method: "Leveringsmetode"
   new_order: "Ny bestilling"
-  enterprise_tos_link: "Lenke til Tjenestevilkår for Bedrifter"
   enterprise_tos_message: "Vi ønsker å jobbe med bedrifter som deler våre mål og verdier. Derfor ber vi nye bedrifter om å godta vår"
   enterprise_tos_agree: "Jeg godtar Tjenestevilkårene over"
   tax_settings: "Avgiftsinnstillinger"
@@ -2526,8 +2513,6 @@ nb:
   report_enterprises: "Bedrifter"
   report_enterprise_fee: "Avgiftsnavn"
   report_users: "Brukere"
-  report_tax_rates: Avgiftsrater
-  report_tax_types: Avgiftstyper
   report_filters: Rapportfiltre
   report_print: Skriv ut rapport
   report_render_options: Visningsalternativer
@@ -2591,8 +2576,6 @@ nb:
   report_header_quantity: Mengde
   report_header_max_quantity: Maks antall
   report_header_variant: Variant
-  report_header_variant_value: Variantverdi
-  report_header_variant_unit: Variant Enhet
   report_header_total_available: Totalt tilgjengelig
   report_header_unallocated: Uallokert
   report_header_max_quantity_excess: Maks antall overskytende
@@ -2608,7 +2591,6 @@ nb:
   report_header_total_shipping_cost: Total fraktkostnad
   report_header_payment_method: Betalingsmetode
   report_header_sells: Selger
-  report_header_visible: Synlig
   report_header_price: Pris
   report_header_unit_size: Enhetsstørrelse
   report_header_distributor: Distributør
@@ -2618,7 +2600,6 @@ nb:
   report_header_delivery_address: Leveringsadresse
   report_header_delivery_postcode: Postnummer Levering
   report_header_bulk_unit_size: Bulk Enhetsstørrelse
-  report_header_weight: Vekt
   report_header_sum_total: Totalsum
   report_header_date_of_order: Bestillingsdato
   report_header_amount_paid: Beløp Betalt
@@ -2721,9 +2702,6 @@ nb:
   product_importer_products_save_error: kunne ikke lagre noen produkter
   product_import_file_not_found_notice: 'Filen ble ikke funnet eller kunne ikke åpnes'
   product_import_no_data_in_spreadsheet_notice: 'Ingen data funnet i regnearket'
-  order_choosing_hub_notice: Huben din er valgt.
-  order_cycle_selecting_notice: Din bestillingsrunde er valgt.
-  adjustments_tax_rate_error: "^Kontroller at skattesatsen for denne justeringen er riktig."
   active_distributors_not_ready_for_checkout_message_singular: >-
       Huben %{distributor_names} er oppført i en aktiv ordre, men har ikke gyldige
       frakt- og betalingsmetoder. Inntil du setter disse opp, vil kundene ikke kunne

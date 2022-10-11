@@ -771,8 +771,6 @@ ru:
       note:
         note_label: "Примечание:"
         no_note_present: "Примечаний нет."
-    enterprise:
-      select_outgoing_oc_products_from: Выберите исходящие товары OC из
     enterprises:
       index:
         title: Предприятия
@@ -986,16 +984,12 @@ ru:
           add_new_tag: '+ Добавить Новую Метку'
         users:
           legend: "Пользователи"
-          email_confirmation_notice_html: "Ожидается подтверждение по электронной почте. Мы отправили электронное письмо с подтверждением на %{email}."
           resend: Отправить заново
           owner: 'Владелец'
           contact: "Контакт"
           contact_tip: "Менеджер, который будет получать электронные письма предприятия для заказов и уведомлений. Должен иметь подтвержденный адрес электронной почты."
           owner_tip: Основной пользователь, ответственный за это предприятие.
           notifications: Уведомления
-          notifications_tip: Уведомления о заказах будут отправлены на этот адрес электронной почты.
-          notifications_placeholder: напр. ivanov@example.ru
-          notifications_note: 'Примечание: перед использованием, может потребоваться подтверждение нового адреса электронной почты'
           managers: Менеджеры
           managers_tip: Другие пользователи с правами управлять этим предприятием.
           invite_manager: "Пригласить Менеджера"
@@ -1246,7 +1240,6 @@ ru:
       resend_email: Снова Отправить Письмо
       has_no_payment_methods: "%{enterprise} в настоящее время нет способов оплаты"
       has_no_shipping_methods: "%{enterprise} в настоящее время нет способов доставки"
-      email_confirmation: "Ожидается подтверждение по электронной почте. Мы отправили электронное письмо с подтверждением на %{email}."
       not_visible: "%{enterprise} не виден и поэтому не может быть найден на карте или в поисках"
     reports:
       hidden: СКРЫТО
@@ -1845,7 +1838,6 @@ ru:
   order_total: Весь заказ
   order_payment: "Тип оплаты:"
   order_billing_address: Платежный Адрес
-  order_delivery_on: Доставка по
   order_delivery_address: Адрес доставки
   order_delivery_time: Время доставки
   order_special_instructions: "Ваши заметки:"
@@ -1855,7 +1847,6 @@ ru:
   order_total_price: Всего
   order_includes_tax: (включает налог)
   order_payment_paypal_successful: Ваш платеж через PayPal успешно выполнен.
-  order_hub_info: Информация о Центре
   order_back_to_store: Назад В Магазин
   order_back_to_cart: Назад В Корзину
   order_back_to_website: Вернуться На Сайт
@@ -1902,7 +1893,6 @@ ru:
   email_so_edit_false_html: "Вы можете <a href=''%{order_url}''>посмотреть подробности этого заказа</a> в любое время."
   email_so_contact_distributor_html: "Если у Вас есть вопросы, Вы можете связаться с <strong>%{distributor}</strong> через %{email}."
   email_so_contact_distributor_to_change_order_html: "Этот заказ был автоматически создан для Вас. Вы можете вносить изменения до тех пор, пока заказы не закроются на %{orders_close_at}, связавшись с <strong>%{distributor}</strong> через %{email}."
-  email_so_confirmation_intro_html: "Ваш заказ с <strong>%{distributor}</strong> подтвержден"
   email_so_confirmation_explainer_html: "Этот заказ был автоматически размещен для вас и теперь он завершен."
   email_so_confirmation_details_html: "Вся информация о Вашем заказе от <strong>%{distributor}</strong>:"
   email_so_empty_intro_html: "Мы пытались разместить новый заказ с помощью <strong>%{distributor}</strong>, но у нас возникли некоторые проблемы..."
@@ -1928,7 +1918,6 @@ ru:
     greeting: "Привет!"
     invited_to_manage: "Вы были приглашены для управления %{enterprise} на %{instance}."
     confirm_your_email: "Вы должны были получить или скоро получите электронное письмо со ссылкой для подтверждения. Вы не сможете получить доступ к профилю %{enterprise}, пока не подтвердите свой адрес электронной почты."
-    set_a_password: "Затем Вам будет предложено установить пароль, прежде чем вы сможете управлять предприятием."
     mistakenly_sent: "Не уверены, почему Вы получили это письмо? Пожалуйста, свяжитесь с %{owner_email} для получения дополнительной информации."
   producer_mail_greeting: "Многоуважаемый"
   producer_mail_text_before: "Пожалуйста, ниже обновленная информация о цикле заказа, готовый для:"
@@ -2429,7 +2418,6 @@ ru:
   in_progress: "В Процессе"
   started_at: "Начался в"
   queued: "В очереди"
-  scheduled_for: "Запланирован на"
   customers: "Клиенты"
   please_select_hub: "Пожалуйста выберите Центр"
   loading_customers: "Загрузка Клиентов"
@@ -2489,7 +2477,6 @@ ru:
   last_name_begins_with: "Фамилия начинается на"
   shipping_method: "Способ Доставки"
   new_order: "Новый Заказ"
-  enterprise_tos_link: "Ссылка Условий Сервиса Предприятия"
   enterprise_tos_message: "Мы хотим работать с людьми, которые разделяют наши цели и ценности. Поэтому мы просим новые предприятия согласиться с нашими "
   enterprise_tos_agree: "Я согласен с вышеуказанными Условиями Сервиса"
   tax_settings: "Настройки Налогов"
@@ -2520,8 +2507,6 @@ ru:
   report_enterprises: "Предприятия"
   report_enterprise_fee: "Названия Оплаты"
   report_users: "Пользователи"
-  report_tax_rates: Налоговые Ставки
-  report_tax_types: Типы Налогов
   report_filters: Фильтры Отчетов
   report_print: Распечатать Отчет
   report_render_options: Параметры рендеринга
@@ -2583,8 +2568,6 @@ ru:
   report_header_quantity: Количество
   report_header_max_quantity: Max Количество
   report_header_variant: Вариант
-  report_header_variant_value: Значение Варианта
-  report_header_variant_unit: Единица Варианта
   report_header_total_available: Всего доступно
   report_header_unallocated: Нераспределенный
   report_header_max_quantity_excess: Максимальное превышение количества
@@ -2600,7 +2583,6 @@ ru:
   report_header_total_shipping_cost: Общая стоимость доставки
   report_header_payment_method: Способ оплаты
   report_header_sells: Продает
-  report_header_visible: Видимый
   report_header_price: Цена
   report_header_unit_size: Размер единицы
   report_header_distributor: Дистрибьютор
@@ -2610,7 +2592,6 @@ ru:
   report_header_delivery_address: Адрес Доставки
   report_header_delivery_postcode: Почтовый индекс Доставки
   report_header_bulk_unit_size: Размер оптовой единицы
-  report_header_weight: Вес
   report_header_sum_total: Итого
   report_header_date_of_order: Дата Заказа
   report_header_amount_paid: Выплаченная Сумма
@@ -2713,9 +2694,6 @@ ru:
   product_importer_products_save_error: ни один из товаров не сохранён
   product_import_file_not_found_notice: 'Файл не найден или не может быть открыт'
   product_import_no_data_in_spreadsheet_notice: 'Данные не найдены в таблице'
-  order_choosing_hub_notice: Выбран Ваш Центр.
-  order_cycle_selecting_notice: Был выбран Ваш цикл заказа.
-  adjustments_tax_rate_error: "^Пожалуйста, проверьте правильность налоговой ставки для этой корректировки."
   active_distributors_not_ready_for_checkout_message_singular: >-
       Центр %{distributor_names} указан в активном цикле заказа, но не имеет правильных  способов
       доставки и оплаты. Пока Вы их не установите, клиенты не смогут покупать в этом

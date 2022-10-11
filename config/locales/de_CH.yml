@@ -760,8 +760,6 @@ de_CH:
         variants_without_unit_value: "WARNUNG: Manche Produktvarianten haben keine Einheit"
         all: "Alle"
       select_variant: "Wählen Sie eine Produktvariante"
-    enterprise:
-      select_outgoing_oc_products_from: Wählen Sie die im Bestellzyklus ausgehenden Produkte von
     enterprises:
       index:
         title: Unternehmen
@@ -973,16 +971,13 @@ de_CH:
           add_new_tag: '+ Neues Stichwort hinzufügen'
         users:
           legend: "Benutzer"
-          email_confirmation_notice_html: "E-Mail-Bestätigung steht aus. Wir haben eine E-Mail an %{email} gesendet."
+          
           resend: Erneut senden
           owner: 'Inhaber'
           contact: "Kontakt"
           contact_tip: "Der Manager, der Unternehmens-E-Mails für Bestellungen und Benachrichtigungen erhält. Er muss eine bestätigte E-Mail-Adresse haben."
           owner_tip: Der Hauptbenutzer, der für dieses Unternehmen verantwortlich ist.
           notifications: Benachrichtigungen
-          notifications_tip: Benachrichtigungen über Bestellungen werden an diese E-Mail-Adresse gesendet.
-          notifications_placeholder: z. B. lisa@maier.de
-          notifications_note: 'Hinweis: Eine neue E-Mail-Adresse muss möglicherweise vor der Verwendung bestätigt werden.'
           managers: Manager
           managers_tip: Andere Benutzer mit der Berechtigung, dieses Unternehmen zu verwalten.
           invite_manager: "Manager einladen"
@@ -1230,7 +1225,6 @@ de_CH:
       resend_email: E-Mail erneut senden
       has_no_payment_methods: "%{enterprise} hat derzeit keine aktivierten Zahlungsarten."
       has_no_shipping_methods: "%{enterprise} hat derzeit keine aktivierten Lieferoptionen."
-      email_confirmation: "E-Mail-Bestätigung steht aus. Wir haben eine E-Mail an %{email} gesendet."
       not_visible: "%{enterprise} ist nicht sichtbar und kann daher nicht auf der Karte oder in Suchen gefunden werden."
     reports:
       hidden: AUSGEBLENDET
@@ -1828,7 +1822,6 @@ de_CH:
   order_total: 'Gesamtsumme:'
   order_payment: "Zahlungsart:"
   order_billing_address: Rechnungsadresse
-  order_delivery_on: Lieferung am
   order_delivery_address: Lieferadresse
   order_delivery_time: Lieferzeit
   order_special_instructions: "Ihre Notizen:"
@@ -1838,7 +1831,6 @@ de_CH:
   order_total_price: Summe
   order_includes_tax: (enthaltene Steuern)
   order_payment_paypal_successful: Ihre Zahlung mit PayPal wurde erfolgreich abgewickelt.
-  order_hub_info: Informationen über den Laden
   order_back_to_store: Zurück zum Laden
   order_back_to_cart: Zurück zum Warenkorb
   order_back_to_website: 'zur Website '
@@ -1885,7 +1877,7 @@ de_CH:
   email_so_edit_false_html: "Sie können jederzeit <a href='%{order_url}'>Details zu dieser Bestellung anzeigen</a>."
   email_so_contact_distributor_html: "Wenn Sie Fragen haben, können Sie sich mit <strong>%{distributor}</strong> über %{email} in Verbindung setzen."
   email_so_contact_distributor_to_change_order_html: "Diese Bestellung wurde automatisch für Sie erstellt. Sie können Änderungen vornehmen, bis die Bestellungen am %{orders_close_at} geschlossen werden, indem Sie <strong>%{distributor}</strong> über %{email} kontaktieren."
-  email_so_confirmation_intro_html: "Ihre Bestellung bei <strong>%{distributor}</strong> ist jetzt bestätigt"
+  
   email_so_confirmation_explainer_html: "Diese Bestellung wurde automatisch für Sie aufgegeben und ist nun abgeschlossen."
   email_so_confirmation_details_html: "Nachfolgend finden Sie alles, was Sie über Ihre Bestellung bei <strong>%{distributor}</strong> wissen müssen:"
   email_so_empty_intro_html: "Wir haben versucht, eine neue Bestellung bei <strong>%{distributor}</strong>aufzugeben, hatten aber einige Probleme ..."
@@ -1911,7 +1903,7 @@ de_CH:
     greeting: "Hallo!"
     invited_to_manage: "Sie wurden eingeladen, %{enterprise} auf %{instance} zu verwalten."
     confirm_your_email: "Sie sollten eine E-Mail mit einem Bestätigungslink erhalten haben oder in Kürze erhalten. Sie können nicht auf das Profil von %{enterprise} zugreifen, bis Sie Ihre E-Mail-Adresse bestätigt haben."
-    set_a_password: "Sie werden dann aufgefordert, ein Kennwort festzulegen, bevor Sie das Unternehmen verwalten können."
+    
     mistakenly_sent: "Nicht sicher, warum Sie diese E-Mail erhalten haben? Bitte kontaktieren Sie %{owner_email} für weitere Informationen."
   producer_mail_greeting: "Liebe/r"
   producer_mail_text_before: "wir informieren über den Stand des Bestellzyklus, bereit am:"
@@ -2409,7 +2401,6 @@ de_CH:
   in_progress: "In Bearbeitung"
   started_at: "seit"
   queued: "In der Warteschlange"
-  scheduled_for: "Vorgemerkt für"
   customers: "Kunden"
   please_select_hub: "Bitte wählen Sie einen Hub"
   loading_customers: "Kunden werden geladen ..."
@@ -2471,7 +2462,7 @@ de_CH:
   last_name_begins_with: "Nachname beginnt mit"
   shipping_method: "Lieferoption"
   new_order: "Neue Bestellung"
-  enterprise_tos_link: "Link zu den Nutzungsbedingungen"
+  
   enterprise_tos_message: "Wir möchten mit Menschen zusammenarbeiten, die unsere Ziele und Werte teilen. Daher bitten wir neue Unternehmen, unseren Allgemeinen Geschäftsbedingungen zuzustimmen:"
   enterprise_tos_agree: "Ich stimme den oben genannten Nutzungsbedingungen zu"
   tax_settings: "Steuereinstellungen"
@@ -2502,8 +2493,6 @@ de_CH:
   report_enterprises: "Unternehmen"
   report_enterprise_fee: "Gebührennamen"
   report_users: "Benutzer"
-  report_tax_rates: Steuersätze
-  report_tax_types: Steuerarten
   report_filters: Berichtseinstellungen
   report_print: Bericht drucken
   report_render_options: Darstellungsoptionen
@@ -2565,8 +2554,6 @@ de_CH:
   report_header_quantity: Menge
   report_header_max_quantity: Max Menge
   report_header_variant: Produktvariante
-  report_header_variant_value: Wert der Produktvarianten
-  report_header_variant_unit: Varianteneinheit
   report_header_total_available: Insgesamt verfügbar
   report_header_unallocated: Nicht zugewiesen
   report_header_max_quantity_excess: Max Menge Überschuss
@@ -2582,7 +2569,6 @@ de_CH:
   report_header_total_shipping_cost: Gesamtlieferkosten
   report_header_payment_method: Zahlungsart
   report_header_sells: vertreibt
-  report_header_visible: öffentlich sichtbar
   report_header_price: Preis
   report_header_unit_size: Einheit
   report_header_distributor: Verteilstelle
@@ -2592,7 +2578,6 @@ de_CH:
   report_header_delivery_address: Lieferadresse
   report_header_delivery_postcode: Lieferpostleitzahl
   report_header_bulk_unit_size: Gruppenkauf-Einheit
-  report_header_weight: Gewicht
   report_header_sum_total: Gesamtsumme
   report_header_date_of_order: Bestelldatum
   report_header_amount_paid: Bezahlter Betrag
@@ -2695,9 +2680,7 @@ de_CH:
   product_importer_products_save_error: Keine Produkte gespeichert.
   product_import_file_not_found_notice: 'Datei konnte nicht gefunden oder nicht geöffnet werden.'
   product_import_no_data_in_spreadsheet_notice: 'Keine Daten in der Tabelle gefunden.'
-  order_choosing_hub_notice: Ihr Hub wurde ausgewählt.
-  order_cycle_selecting_notice: Ihr Bestellzyklus wurde ausgewählt.
-  adjustments_tax_rate_error: "^ Bitte überprüfen Sie, ob der Steuersatz für diese Anpassung korrekt ist."
+  
   active_distributors_not_ready_for_checkout_message_singular: >-
       Der Hub %{distributor_names} ist in einem aktiven Bestellzyklus aufgeführt,
       hat jedoch keine gültigen Liefer- und Zahlungsarten. Bis Sie diese einrichten,

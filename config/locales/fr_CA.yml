@@ -771,8 +771,6 @@ fr_CA:
       note:
         note_label: "Note :"
         no_note_present: "Aucune note n'a été ajoutée."
-    enterprise:
-      select_outgoing_oc_products_from: Sélectionner les produits sortants pour le cycle de vente parmi
     enterprises:
       index:
         title: Entreprises
@@ -987,16 +985,14 @@ fr_CA:
           add_new_tag: '+ Ajouter un nouveau tag'
         users:
           legend: "Utilisateurs"
-          email_confirmation_notice_html: "L'email de confirmation n'a pas encore été validé. Il a été envoyé à %{email}."
+          
           resend: Renvoyer
           owner: 'Manager principal'
           contact: "Contact"
           contact_tip: "Le manager qui recevra les emails de confirmation de commande et autres notifications de l'entreprise. Il doit avoir confirmé son adresse email pour pouvoir être sélectionné."
           owner_tip: Manager principal de cette entreprise.
           notifications: Notifications
-          notifications_tip: Une notification de commande sera envoyée à cette adresse email pour chaque commande passée dans votre boutique.
-          notifications_placeholder: 'ex: bernard@maferme.fr'
-          notifications_note: 'A noter: si vous saisissez une nouvelle adresse, un email de confirmation sera envoyé à cette adresse avec un lien de validation à cliquer.'
+          
           managers: Managers
           managers_tip: 'Sélectionner ici les utilisateurs ayant la permission de gérer cette entreprise. '
           invite_manager: "Inviter un manager"
@@ -1247,7 +1243,7 @@ fr_CA:
       resend_email: Renvoyer l'email
       has_no_payment_methods: "%{enterprise} n'a pas de méthode de paiement active"
       has_no_shipping_methods: "%{enterprise} n'a pas de méthode de livraison active"
-      email_confirmation: "L'adresse e-mail doit être confirmée. Nous avons envoyé un lien de confirmation à %{email}."
+      
       not_visible: "%{enterprise} n'est pas visible et ne peut être trouvé sur la carte ou dans les recherches sur le site."
     reports:
       hidden: Masqué
@@ -1847,7 +1843,6 @@ fr_CA:
   order_total: Total commande
   order_payment: "Payer via:"
   order_billing_address: Adresse de facturation
-  order_delivery_on: Livraison prévue
   order_delivery_address: Adresse de livraison
   order_delivery_time: Créneau de livraison/retrait
   order_special_instructions: "Vos commentaires:"
@@ -1857,7 +1852,6 @@ fr_CA:
   order_total_price: Total
   order_includes_tax: (dont Taxe)
   order_payment_paypal_successful: Votre paiement via PayPal a été réalisé avec succès.
-  order_hub_info: Hub Info
   order_back_to_store: Retour à la boutique
   order_back_to_cart: Retour au panier
   order_back_to_website: Retour vers le site
@@ -1904,7 +1898,7 @@ fr_CA:
   email_so_edit_false_html: "Vous pouvez <a href='%{order_url}'>consulter les détails de cette commande</a> à tout moment."
   email_so_contact_distributor_html: "Pour toute question contactez <strong>%{distributor}</strong> via %{email}."
   email_so_contact_distributor_to_change_order_html: "Cette commande a été automatiquement créée en votre nom. Vous pouvez effectuer des modifications sur cette commande jusqu'à fermeture de la période de commande le %{orders_close_at} en contactant <strong>%{distributor}</strong> à %{email} ."
-  email_so_confirmation_intro_html: "Votre commande auprès de <strong>%{distributor}</strong> est maintenant confirmée"
+  
   email_so_confirmation_explainer_html: "Cette commande a été automatiquement passée pour vous dans le cadre de votre abonnement, et a maintenant été confirmée."
   email_so_confirmation_details_html: "Voici les détails concernant cette commande auprès de <strong>%{distributor}</strong>:"
   email_so_empty_intro_html: "Nous avons essayé de passer votre commande auprès de <strong>%{distributor}</strong>, mais une erreur est survenue..."
@@ -1930,7 +1924,7 @@ fr_CA:
     greeting: "Bonjour!"
     invited_to_manage: "Vous avez été invité(e) à gérer %{enterprise} sur %{instance}."
     confirm_your_email: "Vous avez reçu ou allez recevoir prochainement un email avec un lien de validation. Vous n'aurez pas accès au profil de l'entreprise %{enterprise} avant d'avoir cliqué sur ce lien."
-    set_a_password: "Vous serez ensuite invité(e) à choisir un mot de passe avant de pouvoir accéder et gérer le profil de l'entreprise."
+    
     mistakenly_sent: "Vous ne savez pas pourquoi vous avez reçu cet email? Veuillez contacter %{owner_email} pour plus d'informations."
   producer_mail_greeting: "Cher(ère)"
   producer_mail_text_before: "Vous trouverez ci-dessous les informations pour le cycle de vente prévu pour :"
@@ -2431,7 +2425,7 @@ fr_CA:
   in_progress: "En cours"
   started_at: "Commencé à"
   queued: "En attente"
-  scheduled_for: "Prévu pour"
+  
   customers: "Acheteurs"
   please_select_hub: "Veuillez sélectionner un Hub"
   loading_customers: "Chargement de la liste des acheteurs"
@@ -2493,7 +2487,7 @@ fr_CA:
   last_name_begins_with: "Nom de famille commence par"
   shipping_method: "Méthode de livraison"
   new_order: "Nouvelle commande"
-  enterprise_tos_link: "Lien vers les Conditions Générales d'Utilisation"
+  
   enterprise_tos_message: "Nous soutenons la mise en place d'un système alimentaire résilient et durable, et souhaitons œuvrer avec des entreprises qui partagent nos valeurs et notre vision. Ainsi, nous demandons aux entreprises s'enregistrant sur Open Food Network de valider nos "
   enterprise_tos_agree: "J'adhère aux valeurs d'Open Food Network et valide les Conditions Générales d'Utilisation."
   tax_settings: "Paramètres taxe"
@@ -2524,8 +2518,6 @@ fr_CA:
   report_enterprises: "Entreprises"
   report_enterprise_fee: "Nom des marges et commissions"
   report_users: "Utilisateurs"
-  report_tax_rates: Taux de taxes
-  report_tax_types: Taux de taxes par type de produit/service
   report_filters: Filtres
   report_print: Imprimer
   report_render_options: Mise en forme
@@ -2589,8 +2581,8 @@ fr_CA:
   report_header_quantity: Nb commandé
   report_header_max_quantity: Quantité Max
   report_header_variant: Variante
-  report_header_variant_value: Nb Unités Variante
-  report_header_variant_unit: Unité
+  
+  
   report_header_total_available: Total disponible
   report_header_unallocated: Non alloué
   report_header_max_quantity_excess: Dépassement Qté Max
@@ -2606,7 +2598,7 @@ fr_CA:
   report_header_total_shipping_cost: Total coût de livraison
   report_header_payment_method: Méthode de paiement
   report_header_sells: Vend
-  report_header_visible: Visible
+  
   report_header_price: Prix
   report_header_unit_size: Unité de mesure
   report_header_distributor: Distributeur
@@ -2616,7 +2608,7 @@ fr_CA:
   report_header_delivery_address: Adresse Livraison
   report_header_delivery_postcode: Code Postal Livraison
   report_header_bulk_unit_size: Quantité totale du lot
-  report_header_weight: Poids
+  
   report_header_sum_total: Somme Totale
   report_header_date_of_order: Date de Commande
   report_header_amount_paid: Montant payé
@@ -2719,9 +2711,6 @@ fr_CA:
   product_importer_products_save_error: n'a pu sauvegarder aucun produit :-(
   product_import_file_not_found_notice: 'Fichier non trouvé ou impossible à ouvrir'
   product_import_no_data_in_spreadsheet_notice: 'Aucune donnée trouvée dans le tableau'
-  order_choosing_hub_notice: Votre hub a été sélectionné.
-  order_cycle_selecting_notice: Votre cycle de vente a été sélectionné.
-  adjustments_tax_rate_error: "^Veuillez vérifier le type de taxe applicable pour cet ajustement."
   active_distributors_not_ready_for_checkout_message_singular: >-
       Le hub %{distributor_names} est sélectionné dans un cycle de vente actif, mais
       n'a pas paramétré de méthode de livraison et/ou de paiement. La boutique de
