@@ -1823,9 +1823,7 @@ ko:
   unsaved_changes_warning: "저장되지 않은 변경 사항이 있으며 계속 진행하신다면 저장되지 않습니다."
   unsaved_changes_error: "빨간색 테두리가 있는 필드에 오류가 있습니다."
   products: "생산품"
-  products_in: "%{oc} 내에서"
   products_at: "%{distributor} 에서"
-  products_elsewhere: "다른 곳에서 발견된 제품"
   email_confirmed: "이메일 주소를 확인해주셔서 감사합니다."
   email_confirmation_activate_account: "새 계정을 활성화하기 전에 이메일 주소를 확인해야 합니다."
   email_confirmation_click_link: "아래 링크를 클릭하여 이메일을 확인하고 프로필 설정을 계속하십시오."
@@ -1953,8 +1951,6 @@ ko:
   products_filter_done: "완료"
   products_loading: "제품을 로드하는 중..."
   products_updating_cart: "카트를 업데이트 중입니다..."
-  products_cart_empty: "카트가 비어있습니다."
-  products_edit_cart: "카트 편집"
   products_from: 부터
   products_change: "저장할 변경 사항이 없습니다."
   products_update_error: "다음 오류(들)로 인해 저장하지 못했습니다 :"
@@ -2086,16 +2082,7 @@ ko:
   orders_bought_already_confirmed: "이미 확인됨"
   orders_confirm_cancel: "이 주문을 취소하시겠습니까?"
   order_processed_successfully: "당신의 주문이 성공적으로 진행되었습니다."
-  products_cart_distributor_is: "이 주문의 배포자는 %{name}과 같습니다."
-  products_distributor_error: "다른 대리점과 쇼핑하기 전에 %{link}에서 주문을 완료하십시오."
-  products_oc: "귀사의 주문에 대한 주문 주기:"
-  products_oc_change: "이 제품을 카트에 추가하면 이 주문의 주문 주기가 %{name}로 변경됩니다."
-  products_oc_is: "이 주문의 주문 주기는 %{name}입니다."
-  products_oc_error: "다른 주문 주기로 쇼핑하기 전에 %{link}에서 주문을 완료하십시오."
-  products_oc_current: "현재 주문 주기"
-  products_max_quantity: 최대 수량
   products_distributor: 유통업체
-  products_distributor_info: 주문에 대한 대리점을 선택하면 대리점의 주소와 픽업 시간이 여기에 표시됩니다.
   password: 비밀번호
   remember_me: 기억해두세요
   are_you_sure: "확실합니까?"

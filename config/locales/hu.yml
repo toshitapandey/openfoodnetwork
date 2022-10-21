@@ -1814,9 +1814,7 @@ hu:
   unsaved_changes_warning: "A nem mentett módosítások léteznek, és ha folytatja, elvesznek."
   unsaved_changes_error: "A piros szegélyű mezők hibákat tartalmaznak."
   products: "Termékek"
-  products_in: "itt: %{oc}"
   products_at: "itt: %{distributor}"
-  products_elsewhere: "Máshol talált termékek"
   email_confirmed: "Köszönjük, hogy megerősítette e-mail címét."
   email_confirmation_activate_account: "Mielőtt aktiválhatnánk új fiókját, meg kell erősíteni az e-mail címét."
   email_confirmation_click_link: "Kérjük, kattintson az alábbi linkre az e-mail-cím megerősítéséhez és a profil beállításának folytatásához."
@@ -1944,8 +1942,6 @@ hu:
   products_filter_done: "Kész"
   products_loading: "Termékek betöltése..."
   products_updating_cart: "Kosár frissítése..."
-  products_cart_empty: "Kosár üres"
-  products_edit_cart: "Szerkeszd a kosaradat"
   products_from: tól től
   products_change: "Nincs mentendő módosítás."
   products_update_error: "A mentés a következő hibá(k) miatt nem sikerült:"
@@ -2077,16 +2073,7 @@ hu:
   orders_bought_already_confirmed: "* már megerősítve"
   orders_confirm_cancel: "Biztosan törli ezt a rendelést?"
   order_processed_successfully: "Megrendelését sikeresen feldolgoztuk"
-  products_cart_distributor_is: "Ennek a rendelésnek a forgalmazója: %{name}."
-  products_distributor_error: "Kérjük, fejezze be rendelését a %{link} címen, mielőtt másik forgalmazónál vásárolna."
-  products_oc: "Rendelési ciklus a megrendeléshez:"
-  products_oc_change: "Ha ezt a terméket a kosárba helyezi, a rendelési ciklusa a következőre módosul: %{name}."
-  products_oc_is: "Az Ön rendelési ciklusa ehhez a rendeléshez %{name}."
-  products_oc_error: "Kérjük, fejezze be rendelését a %{link} webhelyről, mielőtt másik rendelési ciklusban vásárolna."
-  products_oc_current: "aktuális rendelési ciklusát"
-  products_max_quantity: Max mennyiség
   products_distributor: Elosztó
-  products_distributor_info: Amikor kiválaszt egy forgalmazót a rendeléséhez, címük és átvételi időpontjuk itt jelenik meg.
   password: Jelszó
   remember_me: Emlékezz rám
   are_you_sure: "biztos vagy ebben?"

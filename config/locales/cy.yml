@@ -1839,9 +1839,7 @@ cy:
   unsaved_changes_warning: "Mae newidiadau heb eu cadw yn bodoli a byddant yn cael eu colli os byddwch yn parhau."
   unsaved_changes_error: "Mae'r meysydd â ffiniau coch yn cynnwys gwallau."
   products: "Cynnyrch"
-  products_in: "yn %{oc}"
   products_at: "yn %{distributor}"
-  products_elsewhere: "Cynnyrch sydd ar gael rhywle arall"
   email_confirmed: "Diolch am gadarnhau eich cyfeiriad e-bost."
   email_confirmation_activate_account: "Cyn y gallwn actifadu eich cyfrif newydd, mae angen i ni gadarnhau eich cyfeiriad e-bost."
   email_confirmation_click_link: "Cliciwch ar y ddolen isod i gadarnhau eich e-bost ac i barhau i sefydlu'ch proffil."
@@ -1969,8 +1967,6 @@ cy:
   products_filter_done: "Wedi'i wneud"
   products_loading: "Llwytho cynnyrch ..."
   products_updating_cart: "Diweddaru'r basged ..."
-  products_cart_empty: "Mae'r basged yn wag"
-  products_edit_cart: "Golygu'ch basged"
   products_from: o
   products_change: "Dim newidiadau i'w harbed."
   products_update_error: "Methwyd ag arbed oherwydd y gwall (au) canlynol:"
@@ -2102,16 +2098,7 @@ cy:
   orders_bought_already_confirmed: "* cadarnhawyd eisoes"
   orders_confirm_cancel: "Ydych chi'n siŵr eich bod chi am ganslo'r archeb hon?"
   order_processed_successfully: "Llwyddwyd i brosesu eich archeb "
-  products_cart_distributor_is: "Eich dosbarthwr ar gyfer yr archeb hon yw %{name}."
-  products_distributor_error: "Gorffennwch eich archeb yn %{link} cyn siopa gyda dosbarthwr arall."
-  products_oc: "Y cylch archebu ar gyfer eich archeb:"
-  products_oc_change: "Bydd eich cylch archebu ar gyfer yr archeb hon yn cael ei newid i %{name} os ychwanegwch y cynnyrch yma at eich basged."
-  products_oc_is: "Eich cylch archebu ar gyfer yr archeb hon yw %{name}."
-  products_oc_error: "Gorffennwch eich archeb gan %{link} cyn siopa mewn cylch archebu gwahanol"
-  products_oc_current: "eich cylch archebu cyfredol"
-  products_max_quantity: Uchafswm
   products_distributor: Dosbarthwr
-  products_distributor_info: Wrth  ddewis ddosbarthwr ar gyfer eich archeb, bydd eu cyfeiriad a'u hamseroedd casglu'n cael eu harddangos yma.
   password: Cyfrinair
   remember_me: Cofiwch fi
   are_you_sure: "Wyt ti'n siwr?"

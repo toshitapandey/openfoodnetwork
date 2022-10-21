@@ -1598,9 +1598,7 @@ pt:
   unsaved_changes_warning: "Existem modificações não guardadas que serão perdidas se continuar."
   unsaved_changes_error: "Campos com contornos vermelhos contêm erros. "
   products: "Produtos"
-  products_in: "em  %{oc}"
   products_at: "em %{distributor}"
-  products_elsewhere: "Produtos encontrados em outros lugares"
   email_confirmed: "Obrigado por confirmar o seu endereço de email."
   email_confirmation_activate_account: "Antes de podermos activar a sua conta, precisamos de confirmar o seu endereço de email."
   email_confirmation_click_link: "Clique no link abaixo para confirmar o seu email e continuar a criar o seu perfil."
@@ -1719,8 +1717,6 @@ pt:
   products_filter_done: "Fechar"
   products_loading: "Carregando produtos..."
   products_updating_cart: "Atualizando carrinho..."
-  products_cart_empty: "Carrinho vazio"
-  products_edit_cart: "Edite o seu carrinho"
   products_from: de
   products_change: "Nenhuma modificação a ser guardada."
   products_update_error: "Falha ao guardar, com os seguintes erros:"
@@ -1849,16 +1845,7 @@ pt:
   orders_bought_already_confirmed: "* já confirmado"
   orders_confirm_cancel: "Tem a certeza que quer cancelar esta encomenda?"
   order_processed_successfully: "A sua encomenda foi processada com sucesso"
-  products_cart_distributor_is: "O distribuidor para esta encomenda é %{name}."
-  products_distributor_error: "Por favor complete a sua encomenda em %{link} antes de comprar com outro distribuidor."
-  products_oc: "Ciclo de encomendas para a sua encomenda:"
-  products_oc_change: "O ciclo de encomendas para esta encomenda será trocado para %{name} se adicionar este produto ao carrinho."
-  products_oc_is: "O ciclo de encomendas para esta encomenda é %{name}."
-  products_oc_error: "Por favor complete a sua encomenda em %{link} antes de comprar noutro ciclo de encomendas."
-  products_oc_current: "o seu actual ciclo de encomendas"
-  products_max_quantity: Quantidade máxima
   products_distributor: Distribuidor
-  products_distributor_info: Quando seleccionar um distribuidor para a sua encomenda, a morada e data de levantamento serão exibidos aqui.
   password: Palavra-passe
   remember_me: Lembrar meu login
   are_you_sure: "Tem a certeza?"

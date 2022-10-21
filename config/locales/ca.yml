@@ -1711,9 +1711,7 @@ ca:
   unsaved_changes_warning: "Hi ha canvis sense desar i es perdran si continueu."
   unsaved_changes_error: "Els camps amb vora vermella contenen errors."
   products: "Productes"
-  products_in: "en %{oc}"
   products_at: "a %{distributor}"
-  products_elsewhere: "Productes trobats en altres llocs"
   email_confirmed: "Gràcies per confirmar la teva adreça de correu electrònic."
   email_confirmation_activate_account: "Abans de poder activar el compte nou hem de confirmar la teva adreça de correu electrònic."
   email_confirmation_click_link: "Si us plau fes clic a l'enllaç següent per confirmar el teu correu electrònic i continuar configurant el teu perfil."
@@ -1840,8 +1838,6 @@ ca:
   products_filter_done: "Fet"
   products_loading: "S'estan carregant els productes..."
   products_updating_cart: "Actualitzant la cistella..."
-  products_cart_empty: "Cistella buida"
-  products_edit_cart: "Edita la teva cistella"
   products_from: de
   products_change: "No hi ha canvis per desar."
   products_update_error: "No s'ha pogut desar pel(s) següent(s) error(s):"
@@ -1973,16 +1969,7 @@ ca:
   orders_bought_already_confirmed: "* ja confirmat"
   orders_confirm_cancel: "Estàs segur que vols cancel·lar aquesta comanda?"
   order_processed_successfully: "La teva comanda s'ha processat amb èxit"
-  products_cart_distributor_is: "La distribuïdora d'aquesta comanda és %{name}."
-  products_distributor_error: "Si us plau, completa la comanda a: %{link} abans de comprar amb una altra distribuïdora."
-  products_oc: "Cicle de comanda per a la teva comanda:"
-  products_oc_change: "El cicle de comandes d'aquesta comanda canviarà a %{name} si afegeixes aquest producte a la cistella."
-  products_oc_is: "El cicle de comandes per a aquesta comanda és %{name}."
-  products_oc_error: "Si us plau valideu la comanda de %{link} abans de comprar en un cicle de comanda diferent."
-  products_oc_current: "el vostre cicle de comanda actual"
-  products_max_quantity: Quantitat màxima
   products_distributor: Distribuïdora
-  products_distributor_info: Quan seleccionis una distribuïdora per a la teva comanda, aquí es mostraran la seva d'adreça i hores de recollida.
   password: Contrasenya
   remember_me: Recorda'm
   are_you_sure: "Estàs segur?"

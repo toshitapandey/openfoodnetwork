@@ -1705,9 +1705,7 @@ tr:
   unsaved_changes_warning: "Kaydedilmemiş değişiklikler var ve devam ederseniz kaybolacak."
   unsaved_changes_error: "Kırmızı kenarlı alanlar hata içeriyor."
   products: "Ürünler"
-  products_in: "%{oc} 'in içinde"
   products_at: "%{distributor} adresinde"
-  products_elsewhere: "Başka yerde bulunan ürünler"
   email_confirmed: "E-posta adresinizi onayladığınız için teşekkür ederiz."
   email_confirmation_activate_account: "Yeni hesabınızı etkinleştirmeden önce e-posta adresinizi doğrulamamız gerekiyor."
   email_confirmation_click_link: "E-postanızı doğrulamak ve profilinizi oluşturmaya devam etmek için lütfen aşağıdaki bağlantıyı tıklayın."
@@ -1834,8 +1832,6 @@ tr:
   products_filter_done: "Tamam"
   products_loading: "Ürünler yükleniyor ..."
   products_updating_cart: "Sepet güncelleniyor ..."
-  products_cart_empty: "Sepetiniz boş"
-  products_edit_cart: "Sepetini düzenle"
   products_from: üretici
   products_change: "Kaydedilecek değişiklik yok."
   products_update_error: "Kaydetme başarısız oldu:"
@@ -1967,16 +1963,9 @@ tr:
   orders_bought_already_confirmed: "* zaten onaylandı"
   orders_confirm_cancel: "Bu siparişi iptal etmek istediğinize emin misiniz?"
   order_processed_successfully: "Siparişiniz başarıyla işlendi"
-  products_cart_distributor_is: "Bu sipariş için dağıtımcınız %{name}."
-  products_distributor_error: "Başka bir dağıtımcıdan alışveriş yapmadan önce lütfen %{link} adresinden siparişinizi tamamlayın."
-  products_oc: "Siparişiniz için sipariş dönemi:"
-  products_oc_change: "Bu ürünü sepetinize eklerseniz, bu sipariş için sipariş döneminiz %{name} olarak değiştirilecektir."
   products_oc_is: "Bu sipariş için sipariş döneminiz %{name}."
   products_oc_error: "Farklı bir sipariş döneminden alışveriş yapmadan önce lütfen  %{link} siparişinizi tamamlayın."
-  products_oc_current: "mevcut sipariş döneminiz"
-  products_max_quantity: Maks miktar
   products_distributor: Dağıtımcı
-  products_distributor_info: Siparişiniz için bir dağıtımcı seçtiğinizde, teslimat noktası ve zamanları burada görüntülenir.
   password: Parola
   remember_me: Beni Hatırla
   are_you_sure: "Emin misiniz?"

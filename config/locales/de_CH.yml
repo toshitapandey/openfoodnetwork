@@ -1833,9 +1833,8 @@ de_CH:
   unsaved_changes_warning: "Sie haben nicht gespeicherte Änderungen, die beim Fortfahren verloren gehen."
   unsaved_changes_error: "Felder mit roten Rahmen enthalten Fehler."
   products: "Produkte"
-  products_in: "in %{oc}"
+  
   products_at: "bei %{distributor}"
-  products_elsewhere: "Produkte an anderer Stelle"
   email_confirmed: "Vielen Dank für die Bestätigung Ihrer E-Mail-Adresse."
   email_confirmation_activate_account: "Bevor wir Ihr neues Konto aktivieren können, bestätigen Sie bitte Ihre E-Mail-Adresse."
   email_confirmation_click_link: "Bitte klicken Sie auf den untenstehenden Link, um Ihre E-Mail-Adresse zu bestätigen und mit der Einrichtung Ihres Profils fortzufahren."
@@ -1965,8 +1964,7 @@ de_CH:
   products_filter_done: "Anwenden"
   products_loading: "Produkte werden geladen ..."
   products_updating_cart: "Warenkorb wird aktualisiert ..."
-  products_cart_empty: "Warenkorb ist leer."
-  products_edit_cart: "Warenkorb bearbeiten"
+  
   products_from: von
   products_change: "Keine Änderungen zu speichern."
   products_update_error: "Das Speichern ist aufgrund folgender Fehler fehlgeschlagen:"
@@ -2098,18 +2096,7 @@ de_CH:
   orders_bought_already_confirmed: "* schon bestätigt"
   orders_confirm_cancel: "Sind Sie sicher, dass Sie diese Bestellung stornieren möchten?"
   order_processed_successfully: "Ihre Bestellung wurde erfolgreich verarbeitet."
-  
-  
-  products_cart_distributor_is: "Die Verteilstelle dieser Bestellung ist %{name}."
-  products_distributor_error: "Bitte schliessen Sie Ihre Bestellung bei %{link} ab, bevor Sie bei einem anderen Laden einkaufen."
-  products_oc: "Bestellzyklus Ihrer Bestellung:"
-  products_oc_change: "Der Bestellzyklus für diese Bestellung wird in %{name} geändert, wenn Sie dieses Produkt zu Ihrem Warenkorb hinzufügen."
-  products_oc_is: "Der Bestellzyklus dieser Bestellung lautet %{name}."
-  products_oc_error: "Bitte schliessen Sie Ihre Bestellung bei %{link} ab, bevor Sie in einem anderen Bestellzyklus einkaufen."
-  products_oc_current: "Ihr aktueller Bestellzyklus"
-  products_max_quantity: Max Menge
   products_distributor: Verteilstelle
-  products_distributor_info: Wenn Sie eine Verteilstelle für Ihre Bestellung auswählen, werden hier die Adresse und Abholzeiten angezeigt.
   password: Passwort
   remember_me: Eingeloggt bleiben
   are_you_sure: "Sind Sie sicher?"

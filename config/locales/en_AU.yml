@@ -1616,9 +1616,9 @@ en_AU:
   unsaved_changes_warning: "Unsaved changes exist and will be lost if you continue."
   unsaved_changes_error: "Fields with red borders contain errors."
   products: "Products"
-  products_in: "in %{oc}"
+  
   products_at: "at %{distributor}"
-  products_elsewhere: "Products found elsewhere"
+  
   email_confirmed: "Thank you for confirming your email address."
   email_confirmation_activate_account: "Before we can activate your new account, we need to confirm your email address."
   email_confirmation_click_link: "Please click the link below to confirm your email and to continue setting up your profile."
@@ -1744,8 +1744,7 @@ en_AU:
   products_filter_done: "Done"
   products_loading: "Loading products..."
   products_updating_cart: "Updating cart..."
-  products_cart_empty: "Cart empty"
-  products_edit_cart: "Edit your cart"
+  
   products_from: from
   products_change: "No changes to save."
   products_update_error: "Saving failed with the following error(s):"
@@ -1877,18 +1876,7 @@ en_AU:
   orders_bought_already_confirmed: "* already confirmed"
   orders_confirm_cancel: "Are you sure you want to cancel this order?"
   order_processed_successfully: "Your order has been processed successfully"
-  
-  
-  products_cart_distributor_is: "Your distributor for this order is %{name}."
-  products_distributor_error: "Please complete your order at %{link} before shopping with another distributor."
-  products_oc: "Order cycle for your order:"
-  products_oc_change: "Your order cycle for this order will be changed to %{name} if you add this product to your cart."
-  products_oc_is: "Your order cycle for this order is %{name}."
-  products_oc_error: "Please complete your order from %{link} before shopping in a different order cycle."
-  products_oc_current: "your current order cycle"
-  products_max_quantity: Max quantity
   products_distributor: Distributor
-  products_distributor_info: When you select a distributor for your order, their address and pickup times will be displayed here.
   password: Password
   remember_me: Remember Me
   are_you_sure: "Are you sure?"

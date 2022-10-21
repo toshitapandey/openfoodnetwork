@@ -1575,9 +1575,8 @@ nl_BE:
   unsaved_changes_warning: "Er zijn onopgeslagen veranderingen en zullen verloren gaan indien je verdergaat."
   unsaved_changes_error: "Velden met rode omlijning bevatten fouten."
   products: "Producten"
-  products_in: "in %{oc}"
+  
   products_at: "bij %{distributor}"
-  products_elsewhere: "Producten die ergens anders gevonden zijn"
   email_confirmed: "Bedankt om je E-mailadres te bevestigen."
   email_confirmation_activate_account: "Voor we je nieuwe account kunnen activeren, moet je je E-mailadres bevestigen."
   email_confirmation_click_link: "Klik alsjeblieft in de link hieronder om je E-mail te bevestigen en om verder te gaan met je profiel te vervolledigen."
@@ -1700,8 +1699,6 @@ nl_BE:
   products_filter_done: "Afgerond"
   products_loading: "Laad producten..."
   products_updating_cart: "winkelwagentje wordt geüpdatet..."
-  products_cart_empty: "Winkelwagentje is leeg"
-  products_edit_cart: "Pas je winkelwagentje aan"
   products_from: van
   products_change: "Geen veranderingen om te bewaren."
   products_update_error: "Bewaren mislukte met de volgende foutmelding(en):"
@@ -1832,16 +1829,7 @@ nl_BE:
   orders_bought_already_confirmed: "* reeds bevestigd"
   orders_confirm_cancel: "Ben je zeker dat je deze bestelling wil annuleren?"
   order_processed_successfully: "Je bestelling is met succes geplaatst"
-  products_cart_distributor_is: "Je verdeler voor deze bestelling heet %{name}."
-  products_distributor_error: "Vervolledig alsjeblieft je bestelling op %{link} voor je verder gaat met het winkelen bij een andere verdeler."
-  products_oc: "Bestellingscyclus voor je bestelling:"
-  products_oc_change: "Je bestellingscyclus voor de bestelling zal verandert worden naar %{name} als je dit product toevoegt aan je winkelwagentje."
-  products_oc_is: "Jouw bestellingscyclus voor deze bestelling heet %{name}."
-  products_oc_error: "Vervolledig alsjeblieft je bestelling van %{link} voor je verder winkelt in een andere bestellingscyclus."
-  products_oc_current: "Je huidige bestellingscyclus"
-  products_max_quantity: Maximale hoeveelheid
   products_distributor: Distributeur
-  products_distributor_info: Wanneer je een verdeler selecteert voor je bestelling, zal hun adres en ophaaltijden hier afgebeeld worden.
   password: Wachtwoord
   remember_me: Onthoud Me
   are_you_sure: "Ben je zeker?"

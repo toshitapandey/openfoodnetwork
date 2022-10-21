@@ -1853,9 +1853,9 @@ fr_CA:
   unsaved_changes_warning: "Des modifications n'ont pas été enregistrées et seront perdues si vous continuez."
   unsaved_changes_error: "Les champs entourés en rouge contiennent des erreurs."
   products: "Produits"
-  products_in: "dans %{oc}"
+  
   products_at: "à %{distributor}"
-  products_elsewhere: "Produits trouvés ailleurs"
+  
   email_confirmed: "Veuillez confirmer votre adresse email."
   email_confirmation_activate_account: "Avant de pouvoir activer votre compte, nous devons nous assurer de la validité de votre adresse email."
   email_confirmation_click_link: "Veuillez cliquer sur le lien ci-dessous pour confirmer votre email et continuer la configuration de votre compte."
@@ -1985,8 +1985,6 @@ fr_CA:
   products_filter_done: "Fait"
   products_loading: "Produits en cours de chargement..."
   products_updating_cart: "Actualisation du panier..."
-  products_cart_empty: "Panier vide"
-  products_edit_cart: "Valider votre panier"
   products_from: de
   products_change: "Aucun changement à sauvegarder."
   products_update_error: "Échec de l'enregistrement dû à:"
@@ -2118,18 +2116,7 @@ fr_CA:
   orders_bought_already_confirmed: "* déjà confirmé"
   orders_confirm_cancel: "Voulez-vous vraiment annuler cette commande ?"
   order_processed_successfully: "Votre commande a été traitée avec succès"
-  
-  
-  products_cart_distributor_is: "Votre distributeur pour cette commande est %{name}."
-  products_distributor_error: "Terminez votre commande chez %{link} avant de faire vos courses chez un autre distributeur."
-  products_oc: "Cycle de vente pour votre commande:"
-  products_oc_change: "Votre cycle de vente pour cette commande sera dorénavant %{name} si vous ajoutez ce produit à votre panier."
-  products_oc_is: "Votre cycle de vente pour cette commande est %{name}."
-  products_oc_error: "Veuillez terminer votre commande pour %{link} avant de faire vos courses pour un autre cycle de vente."
-  products_oc_current: "votre cycle de vente actuel"
-  products_max_quantity: Quantité max
   products_distributor: Distributeur
-  products_distributor_info: Quand vous choisissez un distributeur pour votre commande, les adresse et date de retrait seront affichées ici.
   password: Mot de passe
   remember_me: Se souvenir de moi
   are_you_sure: "Confirmer?"

@@ -948,9 +948,7 @@ sv:
   unsaved_changes_warning: "Osparade förändringar existerar och kommer förloras om du fortsätter."
   unsaved_changes_error: "Fält med röda kanter innehåller fel."
   products: "Produkter"
-  products_in: "i %{oc}"
   products_at: "hos %{distributor}"
-  products_elsewhere: "Produkter funna annorstädes"
   email_confirmed: "Tack för att du bekräftat din e-postadress."
   email_confirmation_click_link: "Var vänlig att klicka på länken nedan för att bekräfta din e-postadress och fortsätt att skapa din profil."
   email_confirmation_link_label: "Bekräfta din e-postadress »"
@@ -1039,8 +1037,6 @@ sv:
   products_filter_clear: "Rensa"
   products_loading: "Laddar produkter"
   products_updating_cart: "Uppdatera din varukorg"
-  products_cart_empty: "Tom varukorg"
-  products_edit_cart: "Redigera din varukorg "
   products_from: från
   products_change: "Inga ändringar att spara."
   products_update_error: "Sparandet misslyckades med följande fel(en):"
@@ -1165,16 +1161,7 @@ sv:
   orders_bought_edit_button: "Redigera bekräftade varor"
   orders_bought_already_confirmed: "* redan bekräftad"
   orders_confirm_cancel: "Är du säker på att du vill avbryta denna beställning?"
-  products_cart_distributor_is: "Din distributör för denna order är %{name}."
-  products_distributor_error: "Var vänlig att avsluta din order hos %{link} innan du böjar handla hos en annan distributör."
-  products_oc: "Beställningsrunda för din order"
-  products_oc_change: "Din beställningsrunda för denna order kommer att ändras till %{name} om du lägger denna produkt i din varukorg."
-  products_oc_is: "Din beställningsrunda för denna order är %{name}."
-  products_oc_error: "Var vänlig avsluta din order från %{link} innan du startar inköp i en annan beställningsrunda."
-  products_oc_current: "Din nuvarande beställningsrunda"
-  products_max_quantity: Maxkvantitet
   products_distributor: Distributör
-  products_distributor_info: När du väljer distributör för din order kommer leveranstider att visas här
   password: Lösenord
   remember_me: Kom ihåg mig
   are_you_sure: "Är du säker?"

@@ -1846,9 +1846,7 @@ ru:
   unsaved_changes_warning: "Есть несохраненные изменения, которые будут потеряны, если вы продолжите."
   unsaved_changes_error: "Поля с красными границами содержат ошибки."
   products: "Товары"
-  products_in: "в %{oc}"
   products_at: "у %{distributor}"
-  products_elsewhere: "Товары, найденные в других местах"
   email_confirmed: "Спасибо за подтверждение Вашего email адреса."
   email_confirmation_activate_account: "Перед тем как сможем активировать Ваш профиль, мы должны подтвердить Ваш email адрес."
   email_confirmation_click_link: "Пожалуйста нажмите на ссылку ниже, чтобы подтвердить Ваш email и продолжить настраивать Ваш профиль."
@@ -1976,8 +1974,6 @@ ru:
   products_filter_done: "Готово"
   products_loading: "Загрузка товаров..."
   products_updating_cart: "Обновление корзины..."
-  products_cart_empty: "Корзина пуста"
-  products_edit_cart: "Изменить Вашу корзину"
   products_from: от
   products_change: "Нет изменений для сохранения."
   products_update_error: "Ошибка сохранения со следующей ошибкой(ми):"
@@ -2109,16 +2105,7 @@ ru:
   orders_bought_already_confirmed: "* уже подтверждено"
   orders_confirm_cancel: "Вы уверены, что хотите отменить этот заказ?"
   order_processed_successfully: "Ваш заказ был успешно обработан"
-  products_cart_distributor_is: "Ваш дистрибьютор для этого заказа %{name}."
-  products_distributor_error: "Пожалуйста, завершите Ваш заказ на %{link} перед покупкой у другого дистрибьютора."
-  products_oc: "Цикл заказа для Вашего заказа:"
-  products_oc_change: "Ваш цикл заказа для этого заказа будет изменен на %{name}, если Вы добавите этот продукт в корзину."
-  products_oc_is: "Ваш цикл заказа для этого заказа %{name}."
-  products_oc_error: "Пожалуйста, завершите Ваш заказ с %{link} перед покупкой в другом цикле заказа."
-  products_oc_current: "Ваш текущий цикл заказа"
-  products_max_quantity: Макс количество
   products_distributor: Дистрибьютор
-  products_distributor_info: Когда Вы выбираете дистрибьютора для Вашего заказа, его адрес и время доставки будут отображаться здесь.
   password: Пароль
   remember_me: Напомнить
   are_you_sure: "Вы уверены?"

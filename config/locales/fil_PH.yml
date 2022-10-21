@@ -1542,9 +1542,7 @@ fil_PH:
   unsaved_changes_warning: "may mga pagbabagong hindi pa na-save at maaaring mawala kung magpapatuloy."
   unsaved_changes_error: "ang mga patlang na may pulang border ay may mga error"
   products: "mga produkto"
-  products_in: "sa%{oc}"
   products_at: "nasa%{distributor}"
-  products_elsewhere: "ang mga produkto ay hindi dito natagpuan"
   email_confirmed: "Maraming salamat sa pagkumpirma ng inyong email address."
   email_confirmation_activate_account: "Bago natin ma-activate ang inyong account, kailangan munang kumpirmahin ang iyong email address."
   email_confirmation_click_link: "pindutin ang link sa ibaba para kumpirmahin ang iyong email address at upang maipagpatuloy ang pagset-up ng inyong profile."
@@ -1662,8 +1660,6 @@ fil_PH:
   products_filter_clear: "alisin"
   products_loading: "nilo-load ang mga produkto..."
   products_updating_cart: "ina-update ang cart"
-  products_cart_empty: "walang laman ang cart"
-  products_edit_cart: "ayusin ang cart"
   products_from: mula sa
   products_change: "walang pagbabago na isesave"
   products_update_error: "hindi nagpatuloy ang pag-save dahil sa mga sumusunod na error(s):"
@@ -1792,16 +1788,7 @@ fil_PH:
   orders_bought_already_confirmed: "* kumpirmado na"
   orders_confirm_cancel: "sigurado ka bang nais mo na kanselahin ang order na ito?"
   order_processed_successfully: "ang inyong order ay matagumpay na naproseso"
-  products_cart_distributor_is: "ang distributor para sa order na ito ay%{name}."
-  products_distributor_error: "kumpletuhin ang inyong order sa%{link} bago mamili sa ibang distributor."
-  products_oc: "order cycle para sa iyong order:"
-  products_oc_change: "ang iyong order cycle para sa order na ito ay papalitan ng%{name} kung idadagdag mo ang produktong ito sa inyong cart."
-  products_oc_is: "ang order cycle para sa order na ito ay%{name}."
-  products_oc_error: "kumpletuhin ang inyong order mula sa %{link} bago mamili sa ibang order cycle."
-  products_oc_current: "ang iyong kasalukuyang order cycle"
-  products_max_quantity: sagad na dami
   products_distributor: Distributor
-  products_distributor_info: kapag pumili ng distributor para sa inyong order, ang kanilang address at oras ng pickup ay makikita dito.
   password: Password
   remember_me: tandaan ako
   are_you_sure: "Sigurado ka ba?"

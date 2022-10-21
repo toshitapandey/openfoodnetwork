@@ -1669,9 +1669,7 @@ pt_BR:
   unsaved_changes_warning: "Existem modificações não salvas que serão perdidas se você continuar"
   unsaved_changes_error: "Campos com bordas vermelhas contem erros. "
   products: "Produtos"
-  products_in: "em  %{oc}"
   products_at: "em %{distributor}"
-  products_elsewhere: "Produtos encontrados em outros lugares"
   email_confirmed: "Obrigado por confirmar seu e-mail"
   email_confirmation_activate_account: "Antes de podermos ativar sua nova conta, precisamos confirmar seu endereço de e-mail."
   email_confirmation_click_link: "Clique no link abaixo para confirmar seu e-mail e continuar criando seu perfil."
@@ -1798,8 +1796,6 @@ pt_BR:
   products_filter_done: "Feito"
   products_loading: "Carregando produtos..."
   products_updating_cart: "Atualizando carrinho..."
-  products_cart_empty: "Carrinho vazio"
-  products_edit_cart: "Edite seu carrinho"
   products_from: de
   products_change: "Nenhuma alteração a ser salva."
   products_update_error: "Falha ao salvar, com o seguinte erro:"
@@ -1931,16 +1927,7 @@ pt_BR:
   orders_bought_already_confirmed: "* já confirmado"
   orders_confirm_cancel: "Tem certeza de que deseja cancelar este pedido?"
   order_processed_successfully: "Seu pedido foi processado com sucesso"
-  products_cart_distributor_is: "O distribuidor para este pedido é %{name}."
-  products_distributor_error: "Por favor complete seu pedido no %{link} antes de comprar com outro distribuidor."
-  products_oc: "Ciclo de pedidos para seu pedido:"
-  products_oc_change: "O ciclo de pedidos para esse pedido será trocado para %{name} se você adicionar este produto ao carrinho."
-  products_oc_is: "O ciclo de pedidos para este pedido é %{name}."
-  products_oc_error: "Por favor complete seu pedido no %{link} antes de comprar em outro ciclo de pedido."
-  products_oc_current: "seu ciclo de pedidos atual"
-  products_max_quantity: Quantidade máxima
   products_distributor: Distribuidor
-  products_distributor_info: Quando você selecionar um distribuidor para seu pedido, o endereço e data para retirada serão exibidos aqui.
   password: Senha
   remember_me: Lembre-me
   are_you_sure: "Tem certeza?"

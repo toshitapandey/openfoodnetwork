@@ -1841,9 +1841,7 @@ uk:
   unsaved_changes_warning: "Незбережені зміни будуть втрачені, якщо ви продовжите."
   unsaved_changes_error: "Поля з червоною рамкою містять помилки."
   products: "Продукти"
-  products_in: "в %{oc}"
   products_at: "на %{distributor}"
-  products_elsewhere: "Продукти, знайдені в інших місцях"
   email_confirmed: "Дякуємо за підтвердження адреси електронної пошти."
   email_confirmation_activate_account: "Перш ніж ми зможемо активувати ваш новий обліковий запис, нам потрібно підтвердити вашу електронну адресу."
   email_confirmation_click_link: "Клацніть посилання нижче, щоб підтвердити свою електронну адресу та продовжити налаштування профілю."
@@ -1971,8 +1969,6 @@ uk:
   products_filter_done: "Готово"
   products_loading: "Завантаження продуктів..."
   products_updating_cart: "Оновлення кошика..."
-  products_cart_empty: "Кошик порожній"
-  products_edit_cart: "Відредагуйте свій кошик"
   products_from: від
   products_change: "Немає змін для збереження."
   products_update_error: "Не вдалося зберегти через такі помилки:"
@@ -2104,16 +2100,9 @@ uk:
   orders_bought_already_confirmed: "* вже підтверджено"
   orders_confirm_cancel: "Ви впевнені, що бажаєте скасувати це замовлення?"
   order_processed_successfully: "Ваше замовлення успішно оброблено"
-  products_cart_distributor_is: "Вашим дистриб’ютором для цього замовлення є %{name}."
-  products_distributor_error: "Будь ласка, заповніть своє замовлення за адресою %{link} перед покупкою в іншого дистриб’ютора."
-  products_oc: "Цикл замовлення для вашого замовлення:"
-  products_oc_change: "Ваш цикл замовлення для цього замовлення буде змінено на %{name}, якщо ви додасте цей продукт у свій кошик."
   products_oc_is: "Цикл вашого замовлення для цього замовлення – %{name}."
   products_oc_error: "Будь ласка, заповніть своє замовлення від %{link} перед покупкою в іншому циклі замовлення."
-  products_oc_current: "ваш поточний цикл замовлення"
-  products_max_quantity: Максимальна кількість
   products_distributor: Дистрибютор
-  products_distributor_info: Коли ви виберете дистриб’ютора для свого замовлення, тут буде відображено його адресу та час отримання.
   password: Пароль
   remember_me: Пам'ятати мене
   are_you_sure: "Ви впевнені?"

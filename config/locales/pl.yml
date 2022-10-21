@@ -1493,9 +1493,7 @@ pl:
   unsaved_changes_warning: "Niezapisane zmiany istnieją i zostaną utracone, jeśli będziesz kontynuować."
   unsaved_changes_error: "Pola z czerwonymi obwódkami zawierają błędy."
   products: "Produkty"
-  products_in: "w %{oc}"
   products_at: "w %{distributor}"
-  products_elsewhere: "Produkty znalezione gdzie indziej"
   email_confirmed: "Dziękujemy za potwierdzenie adresu e-mail."
   email_confirmation_activate_account: "Zanim będziemy mogli aktywować Twoje nowe konto, musimy potwierdzić Twój adres e-mail."
   email_confirmation_click_link: "Kliknij poniższy link, aby potwierdzić swój adres e-mail i kontynuować konfigurację profilu."
@@ -1614,8 +1612,6 @@ pl:
   products_filter_done: "Gotowe"
   products_loading: "Ładowanie produktów ..."
   products_updating_cart: "Aktualizuję koszyk ..."
-  products_cart_empty: "Koszyk pusty"
-  products_edit_cart: "Edytuj swój koszyk"
   products_from: od
   products_change: "Brak zmian do zapisania."
   products_update_error: "Zapisywanie nie powiodło się z powodu następujących błędów:"
@@ -1746,16 +1742,7 @@ pl:
   orders_bought_already_confirmed: "* już potwierdzony"
   orders_confirm_cancel: "Czy na pewno chcesz anulować to zamówienie?"
   order_processed_successfully: "Twoje zamówienie zostało pomyślnie przetworzone"
-  products_cart_distributor_is: "Dystrybutorem tego zamówienia jest %{name}."
-  products_distributor_error: "Sfinalizuj zamówienie pod numerem %{link} przed zakupem u innego dystrybutora."
-  products_oc: "Cykl zamówień dla twojego zamówienia:"
-  products_oc_change: "Cykl zamówień dla tego zamówienia zostanie zmieniony na %{name}, jeśli dodasz ten produkt do koszyka."
-  products_oc_is: "Cykl zamówień dla tego zamówienia to %{name}."
-  products_oc_error: "Sfinalizuj zamówienie od %{link} przed zakupem w innym cyklu zamówień."
-  products_oc_current: "twój obecny cykl zamówienia"
-  products_max_quantity: Maksymalna ilość
   products_distributor: Dystrybutor
-  products_distributor_info: Kiedy wybierzesz dystrybutora do swojego zamówienia, jego adres i czas odbioru zostaną wyświetlone tutaj.
   password: Hasło
   remember_me: Zapamiętaj mnie
   are_you_sure: "Jesteś pewny?"

@@ -1851,9 +1851,9 @@ es_CR:
   unsaved_changes_warning: "Hay cambios no guardados, se perderán si continúa."
   unsaved_changes_error: "Los campos con bordes rojos contienen errores."
   products: "Productos"
-  products_in: "en %{oc}"
+  
   products_at: "en %{distributor}"
-  products_elsewhere: "Productos encontrados en otros lugares"
+  
   email_confirmed: "Gracias por confirmar la dirección de correo electrónico."
   email_confirmation_activate_account: "Antes de que podamos activar su nueva cuenta, necesitamos confirmar su dirección de correo electrónico."
   email_confirmation_click_link: "Por favor haga clic en el enlace de abajo para confirmar el correo electrónico y continuar configurando su perfil."
@@ -1983,8 +1983,7 @@ es_CR:
   products_filter_done: "Terminado"
   products_loading: "Cargando productos..."
   products_updating_cart: "Actualizando su carrito..."
-  products_cart_empty: "Carrito vacío"
-  products_edit_cart: "Editar su carrito"
+  
   products_from: desde
   products_change: "No hay cambios para guardar."
   products_update_error: "No se ha podido guardar por los siguientes errores:"
@@ -2116,18 +2115,7 @@ es_CR:
   orders_bought_already_confirmed: "* ya confirmados"
   orders_confirm_cancel: "Seguro que desea cancelar este pedido?"
   order_processed_successfully: "Su pedido ha sido procesado con éxito."
-  
-  
-  products_cart_distributor_is: "Tu distribuidora para este pedido es %{name}."
-  products_distributor_error: "Completa tu pedido en %{link} antes de comprar con otra distribuidora."
-  products_oc: "Ciclo de pedido para tu pedido:"
-  products_oc_change: "Tu ciclo de pedido para este pedido será cambiado a %{name} si agregas este producto al carrito."
-  products_oc_is: "Tu ciclo de pedido para este pedido es %{name}."
-  products_oc_error: "Completa este pedido de %{link} antes de comprar en un ciclo de pedido diferente."
-  products_oc_current: "tu ciclo de de pedido actual"
-  products_max_quantity: Cantidad máxima
   products_distributor: Distribuidor
-  products_distributor_info: Cuando selecciones una distribuidora para tu pedido, tu dirección y tiempo de recolección se mostrarán aquí.
   password: Contraseña
   remember_me: Recordarme
   are_you_sure: "¿Está seguro?"

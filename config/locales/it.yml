@@ -1850,9 +1850,8 @@ it:
   unsaved_changes_warning: "Ci sono cambiamenti non salvati che andranno persi se continui."
   unsaved_changes_error: "Campi con i bordi rossi contengono errori."
   products: "Prodotti"
-  products_in: "in %{oc}"
+  
   products_at: "presso %{distributor}"
-  products_elsewhere: "Prodotti trovati altrove"
   email_confirmed: "Grazie per aver confermato il tuo indirizzo email"
   email_confirmation_activate_account: "Prima di attivare il tuo nuovo account, dobbiamo verificare il tuo indirizzo email"
   email_confirmation_click_link: "Per favore clicca il link di seguito per confermare la tua email e continuare l'impostazione del tuo profilo"
@@ -1982,8 +1981,6 @@ it:
   products_filter_done: "Fatto"
   products_loading: "Caricamento prodotti..."
   products_updating_cart: "Aggiornamento del carrello..."
-  products_cart_empty: "Svuota carrello"
-  products_edit_cart: "Modifica il tuo carrello"
   products_from: da
   products_change: "Nessuna modifica da salvare."
   products_update_error: "Il savaltaggio è fallito per il(i) seguente(i) errore(i):"
@@ -2115,16 +2112,7 @@ it:
   orders_bought_already_confirmed: "* già confermato"
   orders_confirm_cancel: "Sei sicura/o di voler annullare questa gentile richiesta?"
   order_processed_successfully: "Il tuo ordine è stato elaborato correttamente"
-  products_cart_distributor_is: "Il tuo distributore per quest'ordine è %{name}."
-  products_distributor_error: "Per favore completa il tuo ordine presso %{link} prima di fare acquisti con un altro distributore."
-  products_oc: "Ciclo di ordini per il tuo ordine:"
-  products_oc_change: "Il tuo ciclo d'ordine per questo ordine sarà sostituito con %{name} se aggiungi questo prodotto al tuo carrello."
-  products_oc_is: "Il tuo ciclo di ordini per quest'ordine è %{name}."
-  products_oc_error: "Per favore completa il tuo ordine da %{link} prima di fare acquisti in un ciclo d'ordine differente."
-  products_oc_current: "il tuo ciclo d'ordine corrente"
-  products_max_quantity: Quantità massima
   products_distributor: Distributore
-  products_distributor_info: Quando selezioni un distributore per il tuo ordine, i suoi indirizzi e tempi di ritiro saranno mostrati qui.
   password: Password
   remember_me: Ricordami
   are_you_sure: "Sei sicuro?"

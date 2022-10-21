@@ -1851,9 +1851,7 @@ nb:
   unsaved_changes_warning: "Ulagrede endringer finnes og vil gå tapt hvis du fortsetter."
   unsaved_changes_error: "Felt med røde kanter inneholder feil."
   products: "Produkter"
-  products_in: "i %{oc}"
   products_at: "hos %{distributor}"
-  products_elsewhere: "Produkter funnet andre steder"
   email_confirmed: "Takk for at du bekrefter din epostadresse"
   email_confirmation_activate_account: "Før vi kan aktivere den nye kontoen din, må vi bekrefte epostadressen din."
   email_confirmation_click_link: "Trykk på linken under for å bekrefte din epost og for å fortsette oppsettet av din profil."
@@ -1981,8 +1979,6 @@ nb:
   products_filter_done: "Ferdig"
   products_loading: "Laster produkter..."
   products_updating_cart: "Oppdaterer handlekurv..."
-  products_cart_empty: "Handlekurv tom"
-  products_edit_cart: "Rediger handlekurv"
   products_from: fra
   products_change: "Ingen endringer å lagre."
   products_update_error: "Lagring mislyktes med følgende feilmelding(er):"
@@ -2114,16 +2110,7 @@ nb:
   orders_bought_already_confirmed: "* allerede bekreftet"
   orders_confirm_cancel: "Er du sikker på at du vil avbryte denne bestillingen?"
   order_processed_successfully: "Behandlingen av din bestilling var vellykket"
-  products_cart_distributor_is: "Din distributør for denne ordren er %{name}."
-  products_distributor_error: "Vennligst fullfør din bestilling hos %{link} før du handler hos en annen distributør."
-  products_oc: "Bestillingsrunde for din bestilling:"
-  products_oc_change: "Din bestillingsrunde for denne bestillingen vil bli endret til %{name} hvis du legger til dette produktet i den handlekurv."
-  products_oc_is: "Din bestillingsrunde for denne bestillingen er %{name}."
-  products_oc_error: "Vennligst fullfør din bestilling hos %{link} før du handler i en annen bestillingsrunde."
-  products_oc_current: "din nåværende bestillingsrunde"
-  products_max_quantity: Max mengde
   products_distributor: Distributør
-  products_distributor_info: Når du velger en distributør for din bestilling, vil deres adresse og hentetider vises her.
   password: Passord
   remember_me: Husk meg
   are_you_sure: "Er du sikker?"

@@ -1809,9 +1809,7 @@ ar:
   unsaved_changes_warning: "التغييرات غير المحفوظة موجودة وستفقد في حالة المتابعة."
   unsaved_changes_error: "تحتوي الحقول ذات الحدود الحمراء على أخطاء."
   products: "منتجات"
-  products_in: "في %{oc}"
   products_at: "في %{distributor}"
-  products_elsewhere: "المنتجات الموجودة في مكان آخر"
   email_confirmed: "شكرا لتأكيد عنوان بريدك الإلكتروني."
   email_confirmation_activate_account: "قبل أن نتمكن من تنشيط حسابك الجديد ، نحتاج إلى تأكيد عنوان بريدك الإلكتروني."
   email_confirmation_click_link: "يرجى النقر على الرابط أدناه لتأكيد بريدك الإلكتروني ومتابعة إعداد ملفك الشخصي."
@@ -1939,8 +1937,6 @@ ar:
   products_filter_done: "تم"
   products_loading: "جارٍ تحميل المنتجات ..."
   products_updating_cart: "جارٍ تحديث سلة المشتريات..."
-  products_cart_empty: "السلة فارغة"
-  products_edit_cart: "تعديل سلةالتسوق"
   products_from: من عند
   products_change: "لا توجد تغييرات للحفظ."
   products_update_error: "فشل الحفظ بسبب خطأ (الأخطاء) التالية:"
@@ -2072,16 +2068,7 @@ ar:
   orders_bought_already_confirmed: "* أكد بالفعل"
   orders_confirm_cancel: "هل أنت متأكد أنك تريد إلغاء هذا الطلب؟"
   order_processed_successfully: "تمت معالجة طلبك بنجاح"
-  products_cart_distributor_is: "موزعك لهذا الطلب هو %{name}."
-  products_distributor_error: "يرجى إكمال طلبك في %{link} قبل التسوق مع موزع آخر."
-  products_oc: "دورة الطلب لطلبك:"
-  products_oc_change: "سيتم تغيير دورة الطلب لهذا الطلب إلى %{name} إذا أضفت هذا المنتج إلى سلة التسوق الخاصة بك."
-  products_oc_is: "دورة الطلب لهذا الطلب هي %{name}."
-  products_oc_error: "يرجى إكمال طلبك من %{link} قبل التسوق في دورة ترتيب مختلفة."
-  products_oc_current: "دورة طلبك الحالية"
-  products_max_quantity: اعلى كمية
   products_distributor: الموزع
-  products_distributor_info: عند تحديد موزع لطلبك ، سيتم عرض عناوينهم وأوقات التقاطهم هنا.
   password: كلمه السر
   remember_me: تذكرنى
   are_you_sure: "هل أنت واثق؟"
