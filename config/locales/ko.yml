@@ -605,14 +605,12 @@ ko:
       confirm_reset: "업로드된 파일에 없는 회사에 대한 모든 제품의 재고 수준을 0으로 설정합니다."
       model:
         no_file: "에러: 업로드된 파일이 없습니다."
-        could_not_process: "파일을 처리할 수 없습니다. : 잘못된 파일 형식"
         incorrect_value: 부정확한 값입니다.
         conditional_blank: 단위 형태가 비어있으면 빈 칸으로 둘 수 없습니다.
         no_product: 데이터베이스에 있는 어떤 제품도 일치하지 않습니다.
         not_found: 데이터베이스에서 찾을 수 없습니다.
         not_updatable: '''제품 가져오기'' 를 통해 기존 제품을 업데이트할 수 없습니다.'
         blank: 빈칸이 될 수 없습니다.
-        products_no_permission: 이 기업의 제품을 관리할 수 있는 권한이 없습니다.
         inventory_no_permission: 이 생산자에 대한 인벤토리를 생성할 권한이 없습니다.
         none_saved: 제품을 저장하지 않았습니다.
         line_number: "%{number}번째 줄:"
@@ -757,7 +755,6 @@ ko:
         max_qtt_ordered: "최고 주문 수량"
         current_fulfilled_units: "현재 충족 단위"
         max_fulfilled_units: "최고 충족 단위"
-        order_error: "주문을 업데이트하려면 먼저 일부 오류를 해결해야 합니다.\n빨간색 테두리가 있는 모든 필드에 오류가 있습니다."
         variants_without_unit_value: "경고 : 일부 변경사항에는 단위 값이 없습니다."
         all: "모두"
       select_variant: "변경할 항목을 선택하세요."
@@ -1108,9 +1105,6 @@ ko:
         add_fee: '수수료 추가'
         remove: '제거'
         selected: '선택됨'
-      add_exchange_form:
-        add_supplier: '공급업체 추가'
-        add_distributor: '유통업체 추가'
       advanced_settings:
         automatic_notifications: 자동 알림
         automatic_notifications_tip: 주문 주기가 종료될 때 이메일을 통해 생산자에게 자동으로 주문 알림
@@ -1278,7 +1272,6 @@ ko:
       summary_row:
         total: "총량"
       table:
-        select_and_search: "필터를 선택하고 %{option}를 클릭하여 데이터에 액세스합니다."
         headings:
           hub: "물류"
           customer_code: "코드"
@@ -1288,7 +1281,6 @@ ko:
           product: "생산물"
           variant: "변경"
           quantity: "수량"
-          is_temperature_controlled: "온도를 제어하시겠습니까?"
           temp_controlled: "온도를 제어하시겠습니까?"
           price: "가격"
       rendering_options:
@@ -2094,8 +2086,6 @@ ko:
   orders_bought_already_confirmed: "이미 확인됨"
   orders_confirm_cancel: "이 주문을 취소하시겠습니까?"
   order_processed_successfully: "당신의 주문이 성공적으로 진행되었습니다."
-  products_cart_distributor_choice: "주문에 대한 대리점 :"
-  products_cart_distributor_change: "이 제품을 카트에 추가하면 이 주문의 대리점이 %{name}로 변경됩니다."
   products_cart_distributor_is: "이 주문의 배포자는 %{name}과 같습니다."
   products_distributor_error: "다른 대리점과 쇼핑하기 전에 %{link}에서 주문을 완료하십시오."
   products_oc: "귀사의 주문에 대한 주문 주기:"
@@ -3094,7 +3084,6 @@ ko:
           generate_report: "보고서 생성"
         report:
           none: "아니다"
-          select_and_search: "필터를 선택하고 '보고서 생성'을 클릭하여 데이터에 접근합니다."
       enterprise_fee_summary:
         date_end_before_start_error: "시작 이후여야 합니다."
         parameter_not_allowed_error: "이 보고서에 대해 하나 이상의 선택된 필터를 사용할 수 있는 권한이 없습니다."
@@ -3698,8 +3687,6 @@ ko:
         display_as:
           display_as: 다른 이름으로 표시
       reports:
-        table:
-          select_and_search: "필터를 선택하고 %{option}를 클릭하여 데이터에 액세스합니다."
         customer_names_message:
           customer_names_tip: "제공한 주문에 대해 고객 이름이 숨겨져 있는 경우 대리점에 연락하여 공급업체가 고객 이름을 볼 수 있도록 상점 기본 설정을 업데이트할 수 있는지 물어볼 수 있습니다."
       users:

@@ -608,14 +608,12 @@ uk:
       confirm_reset: "Це обнулить рівень запасів для всіх продуктів цього підприємства, яких немає у завантаженому файлі"
       model:
         no_file: "помилка: файл не завантажено"
-        could_not_process: "не вдалося обробити файл: недійсний тип файлу"
         incorrect_value: неправильне значення
         conditional_blank: не може бути порожнім, якщо unit_type порожній
         no_product: не знайдено жодного товару в базі даних
         not_found: не знайдено в базі даних
         not_updatable: не можна оновити наявні продукти за допомогою імпорту продуктів
         blank: не може бути порожнім
-        products_no_permission: ви не маєте дозволу керувати продуктами для цього підприємства
         inventory_no_permission: у вас немає дозволу створювати інвентаризацію для цього виробника
         none_saved: не вдалося зберегти жодних продуктів
         line_number: "Рядок %{number}:"
@@ -760,7 +758,6 @@ uk:
         max_qtt_ordered: "Максимальна кількість замовлених"
         current_fulfilled_units: "Поточні виконані Одиниці"
         max_fulfilled_units: "Максимально виконані Одиниці"
-        order_error: "Перш ніж оновлювати замовлення, необхідно усунути деякі помилки. Будь-які поля з червоними рамками містять помилки."
         variants_without_unit_value: "ПОПЕРЕДЖЕННЯ. Деякі варіанти не мають значення одиниці"
         all: "Всі"
       select_variant: "Виберіть варіант"
@@ -1123,9 +1120,6 @@ uk:
         add_fee: 'Додати комісію'
         remove: 'Видалити'
         selected: 'вибрано'
-      add_exchange_form:
-        add_supplier: 'Додати постачальника'
-        add_distributor: 'Додати дистрибютора'
       advanced_settings:
         automatic_notifications: Автоматичні повідомлення
         automatic_notifications_tip: Автоматично сповіщайте виробників про їхні замовлення електронною поштою, коли цикли замовлення закриваються
@@ -1296,7 +1290,6 @@ uk:
       summary_row:
         total: "РАЗОМ"
       table:
-        select_and_search: "Виберіть фільтри та натисніть %{option}, щоб отримати доступ до своїх даних."
         headings:
           hub: "Хаб"
           customer_code: "код"
@@ -1306,7 +1299,6 @@ uk:
           product: "Товар"
           variant: "Варіант"
           quantity: "Кількість"
-          is_temperature_controlled: "Темпер. контроль?"
           temp_controlled: "Темпер. контроль?"
           price: "Ціна"
       rendering_options:
@@ -2112,8 +2104,6 @@ uk:
   orders_bought_already_confirmed: "* вже підтверджено"
   orders_confirm_cancel: "Ви впевнені, що бажаєте скасувати це замовлення?"
   order_processed_successfully: "Ваше замовлення успішно оброблено"
-  products_cart_distributor_choice: "Дистриб'ютор для вашого замовлення:"
-  products_cart_distributor_change: "Якщо ви додасте цей продукт у кошик, ваш дистриб’ютор для цього замовлення буде змінено на %{name}."
   products_cart_distributor_is: "Вашим дистриб’ютором для цього замовлення є %{name}."
   products_distributor_error: "Будь ласка, заповніть своє замовлення за адресою %{link} перед покупкою в іншого дистриб’ютора."
   products_oc: "Цикл замовлення для вашого замовлення:"
@@ -3209,7 +3199,6 @@ uk:
           generate_report: "Створити звіт"
         report:
           none: "Жодного"
-          select_and_search: "Виберіть фільтри та натисніть СТВОРИТИ ЗВІТ, щоб отримати доступ до своїх даних."
       enterprise_fee_summary:
         date_end_before_start_error: "має бути після старту"
         parameter_not_allowed_error: "Ви не маєте права використовувати один або кілька вибраних фільтрів для цього звіту."
@@ -3821,8 +3810,6 @@ uk:
         display_as:
           display_as: Відображати як
       reports:
-        table:
-          select_and_search: "Виберіть фільтри та натисніть %{option}, щоб отримати доступ до своїх даних."
         customer_names_message:
           customer_names_tip: "Якщо імена клієнтів приховано для ваших замовлень, ви можете зв’язатися з дистриб’ютором і запитати, чи можуть вони оновити свої налаштування магазину, щоб їхні постачальники могли переглядати імена клієнтів."
       users:

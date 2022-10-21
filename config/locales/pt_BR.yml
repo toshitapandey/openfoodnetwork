@@ -547,14 +547,12 @@ pt_BR:
       confirm_reset: "Isso definirá o nível de estoque como zero em todos os produtos desta iniciativa que não estão presentes no arquivo carregado"
       model:
         no_file: "erro: nenhum arquivo carregado"
-        could_not_process: "não foi possível processar o arquivo: tipo de arquivo inválido"
         incorrect_value: valor incorreto
         conditional_blank: não pode ficar em branco se tipo_de unidade estiver em branco
         no_product: não encontrou nenhum produto no banco de dados
         not_found: não encontrado no banco de dados
         not_updatable: não pode ser atualizado em produtos existentes via importação do produto
         blank: Não pode ser vazio
-        products_no_permission: você não tem permissão para gerenciar produtos para esta iniciativa
         inventory_no_permission: você não tem permissão para criar inventário para este produtor
         none_saved: não salvou nenhum produto com sucesso
         line_number: "Linha %{number}:"
@@ -697,7 +695,6 @@ pt_BR:
         max_qtt_ordered: "Quantidade máxima do pedido"
         current_fulfilled_units: "Pedidos / Limite Mínimo (Atual)"
         max_fulfilled_units: "Pedidos / Limite Mínimo (Max)"
-        order_error: "Alguns erros devem ser corrigidos antes de atualizar os pedidos.\nOs campos com bordas vermelhas contém erros."
         variants_without_unit_value: "AVISO: Algumas variantes não possuem unidade de medida"
         all: "Todos"
       select_variant: "Selecione uma variante"
@@ -1028,9 +1025,6 @@ pt_BR:
         add_fee: 'Adicionar taxa'
         remove: 'Remover'
         selected: 'selecionar'
-      add_exchange_form:
-        add_supplier: 'Adicionar fornecedor'
-        add_distributor: 'Adicionar distribuidor'
       advanced_settings:
         title: Configurações avançadas
         choose_product_tip: Você pode restringir os produtos recebidos e enviados apenas ao estoque de %{inventory}.
@@ -1196,7 +1190,6 @@ pt_BR:
           product: "Produto"
           variant: "Variante"
           quantity: "Quantidade"
-          is_temperature_controlled: "Temperatura controlada?"
           temp_controlled: "Temperatura controlada?"
           price: "Preço"
       rendering_options:
@@ -1938,8 +1931,6 @@ pt_BR:
   orders_bought_already_confirmed: "* já confirmado"
   orders_confirm_cancel: "Tem certeza de que deseja cancelar este pedido?"
   order_processed_successfully: "Seu pedido foi processado com sucesso"
-  products_cart_distributor_choice: "Distribuidor para seu pedido:"
-  products_cart_distributor_change: "O distribuidor para este pedido será trocado para %{name} se você adicionar este produto no carrinho."
   products_cart_distributor_is: "O distribuidor para este pedido é %{name}."
   products_distributor_error: "Por favor complete seu pedido no %{link} antes de comprar com outro distribuidor."
   products_oc: "Ciclo de pedidos para seu pedido:"
@@ -2983,7 +2974,6 @@ pt_BR:
           generate_report: "Gerar Relatório"
         report:
           none: "Nenhum"
-          select_and_search: "Selecione filtros e clique em GERAR RELATÓRIO para acessar seus dados"
       enterprise_fee_summary:
         date_end_before_start_error: "deve ser após o início"
         parameter_not_allowed_error: "Você não está autorizado a usar um ou mais filtros selecionados para este relatório."
@@ -3582,8 +3572,6 @@ pt_BR:
         display_as:
           display_as: Mostrar como
       reports:
-        table:
-          select_and_search: "Selecione os filtros e clique em %{option} para acessar seus dados."
         customer_names_message:
           customer_names_tip: "Se os nomes dos clientes estiverem ocultos na lista, você pode entrar em contato com o seu distribuidor e perguntar se ele pode atualizar as preferências de modo que os fornecedores possam ver os nomes dos clientes."
       users:

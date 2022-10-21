@@ -612,14 +612,12 @@ ru:
       confirm_reset: "Это установит уровень запасов на ноль для всех продуктов \n этого предприятия, которых нет в загруженном файле."
       model:
         no_file: "ошибка: файл не загружен"
-        could_not_process: "не удалось обработать файл: неверный тип файла"
         incorrect_value: неверное значение
         conditional_blank: не может быть пустым, если unit_type пуст
         no_product: не найдено ни одного товара в базе данных
         not_found: не найден в базе данных
         not_updatable: невозможно обновить существующие товары с помощью импорта товаров
         blank: не может быть пустым
-        products_no_permission: у Вас нет разрешения на управление товарами этого предприятия
         inventory_no_permission: у Вас нет разрешения на создание товарной номенклатуры этого производителя
         none_saved: не сохранить ни одного продукта
         line_number: "Линия %{number}:"
@@ -764,7 +762,6 @@ ru:
         max_qtt_ordered: "Максимальное количество заказано"
         current_fulfilled_units: "Текущие выполненные единицы"
         max_fulfilled_units: "Максимально выполненных единиц"
-        order_error: "Некоторые ошибки должны быть устранены, прежде чем вы сможете обновить заказы.\nЛюбые поля с красной рамкой содержат ошибки."
         variants_without_unit_value: "ВНИМАНИЕ: Некоторые варианты не имеют значения единицы"
         all: "Все"
       select_variant: "Выбрать вариант"
@@ -1127,9 +1124,6 @@ ru:
         add_fee: 'Добавить сбор'
         remove: 'Удалить'
         selected: 'выбранный'
-      add_exchange_form:
-        add_supplier: 'Добавить поставщика'
-        add_distributor: 'Добавить дистрибьютора'
       advanced_settings:
         automatic_notifications: Автоматические уведомления
         automatic_notifications_tip: Автоматически уведомлять производителей об их заказах по электронной почте при завершении цикла заказов
@@ -1300,7 +1294,6 @@ ru:
       summary_row:
         total: "ВСЕГО"
       table:
-        select_and_search: "Для получения данных, выберите фильры и нажмите на %{option}."
         headings:
           hub: "Центр"
           customer_code: "Код"
@@ -1310,7 +1303,6 @@ ru:
           product: "Товар"
           variant: "Вариант"
           quantity: "Количество"
-          is_temperature_controlled: "Контроль Температуры?"
           temp_controlled: "Контроль Температуры?"
           price: "Цена"
       rendering_options:
@@ -2117,8 +2109,6 @@ ru:
   orders_bought_already_confirmed: "* уже подтверждено"
   orders_confirm_cancel: "Вы уверены, что хотите отменить этот заказ?"
   order_processed_successfully: "Ваш заказ был успешно обработан"
-  products_cart_distributor_choice: "Дистрибьютор для Вашего заказа:"
-  products_cart_distributor_change: "Ваш дистрибьютор для этого заказа изменится на %{name}, если Вы добавите этот продукт в Вашу корзину."
   products_cart_distributor_is: "Ваш дистрибьютор для этого заказа %{name}."
   products_distributor_error: "Пожалуйста, завершите Ваш заказ на %{link} перед покупкой у другого дистрибьютора."
   products_oc: "Цикл заказа для Вашего заказа:"
@@ -3221,7 +3211,6 @@ ru:
           generate_report: "Создать отчет"
         report:
           none: "Ничего"
-          select_and_search: "Выберите фильтры и нажмите Создать Отчет, чтобы получить доступ к вашим данным."
       enterprise_fee_summary:
         date_end_before_start_error: "должно быть после начала"
         parameter_not_allowed_error: "Вам не разрешено использовать один или несколько выбранных фильтров для этого отчета."
@@ -3834,8 +3823,6 @@ ru:
         display_as:
           display_as: Показывать Как
       reports:
-        table:
-          select_and_search: "Для получения данных, выберите фильры и нажмите на %{option}."
         customer_names_message:
           customer_names_tip: "Если имена клиентов скрыты для заказов, которые вы предоставили, вы можете связаться с дистрибьютором и спросить, могут ли они обновить настройки своего магазина, чтобы их поставщики могли просматривать имена клиентов."
       users:

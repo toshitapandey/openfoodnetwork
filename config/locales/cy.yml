@@ -606,14 +606,12 @@ cy:
       confirm_reset: "Bydd hyn yn goolygu fod lefel y stoc yn sero ar gyfer holl gynnyrch y fenter hon nad ydynt yn bresennol yn y ffeil a lanlwythwyd"
       model:
         no_file: "gwall: ni lanlwythwyd unrhyw ffeil"
-        could_not_process: "wedi methu prosesu'r ffeil: math o ffeil annilys"
         incorrect_value: gwerth anghywir
         conditional_blank: ni chaniateir gadael yn wag os yw math yr uned yn wag
         no_product: nid yw'n cyfateb i unrhyw gynnyrch yn y bas data
         not_found: ni chafwyd hyd i hwn yn y bas data
         not_updatable: nid yw'n bosib ei ddiweddaru ar y rhestr cynnyrch bresennol trwy fewnforio cynnyrch
         blank: ni chanateir gadael yn wag
-        products_no_permission: nid oes gennych ganiatâd i reoli cynnyrch ar gyfer y fenter hon
         inventory_no_permission: nid oes gennych ganiatâd i greu stocrestr ar gyfer y cynhyrchydd hwn
         none_saved: ni lwyddwyd i gadw unrhyw gynnyrch
         line_number: "Llinell %{number}:"
@@ -758,7 +756,6 @@ cy:
         max_qtt_ordered: "Archebwd yr Uchafswm"
         current_fulfilled_units: "Unedau Cyfredol a Wireddwyd"
         max_fulfilled_units: "Uchafswm unedau a wireddwyd"
-        order_error: "Rhaid datrys rhai gwallau cyn y gallwch ddiweddaru archebion. Mae unrhyw meysydd â ffiniau coch yn cynnwys gwallau."
         variants_without_unit_value: "RHYBUDD: Nid oes gwerth uned i rai amrywolion"
         all: "I gyd"
       select_variant: "Dewiswch amrywiolyn"
@@ -1121,9 +1118,6 @@ cy:
         add_fee: 'Ychwanegu ffi'
         remove: 'Dileu'
         selected: 'dewiswyd'
-      add_exchange_form:
-        add_supplier: 'Ychwanegu cyflenwr'
-        add_distributor: 'Ychwanegu dosbarthwr'
       advanced_settings:
         automatic_notifications: Hysbysiadau awtomatig.
         automatic_notifications_tip: Hysbysu cynhyrchwyr yn awtomatig am archebion trwy ebost pan fydd cylchoedd archebu'n cau.
@@ -1294,7 +1288,6 @@ cy:
       summary_row:
         total: "CYFANSWM"
       table:
-        select_and_search: "Dewiswch hidlwyr a chliciwch ar %{option} i gael mynediad i'ch data."
         headings:
           hub: "Hwb"
           customer_code: "Côd"
@@ -1304,7 +1297,6 @@ cy:
           product: "Cynnyrch"
           variant: "Amrywiolyn"
           quantity: "Nifer"
-          is_temperature_controlled: "Tymheredd a reolir?"
           temp_controlled: "Tymheredd a reolir?"
           price: "Pris"
       rendering_options:
@@ -2110,8 +2102,6 @@ cy:
   orders_bought_already_confirmed: "* cadarnhawyd eisoes"
   orders_confirm_cancel: "Ydych chi'n siŵr eich bod chi am ganslo'r archeb hon?"
   order_processed_successfully: "Llwyddwyd i brosesu eich archeb "
-  products_cart_distributor_choice: "Y dosbarthwr ar gyfer eich archeb:"
-  products_cart_distributor_change: "Bydd eich dosbarthwr ar gyfer yr archeb hon yn cael ei newid i %{name} os ychwanegwch y cynnyrch yma at eich basged."
   products_cart_distributor_is: "Eich dosbarthwr ar gyfer yr archeb hon yw %{name}."
   products_distributor_error: "Gorffennwch eich archeb yn %{link} cyn siopa gyda dosbarthwr arall."
   products_oc: "Y cylch archebu ar gyfer eich archeb:"
@@ -3211,7 +3201,6 @@ cy:
           generate_report: "Cynhyrchu Adroddiad"
         report:
           none: "Dim"
-          select_and_search: "Dewiswch hidlwyr a chlicio CREU ADRODDIAD i gael mynediad i'ch data."
       enterprise_fee_summary:
         date_end_before_start_error: "rhaid bod ar ôl y dechrau"
         parameter_not_allowed_error: "Nid oes gennych awdurdod i ddefnyddio un neu fwy o hidlwyr a ddewiswyd ar gyfer yr adroddiad hwn."
@@ -3818,8 +3807,6 @@ cy:
         display_as:
           display_as: Arddangos fel
       reports:
-        table:
-          select_and_search: "Dewis hidlwyr a chlicio ar %{option} i gael mynediad i'ch data."
         customer_names_message:
           customer_names_tip: "Os cuddiwyd enwau cwsmeriaid ar gyfer archebion a gyflenwyd gennych, gallwch gysylltu â'r dosbarthwr a gofyn a yw'n bosib iddyn nhw ddiweddaru eu dewisiadau siop i ganiatáu i'w cyflenwyr weld enwau cwsmeriaid."
       users:

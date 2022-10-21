@@ -604,14 +604,12 @@ hu:
       confirm_reset: "Ezzel nullára állítja a készletszintet az n vállalat összes olyan termékénél, amely nem szerepel a feltöltött fájlban"
       model:
         no_file: "hiba: nincs fájl feltöltve"
-        could_not_process: "nem sikerült feldolgozni a fájlt: érvénytelen fájltípus"
         incorrect_value: helytelen érték
         conditional_blank: nem lehet üres, ha a unit_type mező üres
         no_product: nem talált egy terméket sem az adatbázisban
         not_found: nem található az adatbázisban
         not_updatable: nem frissíthető a meglévő termékeken termékimporttal
         blank: nem lehet üres
-        products_no_permission: nincs engedélye a vállalat termékeinek kezelésére
         inventory_no_permission: nincs engedélye készlet létrehozására ehhez a termelőhöz
         none_saved: egyetlen terméket sem mentett sikeresen
         line_number: "%{number}. sor:"
@@ -756,7 +754,6 @@ hu:
         max_qtt_ordered: "Maximális rendelt mennyiség"
         current_fulfilled_units: "Jelenleg teljesített egységek"
         max_fulfilled_units: "Maximális teljesített egységek"
-        order_error: "A rendelések frissítése előtt bizonyos hibákat meg kell oldani.nMinden piros szegélyű mező hibát tartalmaz."
         variants_without_unit_value: "FIGYELMEZTETÉS: Egyes változatok nem rendelkeznek egységértékkel"
         all: "Minden"
       select_variant: "Válasszon egy változatot"
@@ -1111,9 +1108,6 @@ hu:
         add_fee: 'Díj hozzáadása'''
         remove: 'eltávolítás'
         selected: 'kiválasztott'''
-      add_exchange_form:
-        add_supplier: 'beszállító hozzáadása'''
-        add_distributor: 'Forgalmazó hozzáadása'''
       advanced_settings:
         automatic_notifications: Automatikus értesítések
         automatic_notifications_tip: Automatikusan értesíti a termelőket rendeléseikről e-mailben, amikor a rendelési ciklusok lezárulnak
@@ -1278,7 +1272,6 @@ hu:
       summary_row:
         total: "TELJES"
       table:
-        select_and_search: "Válassza ki a szűrőket, és kattintson a %{option} elemre az adatok eléréséhez."
         headings:
           hub: "Kerékagy"
           customer_code: "Kód"
@@ -1288,7 +1281,7 @@ hu:
           product: "Termék"
           variant: "Változat"
           quantity: "Mennyiség"
-          is_temperature_controlled: "TempControlled?"
+          
           temp_controlled: "TempControlled?"
           price: "Ár"
       rendering_options:
@@ -2084,8 +2077,6 @@ hu:
   orders_bought_already_confirmed: "* már megerősítve"
   orders_confirm_cancel: "Biztosan törli ezt a rendelést?"
   order_processed_successfully: "Megrendelését sikeresen feldolgoztuk"
-  products_cart_distributor_choice: "Megrendelésének forgalmazója:"
-  products_cart_distributor_change: "Ennek a rendelésnek a forgalmazója a következőre változik: %{name}, ha ezt a terméket a kosarába helyezi."
   products_cart_distributor_is: "Ennek a rendelésnek a forgalmazója: %{name}."
   products_distributor_error: "Kérjük, fejezze be rendelését a %{link} címen, mielőtt másik forgalmazónál vásárolna."
   products_oc: "Rendelési ciklus a megrendeléshez:"
@@ -3173,7 +3164,6 @@ hu:
           generate_report: "Jelentést készít"
         report:
           none: "Egyik sem"
-          select_and_search: "Válassza ki a szűrőket, majd kattintson a JELENTÉS LÉTREHOZÁSA gombra az adatok eléréséhez."
       enterprise_fee_summary:
         date_end_before_start_error: "indítás után kell lennie"
         parameter_not_allowed_error: "Nem jogosult egy vagy több kiválasztott szűrő használatára ehhez a jelentéshez."
@@ -3777,8 +3767,6 @@ hu:
         display_as:
           display_as: Megjelenítés mint
       reports:
-        table:
-          select_and_search: "Válassza ki a szűrőket, és kattintson a %{option} elemre az adatok eléréséhez."
         customer_names_message:
           customer_names_tip: "Ha az Ön által szállított rendeléseknél a vásárlók nevei el vannak rejtve, felveheti a kapcsolatot a forgalmazóval, és megkérdezheti, hogy frissítheti-e bolti beállításait, hogy beszállítóik megtekinthessék a vásárlók nevét."
       users:

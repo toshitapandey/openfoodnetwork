@@ -691,14 +691,14 @@ en:
       confirm_reset: "This will set stock level to zero on all products for this \n enterprise that are not present in the uploaded file"
       model:
         no_file: "error: no file uploaded"
-        could_not_process: "could not process file: invalid filetype"
+        
         incorrect_value: incorrect value
         conditional_blank: can't be blank if unit_type is blank
         no_product: did not match any products in the database
         not_found: not found in database
         not_updatable: cannot be updated on existing products via product import
         blank: can't be blank
-        products_no_permission: you do not have permission to manage products for this enterprise
+        
         inventory_no_permission: you do not have permission to create inventory for this producer
         none_saved: did not save any products successfully
         line_number: "Line %{number}:"
@@ -844,7 +844,7 @@ en:
         max_qtt_ordered: "Max Quantity Ordered"
         current_fulfilled_units: "Current Fulfilled Units"
         max_fulfilled_units: "Max Fulfilled Units"
-        order_error: "Some errors must be resolved before you can update orders.\nAny fields with red borders contain errors."
+        
         variants_without_unit_value: "WARNING: Some variants do not have a unit value"
         all: "All"
       select_variant: "Select a variant"
@@ -1211,9 +1211,6 @@ en:
         add_fee: 'Add fee'
         remove: 'Remove'
         selected: 'selected'
-      add_exchange_form:
-        add_supplier: 'Add supplier'
-        add_distributor: 'Add distributor'
       advanced_settings:
         automatic_notifications: Automatic notifications
         automatic_notifications_tip: Automatically notify producers with their orders via emails when order cycles close
@@ -1390,7 +1387,6 @@ en:
       summary_row:
         total: "TOTAL"
       table:
-        select_and_search: "Select filters and click on %{option} to access your data."
         headings:
           hub: "Hub"
           customer_code: "Code"
@@ -1400,7 +1396,7 @@ en:
           product: "Product"
           variant: "Variant"
           quantity: "Quantity"
-          is_temperature_controlled: "TempControlled?"
+          
           temp_controlled: "TempControlled?"
           price: "Price"
       rendering_options:
@@ -2273,8 +2269,8 @@ en:
   orders_confirm_cancel: "Are you sure you want to cancel this order?"
   order_processed_successfully: "Your order has been processed successfully"
 
-  products_cart_distributor_choice: "Distributor for your order:"
-  products_cart_distributor_change: "Your distributor for this order will be changed to %{name} if you add this product to your cart."
+  
+  
   products_cart_distributor_is: "Your distributor for this order is %{name}."
   products_distributor_error: "Please complete your order at %{link} before shopping with another distributor."
   products_oc: "Order cycle for your order:"
@@ -3354,7 +3350,6 @@ en:
           generate_report: "Generate Report"
         report:
           none: "None"
-          select_and_search: "Select filters and click on GENERATE REPORT to access your data."
       enterprise_fee_summary:
         date_end_before_start_error: "must be after start"
         parameter_not_allowed_error: "You are not authorized to use one or more selected filters for this report."
@@ -3993,8 +3988,6 @@ en:
         display_as:
           display_as: Display As
       reports:
-        table:
-          select_and_search: "Select filters and click on %{option} to access your data."
         customer_names_message:
           customer_names_tip: "If customer names are hidden for orders you have supplied, you can contact the distributor and ask if they can update their shop preferences to allow their suppliers to view customer names."
       users:

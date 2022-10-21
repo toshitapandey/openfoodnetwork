@@ -579,14 +579,12 @@ ca:
       confirm_reset: "Això farà que el nivell d'existències sigui zero en tots els productes d'aquesta\n organització que no estan presents en el fitxer carregat"
       model:
         no_file: "error: no s'ha carregat cap fitxer"
-        could_not_process: "no s'ha pogut processar el fitxer: tipus de fitxer no vàlid"
         incorrect_value: valor incorrecte
         conditional_blank: no es pot deixar en blanc si el tipus d'unitat està en blanc
         no_product: no s'ha trobat cap producte a la base de dades
         not_found: no es troba a la base de dades
         not_updatable: No es poden actualitzar els productes existents mitjançant la importació de productes
         blank: no es pot deixar en blanc
-        products_no_permission: no tens el permís per gestionar els productes d'aquesta organització
         inventory_no_permission: no tens el permís per crear inventari per a aquesta productora
         none_saved: no s'han desat cap producte amb èxit
         line_number: "Línia %{number}:"
@@ -729,7 +727,6 @@ ca:
         max_qtt_ordered: "Quantitat màxima demanada"
         current_fulfilled_units: "Unitats actuals fetes"
         max_fulfilled_units: "Unitats màximes fetes"
-        order_error: "S'han de resoldre alguns errors abans de poder actualitzar les comandes.\nQualsevol camp amb vora vermella conté errors."
         variants_without_unit_value: "Atenció: algunes variants no tenen cap unitat assignada."
         all: "Tots"
       select_variant: "Selecciona un paràmetre"
@@ -1067,9 +1064,6 @@ ca:
         add_fee: 'Afegeix una comissió'
         remove: 'Eliminar'
         selected: 'seleccionat'
-      add_exchange_form:
-        add_supplier: 'Afegeix proveïdora'
-        add_distributor: 'Afegeix distribuïdora'
       advanced_settings:
         title: Configuració avançada
         choose_product_tip: Podeu restringir els productes entrants i sortints a només l’inventari d’%{inventory}.
@@ -1227,7 +1221,6 @@ ca:
       summary_row:
         total: "TOTAL"
       table:
-        select_and_search: "Seleccioneu els filtres i feu clic a %{option} per accedir a les vostres dades."
         headings:
           hub: "Grup"
           customer_code: "Codi"
@@ -1237,7 +1230,6 @@ ca:
           product: "Producte"
           variant: "Variant"
           quantity: "Quantitat"
-          is_temperature_controlled: "Control de temperatura?"
           temp_controlled: "Control de temperatura?"
           price: "Preu"
       rendering_options:
@@ -1981,8 +1973,6 @@ ca:
   orders_bought_already_confirmed: "* ja confirmat"
   orders_confirm_cancel: "Estàs segur que vols cancel·lar aquesta comanda?"
   order_processed_successfully: "La teva comanda s'ha processat amb èxit"
-  products_cart_distributor_choice: "Distribuïdora de la teva comanda:"
-  products_cart_distributor_change: "La teva distribuïdora d'aquesta comanda canviarà a %{name} si afegeixes aquest producte a la teva cistella."
   products_cart_distributor_is: "La distribuïdora d'aquesta comanda és %{name}."
   products_distributor_error: "Si us plau, completa la comanda a: %{link} abans de comprar amb una altra distribuïdora."
   products_oc: "Cicle de comanda per a la teva comanda:"
@@ -3012,7 +3002,6 @@ ca:
           generate_report: "Generar informe"
         report:
           none: "Cap"
-          select_and_search: "Seleccioneu els filtres i feu clic a GENERAR INFORME per accedir a les dades."
       enterprise_fee_summary:
         date_end_before_start_error: "ha de ser després de l'inici"
         parameter_not_allowed_error: "No esteu autoritzats a utilitzar un o més filtres seleccionats per a aquest informe."
@@ -3614,8 +3603,6 @@ ca:
         display_as:
           display_as: Mostra com
       reports:
-        table:
-          select_and_search: "Seleccioneu els filtres i feu clic a %{option} per accedir a les vostres dades."
         customer_names_message:
           customer_names_tip: "Si els noms de les consumidores per a les comandes que heu subministrat apareixen amagats, podeu contactar amb la distribuïdora i preguntar-los si poden actualitzar les seves preferències de la botiga per permetre als seus proveïdors visualitzar els noms de les consumidores."
       users:

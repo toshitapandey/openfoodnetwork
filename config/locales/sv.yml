@@ -249,7 +249,6 @@ sv:
       no_data: Ingen data hittades i kalkylbladet
       model:
         no_file: "Fel: ingen fil laddades upp"
-        could_not_process: "kunde inte hantera filen: ogiltig filtyp"
         blank: kan inte vara blank
         none_saved: sparade inte några produkter
       product_headings:
@@ -303,7 +302,6 @@ sv:
         max_qtt_ordered: "Maximal beställningskvantitet"
         current_fulfilled_units: "För tillfället expedierade enheter"
         max_fulfilled_units: "Maximalt expedierade enheter"
-        order_error: "En del misstag måste korrigeras innan du kan uppdatera en order. Alla rödmarkerade fält innehåller fel."
         variants_without_unit_value: "VARNING: På en del ställen saknas antalsuppgift"
         all: "Alla"
     enterprises:
@@ -689,7 +687,6 @@ sv:
           product: "Produkt"
           variant: "Variant"
           quantity: "Antal"
-          is_temperature_controlled: "Temperaturkontrollerad?"
           temp_controlled: "Temperaturkontrollerad?"
           price: "Pris"
       packing:
@@ -1168,8 +1165,6 @@ sv:
   orders_bought_edit_button: "Redigera bekräftade varor"
   orders_bought_already_confirmed: "* redan bekräftad"
   orders_confirm_cancel: "Är du säker på att du vill avbryta denna beställning?"
-  products_cart_distributor_choice: "Distributör för din order:"
-  products_cart_distributor_change: "Din distributör för denna order kommer att ändras till %{name} om du lägger denna produkt i din kundkorg."
   products_cart_distributor_is: "Din distributör för denna order är %{name}."
   products_distributor_error: "Var vänlig att avsluta din order hos %{link} innan du böjar handla hos en annan distributör."
   products_oc: "Beställningsrunda för din order"

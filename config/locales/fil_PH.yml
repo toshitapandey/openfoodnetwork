@@ -471,14 +471,12 @@ fil_PH:
       confirm_reset: "ilalagay nito sa zero ang lebel ng stock ng lahat ng mga produkto ng\nenterprise na ito, na hindi makikita sa in-upload na file."
       model:
         no_file: "error: walang file na na-upload"
-        could_not_process: "hindi maproseso ang file: invalid na uri ng file"
         incorrect_value: maling halaga
         conditional_blank: ay hindi maaaring blanko kung yunit_uri ay blanko
         no_product: walang katugmang produkto sa database
         not_found: hindi mahanap sa database
         not_updatable: ay hindi maaring i-update sa mga umiiral na produkto gamit ang paglilipat ng produkto
         blank: hindi maaaring iwanang blanko
-        products_no_permission: walang permiso na pamahalaan ang mga produkto para sa enterprise na ito
         inventory_no_permission: Wala kang permiso na gumawa ng imbentaryo para sa producer na ito
         none_saved: hindi matagumpay na na-save ang mga produkto
         line_number: "linya%{number}:"
@@ -617,7 +615,6 @@ fil_PH:
         max_qtt_ordered: "pinakamataas na dami ng na-order"
         current_fulfilled_units: "kasalukuyang tapos na mga yunit"
         max_fulfilled_units: "sagad na natapos na yunit"
-        order_error: "ang ibang mga error ay dapat munang ayusin bago makapag-update ng mga order.\nang mga patlang na may pulang border ay may mga error."
         variants_without_unit_value: "BABALA: Ang ibang variant ay walang halaga ang yunit"
         all: "Lahat"
       select_variant: "pumili ng variant"
@@ -941,9 +938,6 @@ fil_PH:
         add_fee: 'magdagdag ng fee'
         remove: 'tanggalin'
         selected: 'napili'
-      add_exchange_form:
-        add_supplier: 'magdagdag ng supplier'
-        add_distributor: 'magdagdag ng distributor'
       advanced_settings:
         title: Advanced settings
         choose_product_tip: maaring limitahan ang mga produktong pumapasok at lumalabas sa imbentaryo lamang ng%{inventory}
@@ -1100,7 +1094,6 @@ fil_PH:
       summary_row:
         total: "KABUUAN"
       table:
-        select_and_search: "pumili ng mga filter at pindutin ang%{option} para ma-access ang inyong data."
         headings:
           hub: "Hub"
           customer_code: "Code"
@@ -1110,7 +1103,7 @@ fil_PH:
           product: "Produkto"
           variant: "Uri"
           quantity: "Dami"
-          is_temperature_controlled: "TempControlled?"
+          
           temp_controlled: "TempControlled?"
           price: "Presyo"
       rendering_options:
@@ -1799,8 +1792,6 @@ fil_PH:
   orders_bought_already_confirmed: "* kumpirmado na"
   orders_confirm_cancel: "sigurado ka bang nais mo na kanselahin ang order na ito?"
   order_processed_successfully: "ang inyong order ay matagumpay na naproseso"
-  products_cart_distributor_choice: "Distributor ng inyong order:"
-  products_cart_distributor_change: "ang distributor para sa order na ito ay mapapalitan ng%{name} kung idadagdag ang produktong ito sa inyong cart."
   products_cart_distributor_is: "ang distributor para sa order na ito ay%{name}."
   products_distributor_error: "kumpletuhin ang inyong order sa%{link} bago mamili sa ibang distributor."
   products_oc: "order cycle para sa iyong order:"
@@ -2783,7 +2774,6 @@ fil_PH:
           generate_report: "Bumuo ng ulat"
         report:
           none: "wala"
-          select_and_search: "pumili ng mga filter at pindutin ang GUMAWA NG REPORT para ma-access ang inyong data."
       enterprise_fee_summary:
         date_end_before_start_error: "ay dapat pagkatapos magsimula"
         parameter_not_allowed_error: "ikaw ay hindi awtorisadong gumamit ng isa o higit pa na mga filter para sa ulat na ito."
@@ -3282,9 +3272,6 @@ fil_PH:
           bulk_unit_size: laki ng bultuhang yunit
         display_as:
           display_as: Ipakita Bilang
-      reports:
-        table:
-          select_and_search: "pumili ng mga filter at pindutin ang%{option} para ma-access ang inyong data."
       users:
         index:
           listing_users: "Nililista ang mga User"

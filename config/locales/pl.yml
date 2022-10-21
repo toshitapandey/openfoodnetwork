@@ -478,14 +478,12 @@ pl:
       confirm_reset: "Spowoduje to ustawienie poziomu zapasów na zero dla wszystkich produktów tego podmiotu, których nie ma w przesłanym pliku"
       model:
         no_file: "błąd: nie przesłano żadnego pliku"
-        could_not_process: "nie można przetworzyć pliku: nieprawidłowy typ pliku"
         incorrect_value: nieprawidłowa wartość
         conditional_blank: nie może być puste, jeśli typ_jednostki jest pusty
         no_product: nie pasuje do żadnych produktów w bazie danych
         not_found: nie znaleziono w bazie danych
         not_updatable: nie można zaktualizować istniejących produktów poprzez import produktów
         blank: nie może być puste
-        products_no_permission: nie masz uprawnień do zarządzania produktami w tym podmiocie
         inventory_no_permission: nie masz uprawnień do tworzenia zapasów dla tego producenta
         none_saved: nie zapisał pomyślnie żadnych produktów
         line_number: "Linia %{number}:"
@@ -625,7 +623,6 @@ pl:
         max_qtt_ordered: "Maksymalna zamówiona ilość"
         current_fulfilled_units: "Aktualnie dostarczone jednostki"
         max_fulfilled_units: "Maksymalna liczba dostarczonych jednostek"
-        order_error: "Przed aktualizacją zamówień należy naprawić niektóre błędy. Wszystkie pola z czerwonymi ramkami zawierają błędy."
         variants_without_unit_value: "OSTRZEŻENIE: Niektóre warianty nie mają określonej jednostki"
         all: "Wszystko"
       select_variant: "Wybierz wariant"
@@ -932,9 +929,6 @@ pl:
         add_fee: 'Dodaj opłatę'
         remove: 'Usuń'
         selected: 'wybrany'
-      add_exchange_form:
-        add_supplier: 'Dodaj dostawcę'
-        add_distributor: 'Dodaj dystrybutora'
       advanced_settings:
         title: Zaawansowane ustawienia
         choose_product_tip: Możesz ograniczyć produkty przychodzące i wychodzące tylko do zapasów %{inventory}.
@@ -1752,8 +1746,6 @@ pl:
   orders_bought_already_confirmed: "* już potwierdzony"
   orders_confirm_cancel: "Czy na pewno chcesz anulować to zamówienie?"
   order_processed_successfully: "Twoje zamówienie zostało pomyślnie przetworzone"
-  products_cart_distributor_choice: "Dystrybutor na Twoje zamówienie:"
-  products_cart_distributor_change: "Twój dystrybutor dla tego zamówienia zostanie zmieniony na %{name}, jeśli dodasz ten produkt do koszyka."
   products_cart_distributor_is: "Dystrybutorem tego zamówienia jest %{name}."
   products_distributor_error: "Sfinalizuj zamówienie pod numerem %{link} przed zakupem u innego dystrybutora."
   products_oc: "Cykl zamówień dla twojego zamówienia:"
@@ -2782,7 +2774,6 @@ pl:
           generate_report: "Generuj raport"
         report:
           none: "Brak"
-          select_and_search: "Wybierz filtry i kliknij GENERUJ RAPORT, aby uzyskać dostęp do swoich danych."
       enterprise_fee_summary:
         date_end_before_start_error: "musi być po starcie"
         parameter_not_allowed_error: "Nie masz uprawnień do korzystania z jednego lub więcej wybranych filtrów w tym raporcie."
@@ -3293,8 +3284,6 @@ pl:
         display_as:
           display_as: Wyświetl jako
       reports:
-        table:
-          select_and_search: "Wybierz filtry i kliknij %{option}, aby uzyskać dostęp do swoich danych."
         customer_names_message:
           customer_names_tip: "Jeśli nazwy klientów są ukryte w zamówieniach, które dostarczyłeś, możesz skontaktować się z dystrybutorem i zapytać, czy może zaktualizować preferencje sklepu, aby umożliwić dostawcom przeglądanie nazw klientów."
       users:

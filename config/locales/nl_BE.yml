@@ -483,14 +483,12 @@ nl_BE:
       confirm_reset: "Hiermee wordt de voorraad op alle producten op nul gezet voor dit product onderneming die niet aanwezig zijn in het geüploade bestand."
       model:
         no_file: "fout: geen bestand geüpload"
-        could_not_process: "kon geen bestand verwerken: ongeldig bestandstype"
         incorrect_value: onjuiste waarde
         conditional_blank: kan niet leeg zijn als unit_type leeg is
         no_product: niet overeenkwam met de producten in de database
         not_found: niet gevonden in de database
         not_updatable: kan niet worden bijgewerkt op bestaande producten via productimport
         blank: kan niet leeg zijn
-        products_no_permission: u heeft geen toestemming om producten voor deze onderneming te beheren
         inventory_no_permission: u heeft geen toestemming om een inventarisatie te maken voor deze producent
         none_saved: geen producten met succes heeft opgeslagen
         line_number: "Lijn %{number}:"
@@ -630,7 +628,6 @@ nl_BE:
         max_qtt_ordered: "Maximum Bestelde Hoeveelheid"
         current_fulfilled_units: "Huidig volbrachte eenheden"
         max_fulfilled_units: "Maximum aantal vervulde eenheden"
-        order_error: "Sommige fouten moeten opgelost worden voordat je je bestelling kan updaten.\nDe velden met rode randen bevatten fouten."
         variants_without_unit_value: "Waarschuwing: Sommige varianten hebben geen eenheidswaarde."
         all: "Universum"
       select_variant: "Selecteer een variant"
@@ -961,9 +958,6 @@ nl_BE:
         add_fee: 'Voeg vergoeding to'
         remove: 'Verwijderen'
         selected: 'Geselecteerd'
-      add_exchange_form:
-        add_supplier: 'Voeg leverancier toe'
-        add_distributor: 'Voeg verdeler toe'
       advanced_settings:
         title: Geavanceerde Instellingen
         choose_product_tip: U kunt inkomende en uitgaande producten beperken tot alleen de%{inventory} voorraad.
@@ -1120,7 +1114,6 @@ nl_BE:
       summary_row:
         total: "Totaal"
       table:
-        select_and_search: "Selecteer de filters en klik op 1%{option} om uw gegevens tebereiken"
         headings:
           hub: "Hub"
           customer_code: "Code"
@@ -1130,7 +1123,6 @@ nl_BE:
           product: "Product"
           variant: "Variant"
           quantity: "Kwantiteit"
-          is_temperature_controlled: "Onder gecontroleerde temperatuur ?"
           temp_controlled: "Onder gecontroleerde temperatuur ?"
           price: "Prijs"
       rendering_options:
@@ -1840,8 +1832,6 @@ nl_BE:
   orders_bought_already_confirmed: "* reeds bevestigd"
   orders_confirm_cancel: "Ben je zeker dat je deze bestelling wil annuleren?"
   order_processed_successfully: "Je bestelling is met succes geplaatst"
-  products_cart_distributor_choice: "Verdeler voor jouw bestelling:"
-  products_cart_distributor_change: "Je verdeler voor deze bestelling zal vervangen worden door %{name} indien je dit product toevoegt aan je winkelwagentje."
   products_cart_distributor_is: "Je verdeler voor deze bestelling heet %{name}."
   products_distributor_error: "Vervolledig alsjeblieft je bestelling op %{link} voor je verder gaat met het winkelen bij een andere verdeler."
   products_oc: "Bestellingscyclus voor je bestelling:"
@@ -2759,7 +2749,6 @@ nl_BE:
           generate_report: "Ontwikkel verslag"
         report:
           none: "Geen enkele"
-          select_and_search: "Selecteer filters en klik op 'ONTWIKKEL VERSLAG' om toegang te krijgen tot je gegevens."
       enterprise_fee_summary:
         date_end_before_start_error: "moet zijn na het starten "
         parameter_not_allowed_error: "Je hebt geen machtiging om één of meerdere geselecteerde filters toe te passen op dit verslag."
@@ -3282,8 +3271,6 @@ nl_BE:
         display_as:
           display_as: Weergeven als
       reports:
-        table:
-          select_and_search: "Selecteer de filters en klik op 1%{option} om uw gegevens tebereiken"
         customer_names_message:
           customer_names_tip: "Als klanten namen verstopt zijn voor bestelingen dat u heb geleverd, dan kunt u de distibuteur contacteren en vragen of ze hun shop voorkeur kunnen bijwerken zodat de leveranciers de namen van de klanten kan zien."
       users:

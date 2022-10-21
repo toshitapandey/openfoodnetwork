@@ -611,14 +611,12 @@ nb:
       confirm_reset: "Dette vil stille lagernivå til null på alle produkter for denne\n bedriften som ikke er til stede i den opplastede filen"
       model:
         no_file: "feil: ingen fil lastet opp"
-        could_not_process: "kunne ikke behandle filen: ugyldig filtype"
         incorrect_value: feil verdi
         conditional_blank: kan ikke være tom hvis unit_type er tom
         no_product: samsvarte ikke med noen produkter i databasen
         not_found: ikke funnet i databasen
         not_updatable: kan ikke oppdateres på eksisterende produkter via produktimport
         blank: kan ikke være tomt
-        products_no_permission: du har ikke tillatelse til å administrere produkter for denne bedriften
         inventory_no_permission: du har ikke tillatelse til å opprette lager for denne produsenten
         none_saved: kunne ikke lagre noen produkter
         line_number: "Linje %{number}:"
@@ -763,7 +761,6 @@ nb:
         max_qtt_ordered: "Max Antall Bestilt"
         current_fulfilled_units: "Nåværende Oppfylte Enheter"
         max_fulfilled_units: "Max Oppfylte Enheter"
-        order_error: "Noen feil må løses før du kan oppdatere bestillinger.\nAlle felt med røde kanter inneholder feil."
         variants_without_unit_value: "ADVARSEL: Noen varianter mangler enhetsverdi"
         all: "Alle"
       select_variant: "Velg en variant"
@@ -1129,9 +1126,6 @@ nb:
         add_fee: 'Legg til gebyr'
         remove: 'Fjern'
         selected: 'valgt'
-      add_exchange_form:
-        add_supplier: 'Legg til leverandør'
-        add_distributor: 'Legg til distributør'
       advanced_settings:
         automatic_notifications: Automatiske varsler
         automatic_notifications_tip: Gi automatisk beskjed til produsentene om bestillingene sine via epost når bestillingsrundene lukkes
@@ -1305,7 +1299,6 @@ nb:
       summary_row:
         total: "SUM"
       table:
-        select_and_search: "Velg filtre og klikk på %{option} for å få tilgang til dine data."
         headings:
           hub: "Hub"
           customer_code: "Kode"
@@ -1315,7 +1308,6 @@ nb:
           product: "Produkt"
           variant: "Variant"
           quantity: "Mengde"
-          is_temperature_controlled: "Temperaturkontrollert?"
           temp_controlled: "Temperaturkontrollert?"
           price: "Pris"
       rendering_options:
@@ -2122,8 +2114,6 @@ nb:
   orders_bought_already_confirmed: "* allerede bekreftet"
   orders_confirm_cancel: "Er du sikker på at du vil avbryte denne bestillingen?"
   order_processed_successfully: "Behandlingen av din bestilling var vellykket"
-  products_cart_distributor_choice: "Distributør for bestillingen:"
-  products_cart_distributor_change: "Din distributør for denne ordren vil bli endret til %{name} hvis du legger til dette produktet i handlekurven din."
   products_cart_distributor_is: "Din distributør for denne ordren er %{name}."
   products_distributor_error: "Vennligst fullfør din bestilling hos %{link} før du handler hos en annen distributør."
   products_oc: "Bestillingsrunde for din bestilling:"
@@ -3173,7 +3163,6 @@ nb:
           generate_report: "Generer rapport"
         report:
           none: "Ingen"
-          select_and_search: "Velg filtre og klikk på GENERER RAPPORT for å få tilgang til dataene dine."
       enterprise_fee_summary:
         date_end_before_start_error: "må være etter start"
         parameter_not_allowed_error: "Du er ikke autorisert til å bruke ett eller flere utvalgte filtre for denne rapporten."
@@ -3786,8 +3775,6 @@ nb:
         display_as:
           display_as: Vis som
       reports:
-        table:
-          select_and_search: "Velg filtre og klikk på %{option} for å få tilgang til dine data."
         customer_names_message:
           customer_names_tip: "Hvis kundenavnene er skjult for bestillinger du har levert, kan du kontakte distributøren og spørre om de kan oppdatere sine butikkinnstillinger slik at leverandørene kan se kundenavn."
       users:

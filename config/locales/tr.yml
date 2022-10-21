@@ -545,14 +545,12 @@ tr:
       confirm_reset: "Yüklenen dosyada mevcut olmayan tüm ürünler için bu işletmeye stok seviyeleri 0 olarak belirlenir"
       model:
         no_file: "hata: hiçbir dosya yüklenmedi"
-        could_not_process: "dosya işlenemedi: geçersiz dosya tipi"
         incorrect_value: Yanlış değer
         conditional_blank: ölçü birimi boş ise boş bırakılamaz
         no_product: veritabanındaki hiçbir ürünle eşleşmedi
         not_found: veritabanında bulunamadı
         not_updatable: mevcut ürünlerde ürün içe aktarma yoluyla güncellenemez
         blank: boş olamaz
-        products_no_permission: bu işletme için ürün yönetme izniniz yok
         inventory_no_permission: bu üretici için stok oluşturma izniniz yok
         none_saved: hiçbir ürün başarıyla kaydedilemedi
         line_number: "%{number}. satır:"
@@ -695,7 +693,6 @@ tr:
         max_qtt_ordered: "Maksimum Sipariş Miktarı"
         current_fulfilled_units: "Mevcut Sağlanan Birim"
         max_fulfilled_units: "Maks. Gerçekleşen Birim"
-        order_error: "Siparişleri güncelleyebilmeniz için bazı hataların çözülmesi gerekir. Kırmızı kenarlıklı alanlar hata içeriyor."
         variants_without_unit_value: "UYARI: Bazı çeşitlerin birim değeri yok"
         all: "Hepsi"
       select_variant: "Bir çeşit seçin"
@@ -1030,9 +1027,6 @@ tr:
         add_fee: 'Ücret ekle'
         remove: 'Kaldır'
         selected: 'seçildi'
-      add_exchange_form:
-        add_supplier: 'TEDARİKÇİ EKLE'
-        add_distributor: 'Dağıtımcı ekle'
       advanced_settings:
         title: Gelişmiş Ayarlar
         choose_product_tip: Gelen ve giden ürünleri sadece stokların %{inventory} 'i ile kısıtlayabilirsiniz.
@@ -1190,7 +1184,6 @@ tr:
       summary_row:
         total: "TOPLAM"
       table:
-        select_and_search: "Filtreleri seçin ve verilerinize erişmek için %{option} üzerine tıklayın."
         headings:
           hub: "Pazar"
           customer_code: "Kod"
@@ -1200,7 +1193,6 @@ tr:
           product: "Ürün"
           variant: "Çeşit"
           quantity: "Miktar"
-          is_temperature_controlled: "SoğukSevkiyat?"
           temp_controlled: "SoğukSevkiyat?"
           price: "Fiyat"
       rendering_options:
@@ -1975,8 +1967,6 @@ tr:
   orders_bought_already_confirmed: "* zaten onaylandı"
   orders_confirm_cancel: "Bu siparişi iptal etmek istediğinize emin misiniz?"
   order_processed_successfully: "Siparişiniz başarıyla işlendi"
-  products_cart_distributor_choice: "Siparişinizin dağıtımcısı:"
-  products_cart_distributor_change: "Bu ürünü sepetinize eklerseniz, bu sipariş için dağıtımcınız %{name} olarak değiştirilecektir."
   products_cart_distributor_is: "Bu sipariş için dağıtımcınız %{name}."
   products_distributor_error: "Başka bir dağıtımcıdan alışveriş yapmadan önce lütfen %{link} adresinden siparişinizi tamamlayın."
   products_oc: "Siparişiniz için sipariş dönemi:"
@@ -3005,7 +2995,6 @@ tr:
           generate_report: "Rapor Oluştur"
         report:
           none: "HİÇ"
-          select_and_search: "Filtreleri seçin ve verilerinize erişmek için RAPOR OLUŞTUR'a tıklayın."
       enterprise_fee_summary:
         date_end_before_start_error: "başlangıçtan sonra olmalı"
         parameter_not_allowed_error: "Bu rapor için seçilen bir veya daha fazla filtreyi kullanma yetkiniz yok."
@@ -3605,8 +3594,6 @@ tr:
         display_as:
           display_as: Gösterme Şekli
       reports:
-        table:
-          select_and_search: "Filtreleri seçin ve verilerinize erişmek için %{option} üzerine tıklayın."
         customer_names_message:
           customer_names_tip: "Tedarik ettiğiniz siparişlerde müşteri isimleri gizli ise dağıtımcıya ulaşıp alışveriş tercihlerini tedarikçilerinin müşteri isimlerini görebilmelerini sağlayacak şekilde güncellemelerini isteyebilirsiniz. "
       users:

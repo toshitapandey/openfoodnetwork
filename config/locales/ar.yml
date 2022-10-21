@@ -604,14 +604,12 @@ ar:
       confirm_reset: "سيؤدي ذلك إلى ضبط مستوى المخزون لصفر على جميع المنتجات \nهذه المؤسسة غير موجودة في الملف الذي تم تحميله"
       model:
         no_file: "خطأ: لم يتم تحميل الملف"
-        could_not_process: "لا يمكن معالجة الملف: ملف غير صالح"
         incorrect_value: قيمة غير صحيحة
         conditional_blank: لا يمكن أن تكون فارغة إذا كانت نوع الوحدة فارغة
         no_product: لم يطابق أي منتجات في قاعدة البيانات
         not_found: غير موجود في قاعدة البيانات
         not_updatable: لا يمكن تحديثه على المنتجات الحالية عبر استيراد المنتج
         blank: لا يمكن أن تكون فارغة
-        products_no_permission: ليس لديك إذن لإدارة المنتجات لهذه المؤسسة
         inventory_no_permission: ليس لديك إذن لإنشاء مخزون لهذا المنتج
         none_saved: لم تحفظ أي منتجات بنجاح
         line_number: "السطر %{number}:"
@@ -756,7 +754,6 @@ ar:
         max_qtt_ordered: "اعلى كمية تم طلبها "
         current_fulfilled_units: "الوحدات المنجزة الحالية"
         max_fulfilled_units: "اعلى وحدات منجزة"
-        order_error: "يجب حل بعض الأخطاء قبل أن تتمكن من تحديث الطلبات. أي حقول ذات حدود حمراء تحتوي على أخطاء."
         variants_without_unit_value: "تحذير: بعض الانواع لا تحتوي على قيمة وحدة"
         all: "الكل"
       select_variant: "اختيار النوع"
@@ -1105,9 +1102,6 @@ ar:
         add_fee: 'إضافة رسوم'
         remove: 'إزالة'
         selected: 'تم الاختيار'
-      add_exchange_form:
-        add_supplier: 'إضافة المورد'
-        add_distributor: 'إضافة موزع'
       advanced_settings:
         automatic_notifications: إخطارات تلقائية
         automatic_notifications_tip: إخطار المنتجين تلقائيًا بأوامرهم عبر رسائل البريد الإلكتروني عند إغلاق دورات الطلب
@@ -1271,7 +1265,6 @@ ar:
       summary_row:
         total: "مجموع"
       table:
-        select_and_search: "حدد المرشحات وانقر على %{option} للوصول إلى البيانات الخاصة بك."
         headings:
           hub: "مركز بيع"
           customer_code: "الشفرة"
@@ -1281,7 +1274,6 @@ ar:
           product: "المنتج"
           variant: "النوع"
           quantity: "الكمية"
-          is_temperature_controlled: "التحكم المؤقت؟"
           temp_controlled: "التحكم المؤقت؟"
           price: "السعر"
       rendering_options:
@@ -2080,8 +2072,6 @@ ar:
   orders_bought_already_confirmed: "* أكد بالفعل"
   orders_confirm_cancel: "هل أنت متأكد أنك تريد إلغاء هذا الطلب؟"
   order_processed_successfully: "تمت معالجة طلبك بنجاح"
-  products_cart_distributor_choice: "الموزع لطلبك:"
-  products_cart_distributor_change: "سيتم تغيير موزعك لهذا الطلب إلى %{name} إذا أضفت هذا المنتج إلى سلة التسوق الخاصة بك."
   products_cart_distributor_is: "موزعك لهذا الطلب هو %{name}."
   products_distributor_error: "يرجى إكمال طلبك في %{link} قبل التسوق مع موزع آخر."
   products_oc: "دورة الطلب لطلبك:"
@@ -3205,7 +3195,6 @@ ar:
           generate_report: "توليد تقرير"
         report:
           none: "لا شيء"
-          select_and_search: "حدد المرشحات وانقر على GENERATE REPORT للوصول إلى بياناتك."
       enterprise_fee_summary:
         date_end_before_start_error: "يجب أن يكون بعد البداية"
         parameter_not_allowed_error: "غير مصرح لك باستخدام عامل تصفية واحد أو أكثر لهذا التقرير."
@@ -3809,8 +3798,6 @@ ar:
         display_as:
           display_as: عرض باسم
       reports:
-        table:
-          select_and_search: "حدد المرشحات وانقر على %{option} للوصول إلى البيانات الخاصة بك."
         customer_names_message:
           customer_names_tip: "إذا كانت أسماء العملاء مخفية للطلبات التي قدمتها ، فيمكنك الاتصال بالموزع والسؤال عما إذا كان بإمكانهم تحديث تفضيلات متجرهم للسماح لمورديهم بمشاهدة أسماء العملاء."
       users:

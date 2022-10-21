@@ -497,14 +497,14 @@ es_CO:
       confirm_reset: "Esto establecerá el nivel de inventario a cero en todos los productos para esta\n organizacion que no están presentes en el archivo cargado"
       model:
         no_file: "Error: no se ha subido ningún archivo"
-        could_not_process: "No se pudo procesar el archivo: tipo de archivo inválido"
+        
         incorrect_value: valor incorrecto
         conditional_blank: no puede estar en blanco si unit_type está en blanco
         no_product: no coincide con ningún producto en la base de datos
         not_found: no encontrado en la base de datos
         not_updatable: No se puede actualizar sobre productos existentes a través de la importación de productos
         blank: no puede estar en blanco
-        products_no_permission: no tienes permiso para administrar productos para esta organización
+        
         inventory_no_permission: no tienes permiso para crear inventario para este productor
         none_saved: no se guardó ningún producto con éxito
         line_number: "Línea %{number}:"
@@ -644,7 +644,7 @@ es_CO:
         max_qtt_ordered: "Cantidad máxima del Pedido"
         current_fulfilled_units: "Unidades Completadas"
         max_fulfilled_units: "Max Unidades Completadas"
-        order_error: "Algunos errores deberán ser resueltos antes de que puedas actualizar los pedidos.\nTodos los campos con borde rojo contienen errores."
+        
         variants_without_unit_value: "CUIDADO: Algunas variedades no tienen un valor unitario "
         all: "Todos"
       select_variant: "Seleccione una variante"
@@ -975,9 +975,6 @@ es_CO:
         add_fee: 'Añadir comisión'
         remove: 'Eliminar'
         selected: 'seleccionado'
-      add_exchange_form:
-        add_supplier: 'Añadir proveedor'
-        add_distributor: 'Añadir distribuidor'
       advanced_settings:
         title: Configuración avanzada
         choose_product_tip: Puede restringir los productos entrantes y salientes a solo el inventario de %{inventory}.
@@ -1134,7 +1131,6 @@ es_CO:
       summary_row:
         total: "TOTAL"
       table:
-        select_and_search: "Seleccione filtros y haga clic en %{option} para acceder a sus datos."
         headings:
           hub: "Nodo"
           customer_code: "Código"
@@ -1144,7 +1140,7 @@ es_CO:
           product: "Producto"
           variant: "Variante"
           quantity: "Cantidad"
-          is_temperature_controlled: "¿Control de Temperatura?"
+          
           temp_controlled: "¿Control de Temperatura?"
           price: "Precio"
       rendering_options:
@@ -1858,8 +1854,8 @@ es_CO:
   orders_bought_already_confirmed: "* ya confirmados"
   orders_confirm_cancel: "Seguro que desea cancelar este pedido?"
   order_processed_successfully: "Su pedido ha sido procesado con éxito."
-  products_cart_distributor_choice: "Distribuidora para tu pedido:"
-  products_cart_distributor_change: "Su distribuidora para este pedido se cambiará a %{name} si agregas este producto al carrito."
+  
+  
   products_cart_distributor_is: "Tu distribuidora para este pedido es %{name}."
   products_distributor_error: "Completa tu pedido en %{link} antes de comprar con otra distribuidora."
   products_oc: "Ciclo de pedido para tu pedido:"
@@ -2878,7 +2874,6 @@ es_CO:
           generate_report: "Generar reporte"
         report:
           none: "Ninguno"
-          select_and_search: "Seleccione los filtros y haga clic en GENERAR REPORTE para acceder a sus datos."
       enterprise_fee_summary:
         date_end_before_start_error: "debe ser después del comienzo"
         parameter_not_allowed_error: "Usted no está autorizado a usar uno o más filtros seleccionados para este reporte."
@@ -3401,8 +3396,6 @@ es_CO:
         display_as:
           display_as: Mostrar como
       reports:
-        table:
-          select_and_search: "Seleccione filtros y haga clic en %{option} para acceder a sus datos."
         customer_names_message:
           customer_names_tip: "Si los nombres de los clientes están ocultos para los pedidos que ha suministrado, puede comunicarse con el distribuidor y preguntar si pueden actualizar sus preferencias de tienda para permitir que sus proveedores vean los nombres de los clientes."
       users:

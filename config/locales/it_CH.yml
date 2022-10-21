@@ -604,14 +604,12 @@ it_CH:
       confirm_reset: "Questo imposterà a zero il livello di scorta di tutti i prodotti per questa \n azienda che non sono presenti nel documento aggiornato"
       model:
         no_file: "errore: nessun documento caricato"
-        could_not_process: "non è stato possibile elaborare il documento: tipo di documento non valido"
         incorrect_value: valore scorretto
         conditional_blank: non può essere vuoto se unit_type è vuoto
         no_product: Non corrisponde a nessun prodotto nel database
         not_found: non trovato nel database
         not_updatable: non può essere aggiornato sui prodotti esistenti tramite l'importazione dei prodotti
         blank: non può essere lasciato vuoto
-        products_no_permission: non sei abilitato a gestire i prodotti per questa azienda
         inventory_no_permission: non sei abilitato a creare l'inventario per questo produttore
         none_saved: Nessun prodotto salvato con successo
         line_number: "Linea %{number}:"
@@ -756,7 +754,7 @@ it_CH:
         max_qtt_ordered: "Quantità massima ordinata"
         current_fulfilled_units: "Attuali unità riempite"
         max_fulfilled_units: "Massime unità riempite"
-        order_error: "Qualche errore deve essere risolto prima che tu possa aggiornare gli ordini.\nOgni campo con i bordi rossi contiene errori."
+        
         variants_without_unit_value: "ATTENZIONE: Alcune varianti non hanno il valore dell'unità"
         all: "Tutti"
       select_variant: "Seleziona una variante"
@@ -1111,9 +1109,6 @@ it_CH:
         add_fee: 'Aggiungi tariffa'
         remove: 'Rimuovi'
         selected: 'selezionato'
-      add_exchange_form:
-        add_supplier: 'Aggiungi fornitore'
-        add_distributor: 'Aggiungi distributore'
       advanced_settings:
         automatic_notifications: Notifiche automatiche
         automatic_notifications_tip: Invia automaticamente una mail a ciascun produttore con i suoi ordini alla chiusura dei cicli di richieste.
@@ -1278,7 +1273,6 @@ it_CH:
       summary_row:
         total: "TOTALE"
       table:
-        select_and_search: "Seleziona filtri e clicca su %{option} per accedere al tuo dato"
         headings:
           hub: "Hub"
           customer_code: "Codice"
@@ -1288,7 +1282,6 @@ it_CH:
           product: "Prodotto"
           variant: "Variante"
           quantity: "Quantità"
-          is_temperature_controlled: "Controllo Temperatura?"
           temp_controlled: "Controllo Temperatura?"
           price: "Prezzo"
       rendering_options:
@@ -2089,8 +2082,6 @@ it_CH:
   orders_bought_already_confirmed: "* già confermato"
   orders_confirm_cancel: "Sei sicura/o di voler annullare questa gentile richiesta?"
   order_processed_successfully: "Il tuo ordine è stato elaborato correttamente"
-  products_cart_distributor_choice: "Distributore per il tuo ordine:"
-  products_cart_distributor_change: "Il tuo distributore per questo ordine sarà sostituito da %{name} se aggiungi questo prodotto al tuo carrello."
   products_cart_distributor_is: "Il tuo distributore per quest'ordine è %{name}."
   products_distributor_error: "Per favore completa il tuo ordine presso %{link} prima di fare acquisti con un altro distributore."
   products_oc: "Ciclo di ordini per il tuo ordine:"
@@ -3158,7 +3149,6 @@ it_CH:
           generate_report: "Genera report"
         report:
           none: "Nessuno"
-          select_and_search: "Seleziona i filtri e fai clic su GENERA REPORT per accedere ai tuoi dati."
       enterprise_fee_summary:
         date_end_before_start_error: "deve essere dopo l'inizio"
         parameter_not_allowed_error: "Non sei autorizzato a utilizzare uno o più filtri selezionati per questo rapporto."
@@ -3762,8 +3752,6 @@ it_CH:
         display_as:
           display_as: Visualizza come
       reports:
-        table:
-          select_and_search: "Seleziona filtri e clicca su %{option} per accedere al tuo dato"
         customer_names_message:
           customer_names_tip: "Se i nomi dei clienti sono nascosti nelle gentili richieste che hai evaso, puoi contattare il distributore e chiedergli di aggiornare le sue impostazioni per permettere ai suoi fornitori di visualizzare i nomi dei clienti."
       users:

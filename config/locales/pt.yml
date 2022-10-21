@@ -521,14 +521,12 @@ pt:
       confirm_reset: "Isto colocará o nível de stock a zero em todos os produtos desta \n organização que não estão presentes no ficheiro carregado"
       model:
         no_file: "erro: nenhum ficheiro foi carregado"
-        could_not_process: "não foi possível processar o ficheiro: tipo de ficheiro inválido"
         incorrect_value: valor incorrecto
         conditional_blank: não pode ser vazio se tipo de unidade é vazio
         no_product: não foram encontrados produtos
         not_found: não encontrado
         not_updatable: não pode ser actualizado em produtos existentes através da importação de produtos
         blank: não pode ser vazio
-        products_no_permission: não tem permissões para gerir produtos desta organização
         inventory_no_permission: não tem permissões para criar inventário para este produtor
         none_saved: não gravou nenhum produto com sucesso
         line_number: "Linha %{number}:"
@@ -671,7 +669,6 @@ pt:
         max_qtt_ordered: "Quantidade Máxima da Encomenda"
         current_fulfilled_units: "Unidades Completas no Momento"
         max_fulfilled_units: "Máximo de Unidades Completas "
-        order_error: "Alguns erros devem ser corrigidos antes de actualizar encomendas.\nOs campos com bordas vermelhas contêm erros."
         variants_without_unit_value: "AVISO: Algumas variantes não possuem valor unitário"
         all: "Tudo"
       select_variant: "Selecionar uma variante"
@@ -997,9 +994,6 @@ pt:
         add_fee: 'Acrescentar taxa'
         remove: 'Remover'
         selected: 'selecionado'
-      add_exchange_form:
-        add_supplier: 'Acrescentar fornecedor'
-        add_distributor: 'Adicionar distribuidor'
       advanced_settings:
         title: Configurações Avançadas
         preferred_product_selection_from_coordinator_inventory_only_here: Apenas inventário do coordenador
@@ -1155,7 +1149,6 @@ pt:
       summary_row:
         total: "TOTAL"
       table:
-        select_and_search: "Selecione os filtros e carregue em %{option} para ver os seus dados."
         headings:
           hub: "Central"
           customer_code: "Código"
@@ -1165,7 +1158,6 @@ pt:
           product: "Produto"
           variant: "Variante"
           quantity: "Quantidade"
-          is_temperature_controlled: "TempControlada?"
           temp_controlled: "TempControlada?"
           price: "Preço"
       rendering_options:
@@ -1857,8 +1849,6 @@ pt:
   orders_bought_already_confirmed: "* já confirmado"
   orders_confirm_cancel: "Tem a certeza que quer cancelar esta encomenda?"
   order_processed_successfully: "A sua encomenda foi processada com sucesso"
-  products_cart_distributor_choice: "Distribuidor para a sua encomenda:"
-  products_cart_distributor_change: "O distribuidor para esta encomenda será alterado para %{name} se adicionar este produto ao carrinho."
   products_cart_distributor_is: "O distribuidor para esta encomenda é %{name}."
   products_distributor_error: "Por favor complete a sua encomenda em %{link} antes de comprar com outro distribuidor."
   products_oc: "Ciclo de encomendas para a sua encomenda:"
@@ -2791,7 +2781,6 @@ pt:
           generate_report: "Gerar Relatório"
         report:
           none: "Nenhum"
-          select_and_search: "Selecione filtros e carregue em Gerar Relatório para ver os seus dados."
       enterprise_fee_summary:
         date_end_before_start_error: "deve ser depois do início"
         parameter_not_allowed_error: "Não está autorizado a usar um ou mais filtros selecionados neste relatório."
@@ -3256,9 +3245,6 @@ pt:
           bulk_unit_size: Tamanho unitário em massa
         display_as:
           display_as: Mostrar como
-      reports:
-        table:
-          select_and_search: "Selecione os filtros e carregue em %{option} para ver os seus dados."
       users:
         index:
           listing_users: "Lista de Utilizadores"
