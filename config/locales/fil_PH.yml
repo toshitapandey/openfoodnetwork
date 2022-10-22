@@ -1725,7 +1725,7 @@ fil_PH:
   products_variant: Uri
   products_quantity: dami
   products_available: Mayroong stock?
-  products_producer: "Producer"
+  
   products_price: "presyo"
   name_or_sku: "PANGALAN O SKU"
   register_title: Magrehistro

@@ -1102,7 +1102,7 @@ sv:
   products_variant: Variant
   products_quantity: Kvantitet
   products_available: Tillgänglig?
-  products_producer: "Producent"
+  
   products_price: "Pris"
   register_title: Registrera
   sell_title: "Registrera"

@@ -1679,7 +1679,7 @@ pl:
   products_variant: Wariant
   products_quantity: Ilość
   products_available: Dostępny?
-  products_producer: "Producent"
+  
   products_price: "Cena"
   name_or_sku: "NAZWA LUB SKU"
   register_title: Rejestracja

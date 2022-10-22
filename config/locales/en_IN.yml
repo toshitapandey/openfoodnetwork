@@ -1762,7 +1762,7 @@ en_IN:
   products_variant: Variant
   products_quantity: Quantity
   products_available: Available?
-  products_producer: "Producer"
+  
   products_price: "Price"
   name_or_sku: "NAME OR SKU"
   register_title: Find out more

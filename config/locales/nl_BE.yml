@@ -1766,7 +1766,7 @@ nl_BE:
   products_variant: Variant
   products_quantity: Kwantiteit
   products_available: Beschikbaar?
-  products_producer: "Producent"
+  
   products_price: "Prijs"
   name_or_sku: "BESCHRIJVING OF ARTKELNUMMER"
   register_title: Registreer

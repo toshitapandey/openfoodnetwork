@@ -2052,7 +2052,7 @@ fr_CA:
   products_variant: Variante
   products_quantity: Quantité
   products_available: Disponible?
-  products_producer: "Producteur"
+  
   products_price: "Prix"
   name_or_sku: "NOM OU REF PRODUIT"
   register_title: S'inscrire

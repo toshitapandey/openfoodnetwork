@@ -1790,7 +1790,7 @@ es_CO:
   products_variant: Variante
   products_quantity: Cantidad
   products_available: ¿Disponible?
-  products_producer: "Productora"
+  
   products_price: "Precio"
   name_or_sku: "NOMBRE O CÓDIGO SKU"
   register_title: Registro
